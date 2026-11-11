@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-scrollytelling",
+      "settings": {}
+    },
+    "bundles": {
+      "type": "bundles-subscribe",
+      "settings": {}
+    },
+    "featured": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all"
+      }
+    },
+    "b2b": {
+      "type": "b2b-wholesale",
+      "settings": {}
+    },
+    "creators": {
+      "type": "creator-affiliate",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "bundles",
+    "featured",
+    "b2b",
+    "creators"
+  ]
+}
