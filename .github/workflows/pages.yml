@@ -2,7 +2,7 @@ name: Publish storefronts (GitHub Pages)
 
 # Every store is a static shop under storefronts/<store-id>/.
 # Once Pages is enabled for the repo (Settings → Pages → Source: GitHub Actions),
-# all 15 stores are live at https://hampusi97.github.io/dropper-wealth-engine/storefronts/<store-id>/
+# all 17 stores are live at https://hampusi97.github.io/dropper-wealth-engine/storefronts/<store-id>/
 
 on:
   push:
@@ -31,7 +31,7 @@ jobs:
         run: |
           set -e
           mkdir -p _site
-          # storefronts at the site root: /store-01-bizi-bees/ … /store-15-verde-hydro/
+          # storefronts at the site root: /store-01-bizi-bees/ … /store-17-chrono-forge/
           cp -R storefronts/. _site/
           mkdir -p _site/dashboard && cp -R dashboard/. _site/dashboard/
           for d in config reports state public lib; do
@@ -40,7 +40,7 @@ jobs:
           cat > _site/index.html <<'HTML'
           <!doctype html><meta charset="utf-8"><title>Dropper OS</title>
           <meta http-equiv="refresh" content="0; url=./storefronts.html">
-          <a href="./storefronts.html">All 15 stores</a> · <a href="./dashboard/index.html">Command deck</a>
+          <a href="./storefronts.html">All 17 stores</a> · <a href="./dashboard/index.html">Command deck</a>
           HTML
           cp storefronts/index.html _site/storefronts.html 2>/dev/null || true
           ls _site | head -30

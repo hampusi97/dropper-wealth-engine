@@ -1,0 +1,519 @@
+{
+  "storeId": "store-17-chrono-forge",
+  "storeName": "ChronoForge",
+  "domain": "chronoforge.com",
+  "niche": "Modular Titanium EDC Watches & Multi-Tool Carabiners",
+  "skuPrefix": "DROP-CHRONO-",
+  "fulfillment": "api-dropship",
+  "generatedAt": "2026-11-11T23:09:01.605Z",
+  "productCount": 12,
+  "products": [
+    {
+      "skuIndex": 1,
+      "sku": "DROP-CHRONO-001",
+      "title": "ChronoForge Grade-5 Titanium Field Watch",
+      "handle": "chronoforge-grade-5-titanium-field-watch",
+      "category": "Field Watches",
+      "price": 149,
+      "cost": 39.5,
+      "compareAt": 209,
+      "summary": "A Grade-5 titanium field watch with sapphire crystal, an NH35 automatic movement and a 200 m water-resistant seal.",
+      "features": [
+        "Grade-5 titanium",
+        "Sapphire crystal",
+        "NH35 automatic",
+        "200 m water resistance"
+      ],
+      "isHero": true,
+      "marginPercent": 73.5,
+      "marginUSD": 109.5,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 149,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 253.3,
+          "savings": 44.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 335.25,
+          "savings": 111.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 2,
+      "sku": "DROP-CHRONO-002",
+      "title": "Titanium Pocket Pry Bar",
+      "handle": "titanium-pocket-pry-bar",
+      "category": "EDC Tools",
+      "price": 34,
+      "cost": 8.4,
+      "compareAt": 44,
+      "summary": "Pocket-size titanium pry bar.",
+      "features": [
+        "Pocket-size titanium pry bar."
+      ],
+      "isHero": false,
+      "marginPercent": 75.3,
+      "marginUSD": 25.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 3,
+      "sku": "DROP-CHRONO-003",
+      "title": "Multi-Tool Carabiner",
+      "handle": "multi-tool-carabiner",
+      "category": "EDC Tools",
+      "price": 39,
+      "cost": 9.6,
+      "compareAt": 54,
+      "summary": "Carabiner with integrated tools.",
+      "features": [
+        "Carabiner with integrated tools."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 29.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 4,
+      "sku": "DROP-CHRONO-004",
+      "title": "Quick-Release Watch Strap (Canvas)",
+      "handle": "quick-release-watch-strap-canvas",
+      "category": "Straps",
+      "price": 29,
+      "cost": 7.1,
+      "compareAt": 39,
+      "summary": "Field canvas strap.",
+      "features": [
+        "Field canvas strap."
+      ],
+      "isHero": false,
+      "marginPercent": 75.5,
+      "marginUSD": 21.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 5,
+      "sku": "DROP-CHRONO-005",
+      "title": "Quick-Release Watch Strap (Leather)",
+      "handle": "quick-release-watch-strap-leather",
+      "category": "Straps",
+      "price": 39,
+      "cost": 10.9,
+      "compareAt": 59,
+      "summary": "Vegetable-tanned leather strap.",
+      "features": [
+        "Vegetable-tanned leather strap."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 28.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 6,
+      "sku": "DROP-CHRONO-006",
+      "title": "Titanium Bracelet",
+      "handle": "titanium-bracelet",
+      "category": "Straps",
+      "price": 74,
+      "cost": 19.6,
+      "compareAt": 109,
+      "summary": "Solid-link titanium bracelet.",
+      "features": [
+        "Solid-link titanium bracelet."
+      ],
+      "isHero": false,
+      "marginPercent": 73.5,
+      "marginUSD": 54.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 74,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 125.8,
+          "savings": 22.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 166.5,
+          "savings": 55.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 7,
+      "sku": "DROP-CHRONO-007",
+      "title": "Spring Bar Tool Kit",
+      "handle": "spring-bar-tool-kit",
+      "category": "Watch Care",
+      "price": 19,
+      "cost": 4.7,
+      "compareAt": 29,
+      "summary": "Strap-change tool kit.",
+      "features": [
+        "Strap-change tool kit."
+      ],
+      "isHero": false,
+      "marginPercent": 75.3,
+      "marginUSD": 14.3,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 8,
+      "sku": "DROP-CHRONO-008",
+      "title": "Watch Roll Travel Case (3 Slot)",
+      "handle": "watch-roll-travel-case-3-slot",
+      "category": "Storage",
+      "price": 44,
+      "cost": 12.1,
+      "compareAt": 64,
+      "summary": "Padded three-watch roll.",
+      "features": [
+        "Padded three-watch roll."
+      ],
+      "isHero": false,
+      "marginPercent": 72.5,
+      "marginUSD": 31.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 44,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 74.8,
+          "savings": 13.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 99,
+          "savings": 33,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 9,
+      "sku": "DROP-CHRONO-009",
+      "title": "Titanium Pen (Pocket)",
+      "handle": "titanium-pen-pocket",
+      "category": "EDC Tools",
+      "price": 49,
+      "cost": 13.4,
+      "compareAt": 74,
+      "summary": "Machined titanium pen.",
+      "features": [
+        "Machined titanium pen."
+      ],
+      "isHero": false,
+      "marginPercent": 72.7,
+      "marginUSD": 35.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 49,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 83.3,
+          "savings": 14.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 110.25,
+          "savings": 36.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 10,
+      "sku": "DROP-CHRONO-010",
+      "title": "Lume Charging Torch",
+      "handle": "lume-charging-torch",
+      "category": "Watch Care",
+      "price": 24,
+      "cost": 5.9,
+      "compareAt": 34,
+      "summary": "UV torch to charge lume.",
+      "features": [
+        "UV torch to charge lume."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 18.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 11,
+      "sku": "DROP-CHRONO-011",
+      "title": "Microfiber Polishing Cloth Set",
+      "handle": "microfiber-polishing-cloth-set",
+      "category": "Watch Care",
+      "price": 14,
+      "cost": 3.4,
+      "compareAt": 19,
+      "summary": "Set of three cloths.",
+      "features": [
+        "Set of three cloths."
+      ],
+      "isHero": false,
+      "marginPercent": 75.7,
+      "marginUSD": 10.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 14,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 23.8,
+          "savings": 4.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 31.5,
+          "savings": 10.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 12,
+      "sku": "DROP-CHRONO-012",
+      "title": "Key Organizer (Titanium)",
+      "handle": "key-organizer-titanium",
+      "category": "EDC Tools",
+      "price": 29,
+      "cost": 7.9,
+      "compareAt": 44,
+      "summary": "Compact titanium key holder.",
+      "features": [
+        "Compact titanium key holder."
+      ],
+      "isHero": false,
+      "marginPercent": 72.8,
+      "marginUSD": 21.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    }
+  ]
+}

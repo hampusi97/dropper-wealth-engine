@@ -1,0 +1,92 @@
+{
+  "storeId": "store-17-chrono-forge",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T23:09:01.679Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-17-chrono-forge-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying titanium watch that falls apart in a month.",
+      "beats": [
+        "Show the ChronoForge Grade-5 Titanium Field Watch doing the one thing it does.",
+        "On-screen: $149.00 — free shipping over $60.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://chronoforge.com/products/chronoforge-grade-5-titanium-field-watch",
+      "hashtags": [
+        "titaniumwatch",
+        "ChronoForge",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-17-chrono-forge-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Field Watches shelf, all four boxes.",
+        "Show layer 1: Grade-5 Titanium Case.",
+        "Say the price out loud: $149.00."
+      ],
+      "cta": "https://chronoforge.com/products/chronoforge-grade-5-titanium-field-watch",
+      "hashtags": [
+        "titaniumwatch",
+        "ChronoForge",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-17-chrono-forge-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Corporate Gifting & Outdoor Retailers are overpaying for edc gear.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 25% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://chronoforge.com/products/chronoforge-grade-5-titanium-field-watch",
+      "hashtags": [
+        "titaniumwatch",
+        "ChronoForge",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-17-chrono-forge-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $9.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the Field Watch & EDC Buyer's Guide on screen.",
+        "Say: it costs us nothing to ship, so it costs you $9.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://chronoforge.com/products/chronoforge-grade-5-titanium-field-watch",
+      "hashtags": [
+        "titaniumwatch",
+        "ChronoForge",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-17-chrono-forge-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $149.00.",
+        "Club: $29.00/quarter.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://chronoforge.com/products/chronoforge-grade-5-titanium-field-watch",
+      "hashtags": [
+        "titaniumwatch",
+        "ChronoForge",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

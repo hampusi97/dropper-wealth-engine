@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-11T22:29:29.779Z",
-  "feedCount": 15,
-  "itemCount": 180,
+  "generatedAt": "2026-11-11T23:09:01.640Z",
+  "feedCount": 17,
+  "itemCount": 204,
   "feeds": [
     {
       "store": "store-01-bizi-bees",
@@ -91,6 +91,18 @@
       "store": "store-15-verde-hydro",
       "url": "https://verdehydro.com/feeds/google-shopping-store-15-verde-hydro.xml",
       "local": "public/feeds/google-shopping-store-15-verde-hydro.xml",
+      "items": 12
+    },
+    {
+      "store": "store-16-apex-stride",
+      "url": "https://apexstride.com/feeds/google-shopping-store-16-apex-stride.xml",
+      "local": "public/feeds/google-shopping-store-16-apex-stride.xml",
+      "items": 12
+    },
+    {
+      "store": "store-17-chrono-forge",
+      "url": "https://chronoforge.com/feeds/google-shopping-store-17-chrono-forge.xml",
+      "local": "public/feeds/google-shopping-store-17-chrono-forge.xml",
       "items": 12
     }
   ]

@@ -1,6 +1,6 @@
-# Custom domains for the 15 stores (free hosting)
+# Custom domains for the 17 stores (free hosting)
 
-**Why not GitHub Pages:** one repo can serve only ONE custom domain, so 15 domains can't share this site.
+**Why not GitHub Pages:** one repo can serve only ONE custom domain, so 17 domains can't share this site.
 **Free fix: Cloudflare Pages** (free plan, unlimited sites, free SSL, custom domain per project). Each store is already a self-contained folder, so there is no build step.
 
 ## Per store (about 3 minutes each)
@@ -25,6 +25,8 @@
 | 13 | store-13-kinetic-grip | kineticgrip.com | storefronts/store-13-kinetic-grip | kinetic-grip |
 | 14 | store-14-lumen-desk | lumendesk.com | storefronts/store-14-lumen-desk | lumen-desk |
 | 15 | store-15-verde-hydro | verdehydro.com | storefronts/store-15-verde-hydro | verde-hydro |
+| 16 | store-16-apex-stride | apexstride.com | storefronts/store-16-apex-stride | apex-stride |
+| 17 | store-17-chrono-forge | chronoforge.com | storefronts/store-17-chrono-forge | chrono-forge |
 
 ## Costs and notes
 - Hosting, SSL, DNS: $0. Only the domain registration (~$10-12/yr each) is paid, and only for domains you actually want.

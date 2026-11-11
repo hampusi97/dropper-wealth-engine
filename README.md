@@ -1,4 +1,4 @@
-# Dropper OS — 15 Shopify stores, 6 money engines, 21 bots
+# Dropper OS — 17 Shopify stores, 6 money engines, 21 bots
 
 Command deck: open `dashboard/index.html` (or `node scripts/serve-dashboard.mjs` → http://localhost:8787).
 It reads the real repo files — nothing on it is hard-coded.
@@ -7,14 +7,14 @@ It reads the real repo files — nothing on it is hard-coded.
 
 | Piece | Where | State |
 | --- | --- | --- |
-| Fleet registry — 15 stores, real SKUs, prices, margins | `config/stores-15.config.json` ← `scripts/data/stores.mjs` | ✅ built |
+| Fleet registry — 17 stores, real SKUs, prices, margins | `config/stores-15.config.json` ← `scripts/data/stores.mjs` | ✅ built |
 | 180 products (12/store), ≥72% gross margin | `catalogs/*.csv` + `*.json` | ✅ built |
-| 15 digital add-ons ($0 COGS) + 15 subscription clubs | `catalogs/_fleet-digital-addons.json`, `_fleet-subscriptions.json` | ✅ built |
-| 15 root-valid Shopify OS 2.0 themes | branches `store-01-bizi-bees` … `store-15-verde-hydro` | ✅ built + QA-passed |
-| **15 standalone storefronts — real shops, no platform** | `storefronts/<store-id>/` (cart, tiers, subscribe, bump, B2B, creators) | ✅ built + runnable |
+| 17 digital add-ons ($0 COGS) + 17 subscription clubs | `catalogs/_fleet-digital-addons.json`, `_fleet-subscriptions.json` | ✅ built |
+| 17 root-valid Shopify OS 2.0 themes | branches `store-01-bizi-bees` … `store-17-chrono-forge` | ✅ built + QA-passed |
+| **17 standalone storefronts — real shops, no platform** | `storefronts/<store-id>/` (cart, tiers, subscribe, bump, B2B, creators) | ✅ built + runnable |
 | Payments for the standalone shops | Stripe Payment Links per SKU in `scripts/data/storefront-checkout.json` | ⏳ needs your Stripe links |
-| 15 Google Merchant XML feeds (180 items) | `public/feeds/google-shopping-*.xml` | ✅ built |
-| 60 SEO buyer guides, 75 ad scripts, 150 lifecycle emails, 15 creator briefs | `content/seo/`, `marketing/` | ✅ built |
+| 17 Google Merchant XML feeds (204 items) | `public/feeds/google-shopping-*.xml` | ✅ built |
+| 68 SEO buyer guides, 85 ad scripts, 170 lifecycle emails, 17 creator briefs | `content/seo/`, `marketing/` | ✅ built |
 | 21 bots in 7 departments, 1,400-credit allocation | `lib/bots/` | ✅ built, all runnable |
 | Sovereign runner (build + 21 bots + report) | `dropper-sovereign-bot.mjs` | ✅ green |
 | Daily treasury report | `reports/LATEST.md` | ⚠️ zeros — no sales recorded |
@@ -43,7 +43,7 @@ node scripts/serve-dashboard.mjs      # command deck on :8787
 
 ## Two ways every store exists
 
-**A. Standalone storefront (works today).** `storefronts/store-01-bizi-bees/index.html` … `store-15-verde-hydro`
+**A. Standalone storefront (works today).** `storefronts/store-01-bizi-bees/index.html` … `store-17-chrono-forge`
 are complete shops: real cart in localStorage, 3-tier bundles, Subscribe & Save, $9–$15 digital order bump,
 3-milestone cart, VIP vault, B2B and creator forms, JSON-LD. Host the folder anywhere static
 (GitHub Pages via `.github/workflows/pages.yml`, Netlify, Cloudflare Pages, Vercel) and the store is live.
@@ -54,7 +54,7 @@ Payments: paste a Stripe Payment Link per SKU into `scripts/data/storefront-chec
 `shopify theme push --store <store>.myshopify.com --unpublished` from that branch's worktree.
 
 ## Going live (needs the user's accounts)
-1. Create the 15 Shopify stores, install the CLI: `shopify theme push --store <store>.myshopify.com --unpublished` from each `.worktree/store-*`.
+1. Create the 17 Shopify stores, install the CLI: `shopify theme push --store <store>.myshopify.com --unpublished` from each `.worktree/store-*`.
 2. Import `catalogs/<store>.csv` as products; set the **digital add-on variant ID** and **Subscribe & Save selling plan ID** in Theme settings → Monetization engines.
 3. Add `SHOPIFY_WEBHOOK_SECRET`, `CJ_API_KEY`, `ZENDROP_API_KEY` as repo secrets so `lib/bots/19-supply-router.ts` can route paid orders.
 4. Submit each `public/feeds/google-shopping-*.xml` to Google Merchant Center.

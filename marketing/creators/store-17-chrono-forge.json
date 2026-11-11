@@ -1,0 +1,21 @@
+{
+  "storeId": "store-17-chrono-forge",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "ChronoForge Grade-5 Titanium Field Watch",
+  "price": 149,
+  "talkingPoints": [
+    "Grade-5 titanium",
+    "Sapphire crystal",
+    "Digital companion: Field Watch & EDC Buyer's Guide ($9.00)",
+    "Subscribe & Save 20%: Quarterly Strap & Watch Care Box"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://chronoforge.com/pages/creators"
+}

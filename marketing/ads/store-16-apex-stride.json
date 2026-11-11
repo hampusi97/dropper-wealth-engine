@@ -1,0 +1,92 @@
+{
+  "storeId": "store-16-apex-stride",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T23:09:01.678Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-16-apex-stride-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying running insoles that falls apart in a month.",
+      "beats": [
+        "Show the ApexStride Carbon-Plate Energy Insoles doing the one thing it does.",
+        "On-screen: $59.00 — free shipping over $50.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://apexstride.com/products/apexstride-carbon-plate-energy-insoles",
+      "hashtags": [
+        "runninginsoles",
+        "ApexStride",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-16-apex-stride-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Running Insoles shelf, all four boxes.",
+        "Show layer 1: Carbon Fiber Plate.",
+        "Say the price out loud: $59.00."
+      ],
+      "cta": "https://apexstride.com/products/apexstride-carbon-plate-energy-insoles",
+      "hashtags": [
+        "runninginsoles",
+        "ApexStride",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-16-apex-stride-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Run Clubs & Specialty Running Stores are overpaying for recovery boots.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://apexstride.com/products/apexstride-carbon-plate-energy-insoles",
+      "hashtags": [
+        "runninginsoles",
+        "ApexStride",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-16-apex-stride-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $9.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the 12-Week Race-Day Training Plan Pack on screen.",
+        "Say: it costs us nothing to ship, so it costs you $9.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://apexstride.com/products/apexstride-carbon-plate-energy-insoles",
+      "hashtags": [
+        "runninginsoles",
+        "ApexStride",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-16-apex-stride-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $59.00.",
+        "Club: $22.00/month.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://apexstride.com/products/apexstride-carbon-plate-energy-insoles",
+      "hashtags": [
+        "runninginsoles",
+        "ApexStride",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

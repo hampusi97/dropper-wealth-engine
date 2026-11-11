@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T22:29:29.824Z",
-  "guideCount": 60,
+  "generatedAt": "2026-11-11T23:09:01.679Z",
+  "guideCount": 68,
   "stores": [
     {
       "store": "store-01-bizi-bees",
@@ -135,6 +135,24 @@
         "content/seo/store-15-verde-hydro/guide-2.md",
         "content/seo/store-15-verde-hydro/guide-3.md",
         "content/seo/store-15-verde-hydro/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-16-apex-stride",
+      "guides": [
+        "content/seo/store-16-apex-stride/guide-1.md",
+        "content/seo/store-16-apex-stride/guide-2.md",
+        "content/seo/store-16-apex-stride/guide-3.md",
+        "content/seo/store-16-apex-stride/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-17-chrono-forge",
+      "guides": [
+        "content/seo/store-17-chrono-forge/guide-1.md",
+        "content/seo/store-17-chrono-forge/guide-2.md",
+        "content/seo/store-17-chrono-forge/guide-3.md",
+        "content/seo/store-17-chrono-forge/guide-4.md"
       ]
     }
   ]

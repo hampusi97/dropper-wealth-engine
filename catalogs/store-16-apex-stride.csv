@@ -1,0 +1,13 @@
+sku,title,handle,category,price,compare_at_price,cost,margin_percent,margin_usd,tier2_price,tier2_save,tier3_price,tier3_save,summary,is_hero
+"DROP-APEX-001","ApexStride Carbon-Plate Energy Insoles","apexstride-carbon-plate-energy-insoles","Running Insoles","59.00","89.00","16.40","72.2","42.60","100.30","15%","132.75","25%","A carbon-fiber plate insole with dual-density EVA cushioning and a moisture-wicking bamboo top, trim-to-fit for any running shoe.","true"
+"DROP-APEX-002","Merino Running Socks (3 Pack)","merino-running-socks-3-pack","Apparel","24.00","29.00","5.40","77.5","18.60","40.80","15%","54.00","25%","Cushioned merino crew socks.","false"
+"DROP-APEX-003","Pneumatic Recovery Boots (Pair)","pneumatic-recovery-boots-pair","Recovery","169.00","249.00","47.00","72.2","122.00","287.30","15%","380.25","25%","Air-compression boots for tired legs.","false"
+"DROP-APEX-004","Foam Roller (Vibrating)","foam-roller-vibrating","Recovery","39.00","59.00","10.90","72.1","28.10","66.30","15%","87.75","25%","Three-speed vibrating roller.","false"
+"DROP-APEX-005","Massage Ball Set (3)","massage-ball-set-3","Recovery","19.00","24.00","4.40","76.8","14.60","32.30","15%","42.75","25%","Three firmness levels.","false"
+"DROP-APEX-006","Running Belt (Water-Resistant)","running-belt-water-resistant","Gear","24.00","34.00","5.90","75.4","18.10","40.80","15%","54.00","25%","Phone and key belt, no bounce.","false"
+"DROP-APEX-007","Anti-Chafe Balm (2 oz)","anti-chafe-balm-2-oz","Consumables","14.00","24.00","3.90","72.1","10.10","23.80","15%","31.50","25%","Long-run friction balm.","false"
+"DROP-APEX-008","Compression Calf Sleeves","compression-calf-sleeves","Apparel","29.00","39.00","7.10","75.5","21.90","49.30","15%","65.25","25%","Graduated compression sleeves.","false"
+"DROP-APEX-009","Reflective Night Vest","reflective-night-vest","Gear","24.00","34.00","6.40","73.3","17.60","40.80","15%","54.00","25%","High-visibility lightweight vest.","false"
+"DROP-APEX-010","Foot Roller (Plantar Relief)","foot-roller-plantar-relief","Recovery","19.00","29.00","4.70","75.3","14.30","32.30","15%","42.75","25%","Textured roller for the arch.","false"
+"DROP-APEX-011","Hydration Soft Flask (500 ml)","hydration-soft-flask-500-ml","Gear","19.00","29.00","5.10","73.2","13.90","32.30","15%","42.75","25%","Collapsible flask.","false"
+"DROP-APEX-012","Toe Spacer Set","toe-spacer-set","Recovery","14.00","19.00","3.40","75.7","10.60","23.80","15%","31.50","25%","Silicone toe alignment spacers.","false"

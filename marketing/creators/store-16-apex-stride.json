@@ -1,0 +1,21 @@
+{
+  "storeId": "store-16-apex-stride",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "ApexStride Carbon-Plate Energy Insoles",
+  "price": 59,
+  "talkingPoints": [
+    "Carbon fiber plate",
+    "Dual-density EVA",
+    "Digital companion: 12-Week Race-Day Training Plan Pack ($9.00)",
+    "Subscribe & Save 20%: Monthly Merino Sock & Balm Refill"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://apexstride.com/pages/creators"
+}

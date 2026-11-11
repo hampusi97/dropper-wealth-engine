@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dropper OS — 15-Store Command Deck</title>
+<title>Dropper OS — 17-Store Command Deck</title>
 <style>
   :root{
     --bg:#08090B; --surface:#111318; --surface-2:#161920; --line:rgba(255,255,255,.09);
@@ -83,7 +83,7 @@
     <div class="top__inner">
       <div class="brand"><span class="brand__mark">OS</span> Dropper OS</div>
       <div class="top__meta">
-        <span>15 stores</span><span>180 products</span><span>21 bots</span><span>6 engines</span>
+        <span>17 stores</span><span>204 products</span><span>21 bots</span><span>6 engines</span>
         <span id="generated">—</span>
       </div>
     </div>
@@ -112,7 +112,7 @@
       </div>
     </div>
 
-    <h2 style="margin-top:2rem">15-store fleet matrix</h2>
+    <h2 style="margin-top:2rem">17-store fleet matrix</h2>
     <div class="grid g3" id="stores"></div>
   </section>
 
@@ -159,7 +159,7 @@
   </section>
 </main>
 
-<footer><div class="wrap">Dropper OS v14 · <span id="docid">DROPPER-WEALTH-ENGINE-V13.0</span> · repo <code>hampusi97/dropper-wealth-engine</code> · 15 root Shopify branches + main</div></footer>
+<footer><div class="wrap">Dropper OS v14 · <span id="docid">DROPPER-WEALTH-ENGINE-V13.0</span> · repo <code>hampusi97/dropper-wealth-engine</code> · 17 root Shopify branches + main</div></footer>
 
 <script>
 const $ = (s, r = document) => r.querySelector(s);
@@ -186,7 +186,7 @@ async function boot() {
   const live = treasury && !treasury.template;
   $("#source-banner").innerHTML = live
     ? `<b>Live ledger:</b> ${treasury.daysCounted} recorded day(s) · net ${usd(treasury.totals.net, 2)} · run rate ${usd(treasury.runRate, 0)}/mo.`
-    : `<b>No sales recorded yet.</b> The catalog, 15 themes, 15 Shopping feeds and 21 bots are built; every revenue figure below is $0 because no Shopify store is connected and no payouts have been logged. Fill <code>reports/treasury-results.json</code> to make this live.`;
+    : `<b>No sales recorded yet.</b> The catalog, 17 themes, 17 Shopping feeds and 21 bots are built; every revenue figure below is $0 because no Shopify store is connected and no payouts have been logged. Fill <code>reports/treasury-results.json</code> to make this live.`;
 
   renderFleet();
   renderEngines();
@@ -207,7 +207,7 @@ function renderFleet() {
     ["Products", products, "12 per store, ≥72% gross margin"],
     ["Hero margin", avgMargin.toFixed(1) + "%", "average across the fleet"],
     ["Subscription book", usd(subAnnual), "annualised if every store sold 1 club"],
-    ["Digital add-ons", usd(digitalRev), "sum of all 15 order bumps, $0 COGS"],
+    ["Digital add-ons", usd(digitalRev), "sum of all 17 order bumps, $0 COGS"],
   ].map(([l, v, s]) => `<div class="card"><p class="stat__label">${l}</p><p class="stat__value">${v}</p><p class="stat__sub">${s}</p></div>`).join("");
 
   const runRate = state.treasury && !state.treasury.template ? state.treasury.runRate : 0;

@@ -1,0 +1,519 @@
+{
+  "storeId": "store-16-apex-stride",
+  "storeName": "ApexStride",
+  "domain": "apexstride.com",
+  "niche": "Carbon-Plated Running Insoles & Pneumatic Recovery Boots",
+  "skuPrefix": "DROP-APEX-",
+  "fulfillment": "api-dropship",
+  "generatedAt": "2026-11-11T23:09:01.604Z",
+  "productCount": 12,
+  "products": [
+    {
+      "skuIndex": 1,
+      "sku": "DROP-APEX-001",
+      "title": "ApexStride Carbon-Plate Energy Insoles",
+      "handle": "apexstride-carbon-plate-energy-insoles",
+      "category": "Running Insoles",
+      "price": 59,
+      "cost": 16.4,
+      "compareAt": 89,
+      "summary": "A carbon-fiber plate insole with dual-density EVA cushioning and a moisture-wicking bamboo top, trim-to-fit for any running shoe.",
+      "features": [
+        "Carbon fiber plate",
+        "Dual-density EVA",
+        "Bamboo wicking top",
+        "Trim-to-fit guides"
+      ],
+      "isHero": true,
+      "marginPercent": 72.2,
+      "marginUSD": 42.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 59,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 100.3,
+          "savings": 17.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 132.75,
+          "savings": 44.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 2,
+      "sku": "DROP-APEX-002",
+      "title": "Merino Running Socks (3 Pack)",
+      "handle": "merino-running-socks-3-pack",
+      "category": "Apparel",
+      "price": 24,
+      "cost": 5.4,
+      "compareAt": 29,
+      "summary": "Cushioned merino crew socks.",
+      "features": [
+        "Cushioned merino crew socks."
+      ],
+      "isHero": false,
+      "marginPercent": 77.5,
+      "marginUSD": 18.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 3,
+      "sku": "DROP-APEX-003",
+      "title": "Pneumatic Recovery Boots (Pair)",
+      "handle": "pneumatic-recovery-boots-pair",
+      "category": "Recovery",
+      "price": 169,
+      "cost": 47,
+      "compareAt": 249,
+      "summary": "Air-compression boots for tired legs.",
+      "features": [
+        "Air-compression boots for tired legs."
+      ],
+      "isHero": false,
+      "marginPercent": 72.2,
+      "marginUSD": 122,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 169,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 287.3,
+          "savings": 50.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 380.25,
+          "savings": 126.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 4,
+      "sku": "DROP-APEX-004",
+      "title": "Foam Roller (Vibrating)",
+      "handle": "foam-roller-vibrating",
+      "category": "Recovery",
+      "price": 39,
+      "cost": 10.9,
+      "compareAt": 59,
+      "summary": "Three-speed vibrating roller.",
+      "features": [
+        "Three-speed vibrating roller."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 28.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 5,
+      "sku": "DROP-APEX-005",
+      "title": "Massage Ball Set (3)",
+      "handle": "massage-ball-set-3",
+      "category": "Recovery",
+      "price": 19,
+      "cost": 4.4,
+      "compareAt": 24,
+      "summary": "Three firmness levels.",
+      "features": [
+        "Three firmness levels."
+      ],
+      "isHero": false,
+      "marginPercent": 76.8,
+      "marginUSD": 14.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 6,
+      "sku": "DROP-APEX-006",
+      "title": "Running Belt (Water-Resistant)",
+      "handle": "running-belt-water-resistant",
+      "category": "Gear",
+      "price": 24,
+      "cost": 5.9,
+      "compareAt": 34,
+      "summary": "Phone and key belt, no bounce.",
+      "features": [
+        "Phone and key belt, no bounce."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 18.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 7,
+      "sku": "DROP-APEX-007",
+      "title": "Anti-Chafe Balm (2 oz)",
+      "handle": "anti-chafe-balm-2-oz",
+      "category": "Consumables",
+      "price": 14,
+      "cost": 3.9,
+      "compareAt": 24,
+      "summary": "Long-run friction balm.",
+      "features": [
+        "Long-run friction balm."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 10.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 14,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 23.8,
+          "savings": 4.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 31.5,
+          "savings": 10.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 8,
+      "sku": "DROP-APEX-008",
+      "title": "Compression Calf Sleeves",
+      "handle": "compression-calf-sleeves",
+      "category": "Apparel",
+      "price": 29,
+      "cost": 7.1,
+      "compareAt": 39,
+      "summary": "Graduated compression sleeves.",
+      "features": [
+        "Graduated compression sleeves."
+      ],
+      "isHero": false,
+      "marginPercent": 75.5,
+      "marginUSD": 21.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 9,
+      "sku": "DROP-APEX-009",
+      "title": "Reflective Night Vest",
+      "handle": "reflective-night-vest",
+      "category": "Gear",
+      "price": 24,
+      "cost": 6.4,
+      "compareAt": 34,
+      "summary": "High-visibility lightweight vest.",
+      "features": [
+        "High-visibility lightweight vest."
+      ],
+      "isHero": false,
+      "marginPercent": 73.3,
+      "marginUSD": 17.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 10,
+      "sku": "DROP-APEX-010",
+      "title": "Foot Roller (Plantar Relief)",
+      "handle": "foot-roller-plantar-relief",
+      "category": "Recovery",
+      "price": 19,
+      "cost": 4.7,
+      "compareAt": 29,
+      "summary": "Textured roller for the arch.",
+      "features": [
+        "Textured roller for the arch."
+      ],
+      "isHero": false,
+      "marginPercent": 75.3,
+      "marginUSD": 14.3,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 11,
+      "sku": "DROP-APEX-011",
+      "title": "Hydration Soft Flask (500 ml)",
+      "handle": "hydration-soft-flask-500-ml",
+      "category": "Gear",
+      "price": 19,
+      "cost": 5.1,
+      "compareAt": 29,
+      "summary": "Collapsible flask.",
+      "features": [
+        "Collapsible flask."
+      ],
+      "isHero": false,
+      "marginPercent": 73.2,
+      "marginUSD": 13.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 12,
+      "sku": "DROP-APEX-012",
+      "title": "Toe Spacer Set",
+      "handle": "toe-spacer-set",
+      "category": "Recovery",
+      "price": 14,
+      "cost": 3.4,
+      "compareAt": 19,
+      "summary": "Silicone toe alignment spacers.",
+      "features": [
+        "Silicone toe alignment spacers."
+      ],
+      "isHero": false,
+      "marginPercent": 75.7,
+      "marginUSD": 10.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 14,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 23.8,
+          "savings": 4.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 31.5,
+          "savings": 10.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    }
+  ]
+}

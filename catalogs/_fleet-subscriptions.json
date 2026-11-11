@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T22:29:29.737Z",
-  "count": 15,
+  "generatedAt": "2026-11-11T23:09:01.606Z",
+  "count": 17,
   "items": [
     {
       "storeId": "store-01-bizi-bees",
@@ -226,6 +226,36 @@
         "Skip anytime"
       ],
       "annualValue": 216
+    },
+    {
+      "storeId": "store-16-apex-stride",
+      "sku": "DROP-APEX-SUB-01",
+      "title": "Monthly Merino Sock & Balm Refill",
+      "price": 22,
+      "cadence": "month",
+      "cost": 5.4,
+      "perks": [
+        "3 pairs merino socks",
+        "2 oz anti-chafe balm",
+        "Member pricing on insoles",
+        "Skip anytime"
+      ],
+      "annualValue": 264
+    },
+    {
+      "storeId": "store-17-chrono-forge",
+      "sku": "DROP-CHRONO-SUB-01",
+      "title": "Quarterly Strap & Watch Care Box",
+      "price": 29,
+      "cadence": "quarter",
+      "cost": 7.1,
+      "perks": [
+        "One new strap",
+        "Watch care supplies",
+        "Member pricing on watches",
+        "Skip anytime"
+      ],
+      "annualValue": 116
     }
   ]
 }

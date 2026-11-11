@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T22:29:29.737Z",
-  "count": 15,
+  "generatedAt": "2026-11-11T23:09:01.606Z",
+  "count": 17,
   "items": [
     {
       "storeId": "store-01-bizi-bees",
@@ -284,6 +284,44 @@
         "24 species profiles",
         "Node cutting maps",
         "Printable propagation labels"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-16-apex-stride",
+      "sku": "DROP-APEX-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "12-Week Race-Day Training Plan Pack",
+      "price": 9,
+      "format": "PDF + printable logs",
+      "pages": 36,
+      "description": "A 36-page plan pack with 5K, 10K and half-marathon schedules plus printable training logs.",
+      "deliverables": [
+        "36-page training guide",
+        "5K, 10K and half plans",
+        "Printable weekly logs",
+        "Recovery checklist"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-17-chrono-forge",
+      "sku": "DROP-CHRONO-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "Field Watch & EDC Buyer's Guide",
+      "price": 9,
+      "format": "PDF",
+      "pages": 30,
+      "description": "A 30-page guide to movements, case materials, strap fit and building a minimalist everyday-carry kit.",
+      "deliverables": [
+        "30-page buyer's guide",
+        "Movement comparison chart",
+        "Strap sizing guide",
+        "EDC checklist"
       ],
       "deliverable": "instant email download"
     }
