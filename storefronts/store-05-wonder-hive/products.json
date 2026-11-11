@@ -1,10 +1,6 @@
 {
   "storeId": "store-05-wonder-hive",
-<<<<<<< Updated upstream
-  "generatedAt": "2026-11-11T22:11:26.664Z",
-=======
-  "generatedAt": "2026-11-11T22:13:27.559Z",
->>>>>>> Stashed changes
+  "generatedAt": "2026-11-11T22:13:55.270Z",
   "products": [
     {
       "sku": "DROP-HIVE-001",
