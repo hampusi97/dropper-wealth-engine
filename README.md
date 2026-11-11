@@ -11,6 +11,8 @@ It reads the real repo files — nothing on it is hard-coded.
 | 180 products (12/store), ≥72% gross margin | `catalogs/*.csv` + `*.json` | ✅ built |
 | 15 digital add-ons ($0 COGS) + 15 subscription clubs | `catalogs/_fleet-digital-addons.json`, `_fleet-subscriptions.json` | ✅ built |
 | 15 root-valid Shopify OS 2.0 themes | branches `store-01-bizi-bees` … `store-15-verde-hydro` | ✅ built + QA-passed |
+| **15 standalone storefronts — real shops, no platform** | `storefronts/<store-id>/` (cart, tiers, subscribe, bump, B2B, creators) | ✅ built + runnable |
+| Payments for the standalone shops | Stripe Payment Links per SKU in `scripts/data/storefront-checkout.json` | ⏳ needs your Stripe links |
 | 15 Google Merchant XML feeds (180 items) | `public/feeds/google-shopping-*.xml` | ✅ built |
 | 60 SEO buyer guides, 75 ad scripts, 150 lifecycle emails, 15 creator briefs | `content/seo/`, `marketing/` | ✅ built |
 | 21 bots in 7 departments, 1,400-credit allocation | `lib/bots/` | ✅ built, all runnable |
@@ -38,6 +40,18 @@ node scripts/validate-themes.mjs      # static QA gate (Liquid balance, schema, 
 node dropper-sovereign-bot.mjs        # everything + 21 bots + report
 node scripts/serve-dashboard.mjs      # command deck on :8787
 ```
+
+## Two ways every store exists
+
+**A. Standalone storefront (works today).** `storefronts/store-01-bizi-bees/index.html` … `store-15-verde-hydro`
+are complete shops: real cart in localStorage, 3-tier bundles, Subscribe & Save, $9–$15 digital order bump,
+3-milestone cart, VIP vault, B2B and creator forms, JSON-LD. Host the folder anywhere static
+(GitHub Pages via `.github/workflows/pages.yml`, Netlify, Cloudflare Pages, Vercel) and the store is live.
+Payments: paste a Stripe Payment Link per SKU into `scripts/data/storefront-checkout.json` and rerun
+`node scripts/build-storefronts.mjs`; until then checkout composes an order email so no order is lost.
+
+**B. Shopify theme (when an account exists).** Each `store-*` branch is a root-valid OS 2.0 theme —
+`shopify theme push --store <store>.myshopify.com --unpublished` from that branch's worktree.
 
 ## Going live (needs the user's accounts)
 1. Create the 15 Shopify stores, install the CLI: `shopify theme push --store <store>.myshopify.com --unpublished` from each `.worktree/store-*`.

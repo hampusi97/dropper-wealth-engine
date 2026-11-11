@@ -1,0 +1,50 @@
+name: Publish storefronts (GitHub Pages)
+
+# Every store is a static shop under storefronts/<store-id>/.
+# Once Pages is enabled for the repo (Settings → Pages → Source: GitHub Actions),
+# all 15 stores are live at https://hampusi97.github.io/dropper-wealth-engine/storefronts/<store-id>/
+
+on:
+  push:
+    branches: [main]
+    paths: ["storefronts/**", "dashboard/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble the site
+        run: |
+          mkdir -p _site
+          cp -R storefronts/. _site/
+          mkdir -p _site/dashboard && cp -R dashboard/. _site/dashboard/
+          cp -R config _site/config 2>/dev/null || true
+          cp -R reports _site/reports 2>/dev/null || true
+          cp -R state _site/state 2>/dev/null || true
+          cp -R public _site/public 2>/dev/null || true
+          cp -R lib _site/lib 2>/dev/null || true
+          cat > _site/index.html <<'HTML'
+          <!doctype html><meta charset="utf-8"><title>Dropper OS</title>
+          <meta http-equiv="refresh" content="0; url=storefronts/index.html">
+          <a href="storefronts/index.html">All 15 stores</a> · <a href="dashboard/index.html">Command deck</a>
+          HTML
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
