@@ -1,7 +1,7 @@
-# Sovereign maintainer run — 2026-11-11T21:55:02.670Z
+# Sovereign maintainer run — 2026-11-11T22:01:48.718Z
 
 - Mode: **full**
-- Duration: 11.9s
+- Duration: 11.1s
 - Fleet: 15 stores, 180 products
 - Result: **GREEN — awaiting live connections: bot 03-uptime-speed**
 
@@ -18,23 +18,23 @@
 - ✅ daily report — daily report: TEMPLATE (no real sales yet) — net $0.00, run rate $0.00/mo
 
 ## The 21 bots
-- ✅ `01-omega-builder` — pass (0ms)
-- ✅ `02-solver` — pass (1ms)
-- ⚠️ `03-uptime-speed` — {"ok":false,"live":3,"of":15,"results":[{"store":"store-01-bizi-bees","url":"https://shopbizibees.com","status":0,"ms":22,"live":false,"error":"TypeError"},{"st (11270ms)
-- ✅ `04-trend-arbitrage` — pass (1ms)
+- ✅ `01-omega-builder` — pass (1ms)
+- ✅ `02-solver` — pass (0ms)
+- ⚠️ `03-uptime-speed` — {"ok":false,"live":3,"of":15,"results":[{"store":"store-01-bizi-bees","url":"https://shopbizibees.com","status":0,"ms":177,"live":false,"error":"TypeError"},{"s (10384ms)
+- ✅ `04-trend-arbitrage` — pass (2ms)
 - ✅ `05-review-psych` — pass (0ms)
 - ✅ `06-digital-upsell` — pass (0ms)
-- ✅ `07-theme-compiler` — pass (0ms)
+- ✅ `07-theme-compiler` — pass (1ms)
 - ✅ `08-scrolly-3d` — pass (0ms)
-- ✅ `09-aesthetic-qa` — pass (103ms)
+- ✅ `09-aesthetic-qa` — pass (49ms)
 - ✅ `10-bundle-sub` — pass (1ms)
 - ✅ `11-promo-loyalty` — pass (0ms)
 - ✅ `12-b2b-wholesale` — pass (1ms)
-- ✅ `13-google-merchant` — pass (3ms)
+- ✅ `13-google-merchant` — pass (1ms)
 - ✅ `14-programmatic-seo` — pass (0ms)
-- ✅ `15-viral-affiliate` — pass (3ms)
+- ✅ `15-viral-affiliate` — pass (0ms)
 - ✅ `16-cross-store` — pass (0ms)
-- ✅ `17-lifecycle-email` — pass (1ms)
+- ✅ `17-lifecycle-email` — pass (0ms)
 - ✅ `18-concierge-closer` — pass (1ms)
 - ✅ `19-supply-router` — pass (0ms)
 - ✅ `20-stock-failover` — pass (0ms)

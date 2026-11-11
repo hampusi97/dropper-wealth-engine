@@ -1,66 +1,66 @@
 {
-  "ranAt": "2026-11-11T21:55:02.670Z",
-  "durationMs": 11854,
+  "ranAt": "2026-11-11T22:01:48.718Z",
+  "durationMs": 11133,
   "mode": "full",
   "steps": [
     {
       "name": "fleet config",
       "ok": true,
-      "ms": 42,
+      "ms": 27,
       "detail": "fleet config: 15 stores"
     },
     {
       "name": "catalogs",
       "ok": true,
-      "ms": 38,
+      "ms": 27,
       "detail": "margin: min 72.1% avg 74.3% max 77.5%"
     },
     {
       "name": "feeds",
       "ok": true,
-      "ms": 35,
+      "ms": 25,
       "detail": "feeds: 15 files, 180 items"
     },
     {
       "name": "content",
       "ok": true,
-      "ms": 38,
+      "ms": 32,
       "detail": "content: 60 SEO guides, 75 ad scripts, 150 lifecycle emails, 15 creator briefs"
     },
     {
       "name": "bots",
       "ok": true,
-      "ms": 28,
+      "ms": 24,
       "detail": "bots: 0 modules written, 21 registered across 7 departments, 1400 credits allocated"
     },
     {
       "name": "storefronts",
       "ok": true,
-      "ms": 44,
+      "ms": 36,
       "detail": "[storefront] done — 15 storefronts, 75 files"
     },
     {
       "name": "storefront index",
       "ok": true,
-      "ms": 29,
+      "ms": 23,
       "detail": "store index: 15 storefronts linked"
     },
     {
       "name": "themes",
       "ok": true,
-      "ms": 103,
+      "ms": 58,
       "detail": "[theme] done — 15 themes, 510 files"
     },
     {
       "name": "theme QA",
       "ok": true,
-      "ms": 64,
+      "ms": 43,
       "detail": "=== PASS — 0 error(s) across 15 themes ==="
     },
     {
       "name": "daily report",
       "ok": true,
-      "ms": 40,
+      "ms": 392,
       "detail": "daily report: TEMPLATE (no real sales yet) — net $0.00, run rate $0.00/mo"
     }
   ],
@@ -68,25 +68,25 @@
     {
       "id": "01-omega-builder",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
       "id": "02-solver",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "03-uptime-speed",
       "ok": false,
-      "ms": 11270,
-      "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":22,\"live\":false,\"error\":\"TypeError\"},{\"st"
+      "ms": 10384,
+      "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":177,\"live\":false,\"error\":\"TypeError\"},{\"s"
     },
     {
       "id": "04-trend-arbitrage",
       "ok": true,
-      "ms": 1,
+      "ms": 2,
       "summary": "pass"
     },
     {
@@ -104,7 +104,7 @@
     {
       "id": "07-theme-compiler",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
@@ -116,7 +116,7 @@
     {
       "id": "09-aesthetic-qa",
       "ok": true,
-      "ms": 103,
+      "ms": 49,
       "summary": "pass"
     },
     {
@@ -140,7 +140,7 @@
     {
       "id": "13-google-merchant",
       "ok": true,
-      "ms": 3,
+      "ms": 1,
       "summary": "pass"
     },
     {
@@ -152,7 +152,7 @@
     {
       "id": "15-viral-affiliate",
       "ok": true,
-      "ms": 3,
+      "ms": 0,
       "summary": "pass"
     },
     {
@@ -164,7 +164,7 @@
     {
       "id": "17-lifecycle-email",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
