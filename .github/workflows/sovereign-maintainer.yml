@@ -48,9 +48,14 @@ jobs:
 
       - name: Commit main artifacts
         run: |
-          git add -A config catalogs public content marketing reports state lib/bots
-          (git diff --cached --quiet || git commit -m "chore(sovereign): daily rebuild + treasury report $(date -u +%F)")
-          git push
+          git add -A config catalogs public content marketing reports state lib/bots storefronts
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+          else
+            git commit -m "chore(sovereign): daily rebuild + treasury report $(date -u +%F)"
+            git pull --rebase --autostash origin main
+            git push
+          fi
 
       - name: Upload the run report
         uses: actions/upload-artifact@v4
