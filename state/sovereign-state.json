@@ -1,66 +1,66 @@
 {
-  "ranAt": "2026-11-11T22:01:48.718Z",
-  "durationMs": 11133,
+  "ranAt": "2026-11-11T22:06:15.783Z",
+  "durationMs": 17797,
   "mode": "full",
   "steps": [
     {
       "name": "fleet config",
       "ok": true,
-      "ms": 27,
+      "ms": 38,
       "detail": "fleet config: 15 stores"
     },
     {
       "name": "catalogs",
       "ok": true,
-      "ms": 27,
+      "ms": 49,
       "detail": "margin: min 72.1% avg 74.3% max 77.5%"
     },
     {
       "name": "feeds",
       "ok": true,
-      "ms": 25,
+      "ms": 34,
       "detail": "feeds: 15 files, 180 items"
     },
     {
       "name": "content",
       "ok": true,
-      "ms": 32,
+      "ms": 38,
       "detail": "content: 60 SEO guides, 75 ad scripts, 150 lifecycle emails, 15 creator briefs"
     },
     {
       "name": "bots",
       "ok": true,
-      "ms": 24,
+      "ms": 25,
       "detail": "bots: 0 modules written, 21 registered across 7 departments, 1400 credits allocated"
     },
     {
       "name": "storefronts",
       "ok": true,
-      "ms": 36,
+      "ms": 56,
       "detail": "[storefront] done — 15 storefronts, 75 files"
     },
     {
       "name": "storefront index",
       "ok": true,
-      "ms": 23,
+      "ms": 28,
       "detail": "store index: 15 storefronts linked"
     },
     {
       "name": "themes",
       "ok": true,
-      "ms": 58,
+      "ms": 121,
       "detail": "[theme] done — 15 themes, 510 files"
     },
     {
       "name": "theme QA",
       "ok": true,
-      "ms": 43,
+      "ms": 56,
       "detail": "=== PASS — 0 error(s) across 15 themes ==="
     },
     {
       "name": "daily report",
       "ok": true,
-      "ms": 392,
+      "ms": 69,
       "detail": "daily report: TEMPLATE (no real sales yet) — net $0.00, run rate $0.00/mo"
     }
   ],
@@ -80,13 +80,13 @@
     {
       "id": "03-uptime-speed",
       "ok": false,
-      "ms": 10384,
-      "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":177,\"live\":false,\"error\":\"TypeError\"},{\"s"
+      "ms": 17123,
+      "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":638,\"live\":false,\"error\":\"TypeError\"},{\"s"
     },
     {
       "id": "04-trend-arbitrage",
       "ok": true,
-      "ms": 2,
+      "ms": 9,
       "summary": "pass"
     },
     {
@@ -116,7 +116,7 @@
     {
       "id": "09-aesthetic-qa",
       "ok": true,
-      "ms": 49,
+      "ms": 122,
       "summary": "pass"
     },
     {
@@ -140,7 +140,7 @@
     {
       "id": "13-google-merchant",
       "ok": true,
-      "ms": 1,
+      "ms": 3,
       "summary": "pass"
     },
     {
@@ -152,7 +152,7 @@
     {
       "id": "15-viral-affiliate",
       "ok": true,
-      "ms": 0,
+      "ms": 5,
       "summary": "pass"
     },
     {
@@ -164,13 +164,13 @@
     {
       "id": "17-lifecycle-email",
       "ok": true,
-      "ms": 0,
+      "ms": 5,
       "summary": "pass"
     },
     {
       "id": "18-concierge-closer",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
