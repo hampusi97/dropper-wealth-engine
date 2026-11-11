@@ -1,0 +1,20 @@
+{%- comment -%} Free-shipping + digital add-on announcement. No countdown-timer spam. {%- endcomment -%}
+<div class="announce" role="region" aria-label="Store announcement">
+  <p class="announce__inner">
+    <span>Free shipping over {{ section.settings.free_ship_threshold | default: 65 }}</span>
+    <span aria-hidden="true">&bull;</span>
+    <span>{{ section.settings.digital_price | default: 9 }} instant digital add-on at checkout</span>
+    <span aria-hidden="true">&bull;</span>
+    <span>{{ section.settings.club_name | escape }}</span>
+  </p>
+</div>
+{% schema %}
+{
+  "name": "Announcement bar",
+  "settings": [
+    { "type": "number", "id": "free_ship_threshold", "label": "Free shipping threshold (USD)", "default": 60 },
+    { "type": "number", "id": "digital_price", "label": "Digital add-on price (USD)", "default": 9 },
+    { "type": "text", "id": "club_name", "label": "Loyalty club name", "default": "TerraPaw Pack" }
+  ]
+}
+{% endschema %}
