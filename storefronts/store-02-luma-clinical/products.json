@@ -1,10 +1,6 @@
 {
   "storeId": "store-02-luma-clinical",
-<<<<<<< Updated upstream
-  "generatedAt": "2026-11-11T22:18:08.423Z",
-=======
-  "generatedAt": "2026-11-11T22:29:02.244Z",
->>>>>>> Stashed changes
+  "generatedAt": "2026-11-11T22:29:29.916Z",
   "products": [
     {
       "sku": "DROP-LUMA-001",
