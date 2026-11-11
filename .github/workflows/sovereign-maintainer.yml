@@ -1,0 +1,62 @@
+name: Sovereign maintainer
+
+on:
+  schedule:
+    - cron: "0 13 * * *"        # 13:00 UTC = 06:00 MT
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", "lib/**", "config/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Fetch every store branch
+        run: git fetch origin '+refs/heads/store-*:refs/remotes/origin/store-*'
+
+      - name: Attach the 15 store worktrees
+        run: |
+          for b in $(git branch -r --list 'origin/store-*' | sed 's#origin/##'); do
+            git worktree add ".worktree/$b" "$b" || true
+          done
+          ls .worktree
+
+      - name: Full sovereign cycle (build + 21 bots + report)
+        run: node dropper-sovereign-bot.mjs
+
+      - name: Commit rebuilt themes back to their store branches
+        run: |
+          git config user.name "Dropper Sovereign"
+          git config user.email "sovereign@users.noreply.github.com"
+          for d in .worktree/store-*; do
+            b=$(basename "$d")
+            ( cd "$d" && git add -A && (git diff --cached --quiet || git commit -m "chore(theme): sovereign rebuild $(date -u +%FT%TZ)") && git push origin "HEAD:$b" )
+          done
+
+      - name: Commit main artifacts
+        run: |
+          git add -A config catalogs public content marketing reports state lib/bots
+          (git diff --cached --quiet || git commit -m "chore(sovereign): daily rebuild + treasury report $(date -u +%F)")
+          git push
+
+      - name: Upload the run report
+        uses: actions/upload-artifact@v4
+        with:
+          name: sovereign-report
+          path: |
+            reports/LATEST.md
+            reports/SOVEREIGN.md
+            state/sovereign-state.json
