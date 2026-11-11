@@ -5,7 +5,11 @@
   "niche": "Espresso Scales, Flow Control & Barista Precision",
   "skuPrefix": "DROP-BREW-",
   "fulfillment": "api-dropship",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:06:53.566Z",
+=======
+  "generatedAt": "2026-11-11T22:07:24.405Z",
+>>>>>>> Stashed changes
   "productCount": 12,
   "products": [
     {

@@ -1,6 +1,10 @@
 {
   "storeId": "store-12-solace-aroma",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:06:53.717Z",
+=======
+  "generatedAt": "2026-11-11T22:07:24.578Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "DROP-AROMA-001",

@@ -97,9 +97,14 @@
     });
     var link = (S.checkout || {})[cart[0].sku];
     if (link) { window.location.href = link; return; }
-    // no Stripe Payment Link configured yet: fall back to an email order so nothing is silently lost
-    var body = encodeURIComponent("Order for " + S.storeName + "\n\n" + lines.join("\n") + "\n\nSubtotal: " + fmt(subtotal()));
-    if (note) note.innerHTML = 'Stripe checkout is not linked yet. <a href="mailto:orders@' + S.domain + '?subject=Order%20' + encodeURIComponent(S.storeName) + '&body=' + body + '">Send this order by email</a> and we will invoice you.';
+    var mail = (S.contactEmail || "orders@" + S.domain);
+    var subject = "Order — " + S.storeName + " — " + fmt(subtotal());
+    var href = "mailto:" + mail + "?subject=" + encodeURIComponent(subject) + "&body=" + body;
+    if (note) {
+      note.innerHTML = 'Order ready. <a href="' + href + '"><b>Send it by email</b></a> — we reply with a secure payment link (card, PayPal or bank transfer) within a few hours.';
+    } else {
+      window.location.href = href;
+    }
   });
 
   qa("[data-form]").forEach(function (form) {
@@ -114,7 +119,8 @@
         // no backend configured: open the visitor's mail client with a pre-filled message
         var subject = kind === "b2b" ? "Bulk quote request — " + S.storeName : kind === "creator" ? "Creator application — " + S.storeName : "Club signup — " + S.storeName;
         var body = encodeURIComponent(Object.keys(data).map(function (k) { return k + ": " + data[k]; }).join("\n"));
-        window.location.href = "mailto:" + (kind === "b2b" ? "wholesale" : "hello") + "@" + S.domain + "?subject=" + encodeURIComponent(subject) + "&body=" + body;
+        var to = (S.forms && S.forms.recipient) || S.contactEmail || ((kind === "b2b" ? "wholesale" : "hello") + "@" + S.domain);
+        window.location.href = "mailto:" + to + "?subject=" + encodeURIComponent(subject) + "&body=" + body;
         if (note) note.textContent = "Opened your email app — send it and we reply within one business day.";
         return;
       }

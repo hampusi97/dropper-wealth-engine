@@ -1,6 +1,10 @@
 {
   "storeId": "store-15-verde-hydro",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:06:53.641Z",
+=======
+  "generatedAt": "2026-11-11T22:07:24.498Z",
+>>>>>>> Stashed changes
   "flowCount": 6,
   "emailCount": 10,
   "flows": [

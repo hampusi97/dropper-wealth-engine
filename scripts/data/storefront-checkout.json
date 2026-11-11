@@ -1,11 +1,17 @@
 {
-  "_note": "Paste a Stripe Payment Link per SKU, and form endpoints, then rerun node scripts/build-storefronts.mjs",
+  "_note": "Set contactEmail per store to the inbox that should receive orders/quotes (free option: a Gmail address). stripePaymentLinks: paste a Stripe Payment Link per SKU when you have them (Stripe has no monthly fee; ~2.9%+30c per charge). pay: optional free handles \u2014 venmo/paypal/cashapp usernames, shown as 'pay this way instead'. forms: optional free form endpoint (e.g. Formspree free tier) for b2b/creator/vault; leave empty to use email. Then run: node scripts/build-storefronts.mjs && node scripts/build-store-index.mjs && git add -A && git commit && git push",
   "store-01-bizi-bees": {
     "stripePaymentLinks": {},
     "forms": {
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-02-luma-clinical": {
@@ -14,6 +20,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-03-cryo-halo": {
@@ -22,6 +34,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-04-sculpt-wave": {
@@ -30,6 +48,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-05-wonder-hive": {
@@ -38,6 +62,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-06-atelier-grid": {
@@ -46,6 +76,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-07-aether-sleep": {
@@ -54,6 +90,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-08-kova-brew": {
@@ -62,6 +104,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-09-spine-align": {
@@ -70,6 +118,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-10-terra-paw": {
@@ -78,6 +132,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-11-nomad-carry": {
@@ -86,6 +146,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-12-solace-aroma": {
@@ -94,6 +160,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-13-kinetic-grip": {
@@ -102,6 +174,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-14-lumen-desk": {
@@ -110,6 +188,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   },
   "store-15-verde-hydro": {
@@ -118,6 +202,12 @@
       "b2b": "",
       "creator": "",
       "vault": ""
+    },
+    "contactEmail": "",
+    "pay": {
+      "venmo": "",
+      "paypal": "",
+      "cashapp": ""
     }
   }
 }

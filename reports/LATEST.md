@@ -1,6 +1,10 @@
 # Dropper OS — Daily Treasury Report
 
+<<<<<<< Updated upstream
 **Generated:** 2026-11-11T22:06:53.914Z
+=======
+**Generated:** 2026-11-11T22:07:24.866Z
+>>>>>>> Stashed changes
 **Source:** — ⚠️ **no `reports/treasury-results.json` yet: every figure below is zero, because no real sales have been recorded.** A fillable copy is at `reports/treasury-results.template.json`.
 
 ## Fleet

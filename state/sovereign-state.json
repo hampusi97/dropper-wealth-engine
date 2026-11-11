@@ -1,60 +1,97 @@
 {
+<<<<<<< Updated upstream
   "ranAt": "2026-11-11T22:06:53.309Z",
   "durationMs": 11533,
+=======
+  "ranAt": "2026-11-11T22:07:24.335Z",
+  "durationMs": 12499,
+>>>>>>> Stashed changes
   "mode": "full",
   "steps": [
     {
       "name": "fleet config",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 225,
+=======
+      "ms": 34,
+>>>>>>> Stashed changes
       "detail": "fleet config: 15 stores"
     },
     {
       "name": "catalogs",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 40,
+=======
+      "ms": 44,
+>>>>>>> Stashed changes
       "detail": "margin: min 72.1% avg 74.3% max 77.5%"
     },
     {
       "name": "feeds",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 33,
+=======
+      "ms": 40,
+>>>>>>> Stashed changes
       "detail": "feeds: 15 files, 180 items"
     },
     {
       "name": "content",
       "ok": true,
-      "ms": 38,
+      "ms": 48,
       "detail": "content: 60 SEO guides, 75 ad scripts, 150 lifecycle emails, 15 creator briefs"
     },
     {
       "name": "bots",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 30,
+=======
+      "ms": 32,
+>>>>>>> Stashed changes
       "detail": "bots: 0 modules written, 21 registered across 7 departments, 1400 credits allocated"
     },
     {
       "name": "storefronts",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 47,
+=======
+      "ms": 49,
+>>>>>>> Stashed changes
       "detail": "[storefront] done — 15 storefronts, 75 files"
     },
     {
       "name": "storefront index",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 30,
+=======
+      "ms": 31,
+>>>>>>> Stashed changes
       "detail": "store index: 15 storefronts linked"
     },
     {
       "name": "themes",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 77,
+=======
+      "ms": 147,
+>>>>>>> Stashed changes
       "detail": "[theme] done — 15 themes, 510 files"
     },
     {
       "name": "theme QA",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 57,
+=======
+      "ms": 70,
+>>>>>>> Stashed changes
       "detail": "=== PASS — 0 error(s) across 15 themes ==="
     },
     {
@@ -68,31 +105,40 @@
     {
       "id": "01-omega-builder",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "02-solver",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
       "id": "03-uptime-speed",
       "ok": false,
+<<<<<<< Updated upstream
       "ms": 10601,
       "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":401,\"live\":false,\"error\":\"TypeError\"},{\"s"
+=======
+      "ms": 11819,
+      "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":27,\"live\":false,\"error\":\"TypeError\"},{\"st"
+>>>>>>> Stashed changes
     },
     {
       "id": "04-trend-arbitrage",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 2,
+=======
+      "ms": 4,
+>>>>>>> Stashed changes
       "summary": "pass"
     },
     {
       "id": "05-review-psych",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
@@ -110,13 +156,17 @@
     {
       "id": "08-scrolly-3d",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
       "id": "09-aesthetic-qa",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 55,
+=======
+      "ms": 84,
+>>>>>>> Stashed changes
       "summary": "pass"
     },
     {
@@ -164,7 +214,11 @@
     {
       "id": "17-lifecycle-email",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 0,
+=======
+      "ms": 6,
+>>>>>>> Stashed changes
       "summary": "pass"
     },
     {

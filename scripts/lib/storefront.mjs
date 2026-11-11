@@ -51,6 +51,10 @@ export function buildStorefront(store, fleet) {
     checkout: Object.fromEntries(cat.map((r) => [r.sku, ""])),
     /** Form endpoints (b2b / creator / vault); empty = the form opens the visitor's mail app. */
     forms: { b2b: "", creator: "", vault: "" },
+    /** Free checkout paths. `contactEmail` is the address the order/quote is composed to. */
+    contactEmail: "",
+    /** Optional free payment handles (all optional): venmo, paypal, cashapp. */
+    pay: { venmo: "", paypal: "", cashapp: "" },
     partnerVoucher: "$20",
     partners: partners.map((x) => ({ name: x.name, domain: x.domain, niche: x.niche })),
     b2b: store.b2b,
@@ -230,7 +234,7 @@ ${productCards}
 <footer class="foot">
   <p><b>${esc(store.name)}</b> · ${esc(store.domain)}</p>
   <p>${esc(store.vipClub)} · 10 points per $1 · give $15, get $15</p>
-  <p class="fine">Static storefront built by Dropper OS. Payments run through Stripe Payment Links; shipping and support are handled by ${esc(store.name)}.</p>
+  <p class="fine">Order online and pay by card, PayPal or bank transfer — we email a secure payment link with your invoice. Shipping and support are handled by ${esc(store.name)}.</p>
 </footer>
 
 <!-- cart drawer -->
@@ -467,9 +471,14 @@ input:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(-
     });
     var link = (S.checkout || {})[cart[0].sku];
     if (link) { window.location.href = link; return; }
-    // no Stripe Payment Link configured yet: fall back to an email order so nothing is silently lost
-    var body = encodeURIComponent("Order for " + S.storeName + "\\n\\n" + lines.join("\\n") + "\\n\\nSubtotal: " + fmt(subtotal()));
-    if (note) note.innerHTML = 'Stripe checkout is not linked yet. <a href="mailto:orders@' + S.domain + '?subject=Order%20' + encodeURIComponent(S.storeName) + '&body=' + body + '">Send this order by email</a> and we will invoice you.';
+    var mail = (S.contactEmail || "orders@" + S.domain);
+    var subject = "Order — " + S.storeName + " — " + fmt(subtotal());
+    var href = "mailto:" + mail + "?subject=" + encodeURIComponent(subject) + "&body=" + body;
+    if (note) {
+      note.innerHTML = 'Order ready. <a href="' + href + '"><b>Send it by email</b></a> — we reply with a secure payment link (card, PayPal or bank transfer) within a few hours.';
+    } else {
+      window.location.href = href;
+    }
   });
 
   qa("[data-form]").forEach(function (form) {
@@ -484,7 +493,8 @@ input:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(-
         // no backend configured: open the visitor's mail client with a pre-filled message
         var subject = kind === "b2b" ? "Bulk quote request — " + S.storeName : kind === "creator" ? "Creator application — " + S.storeName : "Club signup — " + S.storeName;
         var body = encodeURIComponent(Object.keys(data).map(function (k) { return k + ": " + data[k]; }).join("\\n"));
-        window.location.href = "mailto:" + (kind === "b2b" ? "wholesale" : "hello") + "@" + S.domain + "?subject=" + encodeURIComponent(subject) + "&body=" + body;
+        var to = (S.forms && S.forms.recipient) || S.contactEmail || ((kind === "b2b" ? "wholesale" : "hello") + "@" + S.domain);
+        window.location.href = "mailto:" + to + "?subject=" + encodeURIComponent(subject) + "&body=" + body;
         if (note) note.textContent = "Opened your email app — send it and we reply within one business day.";
         return;
       }
