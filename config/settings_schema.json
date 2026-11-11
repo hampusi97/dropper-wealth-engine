@@ -1,0 +1,51 @@
+{
+  "name": "VerdeHydro",
+  "theme_name": "VerdeHydro — Dropper OS 2.0",
+  "theme_version": "14.0.0",
+  "theme_author": "Dropper OS",
+  "theme_documentation_url": "https://verdehydro.com/pages/about",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Colours"
+    },
+    {
+      "type": "color",
+      "id": "color_background",
+      "label": "Background",
+      "default": "#0A0F0A"
+    },
+    {
+      "type": "color",
+      "id": "color_surface",
+      "label": "Surface",
+      "default": "#131C13"
+    },
+    {
+      "type": "color",
+      "id": "color_accent",
+      "label": "Accent",
+      "default": "#84CC16"
+    },
+    {
+      "type": "header",
+      "content": "Monetization engines"
+    },
+    {
+      "type": "text",
+      "id": "digital_variant_id",
+      "label": "Digital add-on variant ID (numeric, from the Shopify admin)"
+    },
+    {
+      "type": "text",
+      "id": "selling_plan_id",
+      "label": "Subscribe & Save selling plan ID"
+    },
+    {
+      "type": "text",
+      "id": "partner_voucher_code",
+      "label": "Cross-store partner voucher code",
+      "default": "PARTNER20"
+    }
+  ]
+}

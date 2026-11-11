@@ -1,0 +1,54 @@
+<section class="hero" data-hero data-store="store-15-verde-hydro">
+  <div class="hero__stage" data-hero-stage>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__isometric" data-isometric>
+      <div class="layer" data-depth="34" style="--i: 0">
+        <span class="layer__index">01</span>
+        <span class="layer__name">Solid Brass Halo Ring</span>
+        <span class="layer__note">Unlacquered, patinas over time</span>
+      </div>
+      <div class="layer" data-depth="68" style="--i: 1">
+        <span class="layer__index">02</span>
+        <span class="layer__name">4000K Full-Spectrum LED</span>
+        <span class="layer__note">PPFD 120 at 12 in</span>
+      </div>
+      <div class="layer" data-depth="102" style="--i: 2">
+        <span class="layer__index">03</span>
+        <span class="layer__name">Self-Watering Ceramic Planter</span>
+        <span class="layer__note">600 ml reservoir</span>
+      </div>
+      <div class="layer" data-depth="136" style="--i: 3">
+        <span class="layer__index">04</span>
+        <span class="layer__name">Wick &amp; Water-Level Window</span>
+        <span class="layer__note">No guess watering</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__copy">
+    <p class="hero__eyebrow">Brass full-spectrum grow lights and hydro systems for houseplant people.</p>
+    <h1 class="hero__title">{{ section.settings.heading | default: "VerdeHydro 4000K Brass Halo Grow Light & Planter" }}</h1>
+    <p class="hero__lede">{{ section.settings.lede | default: "A 4000K full-spectrum halo grow light in a solid brass ring, set into a self-watering ceramic planter." }}</p>
+    <ul class="hero__callouts">
+        <li><b>01</b> Solid Brass Halo Ring &mdash; Unlacquered, patinas over time</li>
+        <li><b>02</b> 4000K Full-Spectrum LED &mdash; PPFD 120 at 12 in</li>
+        <li><b>03</b> Self-Watering Ceramic Planter &mdash; 600 ml reservoir</li>
+        <li><b>04</b> Wick &amp; Water-Level Window &mdash; No guess watering</li>
+    </ul>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ section.settings.cta_link | default: '/products/verdehydro-4000k-brass-halo-grow-light-planter' }}">Unlock the complete set &mdash; {{ section.settings.price | default: 49 }}</a>
+      <a class="btn btn--ghost" href="#bundles">Compare 3 tiers</a>
+    </div>
+    <p class="hero__meta">Ships from {{ shop.name }} &bull; 60-day guarantee &bull; Subscribe &amp; save 20%</p>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "3D exploded hero",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "VerdeHydro 4000K Brass Halo Grow Light & Planter" },
+    { "type": "textarea", "id": "lede", "label": "Lede", "default": "A 4000K full-spectrum halo grow light in a solid brass ring, set into a self-watering ceramic planter." },
+    { "type": "url", "id": "cta_link", "label": "CTA link" },
+    { "type": "number", "id": "price", "label": "Hero price (USD)", "default": 49 }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,25 @@
+<section class="b2b" id="b2b">
+  <div class="b2b__copy">
+    <p class="eyebrow">Bulk &amp; institutional ordering</p>
+    <h2>Interior Plantscapers &amp; Modern Offices</h2>
+    <p>Office plant-wall lighting and care restocks. Minimum 10 units. Invoicing and POs accepted.</p>
+    <ul class="b2b__tiers"><li><b>10+ units</b> &mdash; 30% off list</li><li><b>25+ units</b> &mdash; 40% off list</li></ul>
+  </div>
+  <form class="b2b__form" method="post" action="/contact#contact_form" accept-charset="UTF-8">
+    <input type="hidden" name="form_type" value="contact">
+    <input type="hidden" name="utf8" value="✓">
+    <input type="hidden" name="contact[b2b_request]" value="yes">
+    <label>Organisation<input type="text" name="contact[organisation]" required></label>
+    <label>Work email<input type="email" name="contact[email]" required></label>
+    <label>Units needed<input type="number" name="contact[units]" min="10" value="10" required></label>
+    <label>Timeline<input type="text" name="contact[timeline]" placeholder="e.g. before Q3"></label>
+    <button class="btn btn--primary" type="submit">Request bulk quote</button>
+    <p class="b2b__note">A quote comes back within one business day with tier pricing and freight.</p>
+  </form>
+</section>
+{% schema %}
+{
+  "name": "B2B bulk portal",
+  "settings": []
+}
+{% endschema %}

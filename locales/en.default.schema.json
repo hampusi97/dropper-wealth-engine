@@ -1,0 +1,31 @@
+{
+  "sections": {
+    "announcement-bar": {
+      "name": "Announcement bar"
+    },
+    "header": {
+      "name": "Header"
+    },
+    "hero-scrollytelling": {
+      "name": "3D exploded hero"
+    },
+    "bundles-subscribe": {
+      "name": "Bundle + subscribe tiers"
+    },
+    "featured-collection": {
+      "name": "Featured collection"
+    },
+    "b2b-wholesale": {
+      "name": "B2B bulk portal"
+    },
+    "creator-affiliate": {
+      "name": "Creator affiliate portal"
+    },
+    "cross-store-voucher": {
+      "name": "Cross-store voucher"
+    },
+    "footer": {
+      "name": "Footer"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+<section class="pdp" data-pdp>
+  <div class="pdp__media">
+    {%- if product.featured_image -%}
+      <img src="{{ product.featured_image | image_url: width: 1200 }}" alt="{{ product.featured_image.alt | escape }}" width="1200" height="1200">
+    {%- else -%}
+      <div class="pdp__ph" aria-hidden="true"><span>{{ product.title }}</span></div>
+    {%- endif -%}
+  </div>
+
+  <div class="pdp__info">
+    <h1 class="pdp__title">{{ product.title | default: "VerdeHydro 4000K Brass Halo Grow Light & Planter" }}</h1>
+    <p class="pdp__price" data-pdp-price>{{ product.price | money }}</p>
+    <p class="pdp__lede">{{ product.description | strip_html | truncate: 220 | default: "A 4000K full-spectrum halo grow light in a solid brass ring, set into a self-watering ceramic planter." }}</p>
+
+    <form class="pdp__form" data-pdp-form>
+      <fieldset class="tiers">
+        <legend>Choose your tier</legend>
+        <label class="tier">
+          <input type="radio" name="tier" value="1" checked>
+          <span class="tier__label">1 &times; Starter</span>
+          <span class="tier__price">{{ product.price | money }}</span>
+        </label>
+        <label class="tier">
+          <input type="radio" name="tier" value="2">
+          <span class="tier__label">2 &times; Duo &mdash; save 15%</span>
+          <span class="tier__price">Free shipping</span>
+        </label>
+        <label class="tier">
+          <input type="radio" name="tier" value="3">
+          <span class="tier__label">3 &times; Collector Vault &mdash; save 25%</span>
+          <span class="tier__price">+ companion gift</span>
+        </label>
+      </fieldset>
+
+      <fieldset class="plan">
+        <legend>Buying option</legend>
+        <label class="plan__row">
+          <input type="radio" name="plan" value="one-time" checked>
+          <span>One-time purchase</span>
+        </label>
+        <label class="plan__row">
+          <input type="radio" name="plan" value="subscribe">
+          <span>Subscribe &amp; Save 20% &mdash; Monthly Organic Liquid Plant Food &amp; Hydro-Wick Refill ($18/month)</span>
+        </label>
+      </fieldset>
+
+      <div class="pdp__actions">
+        <button type="submit" class="btn btn--primary" data-add-to-cart>Add to bag</button>
+        <p class="pdp__guarantee">60-day guarantee &bull; ships in 1 business day</p>
+      </div>
+      <p class="pdp__status" data-pdp-status role="status" aria-live="polite"></p>
+    </form>
+
+    <ul class="pdp__bullets">
+      <li>4000K full spectrum</li>
+      <li>PPFD 120 at 12 in</li>
+      <li>Self-watering reservoir</li>
+      <li>Solid brass, patinas naturally</li>
+    </ul>
+
+    <details class="pdp__accordion" open>
+      <summary>What's in the box</summary>
+      <ul><li><b>Solid Brass Halo Ring</b> &mdash; Unlacquered, patinas over time</li><li><b>4000K Full-Spectrum LED</b> &mdash; PPFD 120 at 12 in</li><li><b>Self-Watering Ceramic Planter</b> &mdash; 600 ml reservoir</li><li><b>Wick &amp; Water-Level Window</b> &mdash; No guess watering</li></ul>
+    </details>
+    <details class="pdp__accordion">
+      <summary>Bulk orders (10+ units)</summary>
+      <p>Interior Plantscapers &amp; Modern Offices get 10+ units at 30% off, 25+ units at 40% off. <a href="/pages/b2b-wholesale">Request a quote</a>.</p>
+    </details>
+  </div>
+</section>
+
+<section class="bundles" id="bundles">
+  <div class="section-head"><h2>Why people buy the set</h2><p>Each tier is the same product, priced for the way you actually use it.</p></div>
+  <div class="bundle-grid">
+    <article class="bundle"><p class="bundle__tag">Starter</p><p class="bundle__price">$49.00</p><ul><li>1 unit</li><li>Digital add-on available</li></ul></article>
+    <article class="bundle bundle--feature"><p class="bundle__tag">Duo &mdash; save 15%</p><p class="bundle__price">$83.30</p><ul><li>2 units</li><li>Free shipping</li><li>Save $14.70</li></ul></article>
+    <article class="bundle"><p class="bundle__tag">Collector Vault &mdash; save 25%</p><p class="bundle__price">$110.25</p><ul><li>3 units</li><li>Free shipping</li><li>Free companion gift</li></ul></article>
+  </div>
+</section>
