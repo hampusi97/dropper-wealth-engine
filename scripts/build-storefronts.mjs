@@ -38,6 +38,9 @@ for (const store of targets) {
     data.checkout = { ...data.checkout, ...cfg.stripePaymentLinks };
     files["index.html"] = files["index.html"].replace(/window\.__STORE__ = \{[\s\S]*?\};<\/script>/, `window.__STORE__ = ${JSON.stringify(data)};</script>`);
   }
+  if (cfg.contactEmail) {
+    files["index.html"] = files["index.html"].replace('"contactEmail":""', '"contactEmail":' + JSON.stringify(cfg.contactEmail));
+  }
   if (cfg.forms && Object.values(cfg.forms).some(Boolean)) {
     files["index.html"] = files["index.html"].replace(/<script>window\.__FORMS__ = \{[^}]*\};<\/script>/, `<script>window.__FORMS__ = ${JSON.stringify(cfg.forms)};</script>`);
   }

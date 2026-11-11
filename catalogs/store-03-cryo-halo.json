@@ -5,7 +5,11 @@
   "niche": "Cryotherapy Migraine Caps & Sleep Recovery",
   "skuPrefix": "DROP-CRYO-",
   "fulfillment": "api-dropship",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:07:53.662Z",
+=======
+  "generatedAt": "2026-11-11T22:10:58.464Z",
+>>>>>>> Stashed changes
   "productCount": 12,
   "products": [
     {

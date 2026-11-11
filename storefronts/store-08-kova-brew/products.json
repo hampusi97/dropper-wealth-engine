@@ -1,6 +1,10 @@
 {
   "storeId": "store-08-kova-brew",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:07:53.851Z",
+=======
+  "generatedAt": "2026-11-11T22:10:58.637Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "DROP-BREW-001",

@@ -1,18 +1,31 @@
 {
+<<<<<<< Updated upstream
   "ranAt": "2026-11-11T22:07:53.584Z",
   "durationMs": 11401,
+=======
+  "ranAt": "2026-11-11T22:10:58.387Z",
+  "durationMs": 13133,
+>>>>>>> Stashed changes
   "mode": "full",
   "steps": [
     {
       "name": "fleet config",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 43,
+=======
+      "ms": 42,
+>>>>>>> Stashed changes
       "detail": "fleet config: 15 stores"
     },
     {
       "name": "catalogs",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 46,
+=======
+      "ms": 49,
+>>>>>>> Stashed changes
       "detail": "margin: min 72.1% avg 74.3% max 77.5%"
     },
     {
@@ -24,43 +37,71 @@
     {
       "name": "content",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 51,
+=======
+      "ms": 50,
+>>>>>>> Stashed changes
       "detail": "content: 60 SEO guides, 75 ad scripts, 150 lifecycle emails, 15 creator briefs"
     },
     {
       "name": "bots",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 38,
+=======
+      "ms": 30,
+>>>>>>> Stashed changes
       "detail": "bots: 0 modules written, 21 registered across 7 departments, 1400 credits allocated"
     },
     {
       "name": "storefronts",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 56,
+=======
+      "ms": 45,
+>>>>>>> Stashed changes
       "detail": "[storefront] done — 15 storefronts, 75 files"
     },
     {
       "name": "storefront index",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 37,
+=======
+      "ms": 29,
+>>>>>>> Stashed changes
       "detail": "store index: 15 storefronts linked"
     },
     {
       "name": "themes",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 106,
+=======
+      "ms": 153,
+>>>>>>> Stashed changes
       "detail": "[theme] done — 15 themes, 510 files"
     },
     {
       "name": "theme QA",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 75,
+=======
+      "ms": 65,
+>>>>>>> Stashed changes
       "detail": "=== PASS — 0 error(s) across 15 themes ==="
     },
     {
       "name": "daily report",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 329,
+=======
+      "ms": 118,
+>>>>>>> Stashed changes
       "detail": "daily report: TEMPLATE (no real sales yet) — net $0.00, run rate $0.00/mo"
     }
   ],
@@ -80,13 +121,28 @@
     {
       "id": "03-uptime-speed",
       "ok": false,
+<<<<<<< Updated upstream
       "ms": 10489,
       "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":173,\"live\":false,\"error\":\"TypeError\"},{\"s"
+=======
+      "ms": 12363,
+      "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":163,\"live\":false,\"error\":\"TypeError\"},{\"s"
+>>>>>>> Stashed changes
     },
     {
       "id": "04-trend-arbitrage",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 3,
+      "summary": "pass"
+    },
+    {
+      "id": "05-review-psych",
+      "ok": true,
+      "ms": 0,
+=======
+      "ms": 1,
+>>>>>>> Stashed changes
       "summary": "pass"
     },
     {
@@ -98,7 +154,7 @@
     {
       "id": "06-digital-upsell",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
@@ -116,13 +172,17 @@
     {
       "id": "09-aesthetic-qa",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 71,
+=======
+      "ms": 116,
+>>>>>>> Stashed changes
       "summary": "pass"
     },
     {
       "id": "10-bundle-sub",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
@@ -140,19 +200,23 @@
     {
       "id": "13-google-merchant",
       "ok": true,
-      "ms": 1,
+      "ms": 4,
       "summary": "pass"
     },
     {
       "id": "14-programmatic-seo",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "15-viral-affiliate",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 1,
+=======
+      "ms": 10,
+>>>>>>> Stashed changes
       "summary": "pass"
     },
     {
@@ -164,13 +228,17 @@
     {
       "id": "17-lifecycle-email",
       "ok": true,
+<<<<<<< Updated upstream
       "ms": 1,
+=======
+      "ms": 3,
+>>>>>>> Stashed changes
       "summary": "pass"
     },
     {
       "id": "18-concierge-closer",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {

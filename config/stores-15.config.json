@@ -2,7 +2,11 @@
   "schema": "dropper-os-stores-registry-v14",
   "documentId": "DROPPER-WEALTH-ENGINE-V13.0",
   "repo": "hampusi97/dropper-wealth-engine",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:07:53.618Z",
+=======
+  "generatedAt": "2026-11-11T22:10:58.421Z",
+>>>>>>> Stashed changes
   "northStar": {
     "monthlyBaselineUSD": 50000,
     "dailyBaselineUSD": 1667,
