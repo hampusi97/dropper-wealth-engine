@@ -1,0 +1,54 @@
+<section class="hero" data-hero data-store="store-06-atelier-grid">
+  <div class="hero__stage" data-hero-stage>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__isometric" data-isometric>
+      <div class="layer" data-depth="34" style="--i: 0">
+        <span class="layer__index">01</span>
+        <span class="layer__name">Sewn Lay-Flat Binding</span>
+        <span class="layer__note">Opens to 180° on the desk</span>
+      </div>
+      <div class="layer" data-depth="68" style="--i: 1">
+        <span class="layer__index">02</span>
+        <span class="layer__name">120gsm Archival Paper</span>
+        <span class="layer__note">Fountain-pen safe, no ghosting</span>
+      </div>
+      <div class="layer" data-depth="102" style="--i: 2">
+        <span class="layer__index">03</span>
+        <span class="layer__name">Checkered Linen Cover</span>
+        <span class="layer__note">Printed, scuff-resistant</span>
+      </div>
+      <div class="layer" data-depth="136" style="--i: 3">
+        <span class="layer__index">04</span>
+        <span class="layer__name">12 Tabbed Month Dividers</span>
+        <span class="layer__note">Plus 40 dot-grid notes pages</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__copy">
+    <p class="hero__eyebrow">Lay-flat archival planners and desk systems for people who actually plan.</p>
+    <h1 class="hero__title">{{ section.settings.heading | default: "2027 Checkered Lay-Flat Weekly Planner" }}</h1>
+    <p class="hero__lede">{{ section.settings.lede | default: "A sewn lay-flat weekly planner on 120gsm archival paper with a checkered linen cover and 12 tabbed months." }}</p>
+    <ul class="hero__callouts">
+        <li><b>01</b> Sewn Lay-Flat Binding &mdash; Opens to 180° on the desk</li>
+        <li><b>02</b> 120gsm Archival Paper &mdash; Fountain-pen safe, no ghosting</li>
+        <li><b>03</b> Checkered Linen Cover &mdash; Printed, scuff-resistant</li>
+        <li><b>04</b> 12 Tabbed Month Dividers &mdash; Plus 40 dot-grid notes pages</li>
+    </ul>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ section.settings.cta_link | default: '/products/2027-checkered-lay-flat-weekly-planner' }}">Unlock the complete set &mdash; {{ section.settings.price | default: 39 }}</a>
+      <a class="btn btn--ghost" href="#bundles">Compare 3 tiers</a>
+    </div>
+    <p class="hero__meta">Ships from {{ shop.name }} &bull; 60-day guarantee &bull; Subscribe &amp; save 20%</p>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "3D exploded hero",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "2027 Checkered Lay-Flat Weekly Planner" },
+    { "type": "textarea", "id": "lede", "label": "Lede", "default": "A sewn lay-flat weekly planner on 120gsm archival paper with a checkered linen cover and 12 tabbed months." },
+    { "type": "url", "id": "cta_link", "label": "CTA link" },
+    { "type": "number", "id": "price", "label": "Hero price (USD)", "default": 39 }
+  ]
+}
+{% endschema %}

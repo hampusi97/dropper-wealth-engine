@@ -1,0 +1,27 @@
+<section class="creators" id="creators">
+  <div class="creators__card">
+    <p class="eyebrow">Creator &amp; affiliate programme</p>
+    <h2>Earn 20% cash on every order you send</h2>
+    <p>No follower minimum, no upfront spend. Post the product, get a link, get paid monthly on net sales.</p>
+    <ul>
+      <li>20% commission, paid by the 5th</li>
+      <li>90-day cookie, self-serve dashboard</li>
+      <li>Free product for the first 10 approved creators</li>
+    </ul>
+    <form class="creators__form" method="post" action="/contact#contact_form" accept-charset="UTF-8">
+      <input type="hidden" name="form_type" value="contact">
+      <input type="hidden" name="utf8" value="✓">
+      <input type="hidden" name="contact[affiliate_application]" value="yes">
+      <label>Name / handle<input type="text" name="contact[name]" required></label>
+      <label>Email<input type="email" name="contact[email]" required></label>
+      <label>Where you post<input type="text" name="contact[channel]" placeholder="TikTok, Reels, YouTube, blog"></label>
+      <button class="btn btn--primary" type="submit">Apply as a creator</button>
+    </form>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Creator affiliate portal",
+  "settings": []
+}
+{% endschema %}
