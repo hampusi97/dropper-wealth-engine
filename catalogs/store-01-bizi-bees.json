@@ -1,0 +1,519 @@
+{
+  "storeId": "store-01-bizi-bees",
+  "storeName": "Bizi Bees Boutique",
+  "domain": "shopbizibees.com",
+  "niche": "Pre-Loved Books, Complete Board Games & Utah Finds",
+  "skuPrefix": "UTAH-",
+  "fulfillment": "utah-hub",
+  "generatedAt": "2026-11-11T21:48:05.630Z",
+  "productCount": 12,
+  "products": [
+    {
+      "skuIndex": 1,
+      "sku": "UTAH-001",
+      "title": "The Utah Reader & Game Night Box",
+      "handle": "the-utah-reader-game-night-box",
+      "category": "Gift Box",
+      "price": 44,
+      "cost": 11.6,
+      "compareAt": 64,
+      "summary": "One hand-graded hardcover, one verified-complete board game, a solid brass page anchor, and a Utah kraft collector box.",
+      "features": [
+        "Book graded A/B on a 5-point spine test",
+        "Board game pieces counted vs. manual",
+        "Ships in 1 business day from Utah",
+        "60-day swap guarantee"
+      ],
+      "isHero": true,
+      "marginPercent": 73.6,
+      "marginUSD": 32.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 44,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 74.8,
+          "savings": 13.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 99,
+          "savings": 33,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 2,
+      "sku": "UTAH-002",
+      "title": "Vintage Hardcover Reading Bundle (3 Books)",
+      "handle": "vintage-hardcover-reading-bundle-3-books",
+      "category": "Books",
+      "price": 29,
+      "cost": 7.9,
+      "compareAt": 44,
+      "summary": "Three graded hardcovers from one theme, no duplicates.",
+      "features": [
+        "Three graded hardcovers from one theme, no duplicates."
+      ],
+      "isHero": false,
+      "marginPercent": 72.8,
+      "marginUSD": 21.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 3,
+      "sku": "UTAH-003",
+      "title": "Complete Board Game Rescue Box",
+      "handle": "complete-board-game-rescue-box",
+      "category": "Board Games",
+      "price": 39,
+      "cost": 10.6,
+      "compareAt": 59,
+      "summary": "Two out-of-print board games, both piece-verified.",
+      "features": [
+        "Two out-of-print board games, both piece-verified."
+      ],
+      "isHero": false,
+      "marginPercent": 72.8,
+      "marginUSD": 28.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 4,
+      "sku": "UTAH-004",
+      "title": "Utah Made Beeswax Candle Trio",
+      "handle": "utah-made-beeswax-candle-trio",
+      "category": "Utah Finds",
+      "price": 34,
+      "cost": 8.4,
+      "compareAt": 44,
+      "summary": "Three 6 oz pours from a Cache Valley apiary.",
+      "features": [
+        "Three 6 oz pours from a Cache Valley apiary."
+      ],
+      "isHero": false,
+      "marginPercent": 75.3,
+      "marginUSD": 25.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 5,
+      "sku": "UTAH-005",
+      "title": "Brass Bookmark & Page Anchor Set",
+      "handle": "brass-bookmark-page-anchor-set",
+      "category": "Accessories",
+      "price": 14,
+      "cost": 3.9,
+      "compareAt": 24,
+      "summary": "Two solid brass markers in a felt sleeve.",
+      "features": [
+        "Two solid brass markers in a felt sleeve."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 10.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 14,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 23.8,
+          "savings": 4.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 31.5,
+          "savings": 10.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 6,
+      "sku": "UTAH-006",
+      "title": "Salt Flats Desk Print Set (5)",
+      "handle": "salt-flats-desk-print-set-5",
+      "category": "Home",
+      "price": 24,
+      "cost": 6.1,
+      "compareAt": 34,
+      "summary": "Giclee prints of the Bonneville salt flats at five hours.",
+      "features": [
+        "Giclee prints of the Bonneville salt flats at five hours."
+      ],
+      "isHero": false,
+      "marginPercent": 74.6,
+      "marginUSD": 17.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 7,
+      "sku": "UTAH-007",
+      "title": "Puzzle & Board Game Night Kit",
+      "handle": "puzzle-board-game-night-kit",
+      "category": "Board Games",
+      "price": 49,
+      "cost": 12.4,
+      "compareAt": 69,
+      "summary": "Two complete classics, timer, scorepad, snack tins.",
+      "features": [
+        "Two complete classics, timer, scorepad, snack tins."
+      ],
+      "isHero": false,
+      "marginPercent": 74.7,
+      "marginUSD": 36.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 49,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 83.3,
+          "savings": 14.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 110.25,
+          "savings": 36.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 8,
+      "sku": "UTAH-008",
+      "title": "Used Manga Starter Stack (10 vols)",
+      "handle": "used-manga-starter-stack-10-vols",
+      "category": "Books",
+      "price": 34,
+      "cost": 9.1,
+      "compareAt": 49,
+      "summary": "Ten consecutive volumes, spine-matched.",
+      "features": [
+        "Ten consecutive volumes, spine-matched."
+      ],
+      "isHero": false,
+      "marginPercent": 73.2,
+      "marginUSD": 24.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 9,
+      "sku": "UTAH-009",
+      "title": "Cast Iron Camp Skillet (10in)",
+      "handle": "cast-iron-camp-skillet-10in",
+      "category": "Utah Finds",
+      "price": 39,
+      "cost": 10.2,
+      "compareAt": 54,
+      "summary": "Pre-seasoned, Utah-forged handle.",
+      "features": [
+        "Pre-seasoned, Utah-forged handle."
+      ],
+      "isHero": false,
+      "marginPercent": 73.8,
+      "marginUSD": 28.8,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 10,
+      "sku": "UTAH-010",
+      "title": "Beehive State Trivia Card Deck",
+      "handle": "beehive-state-trivia-card-deck",
+      "category": "Games",
+      "price": 19,
+      "cost": 4.6,
+      "compareAt": 24,
+      "summary": "300 Utah questions, plastic-coated cards.",
+      "features": [
+        "300 Utah questions, plastic-coated cards."
+      ],
+      "isHero": false,
+      "marginPercent": 75.8,
+      "marginUSD": 14.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 11,
+      "sku": "UTAH-011",
+      "title": "Kid's Read-Aloud Chapter Book Bundle",
+      "handle": "kid-s-read-aloud-chapter-book-bundle",
+      "category": "Books",
+      "price": 29,
+      "cost": 6.9,
+      "compareAt": 39,
+      "summary": "Four age-graded chapter books for ages 7-10.",
+      "features": [
+        "Four age-graded chapter books for ages 7-10."
+      ],
+      "isHero": false,
+      "marginPercent": 76.2,
+      "marginUSD": 22.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 12,
+      "sku": "UTAH-012",
+      "title": "Wooden Dice Tower & Tray",
+      "handle": "wooden-dice-tower-tray",
+      "category": "Games",
+      "price": 29,
+      "cost": 7.1,
+      "compareAt": 39,
+      "summary": "Solid oak tower with a felt catch tray.",
+      "features": [
+        "Solid oak tower with a felt catch tray."
+      ],
+      "isHero": false,
+      "marginPercent": 75.5,
+      "marginUSD": 21.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    }
+  ]
+}

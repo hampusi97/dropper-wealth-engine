@@ -1,0 +1,291 @@
+{
+  "generatedAt": "2026-11-11T21:48:05.645Z",
+  "count": 15,
+  "items": [
+    {
+      "storeId": "store-01-bizi-bees",
+      "sku": "UTAH-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "Printable Family Game Night Scorecards & Reading Journal",
+      "price": 9,
+      "format": "PDF + Google Sheets",
+      "pages": 42,
+      "description": "42 printable pages: 12 game-night scorecards, a 24-week reading journal, and a printable family book-club question deck.",
+      "deliverables": [
+        "12 game-night scorecards (print at home)",
+        "24-week reading journal",
+        "48-question family book club deck",
+        "Editable Google Sheets tracker"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-02-luma-clinical",
+      "sku": "DROP-LUMA-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "21-Day Clinical Lymphatic Facial Sculpting Protocol",
+      "price": 14,
+      "format": "PDF + 12 video clips",
+      "pages": 28,
+      "description": "The 21-day sequence a licensed esthetician uses on the LumaGlow: daily 6-minute stroke maps, session timers, and a progress tracker.",
+      "deliverables": [
+        "21 daily session cards",
+        "Stroke-map diagrams (4 zones)",
+        "12 short technique videos",
+        "Printable progress tracker"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-03-cryo-halo",
+      "sku": "DROP-CRYO-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "Neurologist-Designed Migraine Trigger & Sleep Tracker Vault",
+      "price": 9,
+      "format": "PDF + Notion template",
+      "pages": 36,
+      "description": "A 90-day trigger vault: headache diary, sleep-window log, and the cold-timing chart that pairs with the CryoHalo.",
+      "deliverables": [
+        "90-day headache diary",
+        "Sleep-window log",
+        "Cold-timing chart",
+        "Duplicate-able Notion vault"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-04-sculpt-wave",
+      "sku": "DROP-WAVE-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "30-Day Full-Body Lymphatic Contouring Blueprint",
+      "price": 15,
+      "format": "PDF + printable planner",
+      "pages": 54,
+      "description": "A 30-day, zone-by-zone sculpting blueprint: which zone each day, exact head speed, and a measurement tracker with photo prompts.",
+      "deliverables": [
+        "30-day zone calendar",
+        "Head-speed and pressure maps",
+        "Measurement tracker",
+        "12-week photo prompt cards"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-05-wonder-hive",
+      "sku": "DROP-HIVE-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "100-Page Printable Montessori Math & STEM Activity Pack",
+      "price": 9,
+      "format": "PDF (print at home)",
+      "pages": 100,
+      "description": "100 printable pages that extend the WonderHive kit: ten-frame games, number-bond sheets, and 20 build challenges.",
+      "deliverables": [
+        "100 printable activity pages",
+        "Ten-frame game pack",
+        "Number-bond worksheets",
+        "20 STEM build challenges"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-06-atelier-grid",
+      "sku": "DROP-GRID-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "2027 Notion + GoodNotes iPad Archival Planner Suite",
+      "price": 12,
+      "format": "Notion template + GoodNotes file",
+      "pages": 180,
+      "description": "The digital twin of the Atelier Grid planner: 180 hyperlinked GoodNotes pages plus a Notion workspace with the same 12 tabbed months.",
+      "deliverables": [
+        "180-page hyperlinked GoodNotes planner",
+        "Notion workspace duplicate link",
+        "Undated weekly templates",
+        "Grid paper pack (5 styles)"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-07-aether-sleep",
+      "sku": "DROP-SLEEP-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "Circadian Deep-REM Sleep Optimization Audio & Guide",
+      "price": 9,
+      "format": "PDF + 6 audio tracks",
+      "pages": 32,
+      "description": "A 32-page circadian protocol plus six 20-minute audio tracks for wind-down, and a 14-night sleep-window tracker.",
+      "deliverables": [
+        "32-page circadian guide",
+        "6 wind-down audio tracks",
+        "14-night sleep tracker",
+        "Light-exposure timing chart"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-08-kova-brew",
+      "sku": "DROP-BREW-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "Barista Pour-Over & Espresso Extraction Recipe Matrix",
+      "price": 9,
+      "format": "PDF + spreadsheet",
+      "pages": 26,
+      "description": "A dose/yield/time recipe matrix that pairs with the Kova scale: 18 espresso recipes, 12 pour-over recipes, and a dial-in log.",
+      "deliverables": [
+        "18 espresso recipes",
+        "12 pour-over recipes",
+        "Dial-in log spreadsheet",
+        "Grind-size reference card"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-09-spine-align",
+      "sku": "DROP-SPINE-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "10-Minute Daily Desk Posture & Cervical Mobility Routine",
+      "price": 11,
+      "format": "PDF + 10 video clips",
+      "pages": 24,
+      "description": "A 10-minute daily routine: six cervical mobility moves, three desk resets, and a 30-day habit tracker.",
+      "deliverables": [
+        "10-minute routine sheet",
+        "6 mobility move videos",
+        "30-day habit tracker",
+        "Desk setup checklist"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-10-terra-paw",
+      "sku": "DROP-PAW-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "Canine Separation Anxiety & Calming Enrichment Guide",
+      "price": 9,
+      "format": "PDF + printable tracker",
+      "pages": 30,
+      "description": "A 30-page behaviour guide: desensitisation schedule, 14 enrichment games, and a daily calm-tracker for your dog.",
+      "deliverables": [
+        "30-page anxiety guide",
+        "Desensitisation schedule",
+        "14 enrichment games",
+        "Daily calm tracker"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-11-nomad-carry",
+      "sku": "DROP-NOMAD-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "One-Bag Global Minimalist Packing Checklist & Tracker",
+      "price": 9,
+      "format": "PDF + Notion template",
+      "pages": 22,
+      "description": "A one-bag packing system: the 34-item carry-on checklist, a 7-day laundry loop, and a trip tracker in Notion.",
+      "deliverables": [
+        "34-item packing checklist",
+        "7-day laundry loop plan",
+        "Notion trip tracker",
+        "Airline sizer reference card"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-12-solace-aroma",
+      "sku": "DROP-AROMA-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "Home Scent Zoning & Olfactory Architecture Guide",
+      "price": 9,
+      "format": "PDF + oil-blend cards",
+      "pages": 24,
+      "description": "A 24-page scent-zoning guide: which blend belongs in each room, dilution ratios for waterless diffusers, and a 12-blend card deck.",
+      "deliverables": [
+        "24-page scent zoning guide",
+        "Room-by-room blend chart",
+        "12 printable blend cards",
+        "Diffuser cycle timer chart"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-13-kinetic-grip",
+      "sku": "DROP-GRIP-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "8-Week Forearm Hypertrophy, Climbing & Tendon Bulletproofing Plan",
+      "price": 9,
+      "format": "PDF + spreadsheet",
+      "pages": 34,
+      "description": "An 8-week program: four sessions a week, gripper progression tables, and a tendon-load tracker in a spreadsheet.",
+      "deliverables": [
+        "8-week program (32 sessions)",
+        "Gripper progression tables",
+        "Tendon load tracker",
+        "Warm-up and mobility sheets"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-14-lumen-desk",
+      "sku": "DROP-DESK-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "Minimalist Cable Management & Deep-Work Desk Blueprint",
+      "price": 11,
+      "format": "PDF + layout diagrams",
+      "pages": 20,
+      "description": "A desk blueprint: 12 cable routes, a measured layout for dual monitors, and a deep-work session template.",
+      "deliverables": [
+        "Desk layout diagrams",
+        "12 cable routing plans",
+        "Deep-work session template",
+        "Shopping checklist"
+      ],
+      "deliverable": "instant email download"
+    },
+    {
+      "storeId": "store-15-verde-hydro",
+      "sku": "DROP-VERDE-DIG-01",
+      "productType": "Digital",
+      "cogs": 0,
+      "marginPercent": 100,
+      "title": "Rare Aroid & Monstera Propagation Bible",
+      "price": 9,
+      "format": "PDF + printable labels",
+      "pages": 40,
+      "description": "A 40-page propagation bible: 24 aroid species, node-by-node cutting maps, and printable propagation labels.",
+      "deliverables": [
+        "40-page propagation bible",
+        "24 species profiles",
+        "Node cutting maps",
+        "Printable propagation labels"
+      ],
+      "deliverable": "instant email download"
+    }
+  ]
+}

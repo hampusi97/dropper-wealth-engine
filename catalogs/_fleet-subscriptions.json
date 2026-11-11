@@ -1,0 +1,231 @@
+{
+  "generatedAt": "2026-11-11T21:48:05.645Z",
+  "count": 15,
+  "items": [
+    {
+      "storeId": "store-01-bizi-bees",
+      "sku": "UTAH-SUB-01",
+      "title": "Monthly Utah Mystery Book & Board Game Box",
+      "price": 36,
+      "cadence": "month",
+      "cost": 9.4,
+      "perks": [
+        "One graded hardcover every month",
+        "One complete board game",
+        "Members-only $12 add-on pricing",
+        "Cancel or skip anytime"
+      ],
+      "annualValue": 432
+    },
+    {
+      "storeId": "store-02-luma-clinical",
+      "sku": "DROP-LUMA-SUB-01",
+      "title": "Monthly Hyaluronic Conductive Serum Auto-Refill",
+      "price": 24,
+      "cadence": "month",
+      "cost": 5.8,
+      "perks": [
+        "1 oz conductive serum every month",
+        "Free replacement pads every 3rd box",
+        "Member pricing on devices",
+        "Skip or pause anytime"
+      ],
+      "annualValue": 288
+    },
+    {
+      "storeId": "store-03-cryo-halo",
+      "sku": "DROP-CRYO-SUB-01",
+      "title": "Quarterly Cooling Gel Insert Refresh",
+      "price": 29,
+      "cadence": "quarter",
+      "cost": 7.1,
+      "perks": [
+        "Fresh gel inserts every quarter",
+        "Free liner replacements",
+        "Member-only cap colourways",
+        "Pause anytime"
+      ],
+      "annualValue": 116
+    },
+    {
+      "storeId": "store-04-sculpt-wave",
+      "sku": "DROP-WAVE-SUB-01",
+      "title": "Monthly Botanical Firming Conductive Oil",
+      "price": 28,
+      "cadence": "month",
+      "cost": 6.9,
+      "perks": [
+        "8 oz conductive oil monthly",
+        "Free protocol cards with box 1",
+        "Member device pricing",
+        "Skip or cancel anytime"
+      ],
+      "annualValue": 336
+    },
+    {
+      "storeId": "store-05-wonder-hive",
+      "sku": "DROP-HIVE-SUB-01",
+      "title": "Monthly Screen-Free STEM & Sensory Box",
+      "price": 29,
+      "cadence": "month",
+      "cost": 7.4,
+      "perks": [
+        "A new activity theme monthly",
+        "All materials included",
+        "Teacher notes inside",
+        "Skip a month anytime"
+      ],
+      "annualValue": 348
+    },
+    {
+      "storeId": "store-06-atelier-grid",
+      "sku": "DROP-GRID-SUB-01",
+      "title": "Quarterly Dotted Archival Notebook & Pen Club",
+      "price": 32,
+      "cadence": "quarter",
+      "cost": 8.1,
+      "perks": [
+        "One A5 dotted notebook quarterly",
+        "A new 0.5mm pen each quarter",
+        "Member-only cover drops",
+        "Skip anytime"
+      ],
+      "annualValue": 128
+    },
+    {
+      "storeId": "store-07-aether-sleep",
+      "sku": "DROP-SLEEP-SUB-01",
+      "title": "Monthly Lavender Silk Pillow Mist & Mouth Tape Refill",
+      "price": 22,
+      "cadence": "month",
+      "cost": 5.4,
+      "perks": [
+        "4 oz lavender pillow mist",
+        "60-night mouth tape refill",
+        "Member pricing on silk",
+        "Skip anytime"
+      ],
+      "annualValue": 264
+    },
+    {
+      "storeId": "store-08-kova-brew",
+      "sku": "DROP-BREW-SUB-01",
+      "title": "Monthly Precision Filter & Descaling Care Kit",
+      "price": 19,
+      "cadence": "month",
+      "cost": 4.6,
+      "perks": [
+        "200 filter papers monthly",
+        "Descaling care kit every 2nd box",
+        "Member pricing on tools",
+        "Skip anytime"
+      ],
+      "annualValue": 228
+    },
+    {
+      "storeId": "store-09-spine-align",
+      "sku": "DROP-SPINE-SUB-01",
+      "title": "Quarterly Ergonomic Cover & Acupressure Kit",
+      "price": 25,
+      "cadence": "quarter",
+      "cost": 6.1,
+      "perks": [
+        "Fresh washable cover quarterly",
+        "Acupressure node kit",
+        "Member pricing on tools",
+        "Skip anytime"
+      ],
+      "annualValue": 100
+    },
+    {
+      "storeId": "store-10-terra-paw",
+      "sku": "DROP-PAW-SUB-01",
+      "title": "Monthly Waterproof Liner & Calming Chew Box",
+      "price": 29,
+      "cadence": "month",
+      "cost": 7.4,
+      "perks": [
+        "Spare waterproof liner",
+        "Calming chew box",
+        "Member pricing on beds",
+        "Skip anytime"
+      ],
+      "annualValue": 348
+    },
+    {
+      "storeId": "store-11-nomad-carry",
+      "sku": "DROP-NOMAD-SUB-01",
+      "title": "Quarterly Modular Travel Organizer & Tag Drop",
+      "price": 34,
+      "cadence": "quarter",
+      "cost": 8.4,
+      "perks": [
+        "New modular organizer quarterly",
+        "Custom luggage tag drop",
+        "Member pricing on bags",
+        "Skip anytime"
+      ],
+      "annualValue": 136
+    },
+    {
+      "storeId": "store-12-solace-aroma",
+      "sku": "DROP-AROMA-SUB-01",
+      "title": "Monthly 5-Star Hotel Scent Oil Auto-Refill",
+      "price": 27,
+      "cadence": "month",
+      "cost": 6.9,
+      "perks": [
+        "30 ml signature oil monthly",
+        "New seasonal blend each quarter",
+        "Member pricing on diffusers",
+        "Skip anytime"
+      ],
+      "annualValue": 324
+    },
+    {
+      "storeId": "store-13-kinetic-grip",
+      "sku": "DROP-GRIP-SUB-01",
+      "title": "Quarterly Mobility Floss & Chalk Refill",
+      "price": 24,
+      "cadence": "quarter",
+      "cost": 5.9,
+      "perks": [
+        "Floss band set quarterly",
+        "Liquid chalk refill",
+        "Member pricing on grippers",
+        "Skip anytime"
+      ],
+      "annualValue": 96
+    },
+    {
+      "storeId": "store-14-lumen-desk",
+      "sku": "DROP-DESK-SUB-01",
+      "title": "Quarterly Merino Felt & Desk Hardware Care Kit",
+      "price": 29,
+      "cadence": "quarter",
+      "cost": 7.1,
+      "perks": [
+        "Merino felt care kit",
+        "Hardware lubricant and cloth",
+        "Member pricing on lighting",
+        "Skip anytime"
+      ],
+      "annualValue": 116
+    },
+    {
+      "storeId": "store-15-verde-hydro",
+      "sku": "DROP-VERDE-SUB-01",
+      "title": "Monthly Organic Liquid Plant Food & Hydro-Wick Refill",
+      "price": 18,
+      "cadence": "month",
+      "cost": 4.4,
+      "perks": [
+        "8 oz organic plant food",
+        "10-pack hydro wicks",
+        "Member pricing on lights",
+        "Skip anytime"
+      ],
+      "annualValue": 216
+    }
+  ]
+}

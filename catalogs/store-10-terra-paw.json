@@ -1,0 +1,519 @@
+{
+  "storeId": "store-10-terra-paw",
+  "storeName": "TerraPaw Co.",
+  "domain": "terrapawco.com",
+  "niche": "Orthopedic Dog Beds & Calming Enrichment",
+  "skuPrefix": "DROP-PAW-",
+  "fulfillment": "api-dropship",
+  "generatedAt": "2026-11-11T21:48:05.642Z",
+  "productCount": 12,
+  "products": [
+    {
+      "skuIndex": 1,
+      "sku": "DROP-PAW-001",
+      "title": "TerraPaw Human-Grade Orthopedic Bolster Dog Bed",
+      "handle": "terrapaw-human-grade-orthopedic-bolster-dog-bed",
+      "category": "Dog Beds",
+      "price": 74,
+      "cost": 19.4,
+      "compareAt": 109,
+      "summary": "A 4-inch CertiPUR-US memory foam base with a bolster rim, a waterproof liner, and a washable cover.",
+      "features": [
+        "CertiPUR-US memory foam",
+        "Waterproof liner included",
+        "Machine-washable cover",
+        "Sizes M-XL"
+      ],
+      "isHero": true,
+      "marginPercent": 73.8,
+      "marginUSD": 54.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 74,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 125.8,
+          "savings": 22.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 166.5,
+          "savings": 55.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 2,
+      "sku": "DROP-PAW-002",
+      "title": "Waterproof Liner (Spare)",
+      "handle": "waterproof-liner-spare",
+      "category": "Bed Parts",
+      "price": 24,
+      "cost": 6.4,
+      "compareAt": 34,
+      "summary": "Spare liner for any bed size.",
+      "features": [
+        "Spare liner for any bed size."
+      ],
+      "isHero": false,
+      "marginPercent": 73.3,
+      "marginUSD": 17.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 3,
+      "sku": "DROP-PAW-003",
+      "title": "Calming Chew Box",
+      "handle": "calming-chew-box",
+      "category": "Enrichment",
+      "price": 34,
+      "cost": 8.4,
+      "compareAt": 44,
+      "summary": "Six long-lasting chews.",
+      "features": [
+        "Six long-lasting chews."
+      ],
+      "isHero": false,
+      "marginPercent": 75.3,
+      "marginUSD": 25.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 4,
+      "sku": "DROP-PAW-004",
+      "title": "Snuffle Mat",
+      "handle": "snuffle-mat",
+      "category": "Enrichment",
+      "price": 29,
+      "cost": 7.1,
+      "compareAt": 39,
+      "summary": "Slow-feeder enrichment mat.",
+      "features": [
+        "Slow-feeder enrichment mat."
+      ],
+      "isHero": false,
+      "marginPercent": 75.5,
+      "marginUSD": 21.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 5,
+      "sku": "DROP-PAW-005",
+      "title": "Orthopedic Bed Cover (Replacement)",
+      "handle": "orthopedic-bed-cover-replacement",
+      "category": "Bed Parts",
+      "price": 39,
+      "cost": 9.6,
+      "compareAt": 54,
+      "summary": "Linen weave, hidden zip.",
+      "features": [
+        "Linen weave, hidden zip."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 29.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 6,
+      "sku": "DROP-PAW-006",
+      "title": "Puzzle Feeder Bowl",
+      "handle": "puzzle-feeder-bowl",
+      "category": "Enrichment",
+      "price": 24,
+      "cost": 5.9,
+      "compareAt": 34,
+      "summary": "Non-slip puzzle bowl.",
+      "features": [
+        "Non-slip puzzle bowl."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 18.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 7,
+      "sku": "DROP-PAW-007",
+      "title": "Joint Support Chews (60)",
+      "handle": "joint-support-chews-60",
+      "category": "Health",
+      "price": 34,
+      "cost": 9.4,
+      "compareAt": 49,
+      "summary": "Glucosamine and green-lipped mussel.",
+      "features": [
+        "Glucosamine and green-lipped mussel."
+      ],
+      "isHero": false,
+      "marginPercent": 72.4,
+      "marginUSD": 24.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 8,
+      "sku": "DROP-PAW-008",
+      "title": "Elevated Cooling Cot",
+      "handle": "elevated-cooling-cot",
+      "category": "Beds",
+      "price": 59,
+      "cost": 15.8,
+      "compareAt": 84,
+      "summary": "Raised cot for hot days.",
+      "features": [
+        "Raised cot for hot days."
+      ],
+      "isHero": false,
+      "marginPercent": 73.2,
+      "marginUSD": 43.2,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 59,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 100.3,
+          "savings": 17.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 132.75,
+          "savings": 44.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 9,
+      "sku": "DROP-PAW-009",
+      "title": "Anxiety Vest",
+      "handle": "anxiety-vest",
+      "category": "Calming",
+      "price": 39,
+      "cost": 10.9,
+      "compareAt": 59,
+      "summary": "Pressure vest, four sizes.",
+      "features": [
+        "Pressure vest, four sizes."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 28.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 10,
+      "sku": "DROP-PAW-010",
+      "title": "Travel Bed Roll",
+      "handle": "travel-bed-roll",
+      "category": "Beds",
+      "price": 44,
+      "cost": 11.9,
+      "compareAt": 64,
+      "summary": "Roll-up foam bed with a strap.",
+      "features": [
+        "Roll-up foam bed with a strap."
+      ],
+      "isHero": false,
+      "marginPercent": 73,
+      "marginUSD": 32.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 44,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 74.8,
+          "savings": 13.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 99,
+          "savings": 33,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 11,
+      "sku": "DROP-PAW-011",
+      "title": "Grooming Deshedding Kit",
+      "handle": "grooming-deshedding-kit",
+      "category": "Grooming",
+      "price": 29,
+      "cost": 7.9,
+      "compareAt": 44,
+      "summary": "Deshedder plus a slicker brush.",
+      "features": [
+        "Deshedder plus a slicker brush."
+      ],
+      "isHero": false,
+      "marginPercent": 72.8,
+      "marginUSD": 21.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 12,
+      "sku": "DROP-PAW-012",
+      "title": "Pet First Aid Pouch",
+      "handle": "pet-first-aid-pouch",
+      "category": "Health",
+      "price": 24,
+      "cost": 6.6,
+      "compareAt": 39,
+      "summary": "26-piece first aid kit.",
+      "features": [
+        "26-piece first aid kit."
+      ],
+      "isHero": false,
+      "marginPercent": 72.5,
+      "marginUSD": 17.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+sku,title,handle,category,price,compare_at_price,cost,margin_percent,margin_usd,tier2_price,tier2_save,tier3_price,tier3_save,summary,is_hero
+"DROP-PAW-001","TerraPaw Human-Grade Orthopedic Bolster Dog Bed","terrapaw-human-grade-orthopedic-bolster-dog-bed","Dog Beds","74.00","109.00","19.40","73.8","54.60","125.80","15%","166.50","25%","A 4-inch CertiPUR-US memory foam base with a bolster rim, a waterproof liner, and a washable cover.","true"
+"DROP-PAW-002","Waterproof Liner (Spare)","waterproof-liner-spare","Bed Parts","24.00","34.00","6.40","73.3","17.60","40.80","15%","54.00","25%","Spare liner for any bed size.","false"
+"DROP-PAW-003","Calming Chew Box","calming-chew-box","Enrichment","34.00","44.00","8.40","75.3","25.60","57.80","15%","76.50","25%","Six long-lasting chews.","false"
+"DROP-PAW-004","Snuffle Mat","snuffle-mat","Enrichment","29.00","39.00","7.10","75.5","21.90","49.30","15%","65.25","25%","Slow-feeder enrichment mat.","false"
+"DROP-PAW-005","Orthopedic Bed Cover (Replacement)","orthopedic-bed-cover-replacement","Bed Parts","39.00","54.00","9.60","75.4","29.40","66.30","15%","87.75","25%","Linen weave, hidden zip.","false"
+"DROP-PAW-006","Puzzle Feeder Bowl","puzzle-feeder-bowl","Enrichment","24.00","34.00","5.90","75.4","18.10","40.80","15%","54.00","25%","Non-slip puzzle bowl.","false"
+"DROP-PAW-007","Joint Support Chews (60)","joint-support-chews-60","Health","34.00","49.00","9.40","72.4","24.60","57.80","15%","76.50","25%","Glucosamine and green-lipped mussel.","false"
+"DROP-PAW-008","Elevated Cooling Cot","elevated-cooling-cot","Beds","59.00","84.00","15.80","73.2","43.20","100.30","15%","132.75","25%","Raised cot for hot days.","false"
+"DROP-PAW-009","Anxiety Vest","anxiety-vest","Calming","39.00","59.00","10.90","72.1","28.10","66.30","15%","87.75","25%","Pressure vest, four sizes.","false"
+"DROP-PAW-010","Travel Bed Roll","travel-bed-roll","Beds","44.00","64.00","11.90","73","32.10","74.80","15%","99.00","25%","Roll-up foam bed with a strap.","false"
+"DROP-PAW-011","Grooming Deshedding Kit","grooming-deshedding-kit","Grooming","29.00","44.00","7.90","72.8","21.10","49.30","15%","65.25","25%","Deshedder plus a slicker brush.","false"
+"DROP-PAW-012","Pet First Aid Pouch","pet-first-aid-pouch","Health","24.00","39.00","6.60","72.5","17.40","40.80","15%","54.00","25%","26-piece first aid kit.","false"

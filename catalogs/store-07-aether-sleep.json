@@ -1,0 +1,519 @@
+{
+  "storeId": "store-07-aether-sleep",
+  "storeName": "Aether Sleep",
+  "domain": "aethersleep.com",
+  "niche": "22-Momme Silk Sleep Systems & Circadian Recovery",
+  "skuPrefix": "DROP-SLEEP-",
+  "fulfillment": "api-dropship",
+  "generatedAt": "2026-11-11T21:48:05.641Z",
+  "productCount": 12,
+  "products": [
+    {
+      "skuIndex": 1,
+      "sku": "DROP-SLEEP-001",
+      "title": "Aether 3D Contoured 22-Momme Silk Sleep System",
+      "handle": "aether-3d-contoured-22-momme-silk-sleep-system",
+      "category": "Sleep",
+      "price": 44,
+      "cost": 11.4,
+      "compareAt": 64,
+      "summary": "A 3D contoured silk mask, a mulberry silk pillowcase, and an ear-plug pair in a travel case.",
+      "features": [
+        "22-momme mulberry silk",
+        "Zero-pressure eye contour",
+        "28 dB ear plugs included",
+        "Machine washable on cold"
+      ],
+      "isHero": true,
+      "marginPercent": 74.1,
+      "marginUSD": 32.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 44,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 74.8,
+          "savings": 13.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 99,
+          "savings": 33,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 2,
+      "sku": "DROP-SLEEP-002",
+      "title": "Silk Pillowcase (Queen)",
+      "handle": "silk-pillowcase-queen",
+      "category": "Sleep",
+      "price": 39,
+      "cost": 9.6,
+      "compareAt": 54,
+      "summary": "22-momme with a hidden zip.",
+      "features": [
+        "22-momme with a hidden zip."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 29.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 3,
+      "sku": "DROP-SLEEP-003",
+      "title": "Lavender Silk Pillow Mist",
+      "handle": "lavender-silk-pillow-mist",
+      "category": "Consumables",
+      "price": 24,
+      "cost": 5.4,
+      "compareAt": 29,
+      "summary": "4 oz, alcohol-free.",
+      "features": [
+        "4 oz, alcohol-free."
+      ],
+      "isHero": false,
+      "marginPercent": 77.5,
+      "marginUSD": 18.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 4,
+      "sku": "DROP-SLEEP-004",
+      "title": "Silk Sleep Bonnet",
+      "handle": "silk-sleep-bonnet",
+      "category": "Sleep",
+      "price": 29,
+      "cost": 6.9,
+      "compareAt": 39,
+      "summary": "Adjustable, 19-momme.",
+      "features": [
+        "Adjustable, 19-momme."
+      ],
+      "isHero": false,
+      "marginPercent": 76.2,
+      "marginUSD": 22.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 5,
+      "sku": "DROP-SLEEP-005",
+      "title": "Blackout Curtain Panels (Pair)",
+      "handle": "blackout-curtain-panels-pair",
+      "category": "Sleep",
+      "price": 74,
+      "cost": 19.4,
+      "compareAt": 109,
+      "summary": "99.9% blackout, 52x84.",
+      "features": [
+        "99.9% blackout, 52x84."
+      ],
+      "isHero": false,
+      "marginPercent": 73.8,
+      "marginUSD": 54.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 74,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 125.8,
+          "savings": 22.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 166.5,
+          "savings": 55.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 6,
+      "sku": "DROP-SLEEP-006",
+      "title": "Silk Mouth Tape (60 nights)",
+      "handle": "silk-mouth-tape-60-nights",
+      "category": "Consumables",
+      "price": 19,
+      "cost": 4.6,
+      "compareAt": 24,
+      "summary": "Medical-grade, silk-backed.",
+      "features": [
+        "Medical-grade, silk-backed."
+      ],
+      "isHero": false,
+      "marginPercent": 75.8,
+      "marginUSD": 14.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 7,
+      "sku": "DROP-SLEEP-007",
+      "title": "Weighted Blanket 15 lb",
+      "handle": "weighted-blanket-15-lb",
+      "category": "Sleep",
+      "price": 109,
+      "cost": 29.4,
+      "compareAt": 169,
+      "summary": "Glass-bead fill, cotton shell.",
+      "features": [
+        "Glass-bead fill, cotton shell."
+      ],
+      "isHero": false,
+      "marginPercent": 73,
+      "marginUSD": 79.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 109,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 185.3,
+          "savings": 32.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 245.25,
+          "savings": 81.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 8,
+      "sku": "DROP-SLEEP-008",
+      "title": "Sunrise Alarm Lamp",
+      "handle": "sunrise-alarm-lamp",
+      "category": "Circadian",
+      "price": 64,
+      "cost": 16.8,
+      "compareAt": 89,
+      "summary": "30-minute sunrise simulation.",
+      "features": [
+        "30-minute sunrise simulation."
+      ],
+      "isHero": false,
+      "marginPercent": 73.8,
+      "marginUSD": 47.2,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 64,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 108.8,
+          "savings": 19.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 144,
+          "savings": 48,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 9,
+      "sku": "DROP-SLEEP-009",
+      "title": "Silk Eye Pillow",
+      "handle": "silk-eye-pillow",
+      "category": "Sleep",
+      "price": 24,
+      "cost": 5.9,
+      "compareAt": 34,
+      "summary": "Flaxseed-filled, chilled or warmed.",
+      "features": [
+        "Flaxseed-filled, chilled or warmed."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 18.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 10,
+      "sku": "DROP-SLEEP-010",
+      "title": "White Noise Machine",
+      "handle": "white-noise-machine",
+      "category": "Sleep",
+      "price": 39,
+      "cost": 10.9,
+      "compareAt": 59,
+      "summary": "24 sounds, 12-hour timer.",
+      "features": [
+        "24 sounds, 12-hour timer."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 28.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 11,
+      "sku": "DROP-SLEEP-011",
+      "title": "Silk Scrunchies (3)",
+      "handle": "silk-scrunchies-3",
+      "category": "Accessories",
+      "price": 19,
+      "cost": 4.4,
+      "compareAt": 24,
+      "summary": "22-momme, no-crease.",
+      "features": [
+        "22-momme, no-crease."
+      ],
+      "isHero": false,
+      "marginPercent": 76.8,
+      "marginUSD": 14.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 12,
+      "sku": "DROP-SLEEP-012",
+      "title": "Travel Sleep Kit",
+      "handle": "travel-sleep-kit",
+      "category": "Travel",
+      "price": 34,
+      "cost": 8.4,
+      "compareAt": 44,
+      "summary": "Mask, plugs, and a neck wrap.",
+      "features": [
+        "Mask, plugs, and a neck wrap."
+      ],
+      "isHero": false,
+      "marginPercent": 75.3,
+      "marginUSD": 25.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    }
+  ]
+}

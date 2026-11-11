@@ -1,0 +1,519 @@
+{
+  "storeId": "store-03-cryo-halo",
+  "storeName": "CryoHalo Recovery",
+  "domain": "cryohalo.com",
+  "niche": "Cryotherapy Migraine Caps & Sleep Recovery",
+  "skuPrefix": "DROP-CRYO-",
+  "fulfillment": "api-dropship",
+  "generatedAt": "2026-11-11T21:48:05.638Z",
+  "productCount": 12,
+  "products": [
+    {
+      "skuIndex": 1,
+      "sku": "DROP-CRYO-001",
+      "title": "CryoHalo 2-Cap Continuous Rotation System",
+      "handle": "cryohalo-2-cap-continuous-rotation-system",
+      "category": "Cold Therapy",
+      "price": 49,
+      "cost": 13.6,
+      "compareAt": 74,
+      "summary": "Two gel caps on a 30-minute rotation so one is always frozen, plus a fit dial for frontal or occipital pressure.",
+      "features": [
+        "Two caps = zero cold gaps",
+        "Stays pliable at -18°C",
+        "Machine washable inner liner",
+        "Designed with a neurologist's timing protocol"
+      ],
+      "isHero": true,
+      "marginPercent": 72.2,
+      "marginUSD": 35.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 49,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 83.3,
+          "savings": 14.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 110.25,
+          "savings": 36.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 2,
+      "sku": "DROP-CRYO-002",
+      "title": "Replacement Gel Cap Pair",
+      "handle": "replacement-gel-cap-pair",
+      "category": "Cold Therapy",
+      "price": 24,
+      "cost": 5.6,
+      "compareAt": 29,
+      "summary": "Same caps, fresh pair.",
+      "features": [
+        "Same caps, fresh pair."
+      ],
+      "isHero": false,
+      "marginPercent": 76.7,
+      "marginUSD": 18.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 3,
+      "sku": "DROP-CRYO-003",
+      "title": "Cold Therapy Eye Mask",
+      "handle": "cold-therapy-eye-mask",
+      "category": "Cold Therapy",
+      "price": 29,
+      "cost": 6.9,
+      "compareAt": 39,
+      "summary": "Freezer gel eye mask with a silky liner.",
+      "features": [
+        "Freezer gel eye mask with a silky liner."
+      ],
+      "isHero": false,
+      "marginPercent": 76.2,
+      "marginUSD": 22.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 4,
+      "sku": "DROP-CRYO-004",
+      "title": "Neck & Shoulder Ice Wrap",
+      "handle": "neck-shoulder-ice-wrap",
+      "category": "Cold Therapy",
+      "price": 34,
+      "cost": 8.6,
+      "compareAt": 49,
+      "summary": "Moldable wrap for the cervical spine.",
+      "features": [
+        "Moldable wrap for the cervical spine."
+      ],
+      "isHero": false,
+      "marginPercent": 74.7,
+      "marginUSD": 25.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 5,
+      "sku": "DROP-CRYO-005",
+      "title": "Freezer Storage Rack",
+      "handle": "freezer-storage-rack",
+      "category": "Accessories",
+      "price": 19,
+      "cost": 4.6,
+      "compareAt": 24,
+      "summary": "Slim rack that keeps two caps standing.",
+      "features": [
+        "Slim rack that keeps two caps standing."
+      ],
+      "isHero": false,
+      "marginPercent": 75.8,
+      "marginUSD": 14.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 6,
+      "sku": "DROP-CRYO-006",
+      "title": "Blue-Light Sleep Glasses",
+      "handle": "blue-light-sleep-glasses",
+      "category": "Sleep",
+      "price": 39,
+      "cost": 9.8,
+      "compareAt": 54,
+      "summary": "Blocks 99% of 400-495nm light.",
+      "features": [
+        "Blocks 99% of 400-495nm light."
+      ],
+      "isHero": false,
+      "marginPercent": 74.9,
+      "marginUSD": 29.2,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 7,
+      "sku": "DROP-CRYO-007",
+      "title": "Weighted Sleep Mask (1.2 lb)",
+      "handle": "weighted-sleep-mask-1-2-lb",
+      "category": "Sleep",
+      "price": 29,
+      "cost": 8.1,
+      "compareAt": 44,
+      "summary": "Beaded mask with a blackout seal.",
+      "features": [
+        "Beaded mask with a blackout seal."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 20.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 8,
+      "sku": "DROP-CRYO-008",
+      "title": "Cooling Pillow Insert",
+      "handle": "cooling-pillow-insert",
+      "category": "Sleep",
+      "price": 44,
+      "cost": 11.2,
+      "compareAt": 59,
+      "summary": "Phase-change gel insert for pillowcases.",
+      "features": [
+        "Phase-change gel insert for pillowcases."
+      ],
+      "isHero": false,
+      "marginPercent": 74.5,
+      "marginUSD": 32.8,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 44,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 74.8,
+          "savings": 13.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 99,
+          "savings": 33,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 9,
+      "sku": "DROP-CRYO-009",
+      "title": "Migraine Trigger Log Journal",
+      "handle": "migraine-trigger-log-journal",
+      "category": "Education",
+      "price": 19,
+      "cost": 4.8,
+      "compareAt": 29,
+      "summary": "90-day trigger and sleep log.",
+      "features": [
+        "90-day trigger and sleep log."
+      ],
+      "isHero": false,
+      "marginPercent": 74.7,
+      "marginUSD": 14.2,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 10,
+      "sku": "DROP-CRYO-010",
+      "title": "Cryo Travel Pouch",
+      "handle": "cryo-travel-pouch",
+      "category": "Accessories",
+      "price": 24,
+      "cost": 6.1,
+      "compareAt": 34,
+      "summary": "Insulated pouch that fits two caps.",
+      "features": [
+        "Insulated pouch that fits two caps."
+      ],
+      "isHero": false,
+      "marginPercent": 74.6,
+      "marginUSD": 17.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 11,
+      "sku": "DROP-CRYO-011",
+      "title": "Magnesium Recovery Balm",
+      "handle": "magnesium-recovery-balm",
+      "category": "Recovery",
+      "price": 24,
+      "cost": 6.6,
+      "compareAt": 39,
+      "summary": "Topical magnesium in a 3 oz tin.",
+      "features": [
+        "Topical magnesium in a 3 oz tin."
+      ],
+      "isHero": false,
+      "marginPercent": 72.5,
+      "marginUSD": 17.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 12,
+      "sku": "DROP-CRYO-012",
+      "title": "Deep-Sleep White Noise Puck",
+      "handle": "deep-sleep-white-noise-puck",
+      "category": "Sleep",
+      "price": 29,
+      "cost": 7.3,
+      "compareAt": 39,
+      "summary": "Rechargeable 30-hour white noise.",
+      "features": [
+        "Rechargeable 30-hour white noise."
+      ],
+      "isHero": false,
+      "marginPercent": 74.8,
+      "marginUSD": 21.7,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    }
+  ]
+}

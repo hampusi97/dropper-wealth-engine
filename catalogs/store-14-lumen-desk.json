@@ -1,0 +1,519 @@
+{
+  "storeId": "store-14-lumen-desk",
+  "storeName": "LumenDesk",
+  "domain": "lumendesk.com",
+  "niche": "CRI 98+ Monitor Light Bars & Deep-Work Desk Systems",
+  "skuPrefix": "DROP-DESK-",
+  "fulfillment": "api-dropship",
+  "generatedAt": "2026-11-11T21:48:05.644Z",
+  "productCount": 12,
+  "products": [
+    {
+      "skuIndex": 1,
+      "sku": "DROP-DESK-001",
+      "title": "LumenDesk CRI 98+ Asymmetric Monitor Light Bar",
+      "handle": "lumendesk-cri-98-asymmetric-monitor-light-bar",
+      "category": "Desk Lighting",
+      "price": 64,
+      "cost": 16.8,
+      "compareAt": 89,
+      "summary": "A 45 cm asymmetric light bar at CRI 98+ with no screen glare, five colour temperatures, and a USB-C dial.",
+      "features": [
+        "CRI 98+ colour accuracy",
+        "Asymmetric optic, no glare",
+        "5 colour temperatures",
+        "USB-C powered"
+      ],
+      "isHero": true,
+      "marginPercent": 73.8,
+      "marginUSD": 47.2,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 64,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 108.8,
+          "savings": 19.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 144,
+          "savings": 48,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 2,
+      "sku": "DROP-DESK-002",
+      "title": "Merino Felt Desk Mat",
+      "handle": "merino-felt-desk-mat",
+      "category": "Desk",
+      "price": 39,
+      "cost": 10.9,
+      "compareAt": 59,
+      "summary": "Large merino felt desk mat.",
+      "features": [
+        "Large merino felt desk mat."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 28.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 3,
+      "sku": "DROP-DESK-003",
+      "title": "Cable Management Kit",
+      "handle": "cable-management-kit",
+      "category": "Desk",
+      "price": 29,
+      "cost": 7.1,
+      "compareAt": 39,
+      "summary": "Tray, clips, and sleeves.",
+      "features": [
+        "Tray, clips, and sleeves."
+      ],
+      "isHero": false,
+      "marginPercent": 75.5,
+      "marginUSD": 21.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 4,
+      "sku": "DROP-DESK-004",
+      "title": "Monitor Arm (Single)",
+      "handle": "monitor-arm-single",
+      "category": "Desk",
+      "price": 74,
+      "cost": 19.4,
+      "compareAt": 109,
+      "summary": "Gas-spring monitor arm.",
+      "features": [
+        "Gas-spring monitor arm."
+      ],
+      "isHero": false,
+      "marginPercent": 73.8,
+      "marginUSD": 54.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 74,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 125.8,
+          "savings": 22.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 166.5,
+          "savings": 55.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 5,
+      "sku": "DROP-DESK-005",
+      "title": "Under-Desk Light Strip",
+      "handle": "under-desk-light-strip",
+      "category": "Desk Lighting",
+      "price": 34,
+      "cost": 8.4,
+      "compareAt": 44,
+      "summary": "Warm strip with a dimmer.",
+      "features": [
+        "Warm strip with a dimmer."
+      ],
+      "isHero": false,
+      "marginPercent": 75.3,
+      "marginUSD": 25.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 6,
+      "sku": "DROP-DESK-006",
+      "title": "Laptop Riser (Aluminium)",
+      "handle": "laptop-riser-aluminium",
+      "category": "Desk",
+      "price": 44,
+      "cost": 11.9,
+      "compareAt": 64,
+      "summary": "Ventilated aluminium riser.",
+      "features": [
+        "Ventilated aluminium riser."
+      ],
+      "isHero": false,
+      "marginPercent": 73,
+      "marginUSD": 32.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 44,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 74.8,
+          "savings": 13.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 99,
+          "savings": 33,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 7,
+      "sku": "DROP-DESK-007",
+      "title": "Desk Organizer Tray Set",
+      "handle": "desk-organizer-tray-set",
+      "category": "Desk",
+      "price": 29,
+      "cost": 7.9,
+      "compareAt": 44,
+      "summary": "Modular felt trays.",
+      "features": [
+        "Modular felt trays."
+      ],
+      "isHero": false,
+      "marginPercent": 72.8,
+      "marginUSD": 21.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 8,
+      "sku": "DROP-DESK-008",
+      "title": "Hardware Care Kit",
+      "handle": "hardware-care-kit",
+      "category": "Accessories",
+      "price": 24,
+      "cost": 5.9,
+      "compareAt": 34,
+      "summary": "Cloth, brush, and lubricant.",
+      "features": [
+        "Cloth, brush, and lubricant."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 18.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 9,
+      "sku": "DROP-DESK-009",
+      "title": "Keyboard Wrist Rest",
+      "handle": "keyboard-wrist-rest",
+      "category": "Desk",
+      "price": 34,
+      "cost": 8.9,
+      "compareAt": 49,
+      "summary": "Merino felt wrist rest.",
+      "features": [
+        "Merino felt wrist rest."
+      ],
+      "isHero": false,
+      "marginPercent": 73.8,
+      "marginUSD": 25.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 10,
+      "sku": "DROP-DESK-010",
+      "title": "Focus Timer Cube",
+      "handle": "focus-timer-cube",
+      "category": "Deep Work",
+      "price": 29,
+      "cost": 6.9,
+      "compareAt": 39,
+      "summary": "Flip timer with four presets.",
+      "features": [
+        "Flip timer with four presets."
+      ],
+      "isHero": false,
+      "marginPercent": 76.2,
+      "marginUSD": 22.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 11,
+      "sku": "DROP-DESK-011",
+      "title": "Cable Sleeve Pack (3)",
+      "handle": "cable-sleeve-pack-3",
+      "category": "Desk",
+      "price": 19,
+      "cost": 4.6,
+      "compareAt": 24,
+      "summary": "Three zip cable sleeves.",
+      "features": [
+        "Three zip cable sleeves."
+      ],
+      "isHero": false,
+      "marginPercent": 75.8,
+      "marginUSD": 14.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 12,
+      "sku": "DROP-DESK-012",
+      "title": "Monitor Light Bar Clamp",
+      "handle": "monitor-light-bar-clamp",
+      "category": "Accessories",
+      "price": 24,
+      "cost": 6.4,
+      "compareAt": 34,
+      "summary": "Spare counterweight clamp.",
+      "features": [
+        "Spare counterweight clamp."
+      ],
+      "isHero": false,
+      "marginPercent": 73.3,
+      "marginUSD": 17.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    }
+  ]
+}

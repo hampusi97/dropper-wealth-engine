@@ -1,0 +1,519 @@
+{
+  "storeId": "store-05-wonder-hive",
+  "storeName": "WonderHive Play",
+  "domain": "wonderhiveplay.com",
+  "niche": "Screen-Free Sensory Math Kits & STEM",
+  "skuPrefix": "DROP-HIVE-",
+  "fulfillment": "hybrid",
+  "generatedAt": "2026-11-11T21:48:05.641Z",
+  "productCount": 12,
+  "products": [
+    {
+      "skuIndex": 1,
+      "sku": "DROP-HIVE-001",
+      "title": "WonderHive 10-Frame Sensory Math Kit",
+      "handle": "wonderhive-10-frame-sensory-math-kit",
+      "category": "Math Manipulatives",
+      "price": 34,
+      "cost": 9.1,
+      "compareAt": 49,
+      "summary": "Ten frames, 120 silicone counters, and 40 double-sided task cards in a cotton drawstring bag.",
+      "features": [
+        "Aligned to K-2 number sense",
+        "Wipe-clean, no batteries",
+        "Silicone counters, no plastic burrs",
+        "Classroom packs available"
+      ],
+      "isHero": true,
+      "marginPercent": 73.2,
+      "marginUSD": 24.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 2,
+      "sku": "DROP-HIVE-002",
+      "title": "Sensory Bin Filler Kit",
+      "handle": "sensory-bin-filler-kit",
+      "category": "Sensory",
+      "price": 34,
+      "cost": 8.4,
+      "compareAt": 44,
+      "summary": "4 lb of coloured rice, scoops, and cups.",
+      "features": [
+        "4 lb of coloured rice, scoops, and cups."
+      ],
+      "isHero": false,
+      "marginPercent": 75.3,
+      "marginUSD": 25.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 3,
+      "sku": "DROP-HIVE-003",
+      "title": "Montessori Counting Peg Board",
+      "handle": "montessori-counting-peg-board",
+      "category": "Math",
+      "price": 29,
+      "cost": 7.1,
+      "compareAt": 39,
+      "summary": "Wooden peg board with 55 pegs.",
+      "features": [
+        "Wooden peg board with 55 pegs."
+      ],
+      "isHero": false,
+      "marginPercent": 75.5,
+      "marginUSD": 21.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 4,
+      "sku": "DROP-HIVE-004",
+      "title": "Magnetic Tile Set (32 pc)",
+      "handle": "magnetic-tile-set-32-pc",
+      "category": "STEM",
+      "price": 44,
+      "cost": 12.2,
+      "compareAt": 64,
+      "summary": "32 translucent magnetic tiles.",
+      "features": [
+        "32 translucent magnetic tiles."
+      ],
+      "isHero": false,
+      "marginPercent": 72.3,
+      "marginUSD": 31.8,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 44,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 74.8,
+          "savings": 13.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 99,
+          "savings": 33,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 5,
+      "sku": "DROP-HIVE-005",
+      "title": "Pattern Block Classroom Pack (250)",
+      "handle": "pattern-block-classroom-pack-250",
+      "category": "Math",
+      "price": 49,
+      "cost": 13.4,
+      "compareAt": 74,
+      "summary": "250 blocks in six shapes.",
+      "features": [
+        "250 blocks in six shapes."
+      ],
+      "isHero": false,
+      "marginPercent": 72.7,
+      "marginUSD": 35.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 49,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 83.3,
+          "savings": 14.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 110.25,
+          "savings": 36.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 6,
+      "sku": "DROP-HIVE-006",
+      "title": "STEM Challenge Card Deck",
+      "handle": "stem-challenge-card-deck",
+      "category": "STEM",
+      "price": 24,
+      "cost": 5.4,
+      "compareAt": 29,
+      "summary": "60 build challenges, K-5.",
+      "features": [
+        "60 build challenges, K-5."
+      ],
+      "isHero": false,
+      "marginPercent": 77.5,
+      "marginUSD": 18.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 7,
+      "sku": "DROP-HIVE-007",
+      "title": "Fidget & Focus Tool Kit",
+      "handle": "fidget-focus-tool-kit",
+      "category": "Sensory",
+      "price": 24,
+      "cost": 6.4,
+      "compareAt": 34,
+      "summary": "Six silent focus tools.",
+      "features": [
+        "Six silent focus tools."
+      ],
+      "isHero": false,
+      "marginPercent": 73.3,
+      "marginUSD": 17.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 8,
+      "sku": "DROP-HIVE-008",
+      "title": "Wooden Number Line Roll",
+      "handle": "wooden-number-line-roll",
+      "category": "Math",
+      "price": 19,
+      "cost": 4.6,
+      "compareAt": 24,
+      "summary": "Roll-up 0-120 number line.",
+      "features": [
+        "Roll-up 0-120 number line."
+      ],
+      "isHero": false,
+      "marginPercent": 75.8,
+      "marginUSD": 14.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 9,
+      "sku": "DROP-HIVE-009",
+      "title": "Fine Motor Tweezer Tray",
+      "handle": "fine-motor-tweezer-tray",
+      "category": "Sensory",
+      "price": 24,
+      "cost": 5.8,
+      "compareAt": 34,
+      "summary": "Tray, tweezers, and sorting cups.",
+      "features": [
+        "Tray, tweezers, and sorting cups."
+      ],
+      "isHero": false,
+      "marginPercent": 75.8,
+      "marginUSD": 18.2,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 10,
+      "sku": "DROP-HIVE-010",
+      "title": "Story Dice & Retell Set",
+      "handle": "story-dice-retell-set",
+      "category": "Literacy",
+      "price": 19,
+      "cost": 5.1,
+      "compareAt": 29,
+      "summary": "Nine story dice plus prompt cards.",
+      "features": [
+        "Nine story dice plus prompt cards."
+      ],
+      "isHero": false,
+      "marginPercent": 73.2,
+      "marginUSD": 13.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 11,
+      "sku": "DROP-HIVE-011",
+      "title": "Balance Scale Explorer Kit",
+      "handle": "balance-scale-explorer-kit",
+      "category": "STEM",
+      "price": 39,
+      "cost": 9.6,
+      "compareAt": 54,
+      "summary": "Balance scale with weights.",
+      "features": [
+        "Balance scale with weights."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 29.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 12,
+      "sku": "DROP-HIVE-012",
+      "title": "Sensory Sand Play Mat",
+      "handle": "sensory-sand-play-mat",
+      "category": "Sensory",
+      "price": 29,
+      "cost": 7.9,
+      "compareAt": 44,
+      "summary": "Foldable mat with a raised lip.",
+      "features": [
+        "Foldable mat with a raised lip."
+      ],
+      "isHero": false,
+      "marginPercent": 72.8,
+      "marginUSD": 21.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    }
+  ]
+}

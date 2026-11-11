@@ -1,0 +1,97 @@
+{
+  "generatedAt": "2026-11-11T21:48:14.784Z",
+  "feedCount": 15,
+  "itemCount": 180,
+  "feeds": [
+    {
+      "store": "store-01-bizi-bees",
+      "url": "https://shopbizibees.com/feeds/google-shopping-store-01-bizi-bees.xml",
+      "local": "public/feeds/google-shopping-store-01-bizi-bees.xml",
+      "items": 12
+    },
+    {
+      "store": "store-02-luma-clinical",
+      "url": "https://lumaclinical.com/feeds/google-shopping-store-02-luma-clinical.xml",
+      "local": "public/feeds/google-shopping-store-02-luma-clinical.xml",
+      "items": 12
+    },
+    {
+      "store": "store-03-cryo-halo",
+      "url": "https://cryohalo.com/feeds/google-shopping-store-03-cryo-halo.xml",
+      "local": "public/feeds/google-shopping-store-03-cryo-halo.xml",
+      "items": 12
+    },
+    {
+      "store": "store-04-sculpt-wave",
+      "url": "https://sculptwavebody.com/feeds/google-shopping-store-04-sculpt-wave.xml",
+      "local": "public/feeds/google-shopping-store-04-sculpt-wave.xml",
+      "items": 12
+    },
+    {
+      "store": "store-05-wonder-hive",
+      "url": "https://wonderhiveplay.com/feeds/google-shopping-store-05-wonder-hive.xml",
+      "local": "public/feeds/google-shopping-store-05-wonder-hive.xml",
+      "items": 12
+    },
+    {
+      "store": "store-06-atelier-grid",
+      "url": "https://ateliergrid.com/feeds/google-shopping-store-06-atelier-grid.xml",
+      "local": "public/feeds/google-shopping-store-06-atelier-grid.xml",
+      "items": 12
+    },
+    {
+      "store": "store-07-aether-sleep",
+      "url": "https://aethersleep.com/feeds/google-shopping-store-07-aether-sleep.xml",
+      "local": "public/feeds/google-shopping-store-07-aether-sleep.xml",
+      "items": 12
+    },
+    {
+      "store": "store-08-kova-brew",
+      "url": "https://kovabrew.com/feeds/google-shopping-store-08-kova-brew.xml",
+      "local": "public/feeds/google-shopping-store-08-kova-brew.xml",
+      "items": 12
+    },
+    {
+      "store": "store-09-spine-align",
+      "url": "https://spinealignstudio.com/feeds/google-shopping-store-09-spine-align.xml",
+      "local": "public/feeds/google-shopping-store-09-spine-align.xml",
+      "items": 12
+    },
+    {
+      "store": "store-10-terra-paw",
+      "url": "https://terrapawco.com/feeds/google-shopping-store-10-terra-paw.xml",
+      "local": "public/feeds/google-shopping-store-10-terra-paw.xml",
+      "items": 12
+    },
+    {
+      "store": "store-11-nomad-carry",
+      "url": "https://nomadcarry.com/feeds/google-shopping-store-11-nomad-carry.xml",
+      "local": "public/feeds/google-shopping-store-11-nomad-carry.xml",
+      "items": 12
+    },
+    {
+      "store": "store-12-solace-aroma",
+      "url": "https://solacearoma.com/feeds/google-shopping-store-12-solace-aroma.xml",
+      "local": "public/feeds/google-shopping-store-12-solace-aroma.xml",
+      "items": 12
+    },
+    {
+      "store": "store-13-kinetic-grip",
+      "url": "https://kineticgrip.com/feeds/google-shopping-store-13-kinetic-grip.xml",
+      "local": "public/feeds/google-shopping-store-13-kinetic-grip.xml",
+      "items": 12
+    },
+    {
+      "store": "store-14-lumen-desk",
+      "url": "https://lumendesk.com/feeds/google-shopping-store-14-lumen-desk.xml",
+      "local": "public/feeds/google-shopping-store-14-lumen-desk.xml",
+      "items": 12
+    },
+    {
+      "store": "store-15-verde-hydro",
+      "url": "https://verdehydro.com/feeds/google-shopping-store-15-verde-hydro.xml",
+      "local": "public/feeds/google-shopping-store-15-verde-hydro.xml",
+      "items": 12
+    }
+  ]
+}

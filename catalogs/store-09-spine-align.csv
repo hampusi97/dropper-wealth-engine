@@ -1,0 +1,13 @@
+sku,title,handle,category,price,compare_at_price,cost,margin_percent,margin_usd,tier2_price,tier2_save,tier3_price,tier3_save,summary,is_hero
+"DROP-SPINE-001","SpineAlign 3-in-1 Heated Cervical Traction Cradle","spinealign-3-in-1-heated-cervical-traction-cradle","Posture","59.00","84.00","15.90","73.1","43.10","100.30","15%","132.75","25%","A cervical cradle with heat, a 10-minute timer, and three height settings for the at-desk decompression routine.","true"
+"DROP-SPINE-002","Ergonomic Acupressure Mat","ergonomic-acupressure-mat","Recovery","49.00","74.00","13.40","72.7","35.60","83.30","15%","110.25","25%","6,000 points plus a neck pillow.","false"
+"DROP-SPINE-003","Posture Corrector Brace","posture-corrector-brace","Posture","34.00","44.00","8.40","75.3","25.60","57.80","15%","76.50","25%","Adjustable, breathable mesh.","false"
+"DROP-SPINE-004","Lumbar Support Cushion","lumbar-support-cushion","Desk","39.00","54.00","9.60","75.4","29.40","66.30","15%","87.75","25%","Memory foam with a strap.","false"
+"DROP-SPINE-005","Standing Desk Converter","standing-desk-converter","Desk","119.00","169.00","31.40","73.6","87.60","202.30","15%","267.75","25%","Sit-stand riser, gas spring.","false"
+"DROP-SPINE-006","Neck Stretcher","neck-stretcher","Posture","29.00","39.00","7.10","75.5","21.90","49.30","15%","65.25","25%","Inflatable cervical traction.","false"
+"DROP-SPINE-007","Deep Tissue Massage Gun","deep-tissue-massage-gun","Recovery","79.00","119.00","21.90","72.3","57.10","134.30","15%","177.75","25%","Four heads, 6 speeds.","false"
+"DROP-SPINE-008","Footrest Rocker","footrest-rocker","Desk","39.00","59.00","10.90","72.1","28.10","66.30","15%","87.75","25%","Non-slip rocking footrest.","false"
+"DROP-SPINE-009","Heat & Ice Neck Wrap","heat-ice-neck-wrap","Recovery","24.00","39.00","6.60","72.5","17.40","40.80","15%","54.00","25%","Microwave or freezer ready.","false"
+"DROP-SPINE-010","Ergonomic Wrist Rest Set","ergonomic-wrist-rest-set","Desk","24.00","34.00","5.90","75.4","18.10","40.80","15%","54.00","25%","Keyboard and mouse rests.","false"
+"DROP-SPINE-011","Resistance Band Posture Set","resistance-band-posture-set","Posture","24.00","29.00","5.40","77.5","18.60","40.80","15%","54.00","25%","Five bands plus a door anchor.","false"
+"DROP-SPINE-012","Cervical Traction Cover","cervical-traction-cover","Accessories","19.00","24.00","4.60","75.8","14.40","32.30","15%","42.75","25%","Washable cover for the cradle.","false"

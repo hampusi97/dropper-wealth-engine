@@ -1,0 +1,519 @@
+{
+  "storeId": "store-09-spine-align",
+  "storeName": "SpineAlign Studio",
+  "domain": "spinealignstudio.com",
+  "niche": "Cervical Traction, Posture & Desk Recovery",
+  "skuPrefix": "DROP-SPINE-",
+  "fulfillment": "api-dropship",
+  "generatedAt": "2026-11-11T21:48:05.642Z",
+  "productCount": 12,
+  "products": [
+    {
+      "skuIndex": 1,
+      "sku": "DROP-SPINE-001",
+      "title": "SpineAlign 3-in-1 Heated Cervical Traction Cradle",
+      "handle": "spinealign-3-in-1-heated-cervical-traction-cradle",
+      "category": "Posture",
+      "price": 59,
+      "cost": 15.9,
+      "compareAt": 84,
+      "summary": "A cervical cradle with heat, a 10-minute timer, and three height settings for the at-desk decompression routine.",
+      "features": [
+        "Heat plus traction in one tool",
+        "10-minute auto-off timer",
+        "Three height settings",
+        "Includes a desk routine card"
+      ],
+      "isHero": true,
+      "marginPercent": 73.1,
+      "marginUSD": 43.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 59,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 100.3,
+          "savings": 17.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 132.75,
+          "savings": 44.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 2,
+      "sku": "DROP-SPINE-002",
+      "title": "Ergonomic Acupressure Mat",
+      "handle": "ergonomic-acupressure-mat",
+      "category": "Recovery",
+      "price": 49,
+      "cost": 13.4,
+      "compareAt": 74,
+      "summary": "6,000 points plus a neck pillow.",
+      "features": [
+        "6,000 points plus a neck pillow."
+      ],
+      "isHero": false,
+      "marginPercent": 72.7,
+      "marginUSD": 35.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 49,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 83.3,
+          "savings": 14.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 110.25,
+          "savings": 36.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 3,
+      "sku": "DROP-SPINE-003",
+      "title": "Posture Corrector Brace",
+      "handle": "posture-corrector-brace",
+      "category": "Posture",
+      "price": 34,
+      "cost": 8.4,
+      "compareAt": 44,
+      "summary": "Adjustable, breathable mesh.",
+      "features": [
+        "Adjustable, breathable mesh."
+      ],
+      "isHero": false,
+      "marginPercent": 75.3,
+      "marginUSD": 25.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 4,
+      "sku": "DROP-SPINE-004",
+      "title": "Lumbar Support Cushion",
+      "handle": "lumbar-support-cushion",
+      "category": "Desk",
+      "price": 39,
+      "cost": 9.6,
+      "compareAt": 54,
+      "summary": "Memory foam with a strap.",
+      "features": [
+        "Memory foam with a strap."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 29.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 5,
+      "sku": "DROP-SPINE-005",
+      "title": "Standing Desk Converter",
+      "handle": "standing-desk-converter",
+      "category": "Desk",
+      "price": 119,
+      "cost": 31.4,
+      "compareAt": 169,
+      "summary": "Sit-stand riser, gas spring.",
+      "features": [
+        "Sit-stand riser, gas spring."
+      ],
+      "isHero": false,
+      "marginPercent": 73.6,
+      "marginUSD": 87.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 119,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 202.3,
+          "savings": 35.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 267.75,
+          "savings": 89.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 6,
+      "sku": "DROP-SPINE-006",
+      "title": "Neck Stretcher",
+      "handle": "neck-stretcher",
+      "category": "Posture",
+      "price": 29,
+      "cost": 7.1,
+      "compareAt": 39,
+      "summary": "Inflatable cervical traction.",
+      "features": [
+        "Inflatable cervical traction."
+      ],
+      "isHero": false,
+      "marginPercent": 75.5,
+      "marginUSD": 21.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 7,
+      "sku": "DROP-SPINE-007",
+      "title": "Deep Tissue Massage Gun",
+      "handle": "deep-tissue-massage-gun",
+      "category": "Recovery",
+      "price": 79,
+      "cost": 21.9,
+      "compareAt": 119,
+      "summary": "Four heads, 6 speeds.",
+      "features": [
+        "Four heads, 6 speeds."
+      ],
+      "isHero": false,
+      "marginPercent": 72.3,
+      "marginUSD": 57.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 79,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 134.3,
+          "savings": 23.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 177.75,
+          "savings": 59.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 8,
+      "sku": "DROP-SPINE-008",
+      "title": "Footrest Rocker",
+      "handle": "footrest-rocker",
+      "category": "Desk",
+      "price": 39,
+      "cost": 10.9,
+      "compareAt": 59,
+      "summary": "Non-slip rocking footrest.",
+      "features": [
+        "Non-slip rocking footrest."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 28.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 9,
+      "sku": "DROP-SPINE-009",
+      "title": "Heat & Ice Neck Wrap",
+      "handle": "heat-ice-neck-wrap",
+      "category": "Recovery",
+      "price": 24,
+      "cost": 6.6,
+      "compareAt": 39,
+      "summary": "Microwave or freezer ready.",
+      "features": [
+        "Microwave or freezer ready."
+      ],
+      "isHero": false,
+      "marginPercent": 72.5,
+      "marginUSD": 17.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 10,
+      "sku": "DROP-SPINE-010",
+      "title": "Ergonomic Wrist Rest Set",
+      "handle": "ergonomic-wrist-rest-set",
+      "category": "Desk",
+      "price": 24,
+      "cost": 5.9,
+      "compareAt": 34,
+      "summary": "Keyboard and mouse rests.",
+      "features": [
+        "Keyboard and mouse rests."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 18.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 11,
+      "sku": "DROP-SPINE-011",
+      "title": "Resistance Band Posture Set",
+      "handle": "resistance-band-posture-set",
+      "category": "Posture",
+      "price": 24,
+      "cost": 5.4,
+      "compareAt": 29,
+      "summary": "Five bands plus a door anchor.",
+      "features": [
+        "Five bands plus a door anchor."
+      ],
+      "isHero": false,
+      "marginPercent": 77.5,
+      "marginUSD": 18.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 12,
+      "sku": "DROP-SPINE-012",
+      "title": "Cervical Traction Cover",
+      "handle": "cervical-traction-cover",
+      "category": "Accessories",
+      "price": 19,
+      "cost": 4.6,
+      "compareAt": 24,
+      "summary": "Washable cover for the cradle.",
+      "features": [
+        "Washable cover for the cradle."
+      ],
+      "isHero": false,
+      "marginPercent": 75.8,
+      "marginUSD": 14.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    }
+  ]
+}

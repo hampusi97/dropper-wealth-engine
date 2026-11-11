@@ -1,0 +1,13 @@
+sku,title,handle,category,price,compare_at_price,cost,margin_percent,margin_usd,tier2_price,tier2_save,tier3_price,tier3_save,summary,is_hero
+"DROP-VERDE-001","VerdeHydro 4000K Brass Halo Grow Light & Planter","verdehydro-4000k-brass-halo-grow-light-planter","Plant Lighting","49.00","69.00","12.40","74.7","36.60","83.30","15%","110.25","25%","A 4000K full-spectrum halo grow light in a solid brass ring, set into a self-watering ceramic planter.","true"
+"DROP-VERDE-002","Organic Liquid Plant Food (8 oz)","organic-liquid-plant-food-8-oz","Consumables","19.00","24.00","4.40","76.8","14.60","32.30","15%","42.75","25%","Balanced organic feed.","false"
+"DROP-VERDE-003","Hydro-Wick Refill Pack (10)","hydro-wick-refill-pack-10","Consumables","14.00","24.00","3.90","72.1","10.10","23.80","15%","31.50","25%","Ten replacement wicks.","false"
+"DROP-VERDE-004","Propagation Station (6 Tubes)","propagation-station-6-tubes","Propagation","34.00","49.00","9.40","72.4","24.60","57.80","15%","76.50","25%","Glass tubes on a brass stand.","false"
+"DROP-VERDE-005","Aroid Soil Mix (4 qt)","aroid-soil-mix-4-qt","Consumables","24.00","34.00","5.90","75.4","18.10","40.80","15%","54.00","25%","Chunky aroid mix.","false"
+"DROP-VERDE-006","Plant Mister (Brass)","plant-mister-brass","Tools","29.00","39.00","7.10","75.5","21.90","49.30","15%","65.25","25%","Brass-bodied fine mister.","false"
+"DROP-VERDE-007","Clip-On Grow Light","clip-on-grow-light","Plant Lighting","39.00","59.00","10.90","72.1","28.10","66.30","15%","87.75","25%","Clip light with a timer.","false"
+"DROP-VERDE-008","Self-Watering Planter (Medium)","self-watering-planter-medium","Planters","49.00","74.00","13.40","72.7","35.60","83.30","15%","110.25","25%","Ceramic with a reservoir.","false"
+"DROP-VERDE-009","Propagation Heat Mat","propagation-heat-mat","Propagation","39.00","54.00","9.60","75.4","29.40","66.30","15%","87.75","25%","10x20 in heat mat.","false"
+"DROP-VERDE-010","Pruning Shears (Brass)","pruning-shears-brass","Tools","29.00","44.00","7.90","72.8","21.10","49.30","15%","65.25","25%","Bypass shears, brass handles.","false"
+"DROP-VERDE-011","Rare Aroid Cutting Pack","rare-aroid-cutting-pack","Plants","64.00","89.00","16.80","73.8","47.20","108.80","15%","144.00","25%","Three rooted cuttings.","false"
+"DROP-VERDE-012","Moisture Meter","moisture-meter","Tools","24.00","29.00","5.40","77.5","18.60","40.80","15%","54.00","25%","Soil moisture and pH meter.","false"

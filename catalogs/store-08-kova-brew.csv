@@ -1,0 +1,13 @@
+sku,title,handle,category,price,compare_at_price,cost,margin_percent,margin_usd,tier2_price,tier2_save,tier3_price,tier3_save,summary,is_hero
+"DROP-BREW-001","Kova 0.1g Auto-Timer Flow-Rate Espresso Scale","kova-0-1g-auto-timer-flow-rate-espresso-scale","Brewing","54.00","79.00","14.40","73.3","39.60","91.80","15%","121.50","25%","A 0.1g scale with auto-tare-on-flow, an espresso shot timer, and a live flow-rate readout in a heat-proof pad.","true"
+"DROP-BREW-002","Precision Filter Papers (200)","precision-filter-papers-200","Consumables","19.00","24.00","4.60","75.8","14.40","32.30","15%","42.75","25%","2-cup, oxygen-bleached.","false"
+"DROP-BREW-003","Descaling Care Kit","descaling-care-kit","Consumables","24.00","34.00","5.90","75.4","18.10","40.80","15%","54.00","25%","Descaler, brush, and cloth.","false"
+"DROP-BREW-004","Pour-Over Dripper","pour-over-dripper","Brewing","34.00","44.00","8.40","75.3","25.60","57.80","15%","76.50","25%","Ceramic flat-bottom dripper.","false"
+"DROP-BREW-005","Distribution Tool & Leveler","distribution-tool-leveler","Tools","39.00","54.00","9.60","75.4","29.40","66.30","15%","87.75","25%","58.5mm distribution tool.","false"
+"DROP-BREW-006","Tamper 58.5mm (Walnut)","tamper-58-5mm-walnut","Tools","39.00","59.00","10.90","72.1","28.10","66.30","15%","87.75","25%","Walnut handle, stainless base.","false"
+"DROP-BREW-007","Milk Pitcher (12 oz)","milk-pitcher-12-oz","Tools","29.00","39.00","7.10","75.5","21.90","49.30","15%","65.25","25%","Tapered spout, induction safe.","false"
+"DROP-BREW-008","Bean Cellar (4 Canisters)","bean-cellar-4-canisters","Storage","44.00","64.00","11.90","73","32.10","74.80","15%","99.00","25%","Four single-dose canisters.","false"
+"DROP-BREW-009","Puck Screen Set","puck-screen-set","Tools","24.00","34.00","6.40","73.3","17.60","40.80","15%","54.00","25%","1.7mm mesh screens, pair.","false"
+"DROP-BREW-010","WDT Needle Tool","wdt-needle-tool","Tools","24.00","29.00","5.40","77.5","18.60","40.80","15%","54.00","25%","Nine-needle distribution tool.","false"
+"DROP-BREW-011","Barista Knock Box","barista-knock-box","Tools","29.00","44.00","7.90","72.8","21.10","49.30","15%","65.25","25%","Walnut knock bar, rubber base.","false"
+"DROP-BREW-012","Reusable Filter Cup","reusable-filter-cup","Brewing","24.00","39.00","6.60","72.5","17.40","40.80","15%","54.00","25%","Stainless cup that fits most drippers.","false"

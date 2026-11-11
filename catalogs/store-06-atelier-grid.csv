@@ -1,0 +1,13 @@
+sku,title,handle,category,price,compare_at_price,cost,margin_percent,margin_usd,tier2_price,tier2_save,tier3_price,tier3_save,summary,is_hero
+"DROP-GRID-001","2027 Checkered Lay-Flat Weekly Planner","2027-checkered-lay-flat-weekly-planner","Planner","39.00","54.00","10.40","73.3","28.60","66.30","15%","87.75","25%","A sewn lay-flat weekly planner on 120gsm archival paper with a checkered linen cover and 12 tabbed months.","true"
+"DROP-GRID-002","A5 Dotted Archival Notebook","a5-dotted-archival-notebook","Notebooks","24.00","34.00","6.40","73.3","17.60","40.80","15%","54.00","25%","160 dot-grid pages, lay-flat.","false"
+"DROP-GRID-003","Weekly Desk Pad (52 sheets)","weekly-desk-pad-52-sheets","Desk","24.00","34.00","5.90","75.4","18.10","40.80","15%","54.00","25%","52 undated weekly sheets.","false"
+"DROP-GRID-004","Grid Ruler & Stencil Set","grid-ruler-stencil-set","Tools","19.00","24.00","4.40","76.8","14.60","32.30","15%","42.75","25%","Brass ruler plus three stencils.","false"
+"DROP-GRID-005","Gel Ink Pen Set (5)","gel-ink-pen-set-5","Tools","24.00","29.00","5.40","77.5","18.60","40.80","15%","54.00","25%","0.5mm archival gel ink.","false"
+"DROP-GRID-006","Wax Seal & Envelope Kit","wax-seal-envelope-kit","Stationery","34.00","44.00","8.40","75.3","25.60","57.80","15%","76.50","25%","Seal, 200 stickers, 20 envelopes.","false"
+"DROP-GRID-007","Linen Portfolio Folder","linen-portfolio-folder","Desk","34.00","49.00","9.40","72.4","24.60","57.80","15%","76.50","25%","A4 portfolio with a grid insert.","false"
+"DROP-GRID-008","Desk Cable Grid Tray","desk-cable-grid-tray","Desk","29.00","39.00","7.10","75.5","21.90","49.30","15%","65.25","25%","Anodised aluminium cable channel.","false"
+"DROP-GRID-009","Monthly Wall Grid Calendar","monthly-wall-grid-calendar","Desk","24.00","39.00","6.60","72.5","17.40","40.80","15%","54.00","25%","A2 undated wall grid.","false"
+"DROP-GRID-010","Archive Storage Box (3)","archive-storage-box-3","Storage","39.00","59.00","10.90","72.1","28.10","66.30","15%","87.75","25%","Three acid-free document boxes.","false"
+"DROP-GRID-011","Ink Swatch Journal","ink-swatch-journal","Notebooks","19.00","29.00","5.10","73.2","13.90","32.30","15%","42.75","25%","52 sheets of 12 ink-friendly papers.","false"
+"DROP-GRID-012","Grid Sticky Note Bundle","grid-sticky-note-bundle","Stationery","14.00","24.00","3.90","72.1","10.10","23.80","15%","31.50","25%","Six pads in a grid pattern.","false"

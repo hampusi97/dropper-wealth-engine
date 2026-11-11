@@ -1,0 +1,519 @@
+{
+  "storeId": "store-13-kinetic-grip",
+  "storeName": "KineticGrip",
+  "domain": "kineticgrip.com",
+  "niche": "CNC Hand Grippers, Forearm Training & Tendon Care",
+  "skuPrefix": "DROP-GRIP-",
+  "fulfillment": "api-dropship",
+  "generatedAt": "2026-11-11T21:48:05.644Z",
+  "productCount": 12,
+  "products": [
+    {
+      "skuIndex": 1,
+      "sku": "DROP-GRIP-001",
+      "title": "KineticGrip 50-350 lb CNC Aluminum Gripper Set",
+      "handle": "kineticgrip-50-350-lb-cnc-aluminum-gripper-set",
+      "category": "Training",
+      "price": 44,
+      "cost": 11.2,
+      "compareAt": 59,
+      "summary": "A 50-350 lb adjustable CNC aluminium gripper with knurled handles and a carry case.",
+      "features": [
+        "50-350 lb in 25 lb steps",
+        "6061 CNC aluminium",
+        "Knurled chalk-friendly handles",
+        "Carry case included"
+      ],
+      "isHero": true,
+      "marginPercent": 74.5,
+      "marginUSD": 32.8,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 44,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 74.8,
+          "savings": 13.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 99,
+          "savings": 33,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 2,
+      "sku": "DROP-GRIP-002",
+      "title": "Mobility Floss Bands (3)",
+      "handle": "mobility-floss-bands-3",
+      "category": "Recovery",
+      "price": 29,
+      "cost": 6.9,
+      "compareAt": 39,
+      "summary": "Three widths for wrist and elbow.",
+      "features": [
+        "Three widths for wrist and elbow."
+      ],
+      "isHero": false,
+      "marginPercent": 76.2,
+      "marginUSD": 22.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 3,
+      "sku": "DROP-GRIP-003",
+      "title": "Liquid Chalk Refill",
+      "handle": "liquid-chalk-refill",
+      "category": "Consumables",
+      "price": 14,
+      "cost": 3.9,
+      "compareAt": 24,
+      "summary": "8 oz liquid chalk.",
+      "features": [
+        "8 oz liquid chalk."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 10.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 14,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 23.8,
+          "savings": 4.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 31.5,
+          "savings": 10.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 4,
+      "sku": "DROP-GRIP-004",
+      "title": "Climbing Chalk Block (2)",
+      "handle": "climbing-chalk-block-2",
+      "category": "Consumables",
+      "price": 19,
+      "cost": 4.6,
+      "compareAt": 24,
+      "summary": "Two 2 oz chalk blocks.",
+      "features": [
+        "Two 2 oz chalk blocks."
+      ],
+      "isHero": false,
+      "marginPercent": 75.8,
+      "marginUSD": 14.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 5,
+      "sku": "DROP-GRIP-005",
+      "title": "Finger Trainer Board",
+      "handle": "finger-trainer-board",
+      "category": "Training",
+      "price": 49,
+      "cost": 13.4,
+      "compareAt": 74,
+      "summary": "Adjustable hangboard.",
+      "features": [
+        "Adjustable hangboard."
+      ],
+      "isHero": false,
+      "marginPercent": 72.7,
+      "marginUSD": 35.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 49,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 83.3,
+          "savings": 14.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 110.25,
+          "savings": 36.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 6,
+      "sku": "DROP-GRIP-006",
+      "title": "Wrist Strengthener Roller",
+      "handle": "wrist-strengthener-roller",
+      "category": "Training",
+      "price": 39,
+      "cost": 9.6,
+      "compareAt": 54,
+      "summary": "Roller with a removable weight.",
+      "features": [
+        "Roller with a removable weight."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 29.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 7,
+      "sku": "DROP-GRIP-007",
+      "title": "Grip Strengthener Set (3)",
+      "handle": "grip-strengthener-set-3",
+      "category": "Training",
+      "price": 29,
+      "cost": 7.1,
+      "compareAt": 39,
+      "summary": "Three resistances.",
+      "features": [
+        "Three resistances."
+      ],
+      "isHero": false,
+      "marginPercent": 75.5,
+      "marginUSD": 21.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 8,
+      "sku": "DROP-GRIP-008",
+      "title": "Forearm Recovery Sleeve",
+      "handle": "forearm-recovery-sleeve",
+      "category": "Recovery",
+      "price": 24,
+      "cost": 6.4,
+      "compareAt": 34,
+      "summary": "Pair of compression sleeves.",
+      "features": [
+        "Pair of compression sleeves."
+      ],
+      "isHero": false,
+      "marginPercent": 73.3,
+      "marginUSD": 17.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 9,
+      "sku": "DROP-GRIP-009",
+      "title": "Tendon Massage Tool",
+      "handle": "tendon-massage-tool",
+      "category": "Recovery",
+      "price": 24,
+      "cost": 5.4,
+      "compareAt": 29,
+      "summary": "Stainless tendon massage bar.",
+      "features": [
+        "Stainless tendon massage bar."
+      ],
+      "isHero": false,
+      "marginPercent": 77.5,
+      "marginUSD": 18.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 10,
+      "sku": "DROP-GRIP-010",
+      "title": "Chalk Bucket",
+      "handle": "chalk-bucket",
+      "category": "Accessories",
+      "price": 29,
+      "cost": 7.9,
+      "compareAt": 44,
+      "summary": "Roll-top chalk bucket.",
+      "features": [
+        "Roll-top chalk bucket."
+      ],
+      "isHero": false,
+      "marginPercent": 72.8,
+      "marginUSD": 21.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 11,
+      "sku": "DROP-GRIP-011",
+      "title": "Resistance Bar (Medium)",
+      "handle": "resistance-bar-medium",
+      "category": "Training",
+      "price": 39,
+      "cost": 10.9,
+      "compareAt": 59,
+      "summary": "Medium resistance bar.",
+      "features": [
+        "Medium resistance bar."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 28.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 12,
+      "sku": "DROP-GRIP-012",
+      "title": "Hand Care Balm",
+      "handle": "hand-care-balm",
+      "category": "Recovery",
+      "price": 19,
+      "cost": 4.4,
+      "compareAt": 24,
+      "summary": "Climbing hand balm, 2 oz.",
+      "features": [
+        "Climbing hand balm, 2 oz."
+      ],
+      "isHero": false,
+      "marginPercent": 76.8,
+      "marginUSD": 14.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+sku,title,handle,category,price,compare_at_price,cost,margin_percent,margin_usd,tier2_price,tier2_save,tier3_price,tier3_save,summary,is_hero
+"DROP-DESK-001","LumenDesk CRI 98+ Asymmetric Monitor Light Bar","lumendesk-cri-98-asymmetric-monitor-light-bar","Desk Lighting","64.00","89.00","16.80","73.8","47.20","108.80","15%","144.00","25%","A 45 cm asymmetric light bar at CRI 98+ with no screen glare, five colour temperatures, and a USB-C dial.","true"
+"DROP-DESK-002","Merino Felt Desk Mat","merino-felt-desk-mat","Desk","39.00","59.00","10.90","72.1","28.10","66.30","15%","87.75","25%","Large merino felt desk mat.","false"
+"DROP-DESK-003","Cable Management Kit","cable-management-kit","Desk","29.00","39.00","7.10","75.5","21.90","49.30","15%","65.25","25%","Tray, clips, and sleeves.","false"
+"DROP-DESK-004","Monitor Arm (Single)","monitor-arm-single","Desk","74.00","109.00","19.40","73.8","54.60","125.80","15%","166.50","25%","Gas-spring monitor arm.","false"
+"DROP-DESK-005","Under-Desk Light Strip","under-desk-light-strip","Desk Lighting","34.00","44.00","8.40","75.3","25.60","57.80","15%","76.50","25%","Warm strip with a dimmer.","false"
+"DROP-DESK-006","Laptop Riser (Aluminium)","laptop-riser-aluminium","Desk","44.00","64.00","11.90","73","32.10","74.80","15%","99.00","25%","Ventilated aluminium riser.","false"
+"DROP-DESK-007","Desk Organizer Tray Set","desk-organizer-tray-set","Desk","29.00","44.00","7.90","72.8","21.10","49.30","15%","65.25","25%","Modular felt trays.","false"
+"DROP-DESK-008","Hardware Care Kit","hardware-care-kit","Accessories","24.00","34.00","5.90","75.4","18.10","40.80","15%","54.00","25%","Cloth, brush, and lubricant.","false"
+"DROP-DESK-009","Keyboard Wrist Rest","keyboard-wrist-rest","Desk","34.00","49.00","8.90","73.8","25.10","57.80","15%","76.50","25%","Merino felt wrist rest.","false"
+"DROP-DESK-010","Focus Timer Cube","focus-timer-cube","Deep Work","29.00","39.00","6.90","76.2","22.10","49.30","15%","65.25","25%","Flip timer with four presets.","false"
+"DROP-DESK-011","Cable Sleeve Pack (3)","cable-sleeve-pack-3","Desk","19.00","24.00","4.60","75.8","14.40","32.30","15%","42.75","25%","Three zip cable sleeves.","false"
+"DROP-DESK-012","Monitor Light Bar Clamp","monitor-light-bar-clamp","Accessories","24.00","34.00","6.40","73.3","17.60","40.80","15%","54.00","25%","Spare counterweight clamp.","false"

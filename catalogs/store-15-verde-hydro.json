@@ -1,0 +1,519 @@
+{
+  "storeId": "store-15-verde-hydro",
+  "storeName": "VerdeHydro",
+  "domain": "verdehydro.com",
+  "niche": "Brass Grow Lights & Hydro Plant Systems",
+  "skuPrefix": "DROP-VERDE-",
+  "fulfillment": "api-dropship",
+  "generatedAt": "2026-11-11T21:48:05.645Z",
+  "productCount": 12,
+  "products": [
+    {
+      "skuIndex": 1,
+      "sku": "DROP-VERDE-001",
+      "title": "VerdeHydro 4000K Brass Halo Grow Light & Planter",
+      "handle": "verdehydro-4000k-brass-halo-grow-light-planter",
+      "category": "Plant Lighting",
+      "price": 49,
+      "cost": 12.4,
+      "compareAt": 69,
+      "summary": "A 4000K full-spectrum halo grow light in a solid brass ring, set into a self-watering ceramic planter.",
+      "features": [
+        "4000K full spectrum",
+        "PPFD 120 at 12 in",
+        "Self-watering reservoir",
+        "Solid brass, patinas naturally"
+      ],
+      "isHero": true,
+      "marginPercent": 74.7,
+      "marginUSD": 36.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 49,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 83.3,
+          "savings": 14.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 110.25,
+          "savings": 36.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 2,
+      "sku": "DROP-VERDE-002",
+      "title": "Organic Liquid Plant Food (8 oz)",
+      "handle": "organic-liquid-plant-food-8-oz",
+      "category": "Consumables",
+      "price": 19,
+      "cost": 4.4,
+      "compareAt": 24,
+      "summary": "Balanced organic feed.",
+      "features": [
+        "Balanced organic feed."
+      ],
+      "isHero": false,
+      "marginPercent": 76.8,
+      "marginUSD": 14.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 3,
+      "sku": "DROP-VERDE-003",
+      "title": "Hydro-Wick Refill Pack (10)",
+      "handle": "hydro-wick-refill-pack-10",
+      "category": "Consumables",
+      "price": 14,
+      "cost": 3.9,
+      "compareAt": 24,
+      "summary": "Ten replacement wicks.",
+      "features": [
+        "Ten replacement wicks."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 10.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 14,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 23.8,
+          "savings": 4.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 31.5,
+          "savings": 10.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 4,
+      "sku": "DROP-VERDE-004",
+      "title": "Propagation Station (6 Tubes)",
+      "handle": "propagation-station-6-tubes",
+      "category": "Propagation",
+      "price": 34,
+      "cost": 9.4,
+      "compareAt": 49,
+      "summary": "Glass tubes on a brass stand.",
+      "features": [
+        "Glass tubes on a brass stand."
+      ],
+      "isHero": false,
+      "marginPercent": 72.4,
+      "marginUSD": 24.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 5,
+      "sku": "DROP-VERDE-005",
+      "title": "Aroid Soil Mix (4 qt)",
+      "handle": "aroid-soil-mix-4-qt",
+      "category": "Consumables",
+      "price": 24,
+      "cost": 5.9,
+      "compareAt": 34,
+      "summary": "Chunky aroid mix.",
+      "features": [
+        "Chunky aroid mix."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 18.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 6,
+      "sku": "DROP-VERDE-006",
+      "title": "Plant Mister (Brass)",
+      "handle": "plant-mister-brass",
+      "category": "Tools",
+      "price": 29,
+      "cost": 7.1,
+      "compareAt": 39,
+      "summary": "Brass-bodied fine mister.",
+      "features": [
+        "Brass-bodied fine mister."
+      ],
+      "isHero": false,
+      "marginPercent": 75.5,
+      "marginUSD": 21.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 7,
+      "sku": "DROP-VERDE-007",
+      "title": "Clip-On Grow Light",
+      "handle": "clip-on-grow-light",
+      "category": "Plant Lighting",
+      "price": 39,
+      "cost": 10.9,
+      "compareAt": 59,
+      "summary": "Clip light with a timer.",
+      "features": [
+        "Clip light with a timer."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 28.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 8,
+      "sku": "DROP-VERDE-008",
+      "title": "Self-Watering Planter (Medium)",
+      "handle": "self-watering-planter-medium",
+      "category": "Planters",
+      "price": 49,
+      "cost": 13.4,
+      "compareAt": 74,
+      "summary": "Ceramic with a reservoir.",
+      "features": [
+        "Ceramic with a reservoir."
+      ],
+      "isHero": false,
+      "marginPercent": 72.7,
+      "marginUSD": 35.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 49,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 83.3,
+          "savings": 14.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 110.25,
+          "savings": 36.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 9,
+      "sku": "DROP-VERDE-009",
+      "title": "Propagation Heat Mat",
+      "handle": "propagation-heat-mat",
+      "category": "Propagation",
+      "price": 39,
+      "cost": 9.6,
+      "compareAt": 54,
+      "summary": "10x20 in heat mat.",
+      "features": [
+        "10x20 in heat mat."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 29.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 10,
+      "sku": "DROP-VERDE-010",
+      "title": "Pruning Shears (Brass)",
+      "handle": "pruning-shears-brass",
+      "category": "Tools",
+      "price": 29,
+      "cost": 7.9,
+      "compareAt": 44,
+      "summary": "Bypass shears, brass handles.",
+      "features": [
+        "Bypass shears, brass handles."
+      ],
+      "isHero": false,
+      "marginPercent": 72.8,
+      "marginUSD": 21.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 11,
+      "sku": "DROP-VERDE-011",
+      "title": "Rare Aroid Cutting Pack",
+      "handle": "rare-aroid-cutting-pack",
+      "category": "Plants",
+      "price": 64,
+      "cost": 16.8,
+      "compareAt": 89,
+      "summary": "Three rooted cuttings.",
+      "features": [
+        "Three rooted cuttings."
+      ],
+      "isHero": false,
+      "marginPercent": 73.8,
+      "marginUSD": 47.2,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 64,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 108.8,
+          "savings": 19.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 144,
+          "savings": 48,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 12,
+      "sku": "DROP-VERDE-012",
+      "title": "Moisture Meter",
+      "handle": "moisture-meter",
+      "category": "Tools",
+      "price": 24,
+      "cost": 5.4,
+      "compareAt": 29,
+      "summary": "Soil moisture and pH meter.",
+      "features": [
+        "Soil moisture and pH meter."
+      ],
+      "isHero": false,
+      "marginPercent": 77.5,
+      "marginUSD": 18.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    }
+  ]
+}

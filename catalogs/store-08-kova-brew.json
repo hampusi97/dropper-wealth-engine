@@ -1,0 +1,519 @@
+{
+  "storeId": "store-08-kova-brew",
+  "storeName": "Kova Brew",
+  "domain": "kovabrew.com",
+  "niche": "Espresso Scales, Flow Control & Barista Precision",
+  "skuPrefix": "DROP-BREW-",
+  "fulfillment": "api-dropship",
+  "generatedAt": "2026-11-11T21:48:05.641Z",
+  "productCount": 12,
+  "products": [
+    {
+      "skuIndex": 1,
+      "sku": "DROP-BREW-001",
+      "title": "Kova 0.1g Auto-Timer Flow-Rate Espresso Scale",
+      "handle": "kova-0-1g-auto-timer-flow-rate-espresso-scale",
+      "category": "Brewing",
+      "price": 54,
+      "cost": 14.4,
+      "compareAt": 79,
+      "summary": "A 0.1g scale with auto-tare-on-flow, an espresso shot timer, and a live flow-rate readout in a heat-proof pad.",
+      "features": [
+        "0.1g resolution, 2kg max",
+        "Auto-tare and auto-timer",
+        "Live g/s flow rate",
+        "USB-C, 40-hour battery"
+      ],
+      "isHero": true,
+      "marginPercent": 73.3,
+      "marginUSD": 39.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 54,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 91.8,
+          "savings": 16.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 121.5,
+          "savings": 40.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 2,
+      "sku": "DROP-BREW-002",
+      "title": "Precision Filter Papers (200)",
+      "handle": "precision-filter-papers-200",
+      "category": "Consumables",
+      "price": 19,
+      "cost": 4.6,
+      "compareAt": 24,
+      "summary": "2-cup, oxygen-bleached.",
+      "features": [
+        "2-cup, oxygen-bleached."
+      ],
+      "isHero": false,
+      "marginPercent": 75.8,
+      "marginUSD": 14.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 19,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 32.3,
+          "savings": 5.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 42.75,
+          "savings": 14.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 3,
+      "sku": "DROP-BREW-003",
+      "title": "Descaling Care Kit",
+      "handle": "descaling-care-kit",
+      "category": "Consumables",
+      "price": 24,
+      "cost": 5.9,
+      "compareAt": 34,
+      "summary": "Descaler, brush, and cloth.",
+      "features": [
+        "Descaler, brush, and cloth."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 18.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 4,
+      "sku": "DROP-BREW-004",
+      "title": "Pour-Over Dripper",
+      "handle": "pour-over-dripper",
+      "category": "Brewing",
+      "price": 34,
+      "cost": 8.4,
+      "compareAt": 44,
+      "summary": "Ceramic flat-bottom dripper.",
+      "features": [
+        "Ceramic flat-bottom dripper."
+      ],
+      "isHero": false,
+      "marginPercent": 75.3,
+      "marginUSD": 25.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 34,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 57.8,
+          "savings": 10.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 76.5,
+          "savings": 25.5,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 5,
+      "sku": "DROP-BREW-005",
+      "title": "Distribution Tool & Leveler",
+      "handle": "distribution-tool-leveler",
+      "category": "Tools",
+      "price": 39,
+      "cost": 9.6,
+      "compareAt": 54,
+      "summary": "58.5mm distribution tool.",
+      "features": [
+        "58.5mm distribution tool."
+      ],
+      "isHero": false,
+      "marginPercent": 75.4,
+      "marginUSD": 29.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 6,
+      "sku": "DROP-BREW-006",
+      "title": "Tamper 58.5mm (Walnut)",
+      "handle": "tamper-58-5mm-walnut",
+      "category": "Tools",
+      "price": 39,
+      "cost": 10.9,
+      "compareAt": 59,
+      "summary": "Walnut handle, stainless base.",
+      "features": [
+        "Walnut handle, stainless base."
+      ],
+      "isHero": false,
+      "marginPercent": 72.1,
+      "marginUSD": 28.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 39,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 66.3,
+          "savings": 11.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 87.75,
+          "savings": 29.25,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 7,
+      "sku": "DROP-BREW-007",
+      "title": "Milk Pitcher (12 oz)",
+      "handle": "milk-pitcher-12-oz",
+      "category": "Tools",
+      "price": 29,
+      "cost": 7.1,
+      "compareAt": 39,
+      "summary": "Tapered spout, induction safe.",
+      "features": [
+        "Tapered spout, induction safe."
+      ],
+      "isHero": false,
+      "marginPercent": 75.5,
+      "marginUSD": 21.9,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 8,
+      "sku": "DROP-BREW-008",
+      "title": "Bean Cellar (4 Canisters)",
+      "handle": "bean-cellar-4-canisters",
+      "category": "Storage",
+      "price": 44,
+      "cost": 11.9,
+      "compareAt": 64,
+      "summary": "Four single-dose canisters.",
+      "features": [
+        "Four single-dose canisters."
+      ],
+      "isHero": false,
+      "marginPercent": 73,
+      "marginUSD": 32.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 44,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 74.8,
+          "savings": 13.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 99,
+          "savings": 33,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 9,
+      "sku": "DROP-BREW-009",
+      "title": "Puck Screen Set",
+      "handle": "puck-screen-set",
+      "category": "Tools",
+      "price": 24,
+      "cost": 6.4,
+      "compareAt": 34,
+      "summary": "1.7mm mesh screens, pair.",
+      "features": [
+        "1.7mm mesh screens, pair."
+      ],
+      "isHero": false,
+      "marginPercent": 73.3,
+      "marginUSD": 17.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 10,
+      "sku": "DROP-BREW-010",
+      "title": "WDT Needle Tool",
+      "handle": "wdt-needle-tool",
+      "category": "Tools",
+      "price": 24,
+      "cost": 5.4,
+      "compareAt": 29,
+      "summary": "Nine-needle distribution tool.",
+      "features": [
+        "Nine-needle distribution tool."
+      ],
+      "isHero": false,
+      "marginPercent": 77.5,
+      "marginUSD": 18.6,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 11,
+      "sku": "DROP-BREW-011",
+      "title": "Barista Knock Box",
+      "handle": "barista-knock-box",
+      "category": "Tools",
+      "price": 29,
+      "cost": 7.9,
+      "compareAt": 44,
+      "summary": "Walnut knock bar, rubber base.",
+      "features": [
+        "Walnut knock bar, rubber base."
+      ],
+      "isHero": false,
+      "marginPercent": 72.8,
+      "marginUSD": 21.1,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 29,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 49.3,
+          "savings": 8.7,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 65.25,
+          "savings": 21.75,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    },
+    {
+      "skuIndex": 12,
+      "sku": "DROP-BREW-012",
+      "title": "Reusable Filter Cup",
+      "handle": "reusable-filter-cup",
+      "category": "Brewing",
+      "price": 24,
+      "cost": 6.6,
+      "compareAt": 39,
+      "summary": "Stainless cup that fits most drippers.",
+      "features": [
+        "Stainless cup that fits most drippers."
+      ],
+      "isHero": false,
+      "marginPercent": 72.5,
+      "marginUSD": 17.4,
+      "bundle": {
+        "tier1": {
+          "qty": 1,
+          "label": "Starter",
+          "price": 24,
+          "savings": 0
+        },
+        "tier2": {
+          "qty": 2,
+          "label": "Duo Bundle",
+          "price": 40.8,
+          "savings": 7.2,
+          "save": "15%",
+          "shipping": "Free Shipping"
+        },
+        "tier3": {
+          "qty": 3,
+          "label": "Collector Vault",
+          "price": 54,
+          "savings": 18,
+          "save": "25%",
+          "shipping": "Free Shipping",
+          "bonus": "Free Companion Gift"
+        }
+      }
+    }
+  ]
+}
