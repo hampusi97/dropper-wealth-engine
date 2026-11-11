@@ -1,0 +1,79 @@
+<section class="pdp" data-pdp>
+  <div class="pdp__media">
+    {%- if product.featured_image -%}
+      <img src="{{ product.featured_image | image_url: width: 1200 }}" alt="{{ product.featured_image.alt | escape }}" width="1200" height="1200">
+    {%- else -%}
+      <div class="pdp__ph" aria-hidden="true"><span>{{ product.title }}</span></div>
+    {%- endif -%}
+  </div>
+
+  <div class="pdp__info">
+    <h1 class="pdp__title">{{ product.title | default: "LumaGlow 4-in-1 Red Light Sculpting Wand" }}</h1>
+    <p class="pdp__price" data-pdp-price>{{ product.price | money }}</p>
+    <p class="pdp__lede">{{ product.description | strip_html | truncate: 220 | default: "630nm red LED, 350µA microcurrent, 42°C thermal, and 10,000 RPM sonic in one rotating head." }}</p>
+
+    <form class="pdp__form" data-pdp-form>
+      <fieldset class="tiers">
+        <legend>Choose your tier</legend>
+        <label class="tier">
+          <input type="radio" name="tier" value="1" checked>
+          <span class="tier__label">1 &times; Starter</span>
+          <span class="tier__price">{{ product.price | money }}</span>
+        </label>
+        <label class="tier">
+          <input type="radio" name="tier" value="2">
+          <span class="tier__label">2 &times; Duo &mdash; save 15%</span>
+          <span class="tier__price">Free shipping</span>
+        </label>
+        <label class="tier">
+          <input type="radio" name="tier" value="3">
+          <span class="tier__label">3 &times; Collector Vault &mdash; save 25%</span>
+          <span class="tier__price">+ companion gift</span>
+        </label>
+      </fieldset>
+
+      <fieldset class="plan">
+        <legend>Buying option</legend>
+        <label class="plan__row">
+          <input type="radio" name="plan" value="one-time" checked>
+          <span>One-time purchase</span>
+        </label>
+        <label class="plan__row">
+          <input type="radio" name="plan" value="subscribe">
+          <span>Subscribe &amp; Save 20% &mdash; Monthly Hyaluronic Conductive Serum Auto-Refill ($24/month)</span>
+        </label>
+      </fieldset>
+
+      <div class="pdp__actions">
+        <button type="submit" class="btn btn--primary" data-add-to-cart>Add to bag</button>
+        <p class="pdp__guarantee">60-day guarantee &bull; ships in 1 business day</p>
+      </div>
+      <p class="pdp__status" data-pdp-status role="status" aria-live="polite"></p>
+    </form>
+
+    <ul class="pdp__bullets">
+      <li>4 modes: LED, microcurrent, thermal, sonic</li>
+      <li>USB-C, 90-minute battery</li>
+      <li>Fits 3.5mm treatment pads</li>
+      <li>FDA-registered facility, 1-year warranty</li>
+    </ul>
+
+    <details class="pdp__accordion" open>
+      <summary>What's in the box</summary>
+      <ul><li><b>90° Rotating Surgical Alloy Head</b> &mdash; Anodized, 0.4 lb balanced</li><li><b>630nm Deep Red LED Matrix</b> &mdash; 36 diodes, 60 mW/cm² at contact</li><li><b>350µA Microcurrent Core</b> &mdash; Three intensity steps</li><li><b>42°C Thermal + Sonic Engine</b> &mdash; 10,000 RPM, 4 modes</li></ul>
+    </details>
+    <details class="pdp__accordion">
+      <summary>Bulk orders (10+ units)</summary>
+      <p>Estheticians &amp; Med-Spas get 10+ units at 30% off, 25+ units at 40% off. <a href="/pages/b2b-wholesale">Request a quote</a>.</p>
+    </details>
+  </div>
+</section>
+
+<section class="bundles" id="bundles">
+  <div class="section-head"><h2>Why people buy the set</h2><p>Each tier is the same product, priced for the way you actually use it.</p></div>
+  <div class="bundle-grid">
+    <article class="bundle"><p class="bundle__tag">Starter</p><p class="bundle__price">$84.00</p><ul><li>1 unit</li><li>Digital add-on available</li></ul></article>
+    <article class="bundle bundle--feature"><p class="bundle__tag">Duo &mdash; save 15%</p><p class="bundle__price">$142.80</p><ul><li>2 units</li><li>Free shipping</li><li>Save $25.20</li></ul></article>
+    <article class="bundle"><p class="bundle__tag">Collector Vault &mdash; save 25%</p><p class="bundle__price">$189.00</p><ul><li>3 units</li><li>Free shipping</li><li>Free companion gift</li></ul></article>
+  </div>
+</section>

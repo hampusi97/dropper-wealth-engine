@@ -1,0 +1,54 @@
+<section class="hero" data-hero data-store="store-02-luma-clinical">
+  <div class="hero__stage" data-hero-stage>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__isometric" data-isometric>
+      <div class="layer" data-depth="34" style="--i: 0">
+        <span class="layer__index">01</span>
+        <span class="layer__name">90° Rotating Surgical Alloy Head</span>
+        <span class="layer__note">Anodized, 0.4 lb balanced</span>
+      </div>
+      <div class="layer" data-depth="68" style="--i: 1">
+        <span class="layer__index">02</span>
+        <span class="layer__name">630nm Deep Red LED Matrix</span>
+        <span class="layer__note">36 diodes, 60 mW/cm² at contact</span>
+      </div>
+      <div class="layer" data-depth="102" style="--i: 2">
+        <span class="layer__index">03</span>
+        <span class="layer__name">350µA Microcurrent Core</span>
+        <span class="layer__note">Three intensity steps</span>
+      </div>
+      <div class="layer" data-depth="136" style="--i: 3">
+        <span class="layer__index">04</span>
+        <span class="layer__name">42°C Thermal + Sonic Engine</span>
+        <span class="layer__note">10,000 RPM, 4 modes</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__copy">
+    <p class="hero__eyebrow">Clinical-grade LED and microcurrent tools for at-home facial protocols.</p>
+    <h1 class="hero__title">{{ section.settings.heading | default: "LumaGlow 4-in-1 Red Light Sculpting Wand" }}</h1>
+    <p class="hero__lede">{{ section.settings.lede | default: "630nm red LED, 350µA microcurrent, 42°C thermal, and 10,000 RPM sonic in one rotating head." }}</p>
+    <ul class="hero__callouts">
+        <li><b>01</b> 90° Rotating Surgical Alloy Head &mdash; Anodized, 0.4 lb balanced</li>
+        <li><b>02</b> 630nm Deep Red LED Matrix &mdash; 36 diodes, 60 mW/cm² at contact</li>
+        <li><b>03</b> 350µA Microcurrent Core &mdash; Three intensity steps</li>
+        <li><b>04</b> 42°C Thermal + Sonic Engine &mdash; 10,000 RPM, 4 modes</li>
+    </ul>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ section.settings.cta_link | default: '/products/lumaglow-4-in-1-red-light-sculpting-wand' }}">Unlock the complete set &mdash; {{ section.settings.price | default: 84 }}</a>
+      <a class="btn btn--ghost" href="#bundles">Compare 3 tiers</a>
+    </div>
+    <p class="hero__meta">Ships from {{ shop.name }} &bull; 60-day guarantee &bull; Subscribe &amp; save 20%</p>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "3D exploded hero",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "LumaGlow 4-in-1 Red Light Sculpting Wand" },
+    { "type": "textarea", "id": "lede", "label": "Lede", "default": "630nm red LED, 350µA microcurrent, 42°C thermal, and 10,000 RPM sonic in one rotating head." },
+    { "type": "url", "id": "cta_link", "label": "CTA link" },
+    { "type": "number", "id": "price", "label": "Hero price (USD)", "default": 84 }
+  ]
+}
+{% endschema %}
