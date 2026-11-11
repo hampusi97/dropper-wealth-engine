@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T22:29:29.930Z",
-  "count": 15,
+  "generatedAt": "2026-11-11T23:07:06.593Z",
+  "count": 17,
   "storefronts": [
     {
       "store": "store-01-bizi-bees",
@@ -105,6 +105,20 @@
       "name": "VerdeHydro",
       "domain": "verdehydro.com",
       "path": "storefronts/store-15-verde-hydro/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-16-apex-stride",
+      "name": "ApexStride",
+      "domain": "apexstride.com",
+      "path": "storefronts/store-16-apex-stride/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-17-chrono-forge",
+      "name": "ChronoForge",
+      "domain": "chronoforge.com",
+      "path": "storefronts/store-17-chrono-forge/index.html",
       "products": 12
     }
   ]

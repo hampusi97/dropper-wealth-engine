@@ -2,7 +2,7 @@
   "schema": "dropper-os-stores-registry-v14",
   "documentId": "DROPPER-WEALTH-ENGINE-V13.0",
   "repo": "hampusi97/dropper-wealth-engine",
-  "generatedAt": "2026-11-11T22:29:29.687Z",
+  "generatedAt": "2026-11-11T23:07:06.504Z",
   "northStar": {
     "monthlyBaselineUSD": 50000,
     "dailyBaselineUSD": 1667,
@@ -1744,6 +1744,232 @@
         "self watering planter",
         "aroid propagation",
         "houseplant care"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-16-apex-stride",
+      "name": "ApexStride",
+      "branch": "store-16-apex-stride",
+      "domain": "apexstride.com",
+      "myshopify": "apex-stride.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-APEX-",
+      "niche": "Carbon-Plated Running Insoles & Pneumatic Recovery Boots",
+      "positioning": "Carbon-plate insoles and compression recovery gear for runners chasing a personal best.",
+      "palette": {
+        "background": "#0A0B0E",
+        "surface": "#151922",
+        "accent": "#38BDF8",
+        "accentSoft": "#7DD3FC"
+      },
+      "vipClub": "Apex Endurance Club",
+      "hero": {
+        "title": "ApexStride Carbon-Plate Energy Insoles",
+        "price": 59,
+        "cost": 16.4,
+        "layers": [
+          {
+            "name": "Carbon Fiber Plate",
+            "note": "Energy return at toe-off"
+          },
+          {
+            "name": "Dual-Density EVA Cushioning",
+            "note": "Absorbs impact"
+          },
+          {
+            "name": "Moisture-Wicking Bamboo Top",
+            "note": "Friction-free, anti-blister"
+          },
+          {
+            "name": "Trim-to-Fit Guides",
+            "note": "Fits any running shoe"
+          }
+        ]
+      },
+      "digital": {
+        "title": "12-Week Race-Day Training Plan Pack",
+        "price": 9,
+        "format": "PDF + printable logs",
+        "pages": 36,
+        "description": "A 36-page plan pack with 5K, 10K and half-marathon schedules plus printable training logs.",
+        "deliverables": [
+          "36-page training guide",
+          "5K, 10K and half plans",
+          "Printable weekly logs",
+          "Recovery checklist"
+        ]
+      },
+      "subscription": {
+        "title": "Monthly Merino Sock & Balm Refill",
+        "price": 22,
+        "cadence": "month",
+        "cost": 5.4,
+        "perks": [
+          "3 pairs merino socks",
+          "2 oz anti-chafe balm",
+          "Member pricing on insoles",
+          "Skip anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Run Clubs & Specialty Running Stores",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Club kit and in-store insole stocking."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 50,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 90,
+          "reward": "Extra 12% Off",
+          "value": 12
+        },
+        {
+          "threshold": 125,
+          "reward": "Free Merino Running Socks",
+          "value": 22
+        }
+      ],
+      "competitors": [
+        "carbon plate insoles",
+        "running recovery boots",
+        "energy return insoles"
+      ],
+      "keywords": [
+        "running insoles",
+        "recovery boots",
+        "carbon plate insole",
+        "marathon training"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-17-chrono-forge",
+      "name": "ChronoForge",
+      "branch": "store-17-chrono-forge",
+      "domain": "chronoforge.com",
+      "myshopify": "chrono-forge.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-CHRONO-",
+      "niche": "Modular Titanium EDC Watches & Multi-Tool Carabiners",
+      "positioning": "Titanium field watches and everyday-carry tools built to take a beating.",
+      "palette": {
+        "background": "#0E0D0C",
+        "surface": "#1A1816",
+        "accent": "#F59E0B",
+        "accentSoft": "#FCD34D"
+      },
+      "vipClub": "ChronoForge EDC Guild",
+      "hero": {
+        "title": "ChronoForge Grade-5 Titanium Field Watch",
+        "price": 149,
+        "cost": 39.5,
+        "layers": [
+          {
+            "name": "Grade-5 Titanium Case",
+            "note": "Light and corrosion-proof"
+          },
+          {
+            "name": "Sapphire Crystal",
+            "note": "Anti-reflective coating"
+          },
+          {
+            "name": "NH35 Automatic Movement",
+            "note": "Self-winding"
+          },
+          {
+            "name": "200 m Water-Resistant Seal",
+            "note": "Screw-down crown"
+          }
+        ]
+      },
+      "digital": {
+        "title": "Field Watch & EDC Buyer's Guide",
+        "price": 9,
+        "format": "PDF",
+        "pages": 30,
+        "description": "A 30-page guide to movements, case materials, strap fit and building a minimalist everyday-carry kit.",
+        "deliverables": [
+          "30-page buyer's guide",
+          "Movement comparison chart",
+          "Strap sizing guide",
+          "EDC checklist"
+        ]
+      },
+      "subscription": {
+        "title": "Quarterly Strap & Watch Care Box",
+        "price": 29,
+        "cadence": "quarter",
+        "cost": 7.1,
+        "perks": [
+          "One new strap",
+          "Watch care supplies",
+          "Member pricing on watches",
+          "Skip anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Corporate Gifting & Outdoor Retailers",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 25
+          },
+          {
+            "units": 25,
+            "off": 35
+          }
+        ],
+        "useCase": "Team gifts and retail EDC accessory stocking."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 60,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 120,
+          "reward": "Extra 12% Off",
+          "value": 12
+        },
+        {
+          "threshold": 160,
+          "reward": "Free Titanium Pocket Pry Bar",
+          "value": 34
+        }
+      ],
+      "competitors": [
+        "titanium field watch",
+        "edc watch",
+        "multi tool carabiner"
+      ],
+      "keywords": [
+        "titanium watch",
+        "edc gear",
+        "field watch",
+        "nh35 automatic"
       ],
       "productCount": 12,
       "dailyTargetUSD": 111.11,
