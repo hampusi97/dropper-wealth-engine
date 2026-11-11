@@ -1,0 +1,10 @@
+{%- paginate collection.products by 24 -%}
+<section class="featured">
+  <div class="section-head"><h2>{{ collection.title }}</h2><p>{{ collection.description | strip_html | truncate: 180 }}</p></div>
+  <div class="product-grid">
+    {%- for product in collection.products -%}
+      {% render 'product-card', product: product %}
+    {%- endfor -%}
+  </div>
+</section>
+{%- endpaginate -%}

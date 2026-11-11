@@ -1,0 +1,34 @@
+<footer class="site-footer">
+  <div class="site-footer__grid">
+    <div>
+      <p class="site-footer__brand">{{ shop.name }}</p>
+      <p class="site-footer__meta">Hand-graded used books and 100%-complete board games, packed in Utah.</p>
+    </div>
+    <nav aria-label="Support">
+      <p class="site-footer__head">Support</p>
+      <a href="/pages/shipping">Shipping &amp; delivery</a>
+      <a href="/pages/returns">Returns &amp; 60-day guarantee</a>
+      <a href="/policies/refund-policy">Refund policy</a>
+      <a href="/pages/contact">Contact</a>
+    </nav>
+    <nav aria-label="Company">
+      <p class="site-footer__head">Company</p>
+      <a href="/pages/about">About</a>
+      <a href="/pages/b2b-wholesale">Bulk &amp; B2B</a>
+      <a href="/pages/creators">Creators</a>
+      <a href="/policies/privacy-policy">Privacy</a>
+      <a href="/policies/terms-of-service">Terms</a>
+    </nav>
+    <div>
+      <p class="site-footer__head">The Bizi Hive Society</p>
+      <p class="site-footer__meta">10 points per $1 &bull; Give $15, get $15</p>
+      <p class="site-footer__meta">&copy; {{ 'now' | date: '%Y' }} {{ shop.name }}. All prices in {{ cart.currency.iso_code }}.</p>
+    </div>
+  </div>
+</footer>
+{% schema %}
+{
+  "name": "Footer",
+  "settings": []
+}
+{% endschema %}
