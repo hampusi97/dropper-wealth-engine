@@ -1,0 +1,54 @@
+<section class="hero" data-hero data-store="store-16-apex-stride">
+  <div class="hero__stage" data-hero-stage>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__isometric" data-isometric>
+      <div class="layer" data-depth="34" style="--i: 0">
+        <span class="layer__index">01</span>
+        <span class="layer__name">Carbon Fiber Plate</span>
+        <span class="layer__note">Energy return at toe-off</span>
+      </div>
+      <div class="layer" data-depth="68" style="--i: 1">
+        <span class="layer__index">02</span>
+        <span class="layer__name">Dual-Density EVA Cushioning</span>
+        <span class="layer__note">Absorbs impact</span>
+      </div>
+      <div class="layer" data-depth="102" style="--i: 2">
+        <span class="layer__index">03</span>
+        <span class="layer__name">Moisture-Wicking Bamboo Top</span>
+        <span class="layer__note">Friction-free, anti-blister</span>
+      </div>
+      <div class="layer" data-depth="136" style="--i: 3">
+        <span class="layer__index">04</span>
+        <span class="layer__name">Trim-to-Fit Guides</span>
+        <span class="layer__note">Fits any running shoe</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__copy">
+    <p class="hero__eyebrow">Carbon-plate insoles and compression recovery gear for runners chasing a personal best.</p>
+    <h1 class="hero__title">{{ section.settings.heading | default: "ApexStride Carbon-Plate Energy Insoles" }}</h1>
+    <p class="hero__lede">{{ section.settings.lede | default: "A carbon-fiber plate insole with dual-density EVA cushioning and a moisture-wicking bamboo top, trim-to-fit for any running shoe." }}</p>
+    <ul class="hero__callouts">
+        <li><b>01</b> Carbon Fiber Plate &mdash; Energy return at toe-off</li>
+        <li><b>02</b> Dual-Density EVA Cushioning &mdash; Absorbs impact</li>
+        <li><b>03</b> Moisture-Wicking Bamboo Top &mdash; Friction-free, anti-blister</li>
+        <li><b>04</b> Trim-to-Fit Guides &mdash; Fits any running shoe</li>
+    </ul>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ section.settings.cta_link | default: '/products/apexstride-carbon-plate-energy-insoles' }}">Unlock the complete set &mdash; {{ section.settings.price | default: 59 }}</a>
+      <a class="btn btn--ghost" href="#bundles">Compare 3 tiers</a>
+    </div>
+    <p class="hero__meta">Ships from {{ shop.name }} &bull; 60-day guarantee &bull; Subscribe &amp; save 20%</p>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "3D exploded hero",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "ApexStride Carbon-Plate Energy Insoles" },
+    { "type": "textarea", "id": "lede", "label": "Lede", "default": "A carbon-fiber plate insole with dual-density EVA cushioning and a moisture-wicking bamboo top, trim-to-fit for any running shoe." },
+    { "type": "url", "id": "cta_link", "label": "CTA link" },
+    { "type": "number", "id": "price", "label": "Hero price (USD)", "default": 59 }
+  ]
+}
+{% endschema %}
