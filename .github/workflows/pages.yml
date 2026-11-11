@@ -29,19 +29,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: Assemble the site
         run: |
+          set -e
           mkdir -p _site
+          # storefronts at the site root: /store-01-bizi-bees/ … /store-15-verde-hydro/
           cp -R storefronts/. _site/
           mkdir -p _site/dashboard && cp -R dashboard/. _site/dashboard/
-          cp -R config _site/config 2>/dev/null || true
-          cp -R reports _site/reports 2>/dev/null || true
-          cp -R state _site/state 2>/dev/null || true
-          cp -R public _site/public 2>/dev/null || true
-          cp -R lib _site/lib 2>/dev/null || true
+          for d in config reports state public lib; do
+            if [ -d "$d" ]; then mkdir -p "_site/$d" && cp -R "$d"/. "_site/$d/"; fi
+          done
           cat > _site/index.html <<'HTML'
           <!doctype html><meta charset="utf-8"><title>Dropper OS</title>
-          <meta http-equiv="refresh" content="0; url=storefronts/index.html">
-          <a href="storefronts/index.html">All 15 stores</a> · <a href="dashboard/index.html">Command deck</a>
+          <meta http-equiv="refresh" content="0; url=./storefronts.html">
+          <a href="./storefronts.html">All 15 stores</a> · <a href="./dashboard/index.html">Command deck</a>
           HTML
+          cp storefronts/index.html _site/storefronts.html 2>/dev/null || true
+          ls _site | head -30
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
