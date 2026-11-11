@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dropper OS — 15-Store Command Deck</title>
+<style>
+  :root{
+    --bg:#08090B; --surface:#111318; --surface-2:#161920; --line:rgba(255,255,255,.09);
+    --ink:#F2F3F5; --muted:rgba(242,243,245,.58); --accent:#F59E0B; --good:#34D399; --warn:#FBBF24; --bad:#F87171;
+    --radius:14px; --max:1280px;
+    --font:ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.55;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 1.25rem}
+  header.top{position:sticky;top:0;z-index:20;background:rgba(8,9,11,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+  .top__inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.9rem 0}
+  .brand{display:flex;align-items:center;gap:.7rem;font-weight:800;letter-spacing:-.02em}
+  .brand__mark{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--accent),#FBBF24);color:#0b0b0b;display:grid;place-items:center;font-size:.8rem;font-weight:900}
+  .top__meta{font-size:.8rem;color:var(--muted);display:flex;gap:1rem;flex-wrap:wrap}
+  .tabs{display:flex;gap:.35rem;overflow-x:auto;padding:.5rem 0 .7rem}
+  .tab{background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:.42rem .9rem;font:inherit;font-size:.8rem;cursor:pointer;white-space:nowrap}
+  .tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#0b0b0b;font-weight:700}
+  main{padding:1.5rem 0 4rem}
+  section[hidden]{display:none}
+  h2{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 .9rem;font-weight:600}
+  h3{margin:0 0 .3rem;font-size:1rem;letter-spacing:-.01em}
+  .grid{display:grid;gap:.9rem}
+  .g4{grid-template-columns:repeat(auto-fit,minmax(215px,1fr))}
+  .g3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:1rem 1.1rem}
+  .card--tight{padding:.85rem 1rem}
+  .stat__label{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .3rem}
+  .stat__value{font-size:1.65rem;font-weight:800;letter-spacing:-.02em;margin:0}
+  .stat__sub{font-size:.78rem;color:var(--muted);margin:.3rem 0 0}
+  .pace{margin-top:1.2rem}
+  .pace__bar{height:34px;border-radius:10px;background:var(--surface-2);border:1px solid var(--line);overflow:hidden;position:relative}
+  .pace__fill{height:100%;background:linear-gradient(90deg,var(--accent),#FBBF24);width:0%;transition:width .6s cubic-bezier(.2,.8,.2,1)}
+  .pace__ticks{display:flex;justify-content:space-between;font-size:.74rem;color:var(--muted);margin-top:.45rem}
+  table{width:100%;border-collapse:collapse;font-size:.84rem}
+  th,td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  tr:last-child td{border-bottom:0}
+  .pill{display:inline-flex;align-items:center;gap:.35rem;font-size:.7rem;padding:.16rem .5rem;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--good);display:inline-block}
+  .dot--warn{background:var(--warn)} .dot--bad{background:var(--bad)}
+  .store-card{cursor:pointer;transition:transform .18s ease,border-color .18s ease}
+  .store-card:hover{transform:translateY(-2px);border-color:var(--accent)}
+  .store-card__head{display:flex;justify-content:space-between;gap:.5rem;align-items:flex-start}
+  .store-card__niche{font-size:.78rem;color:var(--muted);margin:.2rem 0 .7rem}
+  .store-card__rows{display:grid;gap:.28rem;font-size:.78rem;color:var(--muted)}
+  .store-card__rows b{color:var(--ink);font-weight:600}
+  .bar{height:6px;border-radius:999px;background:var(--surface-2);overflow:hidden;margin-top:.5rem}
+  .bar > i{display:block;height:100%;background:var(--accent)}
+  .engine{display:grid;gap:.35rem}
+  .engine__row{display:flex;justify-content:space-between;font-size:.8rem;color:var(--muted)}
+  .engine__row b{color:var(--ink)}
+  .buckets{display:grid;grid-template-columns:repeat(4,1fr);gap:.9rem}
+  .bucket{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:1rem}
+  .bucket__pct{font-size:.72rem;color:var(--accent);letter-spacing:.1em;text-transform:uppercase}
+  .bucket__amt{font-size:1.3rem;font-weight:800;margin:.25rem 0}
+  .bucket__note{font-size:.74rem;color:var(--muted)}
+  .banner{border:1px solid var(--line);border-left:3px solid var(--warn);background:var(--surface);border-radius:10px;padding:.85rem 1rem;font-size:.84rem;color:var(--muted);margin-bottom:1.2rem}
+  .banner b{color:var(--ink)}
+  .pdp-preview{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1rem}
+  .iso{position:relative;perspective:1200px;min-height:260px;display:grid;place-items:center;background:radial-gradient(circle at 50% 30%,rgba(255,255,255,.06),transparent 60%);border-radius:12px}
+  .iso__stage{transform-style:preserve-3d;transform:rotateX(18deg) rotateZ(-24deg);width:min(300px,90%);height:190px;position:relative}
+  .iso .layer{position:absolute;left:0;right:0;background:linear-gradient(150deg,#1c2029,#12151b);border:1px solid var(--line);border-radius:10px;padding:.5rem .7rem;font-size:.72rem;box-shadow:0 20px 40px -26px #000}
+  .iso .layer small{display:block;color:var(--muted);font-size:.66rem}
+  .kv{display:grid;grid-template-columns:auto 1fr;gap:.3rem .8rem;font-size:.8rem;color:var(--muted)}
+  .kv b{color:var(--ink)}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.78rem;background:var(--surface-2);padding:.1rem .35rem;border-radius:5px;color:#e5e7eb}
+  footer{border-top:1px solid var(--line);padding:1.4rem 0;color:var(--muted);font-size:.78rem}
+  @media(max-width:820px){.buckets{grid-template-columns:repeat(2,1fr)}.pdp-preview{grid-template-columns:1fr}}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="top__inner">
+      <div class="brand"><span class="brand__mark">OS</span> Dropper OS</div>
+      <div class="top__meta">
+        <span>15 stores</span><span>180 products</span><span>21 bots</span><span>6 engines</span>
+        <span id="generated">—</span>
+      </div>
+    </div>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" aria-selected="true" data-tab="fleet">Fleet</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="engines">Money engines</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="bots">21 bots</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="treasury">Treasury</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="growth">Traffic</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="banner" id="source-banner">Loading fleet data…</div>
+
+  <!-- ---------------------------------------------------------------- fleet -->
+  <section id="tab-fleet">
+    <h2>North star</h2>
+    <div class="grid g4" id="stats"></div>
+    <div class="pace">
+      <div class="pace__bar"><div class="pace__fill" id="pace-fill"></div></div>
+      <div class="pace__ticks">
+        <span id="pace-label">$0 of $50,000 baseline</span>
+        <span>Stretch: $150,000 / mo</span>
+      </div>
+    </div>
+
+    <h2 style="margin-top:2rem">15-store fleet matrix</h2>
+    <div class="grid g3" id="stores"></div>
+  </section>
+
+  <!-- -------------------------------------------------------------- engines -->
+  <section id="tab-engines" hidden>
+    <h2>The 6 monetization engines — per store</h2>
+    <div class="grid g3" id="engine-cards"></div>
+    <h2 style="margin-top:2rem">Storefront preview</h2>
+    <div class="card">
+      <div class="pdp-preview" id="preview">
+        <div class="iso"><div class="iso__stage" id="iso-stage"></div></div>
+        <div>
+          <h3 id="pv-title">—</h3>
+          <p class="stat__sub" id="pv-sub">—</p>
+          <div class="kv" id="pv-kv"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ----------------------------------------------------------------- bots -->
+  <section id="tab-bots" hidden>
+    <h2>21 bots · 7 departments · 1,400 credits</h2>
+    <div class="grid g3" id="depts"></div>
+    <h2 style="margin-top:2rem">Last sovereign cycle</h2>
+    <div class="card card--tight" id="cycle">No cycle recorded yet — run <code>node dropper-sovereign-bot.mjs</code>.</div>
+  </section>
+
+  <!-- ------------------------------------------------------------- treasury -->
+  <section id="tab-treasury" hidden>
+    <h2>Treasury — 4 buckets</h2>
+    <div class="buckets" id="buckets"></div>
+    <div class="grid g4" style="margin-top:1rem" id="treasury-stats"></div>
+    <h2 style="margin-top:2rem">Net profit formula</h2>
+    <div class="card card--tight">gross − discounts − COGS − shipping − (2.9% + $0.30 per order) − ad spend. Figures come from <code>reports/treasury-summary.json</code>; zeros mean no sales have been recorded, not a projection.</div>
+  </section>
+
+  <!-- --------------------------------------------------------------- growth -->
+  <section id="tab-growth" hidden>
+    <h2>Free traffic + retention library</h2>
+    <div class="grid g4" id="growth-stats"></div>
+    <h2 style="margin-top:2rem">Google Shopping feeds</h2>
+    <div class="card card--tight"><table><thead><tr><th>Store</th><th>Feed file</th><th>Items</th></tr></thead><tbody id="feed-rows"></tbody></table></div>
+  </section>
+</main>
+
+<footer><div class="wrap">Dropper OS v14 · <span id="docid">DROPPER-WEALTH-ENGINE-V13.0</span> · repo <code>hampusi97/dropper-wealth-engine</code> · 15 root Shopify branches + main</div></footer>
+
+<script>
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const usd = (n, d = 0) => "$" + Number(n || 0).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d });
+
+async function j(path) {
+  try { const r = await fetch(path, { cache: "no-store" }); if (!r.ok) throw new Error(r.status); return await r.json(); }
+  catch { return null; }
+}
+
+const state = { stores: [], config: null, bots: null, cycle: null, treasury: null, feeds: null };
+
+async function boot() {
+  const [config, bots, cycle, treasury, feeds] = await Promise.all([
+    j("config/stores-15.config.json"), j("lib/bots/registry.json"), j("state/sovereign-state.json"),
+    j("reports/treasury-summary.json"), j("public/feeds/index.json"),
+  ]);
+  state.config = config; state.bots = bots; state.cycle = cycle; state.treasury = treasury; state.feeds = feeds;
+  state.stores = config?.stores || [];
+  $("#generated").textContent = config?.generatedAt ? "built " + config.generatedAt.slice(0, 10) : "no config";
+  if (config?.documentId) $("#docid").textContent = config.documentId;
+
+  const live = treasury && !treasury.template;
+  $("#source-banner").innerHTML = live
+    ? `<b>Live ledger:</b> ${treasury.daysCounted} recorded day(s) · net ${usd(treasury.totals.net, 2)} · run rate ${usd(treasury.runRate, 0)}/mo.`
+    : `<b>No sales recorded yet.</b> The catalog, 15 themes, 15 Shopping feeds and 21 bots are built; every revenue figure below is $0 because no Shopify store is connected and no payouts have been logged. Fill <code>reports/treasury-results.json</code> to make this live.`;
+
+  renderFleet();
+  renderEngines();
+  renderBots();
+  renderTreasury();
+  renderGrowth();
+}
+
+function renderFleet() {
+  const stores = state.stores;
+  const products = stores.reduce((a, s) => a + (s.productCount || 0), 0);
+  const digitalRev = stores.reduce((a, s) => a + (s.digital?.price || 0), 0);
+  const subAnnual = stores.reduce((a, s) => a + (s.subscription?.price || 0) * (s.subscription?.cadence === "month" ? 12 : 4), 0);
+  const avgMargin = stores.length ? stores.reduce((a, s) => a + (1 - s.hero.cost / s.hero.price), 0) / stores.length * 100 : 0;
+
+  $("#stats").innerHTML = [
+    ["Stores", stores.length, "independent branches"],
+    ["Products", products, "12 per store, ≥72% gross margin"],
+    ["Hero margin", avgMargin.toFixed(1) + "%", "average across the fleet"],
+    ["Subscription book", usd(subAnnual), "annualised if every store sold 1 club"],
+    ["Digital add-ons", usd(digitalRev), "sum of all 15 order bumps, $0 COGS"],
+  ].map(([l, v, s]) => `<div class="card"><p class="stat__label">${l}</p><p class="stat__value">${v}</p><p class="stat__sub">${s}</p></div>`).join("");
+
+  const runRate = state.treasury && !state.treasury.template ? state.treasury.runRate : 0;
+  const baseline = state.config?.northStar?.monthlyBaselineUSD || 50000;
+  const pct = Math.min(100, (runRate / baseline) * 100);
+  $("#pace-fill").style.width = pct + "%";
+  $("#pace-label").textContent = `${usd(runRate)} of ${usd(baseline)} baseline (${pct.toFixed(1)}%)`;
+
+  $("#stores").innerHTML = stores.map((s) => {
+    const row = (state.treasury?.stores || []).find((x) => x.id === s.id);
+    const net = row ? row.net : 0;
+    const perStoreTarget = s.monthlyTargetUSD || 3333;
+    const pctS = Math.min(100, (net / perStoreTarget) * 100);
+    return `<article class="card store-card" data-store="${s.id}">
+      <div class="store-card__head">
+        <div><h3>${s.name}</h3><p class="store-card__niche">${s.niche}</p></div>
+        <span class="pill"><span class="dot"></span>${s.fulfillment}</span>
+      </div>
+      <div class="store-card__rows">
+        <span>Hero: <b>${s.hero.title}</b> · ${usd(s.hero.price)}</span>
+        <span>Digital bump: <b>${usd(s.digital.price)}</b> · ${s.subscription.price}/${s.subscription.cadence}</span>
+        <span>B2B: <b>${s.b2b.audience}</b></span>
+        <span>Net to date: <b>${usd(net, 2)}</b> of ${usd(perStoreTarget)}/mo</span>
+      </div>
+      <div class="bar"><i style="width:${pctS}%"></i></div>
+    </article>`;
+  }).join("");
+
+  $$(".store-card").forEach((c) => c.addEventListener("click", () => {
+    selectTab("engines");
+    preview(c.dataset.store);
+  }));
+}
+
+function renderEngines() {
+  $("#engine-cards").innerHTML = state.stores.map((s) => `
+    <article class="card">
+      <h3>${s.name}</h3>
+      <p class="stat__sub">${s.domain}</p>
+      <div class="engine">
+        <div class="engine__row"><span>1 · 3-tier bundles</span><b>${usd(s.hero.price)} / ${usd(s.hero.price * 2 * 0.85)} / ${usd(s.hero.price * 3 * 0.75)}</b></div>
+        <div class="engine__row"><span>2 · Digital add-on</span><b>${usd(s.digital.price)} · 100%</b></div>
+        <div class="engine__row"><span>3 · Subscribe &amp; save 20%</span><b>${usd(s.subscription.price)}/${s.subscription.cadence}</b></div>
+        <div class="engine__row"><span>4 · B2B bulk</span><b>${s.b2b.tiers.map((t) => t.units + "+ @" + t.off + "%").join(" · ")}</b></div>
+        <div class="engine__row"><span>5 · Cart milestones</span><b>${s.cartMilestones.map((m) => "$" + m.threshold).join(" → ")}</b></div>
+        <div class="engine__row"><span>6 · Partner voucher</span><b>$20 × 4 stores</b></div>
+        <div class="engine__row"><span>Feed</span><b>google-shopping-${s.id}.xml</b></div>
+      </div>
+    </article>`).join("");
+  if (state.stores[0]) preview(state.stores[0].id);
+}
+
+function preview(id) {
+  const s = state.stores.find((x) => x.id === id);
+  if (!s) return;
+  $("#pv-title").textContent = s.hero.title;
+  $("#pv-sub").textContent = s.positioning;
+  $("#pv-kv").innerHTML = [
+    ["Price", usd(s.hero.price)], ["Cost", usd(s.hero.cost, 2)],
+    ["Margin", (((s.hero.price - s.hero.cost) / s.hero.price) * 100).toFixed(1) + "%"],
+    ["Club", `${usd(s.subscription.price)}/${s.subscription.cadence}`],
+    ["Digital", usd(s.digital.price)],
+    ["B2B", s.b2b.tiers.map((t) => `${t.units}+ @ ${t.off}%`).join(", ")],
+    ["Branch", s.branch],
+  ].map(([k, v]) => `<span>${k}</span><b>${v}</b>`).join("");
+  $("#iso-stage").innerHTML = (s.hero.layers || []).map((l, i) =>
+    `<div class="layer" style="top:${i * 34}px;transform:translateZ(${i * 30}px)">0${i + 1} ${l.name}<small>${l.note}</small></div>`).join("");
+}
+
+function renderBots() {
+  const reg = state.bots;
+  if (!reg) { $("#depts").innerHTML = '<div class="card">lib/bots/registry.json missing</div>'; return; }
+  $("#depts").innerHTML = reg.departments.map((d) => `
+    <article class="card">
+      <h3>${d.id}</h3>
+      <p class="stat__sub">${d.focus}</p>
+      <div class="engine">${d.bots.map((b) => `<div class="engine__row"><span><code>${b.id}</code> ${b.name}</span><b>${b.credits} cr</b></div>`).join("")}</div>
+    </article>`).join("");
+
+  const c = state.cycle;
+  if (c) {
+    $("#cycle").innerHTML = `<div class="kv">
+      <span>Ran</span><b>${c.ranAt} (${(c.durationMs / 1000).toFixed(1)}s)</b>
+      <span>Mode</span><b>${c.mode}</b>
+      <span>Result</span><b>${c.ok ? "green" : "attention"}</b>
+      <span>Bots passing</span><b>${c.bots.filter((b) => b.ok).length}/${c.bots.length}</b>
+      ${c.awaitingLiveConnections?.length ? `<span>Awaiting live</span><b>${c.awaitingLiveConnections.join(", ")}</b>` : ""}
+      <span>Steps</span><b>${c.steps.map((s) => (s.ok ? "✓" : "✗") + " " + s.name).join(" · ")}</b>
+    </div>`;
+  }
+}
+
+function renderTreasury() {
+  const t = state.treasury;
+  const runRate = t && !t.template ? t.runRate : 0;
+  const buckets = t?.buckets || [
+    { label: "COGS Float", pct: 35 }, { label: "Growth / Ads", pct: 25 },
+    { label: "Tax Reserve", pct: 20 }, { label: "Owner Take-Home", pct: 20 },
+  ];
+  $("#buckets").innerHTML = buckets.map((b) => `
+    <div class="bucket"><p class="bucket__pct">${b.label} · ${b.pct}%</p>
+      <p class="bucket__amt">${usd(b.atRunRate ?? (runRate * b.pct) / 100)}</p>
+      <p class="bucket__note">at the current run rate</p></div>`).join("");
+  const base = state.config?.northStar || {};
+  $("#treasury-stats").innerHTML = [
+    ["Net to date", usd(t?.totals?.net ?? 0, 2)],
+    ["30-day run rate", usd(runRate)],
+    ["Baseline", usd(base.monthlyBaselineUSD ?? 50000)],
+    ["Stretch", usd(base.monthlyStretchUSD ?? 150000)],
+  ].map(([l, v]) => `<div class="card"><p class="stat__label">${l}</p><p class="stat__value">${v}</p></div>`).join("");
+}
+
+function renderGrowth() {
+  const feeds = state.feeds;
+  const perStore = (p) => (state.stores.length ? Math.round(p / state.stores.length) : 0);
+  $("#growth-stats").innerHTML = [
+    ["Shopping feed items", feeds?.itemCount ?? 0],
+    ["SEO buyer guides", perStore(60) * state.stores.length || 60],
+    ["Ad scripts", perStore(75) * state.stores.length || 75],
+    ["Lifecycle emails", perStore(150) * state.stores.length || 150],
+    ["Creator briefs", state.stores.length],
+  ].map(([l, v]) => `<div class="card"><p class="stat__label">${l}</p><p class="stat__value">${v}</p></div>`).join("");
+  $("#feed-rows").innerHTML = (feeds?.feeds || []).map((f) =>
+    `<tr><td>${f.store}</td><td><code>${f.local}</code></td><td>${f.items}</td></tr>`).join("") || "<tr><td colspan=3>no feeds built yet</td></tr>";
+}
+
+function selectTab(name) {
+  $$(".tab").forEach((t) => t.setAttribute("aria-selected", String(t.dataset.tab === name)));
+  $$("main section").forEach((s) => (s.hidden = s.id !== "tab-" + name));
+}
+$$(".tab").forEach((t) => t.addEventListener("click", () => selectTab(t.dataset.tab)));
+
+boot();
+</script>
+</body>
+</html>
