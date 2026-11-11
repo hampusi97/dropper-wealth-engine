@@ -1,0 +1,54 @@
+<section class="hero" data-hero data-store="store-08-kova-brew">
+  <div class="hero__stage" data-hero-stage>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__isometric" data-isometric>
+      <div class="layer" data-depth="34" style="--i: 0">
+        <span class="layer__index">01</span>
+        <span class="layer__name">0.1g Load Cell</span>
+        <span class="layer__note">2kg capacity, 0.1g resolution</span>
+      </div>
+      <div class="layer" data-depth="68" style="--i: 1">
+        <span class="layer__index">02</span>
+        <span class="layer__name">Auto Flow Timer</span>
+        <span class="layer__note">Starts on first drop</span>
+      </div>
+      <div class="layer" data-depth="102" style="--i: 2">
+        <span class="layer__index">03</span>
+        <span class="layer__name">Live Flow-Rate Display</span>
+        <span class="layer__note">g/s readout in real time</span>
+      </div>
+      <div class="layer" data-depth="136" style="--i: 3">
+        <span class="layer__index">04</span>
+        <span class="layer__name">Heat-Proof Silicone Pad</span>
+        <span class="layer__note">Handles 120°C drips</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__copy">
+    <p class="hero__eyebrow">Precision brewing tools for people who weigh their shots.</p>
+    <h1 class="hero__title">{{ section.settings.heading | default: "Kova 0.1g Auto-Timer Flow-Rate Espresso Scale" }}</h1>
+    <p class="hero__lede">{{ section.settings.lede | default: "A 0.1g scale with auto-tare-on-flow, an espresso shot timer, and a live flow-rate readout in a heat-proof pad." }}</p>
+    <ul class="hero__callouts">
+        <li><b>01</b> 0.1g Load Cell &mdash; 2kg capacity, 0.1g resolution</li>
+        <li><b>02</b> Auto Flow Timer &mdash; Starts on first drop</li>
+        <li><b>03</b> Live Flow-Rate Display &mdash; g/s readout in real time</li>
+        <li><b>04</b> Heat-Proof Silicone Pad &mdash; Handles 120°C drips</li>
+    </ul>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ section.settings.cta_link | default: '/products/kova-0-1g-auto-timer-flow-rate-espresso-scale' }}">Unlock the complete set &mdash; {{ section.settings.price | default: 54 }}</a>
+      <a class="btn btn--ghost" href="#bundles">Compare 3 tiers</a>
+    </div>
+    <p class="hero__meta">Ships from {{ shop.name }} &bull; 60-day guarantee &bull; Subscribe &amp; save 20%</p>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "3D exploded hero",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Kova 0.1g Auto-Timer Flow-Rate Espresso Scale" },
+    { "type": "textarea", "id": "lede", "label": "Lede", "default": "A 0.1g scale with auto-tare-on-flow, an espresso shot timer, and a live flow-rate readout in a heat-proof pad." },
+    { "type": "url", "id": "cta_link", "label": "CTA link" },
+    { "type": "number", "id": "price", "label": "Hero price (USD)", "default": 54 }
+  ]
+}
+{% endschema %}

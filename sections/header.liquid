@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__logo" href="{{ routes.root_url }}">{{ shop.name }}</a>
+    <nav class="site-header__nav" aria-label="Primary">
+      <a href="{{ routes.all_products_collection_url }}">Shop</a>
+      <a href="/pages/b2b-wholesale">Bulk &amp; B2B</a>
+      <a href="/pages/creators">Creators (20%)</a>
+      <a href="/pages/about">About</a>
+    </nav>
+    <button class="site-header__cart" type="button" data-cart-toggle aria-label="Open cart">
+      Cart <span class="site-header__count" data-cart-count>{{ cart.item_count }}</span>
+    </button>
+  </div>
+</header>
+{% schema %}
+{
+  "name": "Header",
+  "settings": []
+}
+{% endschema %}
