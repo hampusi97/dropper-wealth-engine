@@ -1,0 +1,35 @@
+{
+  "general": {
+    "skip_to_content": "Skip to content",
+    "add_to_cart": "Add to bag",
+    "cart": "Cart",
+    "checkout": "Checkout",
+    "subscribe_save": "Subscribe & Save 20%"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Add to bag",
+      "sold_out": "Sold out"
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Your bag",
+      "subtotal": "Subtotal",
+      "empty": "Your bag is empty"
+    }
+  },
+  "loyalty": {
+    "club": "SculptWave Contour Club",
+    "points": "10 points per $1",
+    "referral": "Give $15, get $15"
+  },
+  "b2b": {
+    "title": "Bulk & institutional ordering",
+    "cta": "Request bulk quote"
+  },
+  "creators": {
+    "title": "Creator & affiliate programme",
+    "commission": "20% commission"
+  }
+}
