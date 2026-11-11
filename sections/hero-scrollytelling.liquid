@@ -1,0 +1,54 @@
+<section class="hero" data-hero data-store="store-17-chrono-forge">
+  <div class="hero__stage" data-hero-stage>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__isometric" data-isometric>
+      <div class="layer" data-depth="34" style="--i: 0">
+        <span class="layer__index">01</span>
+        <span class="layer__name">Grade-5 Titanium Case</span>
+        <span class="layer__note">Light and corrosion-proof</span>
+      </div>
+      <div class="layer" data-depth="68" style="--i: 1">
+        <span class="layer__index">02</span>
+        <span class="layer__name">Sapphire Crystal</span>
+        <span class="layer__note">Anti-reflective coating</span>
+      </div>
+      <div class="layer" data-depth="102" style="--i: 2">
+        <span class="layer__index">03</span>
+        <span class="layer__name">NH35 Automatic Movement</span>
+        <span class="layer__note">Self-winding</span>
+      </div>
+      <div class="layer" data-depth="136" style="--i: 3">
+        <span class="layer__index">04</span>
+        <span class="layer__name">200 m Water-Resistant Seal</span>
+        <span class="layer__note">Screw-down crown</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__copy">
+    <p class="hero__eyebrow">Titanium field watches and everyday-carry tools built to take a beating.</p>
+    <h1 class="hero__title">{{ section.settings.heading | default: "ChronoForge Grade-5 Titanium Field Watch" }}</h1>
+    <p class="hero__lede">{{ section.settings.lede | default: "A Grade-5 titanium field watch with sapphire crystal, an NH35 automatic movement and a 200 m water-resistant seal." }}</p>
+    <ul class="hero__callouts">
+        <li><b>01</b> Grade-5 Titanium Case &mdash; Light and corrosion-proof</li>
+        <li><b>02</b> Sapphire Crystal &mdash; Anti-reflective coating</li>
+        <li><b>03</b> NH35 Automatic Movement &mdash; Self-winding</li>
+        <li><b>04</b> 200 m Water-Resistant Seal &mdash; Screw-down crown</li>
+    </ul>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ section.settings.cta_link | default: '/products/chronoforge-grade-5-titanium-field-watch' }}">Unlock the complete set &mdash; {{ section.settings.price | default: 149 }}</a>
+      <a class="btn btn--ghost" href="#bundles">Compare 3 tiers</a>
+    </div>
+    <p class="hero__meta">Ships from {{ shop.name }} &bull; 60-day guarantee &bull; Subscribe &amp; save 20%</p>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "3D exploded hero",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "ChronoForge Grade-5 Titanium Field Watch" },
+    { "type": "textarea", "id": "lede", "label": "Lede", "default": "A Grade-5 titanium field watch with sapphire crystal, an NH35 automatic movement and a 200 m water-resistant seal." },
+    { "type": "url", "id": "cta_link", "label": "CTA link" },
+    { "type": "number", "id": "price", "label": "Hero price (USD)", "default": 149 }
+  ]
+}
+{% endschema %}
