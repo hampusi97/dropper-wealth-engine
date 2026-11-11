@@ -1,6 +1,10 @@
 {
   "storeId": "store-11-nomad-carry",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:11:26.668Z",
+=======
+  "generatedAt": "2026-11-11T22:13:27.566Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "DROP-NOMAD-001",

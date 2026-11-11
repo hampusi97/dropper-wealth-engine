@@ -1,6 +1,10 @@
 {
   "storeId": "store-03-cryo-halo",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:11:26.662Z",
+=======
+  "generatedAt": "2026-11-11T22:13:27.557Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "DROP-CRYO-001",

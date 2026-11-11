@@ -1,6 +1,10 @@
 {
   "storeId": "store-12-solace-aroma",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:11:26.602Z",
+=======
+  "generatedAt": "2026-11-11T22:13:27.474Z",
+>>>>>>> Stashed changes
   "flowCount": 6,
   "emailCount": 10,
   "flows": [

@@ -11,12 +11,21 @@
  * folder opened in a browser — with no build step and no server.
  */
 import { buildCatalog } from "../data/stores.mjs";
+import { existsSync, readFileSync } from "node:fs";
+
+/** The owner's real details, so no store invents an operator. */
+function loadOwner() {
+  const path = "scripts/data/owner.json";
+  if (!existsSync(path)) return { legalName: "", email: "" };
+  try { return JSON.parse(readFileSync(path, "utf8")); } catch { return { legalName: "", email: "" }; }
+}
 
 const esc = (s) =>
   String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const money = (n) => "$" + (Math.round(n * 100) / 100).toFixed(2);
 
 export function buildStorefront(store, fleet) {
+  const owner = loadOwner();
   const cat = buildCatalog(store);
   const hero = cat[0];
   const p = store.palette;
@@ -227,6 +236,11 @@ ${productCards}
   <section class="about" id="about">
     <h2>About ${esc(store.name)}</h2>
     <p>${esc(store.positioning)}</p>
+    <p class="fine">${esc(store.name)} is a ${esc(store.niche.toLowerCase())} shop operated by ${esc(owner.legalName || "an independent owner")}${
+      [owner.city, owner.region, owner.country].filter(Boolean).length
+        ? `, based in ${[owner.city, owner.region, owner.country].filter(Boolean).join(", ")}`
+        : ""
+    }. Questions, orders and returns: <a href="mailto:${esc(owner.email || "orders@" + store.domain)}">${esc(owner.email || "orders@" + store.domain)}</a>.</p>
     <p>Every order ships with a 60-day guarantee. Institutions and teams get written bulk pricing: ${store.b2b.tiers.map((t) => `${t.units}+ units at ${t.off}% off`).join(", ")}.</p>
   </section>
 </main>
@@ -235,6 +249,7 @@ ${productCards}
   <p><b>${esc(store.name)}</b> · ${esc(store.domain)}</p>
   <p>${esc(store.vipClub)} · 10 points per $1 · give $15, get $15</p>
   <p class="fine">Order online and pay by card, PayPal or bank transfer — we email a secure payment link with your invoice. Shipping and support are handled by ${esc(store.name)}.</p>
+  <p class="fine">© ${new Date().getFullYear()} ${esc(owner.legalName || store.name)} · <a href="mailto:${esc(owner.email || "orders@" + store.domain)}">${esc(owner.email || "orders@" + store.domain)}</a>${owner.website ? ` · <a href="${esc(owner.website)}" rel="noopener">All stores</a>` : ""}</p>
 </footer>
 
 <!-- cart drawer -->
