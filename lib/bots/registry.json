@@ -1,0 +1,302 @@
+{
+  "generatedAt": "2026-11-11T21:50:44.296Z",
+  "creditBudget": 1400,
+  "departments": [
+    {
+      "id": "OmegaCommand",
+      "focus": "Self-driving execution, self-patching, uptime",
+      "bots": [
+        {
+          "id": "01-omega-builder",
+          "name": "OmegaBuilderBot",
+          "credits": 67,
+          "role": "Scans the repo for anything unbuilt or incomplete across all 15 stores and builds it."
+        },
+        {
+          "id": "02-solver",
+          "name": "SolverBot",
+          "credits": 67,
+          "role": "Self-patches build, Liquid and API errors by searching docs and issues."
+        },
+        {
+          "id": "03-uptime-speed",
+          "name": "UptimeSpeedBot",
+          "credits": 66,
+          "role": "Pings all 15 storefronts and reports reachability plus payload weight."
+        }
+      ]
+    },
+    {
+      "id": "HunterPsych",
+      "focus": "Arbitrage research, sales psychology, digital products",
+      "bots": [
+        {
+          "id": "04-trend-arbitrage",
+          "name": "TrendArbitrageBot",
+          "credits": 67,
+          "role": "Holds the 180-product catalog (12 per store) and audits margin + price sanity."
+        },
+        {
+          "id": "05-review-psych",
+          "name": "ReviewPsychBot",
+          "credits": 67,
+          "role": "Voice-of-customer: one emotional trigger, headline and 3 objection busters per store."
+        },
+        {
+          "id": "06-digital-upsell",
+          "name": "DigitalUpsellBot",
+          "credits": 66,
+          "role": "The $0-COGS digital add-ons wired into every cart drawer as a one-click bump."
+        }
+      ]
+    },
+    {
+      "id": "Architect3D",
+      "focus": "15 root themes, 3D scrollytelling, visual QA",
+      "bots": [
+        {
+          "id": "07-theme-compiler",
+          "name": "ThemeCompilerBot",
+          "credits": 84,
+          "role": "Compiles the 15 root-valid Shopify OS 2.0 themes."
+        },
+        {
+          "id": "08-scrolly-3d",
+          "name": "Scrolly3DBot",
+          "credits": 83,
+          "role": "The 3-stage exploded-anatomy hero: float → explode → assemble, CSS 3D + scroll driven."
+        },
+        {
+          "id": "09-aesthetic-qa",
+          "name": "AestheticQABot",
+          "credits": 83,
+          "role": "Headless visual QA: typography, contrast, motion budget, mobile thumb zones."
+        }
+      ]
+    },
+    {
+      "id": "RevenueMax",
+      "focus": "Bundles, subscriptions, B2B, loyalty, promos",
+      "bots": [
+        {
+          "id": "10-bundle-sub",
+          "name": "BundleSubBot",
+          "credits": 67,
+          "role": "3-tier bundle selector plus the Subscribe & Save 20% recurring club."
+        },
+        {
+          "id": "11-promo-loyalty",
+          "name": "PromoLoyaltyBot",
+          "credits": 67,
+          "role": "Gamified 3-milestone cart, VIP vault, and the epsilon-greedy promo bandit."
+        },
+        {
+          "id": "12-b2b-wholesale",
+          "name": "B2BWholesaleBot",
+          "credits": 66,
+          "role": "Bulk / classroom / corporate portal on all 15 stores."
+        }
+      ]
+    },
+    {
+      "id": "TrafficDomination",
+      "focus": "Shopping feeds, SEO, viral ads, affiliates",
+      "bots": [
+        {
+          "id": "13-google-merchant",
+          "name": "GoogleMerchantBot",
+          "credits": 67,
+          "role": "Google Merchant XML feeds plus Product/FAQPage JSON-LD."
+        },
+        {
+          "id": "14-programmatic-seo",
+          "name": "ProgrammaticSEOBot",
+          "credits": 67,
+          "role": "60 buyer guides and comparison articles (4 per store)."
+        },
+        {
+          "id": "15-viral-affiliate",
+          "name": "ViralAffiliateBot",
+          "credits": 66,
+          "role": "75 short-form ad scripts plus the 20% commission creator portal."
+        }
+      ]
+    },
+    {
+      "id": "RetentionNetwork",
+      "focus": "Cross-store pollination, lifecycle email, concierge",
+      "bots": [
+        {
+          "id": "16-cross-store",
+          "name": "CrossStoreNetworkBot",
+          "credits": 50,
+          "role": "The $20 partner voucher that sends every buyer to the other 14 stores."
+        },
+        {
+          "id": "17-lifecycle-email",
+          "name": "LifecycleEmailBot",
+          "credits": 50,
+          "role": "6 lifecycle flows per store (welcome, cart, post-purchase, review, subscription, winback)."
+        },
+        {
+          "id": "18-concierge-closer",
+          "name": "ConciergeCloserBot",
+          "credits": 50,
+          "role": "Pre-purchase objection answers and order-tracking replies, per store."
+        }
+      ]
+    },
+    {
+      "id": "SupplyTreasury",
+      "focus": "Dropship routing, stock failover, treasury audit",
+      "bots": [
+        {
+          "id": "19-supply-router",
+          "name": "SupplyRouterBot",
+          "credits": 67,
+          "role": "Verifies Shopify HMAC on orders/paid, routes DROP-* to CJ/Zendrop and UTAH-* to local packing."
+        },
+        {
+          "id": "20-stock-failover",
+          "name": "StockFailoverBot",
+          "credits": 66,
+          "role": "14-day burn-rate forecast, [RESTOCK CRITICAL] issues, backup supplier switch."
+        },
+        {
+          "id": "21-treasury-audit",
+          "name": "TreasuryAuditBot",
+          "credits": 67,
+          "role": "True net profit, the $50K/$150K pace, and the 4-bucket allocation."
+        }
+      ]
+    }
+  ],
+  "bots": [
+    {
+      "id": "01-omega-builder",
+      "name": "OmegaBuilderBot",
+      "department": "OmegaCommand",
+      "credits": 67
+    },
+    {
+      "id": "02-solver",
+      "name": "SolverBot",
+      "department": "OmegaCommand",
+      "credits": 67
+    },
+    {
+      "id": "03-uptime-speed",
+      "name": "UptimeSpeedBot",
+      "department": "OmegaCommand",
+      "credits": 66
+    },
+    {
+      "id": "04-trend-arbitrage",
+      "name": "TrendArbitrageBot",
+      "department": "HunterPsych",
+      "credits": 67
+    },
+    {
+      "id": "05-review-psych",
+      "name": "ReviewPsychBot",
+      "department": "HunterPsych",
+      "credits": 67
+    },
+    {
+      "id": "06-digital-upsell",
+      "name": "DigitalUpsellBot",
+      "department": "HunterPsych",
+      "credits": 66
+    },
+    {
+      "id": "07-theme-compiler",
+      "name": "ThemeCompilerBot",
+      "department": "Architect3D",
+      "credits": 84
+    },
+    {
+      "id": "08-scrolly-3d",
+      "name": "Scrolly3DBot",
+      "department": "Architect3D",
+      "credits": 83
+    },
+    {
+      "id": "09-aesthetic-qa",
+      "name": "AestheticQABot",
+      "department": "Architect3D",
+      "credits": 83
+    },
+    {
+      "id": "10-bundle-sub",
+      "name": "BundleSubBot",
+      "department": "RevenueMax",
+      "credits": 67
+    },
+    {
+      "id": "11-promo-loyalty",
+      "name": "PromoLoyaltyBot",
+      "department": "RevenueMax",
+      "credits": 67
+    },
+    {
+      "id": "12-b2b-wholesale",
+      "name": "B2BWholesaleBot",
+      "department": "RevenueMax",
+      "credits": 66
+    },
+    {
+      "id": "13-google-merchant",
+      "name": "GoogleMerchantBot",
+      "department": "TrafficDomination",
+      "credits": 67
+    },
+    {
+      "id": "14-programmatic-seo",
+      "name": "ProgrammaticSEOBot",
+      "department": "TrafficDomination",
+      "credits": 67
+    },
+    {
+      "id": "15-viral-affiliate",
+      "name": "ViralAffiliateBot",
+      "department": "TrafficDomination",
+      "credits": 66
+    },
+    {
+      "id": "16-cross-store",
+      "name": "CrossStoreNetworkBot",
+      "department": "RetentionNetwork",
+      "credits": 50
+    },
+    {
+      "id": "17-lifecycle-email",
+      "name": "LifecycleEmailBot",
+      "department": "RetentionNetwork",
+      "credits": 50
+    },
+    {
+      "id": "18-concierge-closer",
+      "name": "ConciergeCloserBot",
+      "department": "RetentionNetwork",
+      "credits": 50
+    },
+    {
+      "id": "19-supply-router",
+      "name": "SupplyRouterBot",
+      "department": "SupplyTreasury",
+      "credits": 67
+    },
+    {
+      "id": "20-stock-failover",
+      "name": "StockFailoverBot",
+      "department": "SupplyTreasury",
+      "credits": 66
+    },
+    {
+      "id": "21-treasury-audit",
+      "name": "TreasuryAuditBot",
+      "department": "SupplyTreasury",
+      "credits": 67
+    }
+  ]
+}

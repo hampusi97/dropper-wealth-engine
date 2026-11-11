@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-11-11T21:51:03.367Z",
+  "template": true,
+  "daysCounted": 1,
+  "totals": {
+    "gross": 0,
+    "net": 0,
+    "orders": 0
+  },
+  "dailyNet": 0,
+  "runRate": 0,
+  "buckets": [
+    {
+      "id": "cogs-float",
+      "label": "COGS Float",
+      "pct": 35,
+      "atRunRate": 0
+    },
+    {
+      "id": "growth-ads",
+      "label": "Growth / Ads",
+      "pct": 25,
+      "atRunRate": 0
+    },
+    {
+      "id": "tax-reserve",
+      "label": "Tax Reserve",
+      "pct": 20,
+      "atRunRate": 0
+    },
+    {
+      "id": "owner",
+      "label": "Owner Take-Home",
+      "pct": 20,
+      "atRunRate": 0
+    }
+  ],
+  "baseline": 50000,
+  "stretch": 150000,
+  "stores": [
+    {
+      "id": "store-01-bizi-bees",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-02-luma-clinical",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-03-cryo-halo",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-04-sculpt-wave",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-05-wonder-hive",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-06-atelier-grid",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-07-aether-sleep",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-08-kova-brew",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-09-spine-align",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-10-terra-paw",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-11-nomad-carry",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-12-solace-aroma",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-13-kinetic-grip",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-14-lumen-desk",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-15-verde-hydro",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    }
+  ]
+}

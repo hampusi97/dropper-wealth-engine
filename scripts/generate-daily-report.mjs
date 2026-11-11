@@ -1,0 +1,123 @@
+/**
+ * scripts/generate-daily-report.mjs — TreasuryAuditBot's daily ledger.
+ *
+ * Reads realised results from reports/treasury-results.json. If that file does not exist,
+ * it writes a TEMPLATE with zeros and says so loudly: this script never invents sales.
+ * Every figure in reports/LATEST.md is either from that file or a projection marked as such.
+ */
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { join } from "node:path";
+import { STORES, FLEET, buildCatalog } from "./data/stores.mjs";
+
+const ROOT = process.cwd();
+mkdirSync(join(ROOT, "reports"), { recursive: true });
+const resultsPath = join(ROOT, "reports", "treasury-results.json");
+
+const TEMPLATE = {
+  _note: "Replace the zeros with real Shopify payouts per store per day. This is a template, not sales.",
+  days: [
+    {
+      date: new Date().toISOString().slice(0, 10),
+      stores: STORES.map((s) => ({
+        storeId: s.id,
+        grossSales: 0, discounts: 0, cogs: 0, shipping: 0, adSpend: 0,
+        orders: 0, digitalOrders: 0, subscriptionOrders: 0, b2bOrders: 0,
+      })),
+    },
+  ],
+};
+
+// the template is written beside the real file, never in place of it
+if (!existsSync(resultsPath)) writeFileSync(join(ROOT, "reports", "treasury-results.template.json"), JSON.stringify(TEMPLATE, null, 2));
+const isTemplate = !existsSync(resultsPath);
+const data = isTemplate ? TEMPLATE : JSON.parse(readFileSync(resultsPath, "utf8"));
+
+const fees = FLEET.paymentFees;
+const net = (r) =>
+  r.grossSales - r.discounts - r.cogs - r.shipping - (r.grossSales * (fees.percent / 100) + (r.orders > 0 ? fees.fixedUSD * r.orders : 0)) - r.adSpend;
+
+const byStore = new Map(STORES.map((s) => [s.id, { gross: 0, net: 0, orders: 0, digital: 0, subs: 0, b2b: 0, days: 0 }]));
+for (const day of data.days) {
+  for (const r of day.stores) {
+    const agg = byStore.get(r.storeId) || { gross: 0, net: 0, orders: 0, digital: 0, subs: 0, b2b: 0, days: 0 };
+    agg.gross += r.grossSales;
+    agg.net += net(r);
+    agg.orders += r.orders;
+    agg.digital += r.digitalOrders;
+    agg.subs += r.subscriptionOrders;
+    agg.b2b += r.b2bOrders;
+    agg.days += 1;
+    byStore.set(r.storeId, agg);
+  }
+}
+
+const totals = [...byStore.values()].reduce(
+  (a, v) => ({ gross: a.gross + v.gross, net: a.net + v.net, orders: a.orders + v.orders }),
+  { gross: 0, net: 0, orders: 0 }
+);
+const daysCounted = data.days.length;
+const dailyNet = totals.net / Math.max(1, daysCounted);
+const runRate = dailyNet * 30;
+const buckets = FLEET.treasuryBuckets.map((b) => ({ ...b, atRunRate: Math.round(runRate * (b.pct / 100)) }));
+
+const productCount = STORES.reduce((a, s) => a + buildCatalog(s).length, 0);
+const baseline = FLEET.northStar.monthlyBaselineUSD;
+const stretch = FLEET.northStar.monthlyStretchUSD;
+const pctOf = (target) => (target ? ((runRate / target) * 100).toFixed(1) : "0.0");
+
+const md = `# Dropper OS — Daily Treasury Report
+
+**Generated:** ${new Date().toISOString()}
+**Source:** ${isTemplate ? "— ⚠️ **no \`reports/treasury-results.json\` yet: every figure below is zero, because no real sales have been recorded.** A fillable copy is at \`reports/treasury-results.template.json\`." : `\`reports/treasury-results.json\` (${daysCounted} day(s) recorded)`}
+
+## Fleet
+
+| Metric | Value |
+| --- | --- |
+| Stores | ${STORES.length} |
+| Products in catalog | ${productCount} |
+| Digital add-ons (100% margin) | ${STORES.length} |
+| Subscription clubs | ${STORES.length} |
+| Orders recorded | ${totals.orders} |
+| Gross sales | $${totals.gross.toFixed(2)} |
+| **Net profit** | **$${totals.net.toFixed(2)}** |
+| Net / day | $${dailyNet.toFixed(2)} |
+| 30-day run rate | $${runRate.toFixed(2)} |
+| Pace vs $${baseline.toLocaleString()} baseline | ${pctOf(baseline)}% |
+| Pace vs $${stretch.toLocaleString()} stretch | ${pctOf(stretch)}% |
+
+Net = gross − discounts − COGS − shipping − (${fees.percent}% + $${fees.fixedUSD}/order) − ad spend.
+
+## Treasury buckets (at the current run rate)
+
+| Bucket | Share | Amount |
+| --- | --- | --- |
+${buckets.map((b) => `| ${b.label} | ${b.pct}% | $${b.atRunRate.toLocaleString()} |`).join("\n")}
+
+## Per store
+
+| Store | Orders | Digital | Subs | B2B | Gross | Net |
+| --- | --- | --- | --- | --- | --- | --- |
+${STORES.map((s) => {
+  const v = byStore.get(s.id);
+  return `| ${s.name} | ${v.orders} | ${v.digital} | ${v.subs} | ${v.b2b} | $${v.gross.toFixed(2)} | $${v.net.toFixed(2)} |`;
+}).join("\n")}
+
+## What the numbers mean right now
+
+${isTemplate
+  ? `Every store is at zero because **no Shopify store is connected and no orders have been recorded**. The catalog, themes, feeds and bots are built; the revenue figures stay at zero until real payouts land in \`reports/treasury-results.json\`. Nothing here is projected as if it were sales.`
+  : `Figures come from ${daysCounted} recorded day(s). Keep filling \`reports/treasury-results.json\` from Shopify payouts; this report is regenerated by \`dropper-sovereign-bot.mjs\`.`}
+
+## Targets (projection, not results)
+
+- Baseline $${baseline.toLocaleString()}/mo = $${FLEET.northStar.dailyBaselineUSD.toLocaleString()}/day = $${FLEET.northStar.perStoreDailyUSD}/store/day
+- Stretch $${stretch.toLocaleString()}/mo = $${FLEET.northStar.dailyStretchUSD.toLocaleString()}/day = $${FLEET.northStar.perStoreStretchDailyUSD}/store/day
+`;
+
+writeFileSync(join(ROOT, "reports", "LATEST.md"), md);
+writeFileSync(
+  join(ROOT, "reports", "treasury-summary.json"),
+  JSON.stringify({ generatedAt: new Date().toISOString(), template: isTemplate, daysCounted, totals, dailyNet, runRate, buckets, baseline, stretch, stores: [...byStore.entries()].map(([id, v]) => ({ id, ...v })) }, null, 2)
+);
+console.log(`daily report: ${isTemplate ? "TEMPLATE (no real sales yet)" : daysCounted + " day(s)"} — net $${totals.net.toFixed(2)}, run rate $${runRate.toFixed(2)}/mo`);

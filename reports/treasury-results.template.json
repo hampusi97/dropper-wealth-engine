@@ -1,0 +1,190 @@
+{
+  "_note": "Replace the zeros with real Shopify payouts per store per day. This is a template, not sales.",
+  "days": [
+    {
+      "date": "2026-11-11",
+      "stores": [
+        {
+          "storeId": "store-01-bizi-bees",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-02-luma-clinical",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-03-cryo-halo",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-04-sculpt-wave",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-05-wonder-hive",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-06-atelier-grid",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-07-aether-sleep",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-08-kova-brew",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-09-spine-align",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-10-terra-paw",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-11-nomad-carry",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-12-solace-aroma",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-13-kinetic-grip",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-14-lumen-desk",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        },
+        {
+          "storeId": "store-15-verde-hydro",
+          "grossSales": 0,
+          "discounts": 0,
+          "cogs": 0,
+          "shipping": 0,
+          "adSpend": 0,
+          "orders": 0,
+          "digitalOrders": 0,
+          "subscriptionOrders": 0,
+          "b2bOrders": 0
+        }
+      ]
+    }
+  ]
+}

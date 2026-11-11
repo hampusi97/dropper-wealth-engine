@@ -1,0 +1,186 @@
+{
+  "ranAt": "2026-11-11T21:50:44.129Z",
+  "durationMs": 11369,
+  "mode": "full",
+  "steps": [
+    {
+      "name": "fleet config",
+      "ok": true,
+      "ms": 36,
+      "detail": "fleet config: 15 stores"
+    },
+    {
+      "name": "catalogs",
+      "ok": true,
+      "ms": 39,
+      "detail": "margin: min 72.1% avg 74.3% max 77.5%"
+    },
+    {
+      "name": "feeds",
+      "ok": true,
+      "ms": 30,
+      "detail": "feeds: 15 files, 180 items"
+    },
+    {
+      "name": "content",
+      "ok": true,
+      "ms": 36,
+      "detail": "content: 60 SEO guides, 75 ad scripts, 150 lifecycle emails, 15 creator briefs"
+    },
+    {
+      "name": "bots",
+      "ok": true,
+      "ms": 27,
+      "detail": "bots: 0 modules written, 21 registered across 7 departments, 1400 credits allocated"
+    },
+    {
+      "name": "themes",
+      "ok": true,
+      "ms": 89,
+      "detail": "[theme] done — 15 themes, 510 files"
+    },
+    {
+      "name": "theme QA",
+      "ok": true,
+      "ms": 64,
+      "detail": "=== PASS — 0 error(s) across 15 themes ==="
+    },
+    {
+      "name": "daily report",
+      "ok": true,
+      "ms": 36,
+      "detail": "daily report: 1 day(s) — net $0.00, run rate $0.00/mo"
+    }
+  ],
+  "bots": [
+    {
+      "id": "01-omega-builder",
+      "ok": true,
+      "ms": 1,
+      "summary": "pass"
+    },
+    {
+      "id": "02-solver",
+      "ok": true,
+      "ms": 0,
+      "summary": "pass"
+    },
+    {
+      "id": "03-uptime-speed",
+      "ok": false,
+      "ms": 10880,
+      "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":20,\"live\":false,\"error\":\"TypeError\"},{\"st"
+    },
+    {
+      "id": "04-trend-arbitrage",
+      "ok": true,
+      "ms": 2,
+      "summary": "pass"
+    },
+    {
+      "id": "05-review-psych",
+      "ok": true,
+      "ms": 0,
+      "summary": "pass"
+    },
+    {
+      "id": "06-digital-upsell",
+      "ok": true,
+      "ms": 0,
+      "summary": "pass"
+    },
+    {
+      "id": "07-theme-compiler",
+      "ok": true,
+      "ms": 1,
+      "summary": "pass"
+    },
+    {
+      "id": "08-scrolly-3d",
+      "ok": true,
+      "ms": 0,
+      "summary": "pass"
+    },
+    {
+      "id": "09-aesthetic-qa",
+      "ok": true,
+      "ms": 107,
+      "summary": "pass"
+    },
+    {
+      "id": "10-bundle-sub",
+      "ok": true,
+      "ms": 0,
+      "summary": "pass"
+    },
+    {
+      "id": "11-promo-loyalty",
+      "ok": true,
+      "ms": 0,
+      "summary": "pass"
+    },
+    {
+      "id": "12-b2b-wholesale",
+      "ok": true,
+      "ms": 1,
+      "summary": "pass"
+    },
+    {
+      "id": "13-google-merchant",
+      "ok": true,
+      "ms": 5,
+      "summary": "pass"
+    },
+    {
+      "id": "14-programmatic-seo",
+      "ok": true,
+      "ms": 1,
+      "summary": "pass"
+    },
+    {
+      "id": "15-viral-affiliate",
+      "ok": true,
+      "ms": 3,
+      "summary": "pass"
+    },
+    {
+      "id": "16-cross-store",
+      "ok": true,
+      "ms": 0,
+      "summary": "pass"
+    },
+    {
+      "id": "17-lifecycle-email",
+      "ok": true,
+      "ms": 1,
+      "summary": "pass"
+    },
+    {
+      "id": "18-concierge-closer",
+      "ok": true,
+      "ms": 1,
+      "summary": "pass"
+    },
+    {
+      "id": "19-supply-router",
+      "ok": true,
+      "ms": 0,
+      "summary": "pass"
+    },
+    {
+      "id": "20-stock-failover",
+      "ok": true,
+      "ms": 0,
+      "summary": "pass"
+    },
+    {
+      "id": "21-treasury-audit",
+      "ok": true,
+      "ms": 0,
+      "summary": "pass"
+    }
+  ],
+  "stores": 15,
+  "products": 180,
+  "ok": false
+}
