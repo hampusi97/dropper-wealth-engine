@@ -1,0 +1,54 @@
+<section class="hero" data-hero data-store="store-09-spine-align">
+  <div class="hero__stage" data-hero-stage>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__isometric" data-isometric>
+      <div class="layer" data-depth="34" style="--i: 0">
+        <span class="layer__index">01</span>
+        <span class="layer__name">Contoured Cervical Cradle</span>
+        <span class="layer__note">Three height settings</span>
+      </div>
+      <div class="layer" data-depth="68" style="--i: 1">
+        <span class="layer__index">02</span>
+        <span class="layer__name">42°C Heat Layer</span>
+        <span class="layer__note">Low-voltage, 10-min auto-off</span>
+      </div>
+      <div class="layer" data-depth="102" style="--i: 2">
+        <span class="layer__index">03</span>
+        <span class="layer__name">Acupressure Nodes</span>
+        <span class="layer__note">18 nodes on the occipital ridge</span>
+      </div>
+      <div class="layer" data-depth="136" style="--i: 3">
+        <span class="layer__index">04</span>
+        <span class="layer__name">10-Minute Session Timer</span>
+        <span class="layer__note">One routine per session</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__copy">
+    <p class="hero__eyebrow">Neck traction and posture tools for people who sit for a living.</p>
+    <h1 class="hero__title">{{ section.settings.heading | default: "SpineAlign 3-in-1 Heated Cervical Traction Cradle" }}</h1>
+    <p class="hero__lede">{{ section.settings.lede | default: "A cervical cradle with heat, a 10-minute timer, and three height settings for the at-desk decompression routine." }}</p>
+    <ul class="hero__callouts">
+        <li><b>01</b> Contoured Cervical Cradle &mdash; Three height settings</li>
+        <li><b>02</b> 42°C Heat Layer &mdash; Low-voltage, 10-min auto-off</li>
+        <li><b>03</b> Acupressure Nodes &mdash; 18 nodes on the occipital ridge</li>
+        <li><b>04</b> 10-Minute Session Timer &mdash; One routine per session</li>
+    </ul>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ section.settings.cta_link | default: '/products/spinealign-3-in-1-heated-cervical-traction-cradle' }}">Unlock the complete set &mdash; {{ section.settings.price | default: 59 }}</a>
+      <a class="btn btn--ghost" href="#bundles">Compare 3 tiers</a>
+    </div>
+    <p class="hero__meta">Ships from {{ shop.name }} &bull; 60-day guarantee &bull; Subscribe &amp; save 20%</p>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "3D exploded hero",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "SpineAlign 3-in-1 Heated Cervical Traction Cradle" },
+    { "type": "textarea", "id": "lede", "label": "Lede", "default": "A cervical cradle with heat, a 10-minute timer, and three height settings for the at-desk decompression routine." },
+    { "type": "url", "id": "cta_link", "label": "CTA link" },
+    { "type": "number", "id": "price", "label": "Hero price (USD)", "default": 59 }
+  ]
+}
+{% endschema %}
