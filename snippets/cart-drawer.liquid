@@ -1,0 +1,43 @@
+<div class="cart-drawer" data-cart-drawer aria-hidden="true" role="dialog" aria-modal="true" aria-label="Cart">
+  <div class="cart-drawer__overlay" data-cart-close></div>
+  <div class="cart-drawer__panel">
+    <header class="cart-drawer__head">
+      <h2>Your bag</h2>
+      <button type="button" class="cart-drawer__x" data-cart-close aria-label="Close cart">&times;</button>
+    </header>
+
+    <div class="progress" data-progress>
+      <p class="progress__label" data-progress-label>Add $65 for free shipping</p>
+      <div class="progress__bar"><div class="progress__fill" data-progress-fill style="width:0%"></div></div>
+      <ul class="progress__milestones">
+        <li class="ms" data-threshold="65"><span class="ms__amt">$65</span><span class="ms__reward">Free Shipping</span><span class="ms__check" aria-hidden="true">○</span></li>
+        <li class="ms" data-threshold="120"><span class="ms__amt">$120</span><span class="ms__reward">Extra 15% Off</span><span class="ms__check" aria-hidden="true">○</span></li>
+        <li class="ms" data-threshold="170"><span class="ms__amt">$170</span><span class="ms__reward">Free Essential Oil Trio</span><span class="ms__check" aria-hidden="true">○</span></li>
+      </ul>
+    </div>
+
+    <div class="cart-drawer__items" data-cart-items></div>
+
+    <div class="bump" data-bump>
+      <div class="bump__body">
+        <p class="bump__tag">Instant digital add-on &bull; $0 cost to ship</p>
+        <p class="bump__title">Home Scent Zoning &amp; Olfactory Architecture Guide</p>
+        <p class="bump__desc">A 24-page scent-zoning guide: which blend belongs in each room, dilution ratios for waterless diffusers, and a 12-blend card deck.</p>
+        <p class="bump__meta">PDF + oil-blend cards &bull; 24 pages &bull; delivered by email in seconds</p>
+      </div>
+      <button type="button" class="btn btn--primary bump__add" data-bump-add data-bump-variant="{{ settings.digital_variant_id }}" data-bump-price="9">
+        Add for $9
+      </button>
+      <p class="bump__done" data-bump-done hidden>Added to your order ✓</p>
+    </div>
+
+    <footer class="cart-drawer__foot">
+      <p class="cart-drawer__points">VIP points this order: <b data-vip-points>0</b> <span>(10 pts / $1)</span></p>
+      <div class="cart-drawer__total"><span>Subtotal</span><b data-cart-subtotal>$0.00</b></div>
+      <form action="{{ routes.cart_url }}" method="post" novalidate>
+        <button type="submit" name="checkout" class="btn btn--primary cart-drawer__checkout">Checkout</button>
+      </form>
+      <p class="cart-drawer__note">Taxes and shipping calculated at checkout. 60-day guarantee.</p>
+    </footer>
+  </div>
+</div>

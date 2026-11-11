@@ -1,0 +1,5 @@
+<section class="page">
+  <h1 class="page__title">Search</h1>
+  <form action="{{ routes.search_url }}" method="get"><input type="text" name="q" value="{{ search.terms | escape }}" placeholder="Search products"><button class="btn btn--primary" type="submit">Search</button></form>
+  {%- for item in search.results -%}<p><a href="{{ item.url }}">{{ item.title }}</a></p>{%- endfor -%}
+</section>

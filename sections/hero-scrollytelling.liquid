@@ -1,0 +1,54 @@
+<section class="hero" data-hero data-store="store-12-solace-aroma">
+  <div class="hero__stage" data-hero-stage>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__isometric" data-isometric>
+      <div class="layer" data-depth="34" style="--i: 0">
+        <span class="layer__index">01</span>
+        <span class="layer__name">Anodized Aluminium Shell</span>
+        <span class="layer__note">Bead-blasted, six colourways</span>
+      </div>
+      <div class="layer" data-depth="68" style="--i: 1">
+        <span class="layer__index">02</span>
+        <span class="layer__name">Waterless Cold-Air Nebuliser</span>
+        <span class="layer__note">No water, no residue</span>
+      </div>
+      <div class="layer" data-depth="102" style="--i: 2">
+        <span class="layer__index">03</span>
+        <span class="layer__name">4-Hour Cycle Timer</span>
+        <span class="layer__note">Intermittent or continuous</span>
+      </div>
+      <div class="layer" data-depth="136" style="--i: 3">
+        <span class="layer__index">04</span>
+        <span class="layer__name">300 sq ft Throw</span>
+        <span class="layer__note">Covers an open living room</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__copy">
+    <p class="hero__eyebrow">Waterless diffusers and 5-star hotel scent oils for whole-home scent zoning.</p>
+    <h1 class="hero__title">{{ section.settings.heading | default: "Solace Anodized Waterless Cold-Air Diffuser" }}</h1>
+    <p class="hero__lede">{{ section.settings.lede | default: "A waterless cold-air diffuser with an anodized aluminium shell, a 300 sq ft throw, and a 4-hour cycle timer." }}</p>
+    <ul class="hero__callouts">
+        <li><b>01</b> Anodized Aluminium Shell &mdash; Bead-blasted, six colourways</li>
+        <li><b>02</b> Waterless Cold-Air Nebuliser &mdash; No water, no residue</li>
+        <li><b>03</b> 4-Hour Cycle Timer &mdash; Intermittent or continuous</li>
+        <li><b>04</b> 300 sq ft Throw &mdash; Covers an open living room</li>
+    </ul>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ section.settings.cta_link | default: '/products/solace-anodized-waterless-cold-air-diffuser' }}">Unlock the complete set &mdash; {{ section.settings.price | default: 69 }}</a>
+      <a class="btn btn--ghost" href="#bundles">Compare 3 tiers</a>
+    </div>
+    <p class="hero__meta">Ships from {{ shop.name }} &bull; 60-day guarantee &bull; Subscribe &amp; save 20%</p>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "3D exploded hero",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Solace Anodized Waterless Cold-Air Diffuser" },
+    { "type": "textarea", "id": "lede", "label": "Lede", "default": "A waterless cold-air diffuser with an anodized aluminium shell, a 300 sq ft throw, and a 4-hour cycle timer." },
+    { "type": "url", "id": "cta_link", "label": "CTA link" },
+    { "type": "number", "id": "price", "label": "Hero price (USD)", "default": 69 }
+  ]
+}
+{% endschema %}
