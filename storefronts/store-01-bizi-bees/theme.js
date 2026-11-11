@@ -15,6 +15,8 @@
     render();
   }
   function add(line) {
+    var p = find(line.sku);
+    if (p && p.available === false) { openDrawer(); var n = q("[data-checkout-note]"); if (n) n.textContent = "That item is restocking — email us and we will tell you the day it lands."; return; }
     var hit = cart.find(function (l) { return l.sku === line.sku && !!l.subscribe === !!line.subscribe; });
     if (hit) hit.qty += line.qty; else cart.push(line);
     save();

@@ -1,6 +1,10 @@
 {
   "storeId": "store-04-sculpt-wave",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:18:08.425Z",
+=======
+  "generatedAt": "2026-11-11T22:29:02.246Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "DROP-WAVE-001",
@@ -12,7 +16,8 @@
       "summary": "A 40kHz ultrasonic head with a 3-intensity dial, a 15-minute auto session timer, and a conductive gel starter.",
       "tier2": 185.3,
       "tier3": 245.25,
-      "isHero": true
+      "isHero": true,
+      "available": true
     },
     {
       "sku": "DROP-WAVE-002",
@@ -24,7 +29,8 @@
       "summary": "Slip for the ultrasonic head.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-WAVE-003",
@@ -36,7 +42,8 @@
       "summary": "EMS belt with 6 modes.",
       "tier2": 100.3,
       "tier3": 132.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-WAVE-004",
@@ -48,7 +55,8 @@
       "summary": "Three brush heads plus a strap.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-WAVE-005",
@@ -60,7 +68,8 @@
       "summary": "Spare 40kHz head.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-WAVE-006",
@@ -72,7 +81,8 @@
       "summary": "Firming cream, 6 oz.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-WAVE-007",
@@ -84,7 +94,8 @@
       "summary": "Body tape plus a 12-week photo card set.",
       "tier2": 32.3,
       "tier3": 42.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-WAVE-008",
@@ -96,7 +107,8 @@
       "summary": "Graduated compression, 2 sizes.",
       "tier2": 91.8,
       "tier3": 121.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-WAVE-009",
@@ -108,7 +120,8 @@
       "summary": "Manual contoured roller.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-WAVE-010",
@@ -120,7 +133,8 @@
       "summary": "Quick-dry mat and two towels.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-WAVE-011",
@@ -132,7 +146,8 @@
       "summary": "Laminated 30-day zone cards.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-WAVE-012",
@@ -144,7 +159,8 @@
       "summary": "Three magnesium bath soaks.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     }
   ],
   "digital": {

@@ -1,6 +1,10 @@
 {
   "storeId": "store-01-bizi-bees",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:18:08.419Z",
+=======
+  "generatedAt": "2026-11-11T22:29:02.241Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "UTAH-001",
@@ -12,7 +16,8 @@
       "summary": "One hand-graded hardcover, one verified-complete board game, a solid brass page anchor, and a Utah kraft collector box.",
       "tier2": 74.8,
       "tier3": 99,
-      "isHero": true
+      "isHero": true,
+      "available": true
     },
     {
       "sku": "UTAH-002",
@@ -24,7 +29,8 @@
       "summary": "Three graded hardcovers from one theme, no duplicates.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "UTAH-003",
@@ -36,7 +42,8 @@
       "summary": "Two out-of-print board games, both piece-verified.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "UTAH-004",
@@ -48,7 +55,8 @@
       "summary": "Three 6 oz pours from a Cache Valley apiary.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "UTAH-005",
@@ -60,7 +68,8 @@
       "summary": "Two solid brass markers in a felt sleeve.",
       "tier2": 23.8,
       "tier3": 31.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "UTAH-006",
@@ -72,7 +81,8 @@
       "summary": "Giclee prints of the Bonneville salt flats at five hours.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "UTAH-007",
@@ -84,7 +94,8 @@
       "summary": "Two complete classics, timer, scorepad, snack tins.",
       "tier2": 83.3,
       "tier3": 110.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "UTAH-008",
@@ -96,7 +107,8 @@
       "summary": "Ten consecutive volumes, spine-matched.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "UTAH-009",
@@ -108,7 +120,8 @@
       "summary": "Pre-seasoned, Utah-forged handle.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "UTAH-010",
@@ -120,7 +133,8 @@
       "summary": "300 Utah questions, plastic-coated cards.",
       "tier2": 32.3,
       "tier3": 42.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "UTAH-011",
@@ -132,7 +146,8 @@
       "summary": "Four age-graded chapter books for ages 7-10.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "UTAH-012",
@@ -144,7 +159,8 @@
       "summary": "Solid oak tower with a felt catch tray.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     }
   ],
   "digital": {

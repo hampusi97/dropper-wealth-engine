@@ -42,6 +42,7 @@ export function buildStorefront(store, fleet) {
     tier2: r.bundle.tier2.price,
     tier3: r.bundle.tier3.price,
     isHero: r.isHero,
+    available: r.available !== false,
   }));
   const digital = { sku: `${store.skuPrefix}DIG-01`, title: store.digital.title, price: store.digital.price, summary: store.digital.description, format: store.digital.format };
   const sub = { title: store.subscription.title, price: store.subscription.price, cadence: store.subscription.cadence };
@@ -72,11 +73,11 @@ export function buildStorefront(store, fleet) {
 
   const productCards = cat
     .map(
-      (r) => `      <a class="card" href="#p-${r.handle}" data-open="${r.handle}">
+      (r) => `      <a class="card${r.available === false ? " card--out" : ""}" href="#p-${r.handle}" data-open="${r.handle}">
         <div class="card__media"><span>${esc(r.category)}</span></div>
         <p class="card__title">${esc(r.title)}</p>
         <p class="card__price">${money(r.price)} ${r.compareAt > r.price ? `<s>${money(r.compareAt)}</s>` : ""}</p>
-        <p class="card__meta">${r.isHero ? "Hero product" : "Subscribe &amp; save 20%"}</p>
+        <p class="card__meta">${r.available === false ? "Sold out — restocking" : r.isHero ? "Hero product" : "Subscribe &amp; save 20%"}</p>
       </a>`
     )
     .join("\n");
@@ -251,6 +252,7 @@ ${productCards}
   <p><b>${esc(store.name)}</b> · ${esc(store.domain)}</p>
   <p>${esc(store.vipClub)} · 10 points per $1 · give $15, get $15</p>
   <p class="fine">Order online and pay by card, PayPal or bank transfer — we email a secure payment link with your invoice. Shipping and support are handled by ${esc(store.name)}.</p>
+  <p class="fine"><a href="shipping.html">Shipping</a> · <a href="returns.html">Returns &amp; guarantee</a></p>
   <p class="fine">© ${new Date().getFullYear()} ${esc(owner.legalName || store.name)} · <a href="mailto:${esc(owner.email || "orders@" + store.domain)}">${esc(owner.email || "orders@" + store.domain)}</a>${owner.website ? ` · <a href="${esc(owner.website)}" rel="noopener">All stores</a>` : ""}</p>
 </footer>
 
@@ -339,6 +341,7 @@ h2{font-size:clamp(1.4rem,2.6vw,2rem);letter-spacing:-.02em;margin:0 0 1rem}
 .card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.9rem}
 .card{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:.8rem;transition:transform .18s ease,border-color .18s ease}
 .card:hover{transform:translateY(-2px);border-color:var(--accent)}
+.card--out{opacity:.55}
 .card__media{aspect-ratio:1;border-radius:10px;background:linear-gradient(140deg,var(--surface),color-mix(in srgb,var(--accent) 24%,var(--surface)));display:grid;place-items:center;font-size:.7rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.6rem}
 .card__title{margin:0;font-weight:600;font-size:.9rem}.card__price{margin:.25rem 0 0;color:var(--accent-soft);font-weight:700;font-size:.88rem}
 .card__price s{color:var(--muted);font-weight:400;margin-left:.35rem;font-size:.78rem}
@@ -409,6 +412,8 @@ input:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(-
     render();
   }
   function add(line) {
+    var p = find(line.sku);
+    if (p && p.available === false) { openDrawer(); var n = q("[data-checkout-note]"); if (n) n.textContent = "That item is restocking — email us and we will tell you the day it lands."; return; }
     var hit = cart.find(function (l) { return l.sku === line.sku && !!l.subscribe === !!line.subscribe; });
     if (hit) hit.qty += line.qty; else cart.push(line);
     save();
@@ -579,8 +584,44 @@ input:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(-
 })();
 `;
 
+  const policy = (title, bodyHtml) => `<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(title)} — ${esc(store.name)}</title><link rel="stylesheet" href="theme.css"></head>
+<body><header class="head"><a class="head__logo" href="index.html">${esc(store.name)}</a>
+<nav class="head__nav"><a href="index.html#shelf">Shop</a><a href="index.html#b2b">Bulk</a><a href="shipping.html">Shipping</a><a href="returns.html">Returns</a></nav></header>
+<main id="main" style="max-width:760px"><section style="padding:3rem 0">
+<p class="eyebrow">${esc(store.name)}</p><h1 style="font-size:2rem;letter-spacing:-.02em">${esc(title)}</h1>
+${bodyHtml}
+<p class="fine">Questions: <a href="mailto:${esc(owner.email || "orders@" + store.domain)}">${esc(owner.email || "orders@" + store.domain)}</a></p>
+</section></main>
+<footer class="foot"><p class="fine">© ${new Date().getFullYear()} ${esc(owner.legalName || store.name)} · <a href="index.html">Back to the shop</a></p></footer>
+</body></html>
+`;
+
+  const shipDays = store.fulfillment && /print|pod|made/i.test(store.fulfillment) ? "3–7 business days" : "1–3 business days";
+  const shippingBody = `<p>${esc(store.name)} ships to the United States and Canada. Orders placed before 2pm Mountain Time on a business day are packed the same day.</p>
+<h2 style="font-size:1.1rem;margin-top:2rem">Delivery times</h2>
+<ul><li>Standard: ${shipDays} after dispatch</li><li>Tracking: emailed automatically the moment the label is created</li>
+<li>Free shipping on orders over $${store.milestones[0].threshold}</li></ul>
+<h2 style="font-size:1.1rem;margin-top:2rem">Digital products</h2>
+<p>${esc(store.digital.title)} is delivered by email within minutes of payment. Nothing ships, nothing to wait for.</p>
+<h2 style="font-size:1.1rem;margin-top:2rem">Duties and taxes</h2>
+<p>Prices are in US dollars. Any import duty or tax charged by the destination country is the buyer's responsibility and is not collected at checkout.</p>`;
+
+  const returnsBody = `<p>If a ${esc(store.name)} order arrives damaged, wrong, or simply is not what you expected, you have 60 days from delivery to tell us and we will make it right.</p>
+<h2 style="font-size:1.1rem;margin-top:2rem">How to start a return</h2>
+<ol><li>Email <a href="mailto:${esc(owner.email || "orders@" + store.domain)}">${esc(owner.email || "orders@" + store.domain)}</a> with your order number and a photo if the item is damaged.</li>
+<li>We reply within one business day with either a replacement or a return label.</li>
+<li>Refunds are issued to the original payment method within 5 business days of the item arriving back.</li></ol>
+<h2 style="font-size:1.1rem;margin-top:2rem">What we cannot take back</h2>
+<p>Opened consumables (food, drink, skincare) for hygiene reasons, and digital downloads once the file has been delivered — unless the file is faulty, in which case we resend or refund it.</p>
+<h2 style="font-size:1.1rem;margin-top:2rem">Bulk and institutional orders</h2>
+<p>Orders over ${store.b2b.minUnits} units are covered by the written terms on your quote. Contact us before returning anything in bulk.</p>`;
+
   return {
     "index.html": html,
+    "shipping.html": policy("Shipping", shippingBody),
+    "returns.html": policy("Returns & 60-day guarantee", returnsBody),
     "theme.css": css,
     "theme.js": js,
     "products.json": JSON.stringify({ storeId: store.id, generatedAt: new Date().toISOString(), products, digital, subscription: sub }, null, 2),

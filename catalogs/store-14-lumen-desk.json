@@ -5,7 +5,11 @@
   "niche": "CRI 98+ Monitor Light Bars & Deep-Work Desk Systems",
   "skuPrefix": "DROP-DESK-",
   "fulfillment": "api-dropship",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:18:08.285Z",
+=======
+  "generatedAt": "2026-11-11T22:29:02.116Z",
+>>>>>>> Stashed changes
   "productCount": 12,
   "products": [
     {

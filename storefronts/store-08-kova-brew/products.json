@@ -1,6 +1,10 @@
 {
   "storeId": "store-08-kova-brew",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:18:08.429Z",
+=======
+  "generatedAt": "2026-11-11T22:29:02.250Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "DROP-BREW-001",
@@ -12,7 +16,8 @@
       "summary": "A 0.1g scale with auto-tare-on-flow, an espresso shot timer, and a live flow-rate readout in a heat-proof pad.",
       "tier2": 91.8,
       "tier3": 121.5,
-      "isHero": true
+      "isHero": true,
+      "available": true
     },
     {
       "sku": "DROP-BREW-002",
@@ -24,7 +29,8 @@
       "summary": "2-cup, oxygen-bleached.",
       "tier2": 32.3,
       "tier3": 42.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-BREW-003",
@@ -36,7 +42,8 @@
       "summary": "Descaler, brush, and cloth.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-BREW-004",
@@ -48,7 +55,8 @@
       "summary": "Ceramic flat-bottom dripper.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-BREW-005",
@@ -60,7 +68,8 @@
       "summary": "58.5mm distribution tool.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-BREW-006",
@@ -72,7 +81,8 @@
       "summary": "Walnut handle, stainless base.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-BREW-007",
@@ -84,7 +94,8 @@
       "summary": "Tapered spout, induction safe.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-BREW-008",
@@ -96,7 +107,8 @@
       "summary": "Four single-dose canisters.",
       "tier2": 74.8,
       "tier3": 99,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-BREW-009",
@@ -108,7 +120,8 @@
       "summary": "1.7mm mesh screens, pair.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-BREW-010",
@@ -120,7 +133,8 @@
       "summary": "Nine-needle distribution tool.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-BREW-011",
@@ -132,7 +146,8 @@
       "summary": "Walnut knock bar, rubber base.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-BREW-012",
@@ -144,7 +159,8 @@
       "summary": "Stainless cup that fits most drippers.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     }
   ],
   "digital": {

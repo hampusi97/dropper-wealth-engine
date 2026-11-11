@@ -1,6 +1,10 @@
 {
   "storeId": "store-12-solace-aroma",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:18:08.432Z",
+=======
+  "generatedAt": "2026-11-11T22:29:02.255Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "DROP-AROMA-001",
@@ -12,7 +16,8 @@
       "summary": "A waterless cold-air diffuser with an anodized aluminium shell, a 300 sq ft throw, and a 4-hour cycle timer.",
       "tier2": 117.3,
       "tier3": 155.25,
-      "isHero": true
+      "isHero": true,
+      "available": true
     },
     {
       "sku": "DROP-AROMA-002",
@@ -24,7 +29,8 @@
       "summary": "Five-star hotel signature blend.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-AROMA-003",
@@ -36,7 +42,8 @@
       "summary": "Spare cold-air nozzle.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-AROMA-004",
@@ -48,7 +55,8 @@
       "summary": "Glass vessel with 8 reeds.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-AROMA-005",
@@ -60,7 +68,8 @@
       "summary": "Six linen drawer sachets.",
       "tier2": 32.3,
       "tier3": 42.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-AROMA-006",
@@ -72,7 +81,8 @@
       "summary": "Two vent clips plus oils.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-AROMA-007",
@@ -84,7 +94,8 @@
       "summary": "Tealight-free electric warmer.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-AROMA-008",
@@ -96,7 +107,8 @@
       "summary": "Lavender, cedar, and citrus.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-AROMA-009",
@@ -108,7 +120,8 @@
       "summary": "Solvent and swabs.",
       "tier2": 32.3,
       "tier3": 42.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-AROMA-010",
@@ -120,7 +133,8 @@
       "summary": "4 oz alcohol-free spray.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-AROMA-011",
@@ -132,7 +146,8 @@
       "summary": "Schedules any diffuser.",
       "tier2": 32.3,
       "tier3": 42.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-AROMA-012",
@@ -144,7 +159,8 @@
       "summary": "USB rechargeable travel unit.",
       "tier2": 91.8,
       "tier3": 121.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     }
   ],
   "digital": {

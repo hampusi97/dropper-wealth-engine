@@ -1,6 +1,10 @@
 {
   "storeId": "store-15-verde-hydro",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:18:08.434Z",
+=======
+  "generatedAt": "2026-11-11T22:29:02.258Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "DROP-VERDE-001",
@@ -12,7 +16,8 @@
       "summary": "A 4000K full-spectrum halo grow light in a solid brass ring, set into a self-watering ceramic planter.",
       "tier2": 83.3,
       "tier3": 110.25,
-      "isHero": true
+      "isHero": true,
+      "available": true
     },
     {
       "sku": "DROP-VERDE-002",
@@ -24,7 +29,8 @@
       "summary": "Balanced organic feed.",
       "tier2": 32.3,
       "tier3": 42.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-VERDE-003",
@@ -36,7 +42,8 @@
       "summary": "Ten replacement wicks.",
       "tier2": 23.8,
       "tier3": 31.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-VERDE-004",
@@ -48,7 +55,8 @@
       "summary": "Glass tubes on a brass stand.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-VERDE-005",
@@ -60,7 +68,8 @@
       "summary": "Chunky aroid mix.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-VERDE-006",
@@ -72,7 +81,8 @@
       "summary": "Brass-bodied fine mister.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-VERDE-007",
@@ -84,7 +94,8 @@
       "summary": "Clip light with a timer.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-VERDE-008",
@@ -96,7 +107,8 @@
       "summary": "Ceramic with a reservoir.",
       "tier2": 83.3,
       "tier3": 110.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-VERDE-009",
@@ -108,7 +120,8 @@
       "summary": "10x20 in heat mat.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-VERDE-010",
@@ -120,7 +133,8 @@
       "summary": "Bypass shears, brass handles.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-VERDE-011",
@@ -132,7 +146,8 @@
       "summary": "Three rooted cuttings.",
       "tier2": 108.8,
       "tier3": 144,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-VERDE-012",
@@ -144,7 +159,8 @@
       "summary": "Soil moisture and pH meter.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     }
   ],
   "digital": {

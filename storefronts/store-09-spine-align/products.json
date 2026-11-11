@@ -1,6 +1,10 @@
 {
   "storeId": "store-09-spine-align",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:18:08.429Z",
+=======
+  "generatedAt": "2026-11-11T22:29:02.251Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "DROP-SPINE-001",
@@ -12,7 +16,8 @@
       "summary": "A cervical cradle with heat, a 10-minute timer, and three height settings for the at-desk decompression routine.",
       "tier2": 100.3,
       "tier3": 132.75,
-      "isHero": true
+      "isHero": true,
+      "available": true
     },
     {
       "sku": "DROP-SPINE-002",
@@ -24,7 +29,8 @@
       "summary": "6,000 points plus a neck pillow.",
       "tier2": 83.3,
       "tier3": 110.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-SPINE-003",
@@ -36,7 +42,8 @@
       "summary": "Adjustable, breathable mesh.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-SPINE-004",
@@ -48,7 +55,8 @@
       "summary": "Memory foam with a strap.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-SPINE-005",
@@ -60,7 +68,8 @@
       "summary": "Sit-stand riser, gas spring.",
       "tier2": 202.3,
       "tier3": 267.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-SPINE-006",
@@ -72,7 +81,8 @@
       "summary": "Inflatable cervical traction.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-SPINE-007",
@@ -84,7 +94,8 @@
       "summary": "Four heads, 6 speeds.",
       "tier2": 134.3,
       "tier3": 177.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-SPINE-008",
@@ -96,7 +107,8 @@
       "summary": "Non-slip rocking footrest.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-SPINE-009",
@@ -108,7 +120,8 @@
       "summary": "Microwave or freezer ready.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-SPINE-010",
@@ -120,7 +133,8 @@
       "summary": "Keyboard and mouse rests.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-SPINE-011",
@@ -132,7 +146,8 @@
       "summary": "Five bands plus a door anchor.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-SPINE-012",
@@ -144,7 +159,8 @@
       "summary": "Washable cover for the cradle.",
       "tier2": 32.3,
       "tier3": 42.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     }
   ],
   "digital": {

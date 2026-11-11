@@ -1,6 +1,10 @@
 {
   "storeId": "store-14-lumen-desk",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:18:08.433Z",
+=======
+  "generatedAt": "2026-11-11T22:29:02.257Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "DROP-DESK-001",
@@ -12,7 +16,8 @@
       "summary": "A 45 cm asymmetric light bar at CRI 98+ with no screen glare, five colour temperatures, and a USB-C dial.",
       "tier2": 108.8,
       "tier3": 144,
-      "isHero": true
+      "isHero": true,
+      "available": true
     },
     {
       "sku": "DROP-DESK-002",
@@ -24,7 +29,8 @@
       "summary": "Large merino felt desk mat.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-DESK-003",
@@ -36,7 +42,8 @@
       "summary": "Tray, clips, and sleeves.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-DESK-004",
@@ -48,7 +55,8 @@
       "summary": "Gas-spring monitor arm.",
       "tier2": 125.8,
       "tier3": 166.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-DESK-005",
@@ -60,7 +68,8 @@
       "summary": "Warm strip with a dimmer.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-DESK-006",
@@ -72,7 +81,8 @@
       "summary": "Ventilated aluminium riser.",
       "tier2": 74.8,
       "tier3": 99,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-DESK-007",
@@ -84,7 +94,8 @@
       "summary": "Modular felt trays.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-DESK-008",
@@ -96,7 +107,8 @@
       "summary": "Cloth, brush, and lubricant.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-DESK-009",
@@ -108,7 +120,8 @@
       "summary": "Merino felt wrist rest.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-DESK-010",
@@ -120,7 +133,8 @@
       "summary": "Flip timer with four presets.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-DESK-011",
@@ -132,7 +146,8 @@
       "summary": "Three zip cable sleeves.",
       "tier2": 32.3,
       "tier3": 42.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-DESK-012",
@@ -144,7 +159,8 @@
       "summary": "Spare counterweight clamp.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     }
   ],
   "digital": {

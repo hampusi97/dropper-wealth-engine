@@ -1,6 +1,10 @@
 {
   "storeId": "store-03-cryo-halo",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:18:08.424Z",
+=======
+  "generatedAt": "2026-11-11T22:29:02.245Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "DROP-CRYO-001",
@@ -12,7 +16,8 @@
       "summary": "Two gel caps on a 30-minute rotation so one is always frozen, plus a fit dial for frontal or occipital pressure.",
       "tier2": 83.3,
       "tier3": 110.25,
-      "isHero": true
+      "isHero": true,
+      "available": true
     },
     {
       "sku": "DROP-CRYO-002",
@@ -24,7 +29,8 @@
       "summary": "Same caps, fresh pair.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-CRYO-003",
@@ -36,7 +42,8 @@
       "summary": "Freezer gel eye mask with a silky liner.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-CRYO-004",
@@ -48,7 +55,8 @@
       "summary": "Moldable wrap for the cervical spine.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-CRYO-005",
@@ -60,7 +68,8 @@
       "summary": "Slim rack that keeps two caps standing.",
       "tier2": 32.3,
       "tier3": 42.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-CRYO-006",
@@ -72,7 +81,8 @@
       "summary": "Blocks 99% of 400-495nm light.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-CRYO-007",
@@ -84,7 +94,8 @@
       "summary": "Beaded mask with a blackout seal.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-CRYO-008",
@@ -96,7 +107,8 @@
       "summary": "Phase-change gel insert for pillowcases.",
       "tier2": 74.8,
       "tier3": 99,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-CRYO-009",
@@ -108,7 +120,8 @@
       "summary": "90-day trigger and sleep log.",
       "tier2": 32.3,
       "tier3": 42.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-CRYO-010",
@@ -120,7 +133,8 @@
       "summary": "Insulated pouch that fits two caps.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-CRYO-011",
@@ -132,7 +146,8 @@
       "summary": "Topical magnesium in a 3 oz tin.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-CRYO-012",
@@ -144,7 +159,8 @@
       "summary": "Rechargeable 30-hour white noise.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     }
   ],
   "digital": {

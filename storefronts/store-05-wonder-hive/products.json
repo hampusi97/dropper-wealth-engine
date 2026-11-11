@@ -1,6 +1,10 @@
 {
   "storeId": "store-05-wonder-hive",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:18:08.426Z",
+=======
+  "generatedAt": "2026-11-11T22:29:02.247Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "DROP-HIVE-001",
@@ -12,7 +16,8 @@
       "summary": "Ten frames, 120 silicone counters, and 40 double-sided task cards in a cotton drawstring bag.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": true
+      "isHero": true,
+      "available": true
     },
     {
       "sku": "DROP-HIVE-002",
@@ -24,7 +29,8 @@
       "summary": "4 lb of coloured rice, scoops, and cups.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-HIVE-003",
@@ -36,7 +42,8 @@
       "summary": "Wooden peg board with 55 pegs.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-HIVE-004",
@@ -48,7 +55,8 @@
       "summary": "32 translucent magnetic tiles.",
       "tier2": 74.8,
       "tier3": 99,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-HIVE-005",
@@ -60,7 +68,8 @@
       "summary": "250 blocks in six shapes.",
       "tier2": 83.3,
       "tier3": 110.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-HIVE-006",
@@ -72,7 +81,8 @@
       "summary": "60 build challenges, K-5.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-HIVE-007",
@@ -84,7 +94,8 @@
       "summary": "Six silent focus tools.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-HIVE-008",
@@ -96,7 +107,8 @@
       "summary": "Roll-up 0-120 number line.",
       "tier2": 32.3,
       "tier3": 42.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-HIVE-009",
@@ -108,7 +120,8 @@
       "summary": "Tray, tweezers, and sorting cups.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-HIVE-010",
@@ -120,7 +133,8 @@
       "summary": "Nine story dice plus prompt cards.",
       "tier2": 32.3,
       "tier3": 42.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-HIVE-011",
@@ -132,7 +146,8 @@
       "summary": "Balance scale with weights.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-HIVE-012",
@@ -144,7 +159,8 @@
       "summary": "Foldable mat with a raised lip.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     }
   ],
   "digital": {

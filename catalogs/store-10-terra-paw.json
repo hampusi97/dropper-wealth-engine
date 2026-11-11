@@ -5,7 +5,11 @@
   "niche": "Orthopedic Dog Beds & Calming Enrichment",
   "skuPrefix": "DROP-PAW-",
   "fulfillment": "api-dropship",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:18:08.284Z",
+=======
+  "generatedAt": "2026-11-11T22:29:02.115Z",
+>>>>>>> Stashed changes
   "productCount": 12,
   "products": [
     {

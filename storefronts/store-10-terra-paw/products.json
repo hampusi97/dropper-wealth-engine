@@ -1,6 +1,10 @@
 {
   "storeId": "store-10-terra-paw",
+<<<<<<< Updated upstream
   "generatedAt": "2026-11-11T22:18:08.430Z",
+=======
+  "generatedAt": "2026-11-11T22:29:02.253Z",
+>>>>>>> Stashed changes
   "products": [
     {
       "sku": "DROP-PAW-001",
@@ -12,7 +16,8 @@
       "summary": "A 4-inch CertiPUR-US memory foam base with a bolster rim, a waterproof liner, and a washable cover.",
       "tier2": 125.8,
       "tier3": 166.5,
-      "isHero": true
+      "isHero": true,
+      "available": true
     },
     {
       "sku": "DROP-PAW-002",
@@ -24,7 +29,8 @@
       "summary": "Spare liner for any bed size.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-PAW-003",
@@ -36,7 +42,8 @@
       "summary": "Six long-lasting chews.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-PAW-004",
@@ -48,7 +55,8 @@
       "summary": "Slow-feeder enrichment mat.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-PAW-005",
@@ -60,7 +68,8 @@
       "summary": "Linen weave, hidden zip.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-PAW-006",
@@ -72,7 +81,8 @@
       "summary": "Non-slip puzzle bowl.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-PAW-007",
@@ -84,7 +94,8 @@
       "summary": "Glucosamine and green-lipped mussel.",
       "tier2": 57.8,
       "tier3": 76.5,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-PAW-008",
@@ -96,7 +107,8 @@
       "summary": "Raised cot for hot days.",
       "tier2": 100.3,
       "tier3": 132.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-PAW-009",
@@ -108,7 +120,8 @@
       "summary": "Pressure vest, four sizes.",
       "tier2": 66.3,
       "tier3": 87.75,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-PAW-010",
@@ -120,7 +133,8 @@
       "summary": "Roll-up foam bed with a strap.",
       "tier2": 74.8,
       "tier3": 99,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-PAW-011",
@@ -132,7 +146,8 @@
       "summary": "Deshedder plus a slicker brush.",
       "tier2": 49.3,
       "tier3": 65.25,
-      "isHero": false
+      "isHero": false,
+      "available": true
     },
     {
       "sku": "DROP-PAW-012",
@@ -144,7 +159,8 @@
       "summary": "26-piece first aid kit.",
       "tier2": 40.8,
       "tier3": 54,
-      "isHero": false
+      "isHero": false,
+      "available": true
     }
   ],
   "digital": {

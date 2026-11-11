@@ -40,6 +40,7 @@ h2{font-size:clamp(1.4rem,2.6vw,2rem);letter-spacing:-.02em;margin:0 0 1rem}
 .card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.9rem}
 .card{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:.8rem;transition:transform .18s ease,border-color .18s ease}
 .card:hover{transform:translateY(-2px);border-color:var(--accent)}
+.card--out{opacity:.55}
 .card__media{aspect-ratio:1;border-radius:10px;background:linear-gradient(140deg,var(--surface),color-mix(in srgb,var(--accent) 24%,var(--surface)));display:grid;place-items:center;font-size:.7rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.6rem}
 .card__title{margin:0;font-weight:600;font-size:.9rem}.card__price{margin:.25rem 0 0;color:var(--accent-soft);font-weight:700;font-size:.88rem}
 .card__price s{color:var(--muted);font-weight:400;margin-left:.35rem;font-size:.78rem}
