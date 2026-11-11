@@ -1,0 +1,54 @@
+<section class="hero" data-hero data-store="store-13-kinetic-grip">
+  <div class="hero__stage" data-hero-stage>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__isometric" data-isometric>
+      <div class="layer" data-depth="34" style="--i: 0">
+        <span class="layer__index">01</span>
+        <span class="layer__name">CNC Aluminium Frame</span>
+        <span class="layer__note">6061, anodised</span>
+      </div>
+      <div class="layer" data-depth="68" style="--i: 1">
+        <span class="layer__index">02</span>
+        <span class="layer__name">50-350 lb Spring Range</span>
+        <span class="layer__note">Adjustable in 25 lb steps</span>
+      </div>
+      <div class="layer" data-depth="102" style="--i: 2">
+        <span class="layer__index">03</span>
+        <span class="layer__name">Knurled Handles</span>
+        <span class="layer__note">Chalk-friendly texture</span>
+      </div>
+      <div class="layer" data-depth="136" style="--i: 3">
+        <span class="layer__index">04</span>
+        <span class="layer__name">Carry Case</span>
+        <span class="layer__note">Holds gripper and chalk</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__copy">
+    <p class="hero__eyebrow">CNC aluminium hand grippers and tendon-proofing gear for climbers and lifters.</p>
+    <h1 class="hero__title">{{ section.settings.heading | default: "KineticGrip 50-350 lb CNC Aluminum Gripper Set" }}</h1>
+    <p class="hero__lede">{{ section.settings.lede | default: "A 50-350 lb adjustable CNC aluminium gripper with knurled handles and a carry case." }}</p>
+    <ul class="hero__callouts">
+        <li><b>01</b> CNC Aluminium Frame &mdash; 6061, anodised</li>
+        <li><b>02</b> 50-350 lb Spring Range &mdash; Adjustable in 25 lb steps</li>
+        <li><b>03</b> Knurled Handles &mdash; Chalk-friendly texture</li>
+        <li><b>04</b> Carry Case &mdash; Holds gripper and chalk</li>
+    </ul>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ section.settings.cta_link | default: '/products/kineticgrip-50-350-lb-cnc-aluminum-gripper-set' }}">Unlock the complete set &mdash; {{ section.settings.price | default: 44 }}</a>
+      <a class="btn btn--ghost" href="#bundles">Compare 3 tiers</a>
+    </div>
+    <p class="hero__meta">Ships from {{ shop.name }} &bull; 60-day guarantee &bull; Subscribe &amp; save 20%</p>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "3D exploded hero",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "KineticGrip 50-350 lb CNC Aluminum Gripper Set" },
+    { "type": "textarea", "id": "lede", "label": "Lede", "default": "A 50-350 lb adjustable CNC aluminium gripper with knurled handles and a carry case." },
+    { "type": "url", "id": "cta_link", "label": "CTA link" },
+    { "type": "number", "id": "price", "label": "Hero price (USD)", "default": 44 }
+  ]
+}
+{% endschema %}
