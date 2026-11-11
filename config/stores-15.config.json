@@ -1,0 +1,1753 @@
+{
+  "schema": "dropper-os-stores-registry-v14",
+  "documentId": "DROPPER-WEALTH-ENGINE-V13.0",
+  "repo": "hampusi97/dropper-wealth-engine",
+  "generatedAt": "2026-11-11T21:45:18.071Z",
+  "northStar": {
+    "monthlyBaselineUSD": 50000,
+    "dailyBaselineUSD": 1667,
+    "monthlyStretchUSD": 150000,
+    "dailyStretchUSD": 5000,
+    "perStoreDailyUSD": 111.11,
+    "perStoreMonthlyUSD": 3333,
+    "perStoreStretchDailyUSD": 333.33
+  },
+  "creditBudget": {
+    "total": 1400,
+    "phases": 7,
+    "perPhase": 200,
+    "reserve": 600
+  },
+  "engines": [
+    "physical-bundles",
+    "digital-addons",
+    "subscriptions",
+    "b2b-wholesale",
+    "google-shopping-feeds",
+    "creator-affiliates",
+    "cross-store-pollination"
+  ],
+  "treasuryBuckets": [
+    {
+      "id": "cogs-float",
+      "label": "COGS Float",
+      "pct": 35
+    },
+    {
+      "id": "growth-ads",
+      "label": "Growth / Ads",
+      "pct": 25
+    },
+    {
+      "id": "tax-reserve",
+      "label": "Tax Reserve",
+      "pct": 20
+    },
+    {
+      "id": "owner",
+      "label": "Owner Take-Home",
+      "pct": 20
+    }
+  ],
+  "paymentFees": {
+    "percent": 2.9,
+    "fixedUSD": 0.3
+  },
+  "stores": [
+    {
+      "id": "store-01-bizi-bees",
+      "name": "Bizi Bees Boutique",
+      "branch": "store-01-bizi-bees",
+      "domain": "shopbizibees.com",
+      "myshopify": "bizibees-store.myshopify.com",
+      "mode": "Utah Physical Hub",
+      "fulfillment": "utah-hub",
+      "skuPrefix": "UTAH-",
+      "niche": "Pre-Loved Books, Complete Board Games & Utah Finds",
+      "positioning": "Hand-graded used books and 100%-complete board games, packed in Utah.",
+      "palette": {
+        "background": "#12100E",
+        "surface": "#1C1917",
+        "accent": "#F59E0B",
+        "accentSoft": "#FCD34D"
+      },
+      "vipClub": "The Bizi Hive Society",
+      "hero": {
+        "title": "The Utah Reader & Game Night Box",
+        "price": 44,
+        "cost": 11.6,
+        "layers": [
+          {
+            "name": "Hand-Graded Vintage Hardcover",
+            "note": "Grades A/B, spine-tested, no missing pages"
+          },
+          {
+            "name": "Verified Complete Board Game",
+            "note": "Every piece counted against the manual"
+          },
+          {
+            "name": "Solid Brass Page Anchor",
+            "note": "1.6 oz, machine-finished, felt-backed"
+          },
+          {
+            "name": "Utah Kraft Collector Box",
+            "note": "Rigid 12x9x3 mailer, recycled kraft"
+          }
+        ]
+      },
+      "digital": {
+        "title": "Printable Family Game Night Scorecards & Reading Journal",
+        "price": 9,
+        "format": "PDF + Google Sheets",
+        "pages": 42,
+        "description": "42 printable pages: 12 game-night scorecards, a 24-week reading journal, and a printable family book-club question deck.",
+        "deliverables": [
+          "12 game-night scorecards (print at home)",
+          "24-week reading journal",
+          "48-question family book club deck",
+          "Editable Google Sheets tracker"
+        ]
+      },
+      "subscription": {
+        "title": "Monthly Utah Mystery Book & Board Game Box",
+        "price": 36,
+        "cadence": "month",
+        "cost": 9.4,
+        "perks": [
+          "One graded hardcover every month",
+          "One complete board game",
+          "Members-only $12 add-on pricing",
+          "Cancel or skip anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Libraries, Cafes & Family Centers",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Summer-reading prize packs and cafe game shelves."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 35,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 65,
+          "reward": "Extra 10% Off",
+          "value": 10
+        },
+        {
+          "threshold": 95,
+          "reward": "Free Solid Brass Bookmark",
+          "value": 16
+        }
+      ],
+      "competitors": [
+        "goodwill books online",
+        "complete board games",
+        "used book box subscription"
+      ],
+      "keywords": [
+        "used books box",
+        "board game bundle",
+        "utah gift box",
+        "reading journal printable"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-02-luma-clinical",
+      "name": "Luma Clinical",
+      "branch": "store-02-luma-clinical",
+      "domain": "lumaclinical.com",
+      "myshopify": "luma-clinical.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-LUMA-",
+      "niche": "630nm Red-Light Facial Wands & Microcurrent Tech",
+      "positioning": "Clinical-grade LED and microcurrent tools for at-home facial protocols.",
+      "palette": {
+        "background": "#090A0F",
+        "surface": "#12151F",
+        "accent": "#E11D48",
+        "accentSoft": "#FB7185"
+      },
+      "vipClub": "Luma Clinical Society",
+      "hero": {
+        "title": "LumaGlow 4-in-1 Red Light Sculpting Wand",
+        "price": 84,
+        "cost": 22.4,
+        "layers": [
+          {
+            "name": "90° Rotating Surgical Alloy Head",
+            "note": "Anodized, 0.4 lb balanced"
+          },
+          {
+            "name": "630nm Deep Red LED Matrix",
+            "note": "36 diodes, 60 mW/cm² at contact"
+          },
+          {
+            "name": "350µA Microcurrent Core",
+            "note": "Three intensity steps"
+          },
+          {
+            "name": "42°C Thermal + Sonic Engine",
+            "note": "10,000 RPM, 4 modes"
+          }
+        ]
+      },
+      "digital": {
+        "title": "21-Day Clinical Lymphatic Facial Sculpting Protocol",
+        "price": 14,
+        "format": "PDF + 12 video clips",
+        "pages": 28,
+        "description": "The 21-day sequence a licensed esthetician uses on the LumaGlow: daily 6-minute stroke maps, session timers, and a progress tracker.",
+        "deliverables": [
+          "21 daily session cards",
+          "Stroke-map diagrams (4 zones)",
+          "12 short technique videos",
+          "Printable progress tracker"
+        ]
+      },
+      "subscription": {
+        "title": "Monthly Hyaluronic Conductive Serum Auto-Refill",
+        "price": 24,
+        "cadence": "month",
+        "cost": 5.8,
+        "perks": [
+          "1 oz conductive serum every month",
+          "Free replacement pads every 3rd box",
+          "Member pricing on devices",
+          "Skip or pause anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Estheticians & Med-Spas",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Treatment-room devices and retail shelf restocks."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 65,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 110,
+          "reward": "Extra 15% Off",
+          "value": 15
+        },
+        {
+          "threshold": 145,
+          "reward": "Free Hyaluronic Conductive Serum",
+          "value": 34
+        }
+      ],
+      "competitors": [
+        "red light therapy wand",
+        "microcurrent facial device",
+        "led face wand before after"
+      ],
+      "keywords": [
+        "red light wand",
+        "microcurrent device",
+        "lymphatic facial massage",
+        "facial sculpting protocol"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-03-cryo-halo",
+      "name": "CryoHalo Recovery",
+      "branch": "store-03-cryo-halo",
+      "domain": "cryohalo.com",
+      "myshopify": "cryo-halo.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-CRYO-",
+      "niche": "Cryotherapy Migraine Caps & Sleep Recovery",
+      "positioning": "Cold-therapy recovery gear for migraine, sleep, and post-training.",
+      "palette": {
+        "background": "#070B12",
+        "surface": "#0F1724",
+        "accent": "#38BDF8",
+        "accentSoft": "#7DD3FC"
+      },
+      "vipClub": "CryoHalo Recovery Circle",
+      "hero": {
+        "title": "CryoHalo 2-Cap Continuous Rotation System",
+        "price": 49,
+        "cost": 13.6,
+        "layers": [
+          {
+            "name": "Dual Gel Cap Pair",
+            "note": "One in use, one in the freezer"
+          },
+          {
+            "name": "Adjustable Pressure Dial",
+            "note": "Frontal or occipital fit"
+          },
+          {
+            "name": "Insulated Carry Sleeve",
+            "note": "Holds 4 hours of cold"
+          },
+          {
+            "name": "CryoHalo Recovery Card",
+            "note": "Timing protocols inside"
+          }
+        ]
+      },
+      "digital": {
+        "title": "Neurologist-Designed Migraine Trigger & Sleep Tracker Vault",
+        "price": 9,
+        "format": "PDF + Notion template",
+        "pages": 36,
+        "description": "A 90-day trigger vault: headache diary, sleep-window log, and the cold-timing chart that pairs with the CryoHalo.",
+        "deliverables": [
+          "90-day headache diary",
+          "Sleep-window log",
+          "Cold-timing chart",
+          "Duplicate-able Notion vault"
+        ]
+      },
+      "subscription": {
+        "title": "Quarterly Cooling Gel Insert Refresh",
+        "price": 29,
+        "cadence": "quarter",
+        "cost": 7.1,
+        "perks": [
+          "Fresh gel inserts every quarter",
+          "Free liner replacements",
+          "Member-only cap colourways",
+          "Pause anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Chiropractic & Wellness Clinics",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Patient take-home cold-therapy kits."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 45,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 85,
+          "reward": "Extra 12% Off",
+          "value": 12
+        },
+        {
+          "threshold": 120,
+          "reward": "Free Replacement Gel Cap Pair",
+          "value": 22
+        }
+      ],
+      "competitors": [
+        "migraine ice cap",
+        "cold therapy cap freezer",
+        "sleep mask weighted"
+      ],
+      "keywords": [
+        "migraine relief cap",
+        "cold therapy",
+        "sleep recovery kit",
+        "cryotherapy at home"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-04-sculpt-wave",
+      "name": "SculptWave Body",
+      "branch": "store-04-sculpt-wave",
+      "domain": "sculptwavebody.com",
+      "myshopify": "sculpt-wave.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-WAVE-",
+      "niche": "40kHz Ultrasonic Body Sculpting & Contouring",
+      "positioning": "At-home 40kHz ultrasonic cavitation and contouring tools with a real protocol.",
+      "palette": {
+        "background": "#0A0A0A",
+        "surface": "#151313",
+        "accent": "#F472B6",
+        "accentSoft": "#F9A8D4"
+      },
+      "vipClub": "SculptWave Contour Club",
+      "hero": {
+        "title": "SculptWave 40kHz Ultrasonic Body Sculptor",
+        "price": 109,
+        "cost": 29.4,
+        "layers": [
+          {
+            "name": "40kHz Ultrasonic Head",
+            "note": "40,000 cycles/sec, 2.6 in contact face"
+          },
+          {
+            "name": "3-Intensity Control Dial",
+            "note": "Low / mid / high with LED ring"
+          },
+          {
+            "name": "15-Minute Auto Timer",
+            "note": "One zone per session"
+          },
+          {
+            "name": "Conductive Gel Starter",
+            "note": "8 oz botanical firming gel"
+          }
+        ]
+      },
+      "digital": {
+        "title": "30-Day Full-Body Lymphatic Contouring Blueprint",
+        "price": 15,
+        "format": "PDF + printable planner",
+        "pages": 54,
+        "description": "A 30-day, zone-by-zone sculpting blueprint: which zone each day, exact head speed, and a measurement tracker with photo prompts.",
+        "deliverables": [
+          "30-day zone calendar",
+          "Head-speed and pressure maps",
+          "Measurement tracker",
+          "12-week photo prompt cards"
+        ]
+      },
+      "subscription": {
+        "title": "Monthly Botanical Firming Conductive Oil",
+        "price": 28,
+        "cadence": "month",
+        "cost": 6.9,
+        "perks": [
+          "8 oz conductive oil monthly",
+          "Free protocol cards with box 1",
+          "Member device pricing",
+          "Skip or cancel anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Boutique Body Studios",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Studio treatment devices and retail gel."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 75,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 140,
+          "reward": "Extra 15% Off",
+          "value": 15
+        },
+        {
+          "threshold": 190,
+          "reward": "Free Compression Recovery Leggings",
+          "value": 58
+        }
+      ],
+      "competitors": [
+        "ultrasonic cavitation machine home",
+        "body sculpting device",
+        "lymphatic drainage tools"
+      ],
+      "keywords": [
+        "ultrasonic body sculpting",
+        "cavitation device",
+        "body contouring at home",
+        "lymphatic contouring"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-05-wonder-hive",
+      "name": "WonderHive Play",
+      "branch": "store-05-wonder-hive",
+      "domain": "wonderhiveplay.com",
+      "myshopify": "wonder-hive.myshopify.com",
+      "mode": "Hybrid Dropship + Classroom Hub",
+      "fulfillment": "hybrid",
+      "skuPrefix": "DROP-HIVE-",
+      "niche": "Screen-Free Sensory Math Kits & STEM",
+      "positioning": "Ten-frame sensory math and STEM kits for classrooms and kitchen tables.",
+      "palette": {
+        "background": "#111318",
+        "surface": "#1B1F27",
+        "accent": "#FACC15",
+        "accentSoft": "#FDE68A"
+      },
+      "vipClub": "WonderHive Family Club",
+      "hero": {
+        "title": "WonderHive 10-Frame Sensory Math Kit",
+        "price": 34,
+        "cost": 9.1,
+        "layers": [
+          {
+            "name": "Five 10-Frame Boards",
+            "note": "Laminated, wipe-clean"
+          },
+          {
+            "name": "120 Silicone Counters",
+            "note": "6 colours, 5 themes"
+          },
+          {
+            "name": "40 Task Cards",
+            "note": "Subitising to place value"
+          },
+          {
+            "name": "Cotton Carry Bag",
+            "note": "Machine washable"
+          }
+        ]
+      },
+      "digital": {
+        "title": "100-Page Printable Montessori Math & STEM Activity Pack",
+        "price": 9,
+        "format": "PDF (print at home)",
+        "pages": 100,
+        "description": "100 printable pages that extend the WonderHive kit: ten-frame games, number-bond sheets, and 20 build challenges.",
+        "deliverables": [
+          "100 printable activity pages",
+          "Ten-frame game pack",
+          "Number-bond worksheets",
+          "20 STEM build challenges"
+        ]
+      },
+      "subscription": {
+        "title": "Monthly Screen-Free STEM & Sensory Box",
+        "price": 29,
+        "cadence": "month",
+        "cost": 7.4,
+        "perks": [
+          "A new activity theme monthly",
+          "All materials included",
+          "Teacher notes inside",
+          "Skip a month anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Elementary Schools & Teachers",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Classroom packs of 20+ with teacher guides."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 40,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 75,
+          "reward": "Extra 10% Off",
+          "value": 10
+        },
+        {
+          "threshold": 110,
+          "reward": "Free STEM Challenge Card Deck",
+          "value": 22
+        }
+      ],
+      "competitors": [
+        "montessori math kit",
+        "sensory bin kit",
+        "classroom math manipulatives"
+      ],
+      "keywords": [
+        "montessori math",
+        "sensory kit",
+        "stem activities kids",
+        "classroom math kit"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-06-atelier-grid",
+      "name": "Atelier Grid",
+      "branch": "store-06-atelier-grid",
+      "domain": "ateliergrid.com",
+      "myshopify": "atelier-grid.myshopify.com",
+      "mode": "Hybrid Dropship + Print Studio",
+      "fulfillment": "hybrid",
+      "skuPrefix": "DROP-GRID-",
+      "niche": "Archival Planners, Notebooks & Desk Systems",
+      "positioning": "Lay-flat archival planners and desk systems for people who actually plan.",
+      "palette": {
+        "background": "#0C0D10",
+        "surface": "#16181D",
+        "accent": "#A3A3A3",
+        "accentSoft": "#D4D4D4"
+      },
+      "vipClub": "Atelier Grid Society",
+      "hero": {
+        "title": "2027 Checkered Lay-Flat Weekly Planner",
+        "price": 39,
+        "cost": 10.4,
+        "layers": [
+          {
+            "name": "Sewn Lay-Flat Binding",
+            "note": "Opens to 180° on the desk"
+          },
+          {
+            "name": "120gsm Archival Paper",
+            "note": "Fountain-pen safe, no ghosting"
+          },
+          {
+            "name": "Checkered Linen Cover",
+            "note": "Printed, scuff-resistant"
+          },
+          {
+            "name": "12 Tabbed Month Dividers",
+            "note": "Plus 40 dot-grid notes pages"
+          }
+        ]
+      },
+      "digital": {
+        "title": "2027 Notion + GoodNotes iPad Archival Planner Suite",
+        "price": 12,
+        "format": "Notion template + GoodNotes file",
+        "pages": 180,
+        "description": "The digital twin of the Atelier Grid planner: 180 hyperlinked GoodNotes pages plus a Notion workspace with the same 12 tabbed months.",
+        "deliverables": [
+          "180-page hyperlinked GoodNotes planner",
+          "Notion workspace duplicate link",
+          "Undated weekly templates",
+          "Grid paper pack (5 styles)"
+        ]
+      },
+      "subscription": {
+        "title": "Quarterly Dotted Archival Notebook & Pen Club",
+        "price": 32,
+        "cadence": "quarter",
+        "cost": 8.1,
+        "perks": [
+          "One A5 dotted notebook quarterly",
+          "A new 0.5mm pen each quarter",
+          "Member-only cover drops",
+          "Skip anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Architecture Firms & Executive Teams",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Branded planner runs for onboarding and client gifting."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 50,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 90,
+          "reward": "Extra 12% Off",
+          "value": 12
+        },
+        {
+          "threshold": 130,
+          "reward": "Free Gel Ink Pen Set",
+          "value": 22
+        }
+      ],
+      "competitors": [
+        "lay flat weekly planner",
+        "archival notebook",
+        "notion planner template"
+      ],
+      "keywords": [
+        "weekly planner",
+        "lay flat notebook",
+        "digital planner goodnotes",
+        "desk system"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-07-aether-sleep",
+      "name": "Aether Sleep",
+      "branch": "store-07-aether-sleep",
+      "domain": "aethersleep.com",
+      "myshopify": "aether-sleep.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-SLEEP-",
+      "niche": "22-Momme Silk Sleep Systems & Circadian Recovery",
+      "positioning": "Silk sleep systems and a circadian protocol, not just another mask.",
+      "palette": {
+        "background": "#0B0A14",
+        "surface": "#161327",
+        "accent": "#818CF8",
+        "accentSoft": "#A5B4FC"
+      },
+      "vipClub": "Aether Sleep Society",
+      "hero": {
+        "title": "Aether 3D Contoured 22-Momme Silk Sleep System",
+        "price": 44,
+        "cost": 11.4,
+        "layers": [
+          {
+            "name": "3D Contoured Silk Mask",
+            "note": "22-momme, zero lash pressure"
+          },
+          {
+            "name": "Mulberry Silk Pillowcase",
+            "note": "22-momme, hidden zip"
+          },
+          {
+            "name": "Contoured Ear Plug Pair",
+            "note": "28 dB, side-sleeper shaped"
+          },
+          {
+            "name": "Travel Sleep Case",
+            "note": "Fits the whole system"
+          }
+        ]
+      },
+      "digital": {
+        "title": "Circadian Deep-REM Sleep Optimization Audio & Guide",
+        "price": 9,
+        "format": "PDF + 6 audio tracks",
+        "pages": 32,
+        "description": "A 32-page circadian protocol plus six 20-minute audio tracks for wind-down, and a 14-night sleep-window tracker.",
+        "deliverables": [
+          "32-page circadian guide",
+          "6 wind-down audio tracks",
+          "14-night sleep tracker",
+          "Light-exposure timing chart"
+        ]
+      },
+      "subscription": {
+        "title": "Monthly Lavender Silk Pillow Mist & Mouth Tape Refill",
+        "price": 22,
+        "cadence": "month",
+        "cost": 5.4,
+        "perks": [
+          "4 oz lavender pillow mist",
+          "60-night mouth tape refill",
+          "Member pricing on silk",
+          "Skip anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Luxury Retreats & Airline Amenity Buyers",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Branded amenity kits and guest pillowcase programmes."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 45,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 85,
+          "reward": "Extra 12% Off",
+          "value": 12
+        },
+        {
+          "threshold": 125,
+          "reward": "Free Silk Eye Pillow",
+          "value": 24
+        }
+      ],
+      "competitors": [
+        "silk sleep mask 22 momme",
+        "silk pillowcase queen",
+        "sleep mask side sleeper"
+      ],
+      "keywords": [
+        "silk sleep mask",
+        "mulberry silk pillowcase",
+        "sleep kit",
+        "circadian sleep"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-08-kova-brew",
+      "name": "Kova Brew",
+      "branch": "store-08-kova-brew",
+      "domain": "kovabrew.com",
+      "myshopify": "kova-brew.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-BREW-",
+      "niche": "Espresso Scales, Flow Control & Barista Precision",
+      "positioning": "Precision brewing tools for people who weigh their shots.",
+      "palette": {
+        "background": "#0F0A07",
+        "surface": "#1D1510",
+        "accent": "#C2410C",
+        "accentSoft": "#FB923C"
+      },
+      "vipClub": "Kova Precision Guild",
+      "hero": {
+        "title": "Kova 0.1g Auto-Timer Flow-Rate Espresso Scale",
+        "price": 54,
+        "cost": 14.4,
+        "layers": [
+          {
+            "name": "0.1g Load Cell",
+            "note": "2kg capacity, 0.1g resolution"
+          },
+          {
+            "name": "Auto Flow Timer",
+            "note": "Starts on first drop"
+          },
+          {
+            "name": "Live Flow-Rate Display",
+            "note": "g/s readout in real time"
+          },
+          {
+            "name": "Heat-Proof Silicone Pad",
+            "note": "Handles 120°C drips"
+          }
+        ]
+      },
+      "digital": {
+        "title": "Barista Pour-Over & Espresso Extraction Recipe Matrix",
+        "price": 9,
+        "format": "PDF + spreadsheet",
+        "pages": 26,
+        "description": "A dose/yield/time recipe matrix that pairs with the Kova scale: 18 espresso recipes, 12 pour-over recipes, and a dial-in log.",
+        "deliverables": [
+          "18 espresso recipes",
+          "12 pour-over recipes",
+          "Dial-in log spreadsheet",
+          "Grind-size reference card"
+        ]
+      },
+      "subscription": {
+        "title": "Monthly Precision Filter & Descaling Care Kit",
+        "price": 19,
+        "cadence": "month",
+        "cost": 4.6,
+        "perks": [
+          "200 filter papers monthly",
+          "Descaling care kit every 2nd box",
+          "Member pricing on tools",
+          "Skip anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Independent Coffee Shops & Roasteries",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Bar kits for new shops and retail shelf restocks."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 55,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 100,
+          "reward": "Extra 12% Off",
+          "value": 12
+        },
+        {
+          "threshold": 145,
+          "reward": "Free WDT Needle Tool",
+          "value": 22
+        }
+      ],
+      "competitors": [
+        "espresso scale 0.1g",
+        "coffee scale with timer",
+        "pour over kit"
+      ],
+      "keywords": [
+        "espresso scale",
+        "barista tools",
+        "pour over kit",
+        "coffee scale timer"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-09-spine-align",
+      "name": "SpineAlign Studio",
+      "branch": "store-09-spine-align",
+      "domain": "spinealignstudio.com",
+      "myshopify": "spine-align.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-SPINE-",
+      "niche": "Cervical Traction, Posture & Desk Recovery",
+      "positioning": "Neck traction and posture tools for people who sit for a living.",
+      "palette": {
+        "background": "#0A0F0C",
+        "surface": "#141C17",
+        "accent": "#22C55E",
+        "accentSoft": "#86EFAC"
+      },
+      "vipClub": "SpineAlign Alignment Club",
+      "hero": {
+        "title": "SpineAlign 3-in-1 Heated Cervical Traction Cradle",
+        "price": 59,
+        "cost": 15.9,
+        "layers": [
+          {
+            "name": "Contoured Cervical Cradle",
+            "note": "Three height settings"
+          },
+          {
+            "name": "42°C Heat Layer",
+            "note": "Low-voltage, 10-min auto-off"
+          },
+          {
+            "name": "Acupressure Nodes",
+            "note": "18 nodes on the occipital ridge"
+          },
+          {
+            "name": "10-Minute Session Timer",
+            "note": "One routine per session"
+          }
+        ]
+      },
+      "digital": {
+        "title": "10-Minute Daily Desk Posture & Cervical Mobility Routine",
+        "price": 11,
+        "format": "PDF + 10 video clips",
+        "pages": 24,
+        "description": "A 10-minute daily routine: six cervical mobility moves, three desk resets, and a 30-day habit tracker.",
+        "deliverables": [
+          "10-minute routine sheet",
+          "6 mobility move videos",
+          "30-day habit tracker",
+          "Desk setup checklist"
+        ]
+      },
+      "subscription": {
+        "title": "Quarterly Ergonomic Cover & Acupressure Kit",
+        "price": 25,
+        "cadence": "quarter",
+        "cost": 6.1,
+        "perks": [
+          "Fresh washable cover quarterly",
+          "Acupressure node kit",
+          "Member pricing on tools",
+          "Skip anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Physical Therapy Clinics & Remote Tech Teams",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Clinic take-home kits and team ergonomics packs."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 55,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 95,
+          "reward": "Extra 12% Off",
+          "value": 12
+        },
+        {
+          "threshold": 140,
+          "reward": "Free Heat & Ice Neck Wrap",
+          "value": 27
+        }
+      ],
+      "competitors": [
+        "cervical traction device",
+        "neck stretcher",
+        "posture corrector"
+      ],
+      "keywords": [
+        "cervical traction",
+        "posture corrector",
+        "neck pain relief",
+        "desk ergonomics"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-10-terra-paw",
+      "name": "TerraPaw Co.",
+      "branch": "store-10-terra-paw",
+      "domain": "terrapawco.com",
+      "myshopify": "terra-paw.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-PAW-",
+      "niche": "Orthopedic Dog Beds & Calming Enrichment",
+      "positioning": "Human-grade orthopedic beds and calming enrichment for anxious dogs.",
+      "palette": {
+        "background": "#0D0B09",
+        "surface": "#1A1611",
+        "accent": "#D97706",
+        "accentSoft": "#FBBF24"
+      },
+      "vipClub": "TerraPaw Pack",
+      "hero": {
+        "title": "TerraPaw Human-Grade Orthopedic Bolster Dog Bed",
+        "price": 74,
+        "cost": 19.4,
+        "layers": [
+          {
+            "name": "4-inch Memory Foam Base",
+            "note": "CertiPUR-US certified"
+          },
+          {
+            "name": "Bolster Rim",
+            "note": "Head and spine support"
+          },
+          {
+            "name": "Waterproof Liner",
+            "note": "Removable, washable"
+          },
+          {
+            "name": "Washable Cover",
+            "note": "Linen weave, hidden zip"
+          }
+        ]
+      },
+      "digital": {
+        "title": "Canine Separation Anxiety & Calming Enrichment Guide",
+        "price": 9,
+        "format": "PDF + printable tracker",
+        "pages": 30,
+        "description": "A 30-page behaviour guide: desensitisation schedule, 14 enrichment games, and a daily calm-tracker for your dog.",
+        "deliverables": [
+          "30-page anxiety guide",
+          "Desensitisation schedule",
+          "14 enrichment games",
+          "Daily calm tracker"
+        ]
+      },
+      "subscription": {
+        "title": "Monthly Waterproof Liner & Calming Chew Box",
+        "price": 29,
+        "cadence": "month",
+        "cost": 7.4,
+        "perks": [
+          "Spare waterproof liner",
+          "Calming chew box",
+          "Member pricing on beds",
+          "Skip anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Vet Clinics, Kennels & Dog Hotels",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Kennel bed programmes and clinic recovery beds."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 60,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 110,
+          "reward": "Extra 12% Off",
+          "value": 12
+        },
+        {
+          "threshold": 160,
+          "reward": "Free Calming Chew Box",
+          "value": 34
+        }
+      ],
+      "competitors": [
+        "orthopedic dog bed",
+        "dog calming bed",
+        "waterproof dog bed"
+      ],
+      "keywords": [
+        "orthopedic dog bed",
+        "dog anxiety",
+        "calming chews",
+        "enrichment dog"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-11-nomad-carry",
+      "name": "NomadCarry",
+      "branch": "store-11-nomad-carry",
+      "domain": "nomadcarry.com",
+      "myshopify": "nomad-carry.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-NOMAD-",
+      "niche": "Vacuum Compression Travel Gear & One-Bag Systems",
+      "positioning": "Vacuum-compression luggage and modular packing for carry-on-only travel.",
+      "palette": {
+        "background": "#0A0C0F",
+        "surface": "#15191F",
+        "accent": "#0EA5E9",
+        "accentSoft": "#7DD3FC"
+      },
+      "vipClub": "NomadCarry Flight Club",
+      "hero": {
+        "title": "NomadCarry AirVac 40L Vacuum Backpack + Pump",
+        "price": 119,
+        "cost": 31.4,
+        "layers": [
+          {
+            "name": "40L Carry-On Shell",
+            "note": "Fits 22x14x9 airline sizers"
+          },
+          {
+            "name": "Vacuum Compression Chamber",
+            "note": "Removes 60% of air"
+          },
+          {
+            "name": "USB-C Micro Pump",
+            "note": "70-second cycle"
+          },
+          {
+            "name": "Modular Packing Cubes",
+            "note": "Three cubes, two pouches"
+          }
+        ]
+      },
+      "digital": {
+        "title": "One-Bag Global Minimalist Packing Checklist & Tracker",
+        "price": 9,
+        "format": "PDF + Notion template",
+        "pages": 22,
+        "description": "A one-bag packing system: the 34-item carry-on checklist, a 7-day laundry loop, and a trip tracker in Notion.",
+        "deliverables": [
+          "34-item packing checklist",
+          "7-day laundry loop plan",
+          "Notion trip tracker",
+          "Airline sizer reference card"
+        ]
+      },
+      "subscription": {
+        "title": "Quarterly Modular Travel Organizer & Tag Drop",
+        "price": 34,
+        "cadence": "quarter",
+        "cost": 8.4,
+        "perks": [
+          "New modular organizer quarterly",
+          "Custom luggage tag drop",
+          "Member pricing on bags",
+          "Skip anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Corporate Travel & Executive Gifting",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Branded executive travel kits."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 75,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 140,
+          "reward": "Extra 15% Off",
+          "value": 15
+        },
+        {
+          "threshold": 210,
+          "reward": "Free Vacuum Packing Cube Set",
+          "value": 44
+        }
+      ],
+      "competitors": [
+        "vacuum backpack travel",
+        "carry on backpack 40l",
+        "packing cubes compression"
+      ],
+      "keywords": [
+        "vacuum travel backpack",
+        "carry on backpack",
+        "packing cubes",
+        "one bag travel"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-12-solace-aroma",
+      "name": "Solace Aroma",
+      "branch": "store-12-solace-aroma",
+      "domain": "solacearoma.com",
+      "myshopify": "solace-aroma.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-AROMA-",
+      "niche": "Waterless Cold-Air Diffusers & Hotel Scent Systems",
+      "positioning": "Waterless diffusers and 5-star hotel scent oils for whole-home scent zoning.",
+      "palette": {
+        "background": "#0E0A0C",
+        "surface": "#1A1318",
+        "accent": "#D4A373",
+        "accentSoft": "#E9C46A"
+      },
+      "vipClub": "Solace Scent Society",
+      "hero": {
+        "title": "Solace Anodized Waterless Cold-Air Diffuser",
+        "price": 69,
+        "cost": 18.2,
+        "layers": [
+          {
+            "name": "Anodized Aluminium Shell",
+            "note": "Bead-blasted, six colourways"
+          },
+          {
+            "name": "Waterless Cold-Air Nebuliser",
+            "note": "No water, no residue"
+          },
+          {
+            "name": "4-Hour Cycle Timer",
+            "note": "Intermittent or continuous"
+          },
+          {
+            "name": "300 sq ft Throw",
+            "note": "Covers an open living room"
+          }
+        ]
+      },
+      "digital": {
+        "title": "Home Scent Zoning & Olfactory Architecture Guide",
+        "price": 9,
+        "format": "PDF + oil-blend cards",
+        "pages": 24,
+        "description": "A 24-page scent-zoning guide: which blend belongs in each room, dilution ratios for waterless diffusers, and a 12-blend card deck.",
+        "deliverables": [
+          "24-page scent zoning guide",
+          "Room-by-room blend chart",
+          "12 printable blend cards",
+          "Diffuser cycle timer chart"
+        ]
+      },
+      "subscription": {
+        "title": "Monthly 5-Star Hotel Scent Oil Auto-Refill",
+        "price": 27,
+        "cadence": "month",
+        "cost": 6.9,
+        "perks": [
+          "30 ml signature oil monthly",
+          "New seasonal blend each quarter",
+          "Member pricing on diffusers",
+          "Skip anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Real Estate Open Houses, Spas & Showrooms",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Scent systems for open houses and spa rooms."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 65,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 120,
+          "reward": "Extra 15% Off",
+          "value": 15
+        },
+        {
+          "threshold": 170,
+          "reward": "Free Essential Oil Trio",
+          "value": 44
+        }
+      ],
+      "competitors": [
+        "waterless diffuser",
+        "cold air diffuser",
+        "hotel scent oil"
+      ],
+      "keywords": [
+        "waterless diffuser",
+        "hotel scent",
+        "scent oil",
+        "home fragrance system"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-13-kinetic-grip",
+      "name": "KineticGrip",
+      "branch": "store-13-kinetic-grip",
+      "domain": "kineticgrip.com",
+      "myshopify": "kinetic-grip.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-GRIP-",
+      "niche": "CNC Hand Grippers, Forearm Training & Tendon Care",
+      "positioning": "CNC aluminium hand grippers and tendon-proofing gear for climbers and lifters.",
+      "palette": {
+        "background": "#0B0B0C",
+        "surface": "#17181B",
+        "accent": "#EF4444",
+        "accentSoft": "#FCA5A5"
+      },
+      "vipClub": "KineticGrip Iron Club",
+      "hero": {
+        "title": "KineticGrip 50-350 lb CNC Aluminum Gripper Set",
+        "price": 44,
+        "cost": 11.2,
+        "layers": [
+          {
+            "name": "CNC Aluminium Frame",
+            "note": "6061, anodised"
+          },
+          {
+            "name": "50-350 lb Spring Range",
+            "note": "Adjustable in 25 lb steps"
+          },
+          {
+            "name": "Knurled Handles",
+            "note": "Chalk-friendly texture"
+          },
+          {
+            "name": "Carry Case",
+            "note": "Holds gripper and chalk"
+          }
+        ]
+      },
+      "digital": {
+        "title": "8-Week Forearm Hypertrophy, Climbing & Tendon Bulletproofing Plan",
+        "price": 9,
+        "format": "PDF + spreadsheet",
+        "pages": 34,
+        "description": "An 8-week program: four sessions a week, gripper progression tables, and a tendon-load tracker in a spreadsheet.",
+        "deliverables": [
+          "8-week program (32 sessions)",
+          "Gripper progression tables",
+          "Tendon load tracker",
+          "Warm-up and mobility sheets"
+        ]
+      },
+      "subscription": {
+        "title": "Quarterly Mobility Floss & Chalk Refill",
+        "price": 24,
+        "cadence": "quarter",
+        "cost": 5.9,
+        "perks": [
+          "Floss band set quarterly",
+          "Liquid chalk refill",
+          "Member pricing on grippers",
+          "Skip anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Climbing Gyms, CrossFit Boxes & Rehab Clinics",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Gym retail walls and rehab grip programmes."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 45,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 85,
+          "reward": "Extra 12% Off",
+          "value": 12
+        },
+        {
+          "threshold": 130,
+          "reward": "Free Chalk Bucket",
+          "value": 32
+        }
+      ],
+      "competitors": [
+        "hand gripper 300 lb",
+        "adjustable hand gripper",
+        "forearm trainer"
+      ],
+      "keywords": [
+        "hand gripper",
+        "forearm trainer",
+        "climbing training",
+        "grip strength"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-14-lumen-desk",
+      "name": "LumenDesk",
+      "branch": "store-14-lumen-desk",
+      "domain": "lumendesk.com",
+      "myshopify": "lumen-desk.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-DESK-",
+      "niche": "CRI 98+ Monitor Light Bars & Deep-Work Desk Systems",
+      "positioning": "High-CRI asymmetric desk lighting and cable systems for deep work.",
+      "palette": {
+        "background": "#0A0B0D",
+        "surface": "#15171B",
+        "accent": "#EAB308",
+        "accentSoft": "#FDE047"
+      },
+      "vipClub": "LumenDesk Deep Work Club",
+      "hero": {
+        "title": "LumenDesk CRI 98+ Asymmetric Monitor Light Bar",
+        "price": 64,
+        "cost": 16.8,
+        "layers": [
+          {
+            "name": "CRI 98+ LED Bar",
+            "note": "45 cm, 2700K-6500K"
+          },
+          {
+            "name": "Asymmetric Optic",
+            "note": "Zero screen glare"
+          },
+          {
+            "name": "USB-C Desk Dial",
+            "note": "Brightness and warmth"
+          },
+          {
+            "name": "Counterweight Mount",
+            "note": "Fits 0.4-2.2 in monitors"
+          }
+        ]
+      },
+      "digital": {
+        "title": "Minimalist Cable Management & Deep-Work Desk Blueprint",
+        "price": 11,
+        "format": "PDF + layout diagrams",
+        "pages": 20,
+        "description": "A desk blueprint: 12 cable routes, a measured layout for dual monitors, and a deep-work session template.",
+        "deliverables": [
+          "Desk layout diagrams",
+          "12 cable routing plans",
+          "Deep-work session template",
+          "Shopping checklist"
+        ]
+      },
+      "subscription": {
+        "title": "Quarterly Merino Felt & Desk Hardware Care Kit",
+        "price": 29,
+        "cadence": "quarter",
+        "cost": 7.1,
+        "perks": [
+          "Merino felt care kit",
+          "Hardware lubricant and cloth",
+          "Member pricing on lighting",
+          "Skip anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Remote Engineering & Design Teams",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Team desk-lighting and ergonomics programmes."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 60,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 110,
+          "reward": "Extra 12% Off",
+          "value": 12
+        },
+        {
+          "threshold": 155,
+          "reward": "Free Merino Felt Desk Mat",
+          "value": 44
+        }
+      ],
+      "competitors": [
+        "monitor light bar",
+        "screenbar plus",
+        "desk lamp cri 98"
+      ],
+      "keywords": [
+        "monitor light bar",
+        "desk lighting",
+        "cable management",
+        "deep work desk"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    },
+    {
+      "id": "store-15-verde-hydro",
+      "name": "VerdeHydro",
+      "branch": "store-15-verde-hydro",
+      "domain": "verdehydro.com",
+      "myshopify": "verde-hydro.myshopify.com",
+      "mode": "Auto API Dropship",
+      "fulfillment": "api-dropship",
+      "skuPrefix": "DROP-VERDE-",
+      "niche": "Brass Grow Lights & Hydro Plant Systems",
+      "positioning": "Brass full-spectrum grow lights and hydro systems for houseplant people.",
+      "palette": {
+        "background": "#0A0F0A",
+        "surface": "#131C13",
+        "accent": "#84CC16",
+        "accentSoft": "#BEF264"
+      },
+      "vipClub": "VerdeHydro Growers Guild",
+      "hero": {
+        "title": "VerdeHydro 4000K Brass Halo Grow Light & Planter",
+        "price": 49,
+        "cost": 12.4,
+        "layers": [
+          {
+            "name": "Solid Brass Halo Ring",
+            "note": "Unlacquered, patinas over time"
+          },
+          {
+            "name": "4000K Full-Spectrum LED",
+            "note": "PPFD 120 at 12 in"
+          },
+          {
+            "name": "Self-Watering Ceramic Planter",
+            "note": "600 ml reservoir"
+          },
+          {
+            "name": "Wick & Water-Level Window",
+            "note": "No guess watering"
+          }
+        ]
+      },
+      "digital": {
+        "title": "Rare Aroid & Monstera Propagation Bible",
+        "price": 9,
+        "format": "PDF + printable labels",
+        "pages": 40,
+        "description": "A 40-page propagation bible: 24 aroid species, node-by-node cutting maps, and printable propagation labels.",
+        "deliverables": [
+          "40-page propagation bible",
+          "24 species profiles",
+          "Node cutting maps",
+          "Printable propagation labels"
+        ]
+      },
+      "subscription": {
+        "title": "Monthly Organic Liquid Plant Food & Hydro-Wick Refill",
+        "price": 18,
+        "cadence": "month",
+        "cost": 4.4,
+        "perks": [
+          "8 oz organic plant food",
+          "10-pack hydro wicks",
+          "Member pricing on lights",
+          "Skip anytime"
+        ]
+      },
+      "b2b": {
+        "audience": "Interior Plantscapers & Modern Offices",
+        "minUnits": 10,
+        "tiers": [
+          {
+            "units": 10,
+            "off": 30
+          },
+          {
+            "units": 25,
+            "off": 40
+          }
+        ],
+        "useCase": "Office plant-wall lighting and care restocks."
+      },
+      "cartMilestones": [
+        {
+          "threshold": 45,
+          "reward": "Free Shipping",
+          "value": 0
+        },
+        {
+          "threshold": 85,
+          "reward": "Extra 12% Off",
+          "value": 12
+        },
+        {
+          "threshold": 130,
+          "reward": "Free Brass Plant Mister",
+          "value": 29
+        }
+      ],
+      "competitors": [
+        "brass grow light",
+        "halo grow light",
+        "self watering planter"
+      ],
+      "keywords": [
+        "grow light",
+        "self watering planter",
+        "aroid propagation",
+        "houseplant care"
+      ],
+      "productCount": 12,
+      "dailyTargetUSD": 111.11,
+      "monthlyTargetUSD": 3333
+    }
+  ]
+}
