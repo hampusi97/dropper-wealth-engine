@@ -1,0 +1,92 @@
+{
+  "storeId": "store-07-aether-sleep",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.251Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-07-aether-sleep-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying silk sleep mask that falls apart in a month.",
+      "beats": [
+        "Show the Aether 3D Contoured 22-Momme Silk Sleep System doing the one thing it does.",
+        "On-screen: $44.00 — free shipping over $45.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://aethersleep.com/products/aether-3d-contoured-22-momme-silk-sleep-system",
+      "hashtags": [
+        "silksleepmask",
+        "AetherSleep",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-07-aether-sleep-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Sleep shelf, all four boxes.",
+        "Show layer 1: 3D Contoured Silk Mask.",
+        "Say the price out loud: $44.00."
+      ],
+      "cta": "https://aethersleep.com/products/aether-3d-contoured-22-momme-silk-sleep-system",
+      "hashtags": [
+        "silksleepmask",
+        "AetherSleep",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-07-aether-sleep-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Luxury Retreats & Airline Amenity Buyers are overpaying for mulberry silk pillowcase.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://aethersleep.com/products/aether-3d-contoured-22-momme-silk-sleep-system",
+      "hashtags": [
+        "silksleepmask",
+        "AetherSleep",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-07-aether-sleep-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $9.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the Circadian Deep-REM Sleep Optimization Audio & Guide on screen.",
+        "Say: it costs us nothing to ship, so it costs you $9.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://aethersleep.com/products/aether-3d-contoured-22-momme-silk-sleep-system",
+      "hashtags": [
+        "silksleepmask",
+        "AetherSleep",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-07-aether-sleep-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $44.00.",
+        "Club: $22.00/month.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://aethersleep.com/products/aether-3d-contoured-22-momme-silk-sleep-system",
+      "hashtags": [
+        "silksleepmask",
+        "AetherSleep",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "storeId": "store-02-luma-clinical",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "LumaGlow 4-in-1 Red Light Sculpting Wand",
+  "price": 84,
+  "talkingPoints": [
+    "4 modes: LED, microcurrent, thermal, sonic",
+    "USB-C, 90-minute battery",
+    "Digital companion: 21-Day Clinical Lymphatic Facial Sculpting Protocol ($14.00)",
+    "Subscribe & Save 20%: Monthly Hyaluronic Conductive Serum Auto-Refill"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://lumaclinical.com/pages/creators"
+}

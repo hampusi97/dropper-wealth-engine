@@ -1,0 +1,92 @@
+{
+  "storeId": "store-02-luma-clinical",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.247Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-02-luma-clinical-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying red light wand that falls apart in a month.",
+      "beats": [
+        "Show the LumaGlow 4-in-1 Red Light Sculpting Wand doing the one thing it does.",
+        "On-screen: $84.00 — free shipping over $65.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://lumaclinical.com/products/lumaglow-4-in-1-red-light-sculpting-wand",
+      "hashtags": [
+        "redlightwand",
+        "LumaClinical",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-02-luma-clinical-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Skincare Device shelf, all four boxes.",
+        "Show layer 1: 90° Rotating Surgical Alloy Head.",
+        "Say the price out loud: $84.00."
+      ],
+      "cta": "https://lumaclinical.com/products/lumaglow-4-in-1-red-light-sculpting-wand",
+      "hashtags": [
+        "redlightwand",
+        "LumaClinical",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-02-luma-clinical-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Estheticians & Med-Spas are overpaying for microcurrent device.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://lumaclinical.com/products/lumaglow-4-in-1-red-light-sculpting-wand",
+      "hashtags": [
+        "redlightwand",
+        "LumaClinical",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-02-luma-clinical-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $14.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the 21-Day Clinical Lymphatic Facial Sculpting Protocol on screen.",
+        "Say: it costs us nothing to ship, so it costs you $14.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://lumaclinical.com/products/lumaglow-4-in-1-red-light-sculpting-wand",
+      "hashtags": [
+        "redlightwand",
+        "LumaClinical",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-02-luma-clinical-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $84.00.",
+        "Club: $24.00/month.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://lumaclinical.com/products/lumaglow-4-in-1-red-light-sculpting-wand",
+      "hashtags": [
+        "redlightwand",
+        "LumaClinical",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "storeId": "store-10-terra-paw",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "TerraPaw Human-Grade Orthopedic Bolster Dog Bed",
+  "price": 74,
+  "talkingPoints": [
+    "CertiPUR-US memory foam",
+    "Waterproof liner included",
+    "Digital companion: Canine Separation Anxiety & Calming Enrichment Guide ($9.00)",
+    "Subscribe & Save 20%: Monthly Waterproof Liner & Calming Chew Box"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://terrapawco.com/pages/creators"
+}

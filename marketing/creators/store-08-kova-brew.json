@@ -1,0 +1,21 @@
+{
+  "storeId": "store-08-kova-brew",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "Kova 0.1g Auto-Timer Flow-Rate Espresso Scale",
+  "price": 54,
+  "talkingPoints": [
+    "0.1g resolution, 2kg max",
+    "Auto-tare and auto-timer",
+    "Digital companion: Barista Pour-Over & Espresso Extraction Recipe Matrix ($9.00)",
+    "Subscribe & Save 20%: Monthly Precision Filter & Descaling Care Kit"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://kovabrew.com/pages/creators"
+}

@@ -1,0 +1,92 @@
+{
+  "storeId": "store-08-kova-brew",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.252Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-08-kova-brew-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying espresso scale that falls apart in a month.",
+      "beats": [
+        "Show the Kova 0.1g Auto-Timer Flow-Rate Espresso Scale doing the one thing it does.",
+        "On-screen: $54.00 — free shipping over $55.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://kovabrew.com/products/kova-0-1g-auto-timer-flow-rate-espresso-scale",
+      "hashtags": [
+        "espressoscale",
+        "KovaBrew",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-08-kova-brew-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Brewing shelf, all four boxes.",
+        "Show layer 1: 0.1g Load Cell.",
+        "Say the price out loud: $54.00."
+      ],
+      "cta": "https://kovabrew.com/products/kova-0-1g-auto-timer-flow-rate-espresso-scale",
+      "hashtags": [
+        "espressoscale",
+        "KovaBrew",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-08-kova-brew-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Independent Coffee Shops & Roasteries are overpaying for barista tools.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://kovabrew.com/products/kova-0-1g-auto-timer-flow-rate-espresso-scale",
+      "hashtags": [
+        "espressoscale",
+        "KovaBrew",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-08-kova-brew-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $9.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the Barista Pour-Over & Espresso Extraction Recipe Matrix on screen.",
+        "Say: it costs us nothing to ship, so it costs you $9.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://kovabrew.com/products/kova-0-1g-auto-timer-flow-rate-espresso-scale",
+      "hashtags": [
+        "espressoscale",
+        "KovaBrew",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-08-kova-brew-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $54.00.",
+        "Club: $19.00/month.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://kovabrew.com/products/kova-0-1g-auto-timer-flow-rate-espresso-scale",
+      "hashtags": [
+        "espressoscale",
+        "KovaBrew",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-11-11T21:48:35.257Z",
+  "guideCount": 60,
+  "stores": [
+    {
+      "store": "store-01-bizi-bees",
+      "guides": [
+        "content/seo/store-01-bizi-bees/guide-1.md",
+        "content/seo/store-01-bizi-bees/guide-2.md",
+        "content/seo/store-01-bizi-bees/guide-3.md",
+        "content/seo/store-01-bizi-bees/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-02-luma-clinical",
+      "guides": [
+        "content/seo/store-02-luma-clinical/guide-1.md",
+        "content/seo/store-02-luma-clinical/guide-2.md",
+        "content/seo/store-02-luma-clinical/guide-3.md",
+        "content/seo/store-02-luma-clinical/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-03-cryo-halo",
+      "guides": [
+        "content/seo/store-03-cryo-halo/guide-1.md",
+        "content/seo/store-03-cryo-halo/guide-2.md",
+        "content/seo/store-03-cryo-halo/guide-3.md",
+        "content/seo/store-03-cryo-halo/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-04-sculpt-wave",
+      "guides": [
+        "content/seo/store-04-sculpt-wave/guide-1.md",
+        "content/seo/store-04-sculpt-wave/guide-2.md",
+        "content/seo/store-04-sculpt-wave/guide-3.md",
+        "content/seo/store-04-sculpt-wave/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-05-wonder-hive",
+      "guides": [
+        "content/seo/store-05-wonder-hive/guide-1.md",
+        "content/seo/store-05-wonder-hive/guide-2.md",
+        "content/seo/store-05-wonder-hive/guide-3.md",
+        "content/seo/store-05-wonder-hive/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-06-atelier-grid",
+      "guides": [
+        "content/seo/store-06-atelier-grid/guide-1.md",
+        "content/seo/store-06-atelier-grid/guide-2.md",
+        "content/seo/store-06-atelier-grid/guide-3.md",
+        "content/seo/store-06-atelier-grid/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-07-aether-sleep",
+      "guides": [
+        "content/seo/store-07-aether-sleep/guide-1.md",
+        "content/seo/store-07-aether-sleep/guide-2.md",
+        "content/seo/store-07-aether-sleep/guide-3.md",
+        "content/seo/store-07-aether-sleep/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-08-kova-brew",
+      "guides": [
+        "content/seo/store-08-kova-brew/guide-1.md",
+        "content/seo/store-08-kova-brew/guide-2.md",
+        "content/seo/store-08-kova-brew/guide-3.md",
+        "content/seo/store-08-kova-brew/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-09-spine-align",
+      "guides": [
+        "content/seo/store-09-spine-align/guide-1.md",
+        "content/seo/store-09-spine-align/guide-2.md",
+        "content/seo/store-09-spine-align/guide-3.md",
+        "content/seo/store-09-spine-align/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-10-terra-paw",
+      "guides": [
+        "content/seo/store-10-terra-paw/guide-1.md",
+        "content/seo/store-10-terra-paw/guide-2.md",
+        "content/seo/store-10-terra-paw/guide-3.md",
+        "content/seo/store-10-terra-paw/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-11-nomad-carry",
+      "guides": [
+        "content/seo/store-11-nomad-carry/guide-1.md",
+        "content/seo/store-11-nomad-carry/guide-2.md",
+        "content/seo/store-11-nomad-carry/guide-3.md",
+        "content/seo/store-11-nomad-carry/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-12-solace-aroma",
+      "guides": [
+        "content/seo/store-12-solace-aroma/guide-1.md",
+        "content/seo/store-12-solace-aroma/guide-2.md",
+        "content/seo/store-12-solace-aroma/guide-3.md",
+        "content/seo/store-12-solace-aroma/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-13-kinetic-grip",
+      "guides": [
+        "content/seo/store-13-kinetic-grip/guide-1.md",
+        "content/seo/store-13-kinetic-grip/guide-2.md",
+        "content/seo/store-13-kinetic-grip/guide-3.md",
+        "content/seo/store-13-kinetic-grip/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-14-lumen-desk",
+      "guides": [
+        "content/seo/store-14-lumen-desk/guide-1.md",
+        "content/seo/store-14-lumen-desk/guide-2.md",
+        "content/seo/store-14-lumen-desk/guide-3.md",
+        "content/seo/store-14-lumen-desk/guide-4.md"
+      ]
+    },
+    {
+      "store": "store-15-verde-hydro",
+      "guides": [
+        "content/seo/store-15-verde-hydro/guide-1.md",
+        "content/seo/store-15-verde-hydro/guide-2.md",
+        "content/seo/store-15-verde-hydro/guide-3.md",
+        "content/seo/store-15-verde-hydro/guide-4.md"
+      ]
+    }
+  ]
+}

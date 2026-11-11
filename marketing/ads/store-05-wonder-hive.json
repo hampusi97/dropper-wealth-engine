@@ -1,0 +1,92 @@
+{
+  "storeId": "store-05-wonder-hive",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.249Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-05-wonder-hive-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying montessori math that falls apart in a month.",
+      "beats": [
+        "Show the WonderHive 10-Frame Sensory Math Kit doing the one thing it does.",
+        "On-screen: $34.00 — free shipping over $40.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://wonderhiveplay.com/products/wonderhive-10-frame-sensory-math-kit",
+      "hashtags": [
+        "montessorimath",
+        "WonderHivePlay",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-05-wonder-hive-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Math Manipulatives shelf, all four boxes.",
+        "Show layer 1: Five 10-Frame Boards.",
+        "Say the price out loud: $34.00."
+      ],
+      "cta": "https://wonderhiveplay.com/products/wonderhive-10-frame-sensory-math-kit",
+      "hashtags": [
+        "montessorimath",
+        "WonderHivePlay",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-05-wonder-hive-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Elementary Schools & Teachers are overpaying for sensory kit.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://wonderhiveplay.com/products/wonderhive-10-frame-sensory-math-kit",
+      "hashtags": [
+        "montessorimath",
+        "WonderHivePlay",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-05-wonder-hive-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $9.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the 100-Page Printable Montessori Math & STEM Activity Pack on screen.",
+        "Say: it costs us nothing to ship, so it costs you $9.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://wonderhiveplay.com/products/wonderhive-10-frame-sensory-math-kit",
+      "hashtags": [
+        "montessorimath",
+        "WonderHivePlay",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-05-wonder-hive-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $34.00.",
+        "Club: $29.00/month.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://wonderhiveplay.com/products/wonderhive-10-frame-sensory-math-kit",
+      "hashtags": [
+        "montessorimath",
+        "WonderHivePlay",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

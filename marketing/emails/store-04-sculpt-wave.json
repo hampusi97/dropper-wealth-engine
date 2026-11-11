@@ -1,0 +1,94 @@
+{
+  "storeId": "store-04-sculpt-wave",
+  "generatedAt": "2026-11-11T21:48:35.249Z",
+  "flowCount": 6,
+  "emailCount": 10,
+  "flows": [
+    {
+      "key": "welcome",
+      "trigger": "newsletter signup",
+      "emails": [
+        {
+          "delay": "immediate",
+          "subject": "Your $10.00 off is inside",
+          "body": "Welcome to SculptWave Body. Code WELCOME15 takes 15% off your first order, including the SculptWave 40kHz Ultrasonic Body Sculptor."
+        },
+        {
+          "delay": "day 2",
+          "subject": "What is actually in the SculptWave 40kHz Ultrasonic Body Sculptor",
+          "body": "40kHz Ultrasonic Head, 3-Intensity Control Dial, 15-Minute Auto Timer, Conductive Gel Starter. Full breakdown: https://sculptwavebody.com/products/sculptwave-40khz-ultrasonic-body-sculptor"
+        }
+      ]
+    },
+    {
+      "key": "abandoned-cart",
+      "trigger": "cart abandoned 1h",
+      "emails": [
+        {
+          "delay": "1 hour",
+          "subject": "Your bag is still open",
+          "body": "You left the SculptWave 40kHz Ultrasonic Body Sculptor in your bag. It is still $109.00 and free shipping starts at $75."
+        },
+        {
+          "delay": "22 hours",
+          "subject": "Still thinking about it?",
+          "body": "Here is the honest comparison against the $19.00 alternative: https://sculptwavebody.com/blogs/guides/versus"
+        }
+      ]
+    },
+    {
+      "key": "post-purchase",
+      "trigger": "order paid",
+      "emails": [
+        {
+          "delay": "immediate",
+          "subject": "Order confirmed — here is your $20.00 partner credit",
+          "body": "Thanks for the order. Your $20 partner voucher works at four of our other boutiques; details are in the receipt."
+        },
+        {
+          "delay": "day 7",
+          "subject": "How is the SculptWave 40kHz Ultrasonic Body Sculptor working out?",
+          "body": "Two questions, 30 seconds: does it do what the listing promised, and what should we add to the guide?"
+        }
+      ]
+    },
+    {
+      "key": "review-request",
+      "trigger": "delivered + 10 days",
+      "emails": [
+        {
+          "delay": "day 10",
+          "subject": "One line is enough",
+          "body": "A single honest line about the SculptWave 40kHz Ultrasonic Body Sculptor helps the next buyer more than a five-star essay."
+        }
+      ]
+    },
+    {
+      "key": "subscription-save",
+      "trigger": "subscription renewal -3 days",
+      "emails": [
+        {
+          "delay": "-3 days",
+          "subject": "Monthly Botanical Firming Conductive Oil renews in 3 days",
+          "body": "Skip, swap or cancel in one click. Members get 8 oz conductive oil monthly."
+        }
+      ]
+    },
+    {
+      "key": "winback",
+      "trigger": "no order in 90 days",
+      "emails": [
+        {
+          "delay": "day 90",
+          "subject": "$15 to come back",
+          "body": "Code VIP25 gives you 25% off anything, including the SculptWave 40kHz Ultrasonic Body Sculptor. Expires in 14 days."
+        },
+        {
+          "delay": "day 104",
+          "subject": "Last call on the 25%",
+          "body": "Your VIP25 code expires tonight. After that it is back to full price."
+        }
+      ]
+    }
+  ]
+}

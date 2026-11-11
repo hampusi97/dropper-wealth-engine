@@ -1,0 +1,21 @@
+{
+  "storeId": "store-06-atelier-grid",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "2027 Checkered Lay-Flat Weekly Planner",
+  "price": 39,
+  "talkingPoints": [
+    "Undated weeks plus 2027 months",
+    "180° lay-flat sewn binding",
+    "Digital companion: 2027 Notion + GoodNotes iPad Archival Planner Suite ($12.00)",
+    "Subscribe & Save 20%: Quarterly Dotted Archival Notebook & Pen Club"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://ateliergrid.com/pages/creators"
+}

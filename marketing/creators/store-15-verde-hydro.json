@@ -1,0 +1,21 @@
+{
+  "storeId": "store-15-verde-hydro",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "VerdeHydro 4000K Brass Halo Grow Light & Planter",
+  "price": 49,
+  "talkingPoints": [
+    "4000K full spectrum",
+    "PPFD 120 at 12 in",
+    "Digital companion: Rare Aroid & Monstera Propagation Bible ($9.00)",
+    "Subscribe & Save 20%: Monthly Organic Liquid Plant Food & Hydro-Wick Refill"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://verdehydro.com/pages/creators"
+}

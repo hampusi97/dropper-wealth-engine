@@ -1,0 +1,92 @@
+{
+  "storeId": "store-12-solace-aroma",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.255Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-12-solace-aroma-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying waterless diffuser that falls apart in a month.",
+      "beats": [
+        "Show the Solace Anodized Waterless Cold-Air Diffuser doing the one thing it does.",
+        "On-screen: $69.00 — free shipping over $65.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://solacearoma.com/products/solace-anodized-waterless-cold-air-diffuser",
+      "hashtags": [
+        "waterlessdiffuser",
+        "SolaceAroma",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-12-solace-aroma-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Diffusers shelf, all four boxes.",
+        "Show layer 1: Anodized Aluminium Shell.",
+        "Say the price out loud: $69.00."
+      ],
+      "cta": "https://solacearoma.com/products/solace-anodized-waterless-cold-air-diffuser",
+      "hashtags": [
+        "waterlessdiffuser",
+        "SolaceAroma",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-12-solace-aroma-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Real Estate Open Houses, Spas & Showrooms are overpaying for hotel scent.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://solacearoma.com/products/solace-anodized-waterless-cold-air-diffuser",
+      "hashtags": [
+        "waterlessdiffuser",
+        "SolaceAroma",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-12-solace-aroma-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $9.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the Home Scent Zoning & Olfactory Architecture Guide on screen.",
+        "Say: it costs us nothing to ship, so it costs you $9.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://solacearoma.com/products/solace-anodized-waterless-cold-air-diffuser",
+      "hashtags": [
+        "waterlessdiffuser",
+        "SolaceAroma",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-12-solace-aroma-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $69.00.",
+        "Club: $27.00/month.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://solacearoma.com/products/solace-anodized-waterless-cold-air-diffuser",
+      "hashtags": [
+        "waterlessdiffuser",
+        "SolaceAroma",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

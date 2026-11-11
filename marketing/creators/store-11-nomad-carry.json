@@ -1,0 +1,21 @@
+{
+  "storeId": "store-11-nomad-carry",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "NomadCarry AirVac 40L Vacuum Backpack + Pump",
+  "price": 119,
+  "talkingPoints": [
+    "40L carry-on size",
+    "Vacuum compresses to 60%",
+    "Digital companion: One-Bag Global Minimalist Packing Checklist & Tracker ($9.00)",
+    "Subscribe & Save 20%: Quarterly Modular Travel Organizer & Tag Drop"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://nomadcarry.com/pages/creators"
+}

@@ -1,0 +1,21 @@
+{
+  "storeId": "store-01-bizi-bees",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "The Utah Reader & Game Night Box",
+  "price": 44,
+  "talkingPoints": [
+    "Book graded A/B on a 5-point spine test",
+    "Board game pieces counted vs. manual",
+    "Digital companion: Printable Family Game Night Scorecards & Reading Journal ($9.00)",
+    "Subscribe & Save 20%: Monthly Utah Mystery Book & Board Game Box"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://shopbizibees.com/pages/creators"
+}

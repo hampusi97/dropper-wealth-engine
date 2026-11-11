@@ -1,0 +1,21 @@
+{
+  "storeId": "store-04-sculpt-wave",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "SculptWave 40kHz Ultrasonic Body Sculptor",
+  "price": 109,
+  "talkingPoints": [
+    "40kHz output, 3 intensities",
+    "15-min auto-stop timer",
+    "Digital companion: 30-Day Full-Body Lymphatic Contouring Blueprint ($15.00)",
+    "Subscribe & Save 20%: Monthly Botanical Firming Conductive Oil"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://sculptwavebody.com/pages/creators"
+}

@@ -1,0 +1,92 @@
+{
+  "storeId": "store-11-nomad-carry",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.255Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-11-nomad-carry-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying vacuum travel backpack that falls apart in a month.",
+      "beats": [
+        "Show the NomadCarry AirVac 40L Vacuum Backpack + Pump doing the one thing it does.",
+        "On-screen: $119.00 — free shipping over $75.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://nomadcarry.com/products/nomadcarry-airvac-40l-vacuum-backpack-pump",
+      "hashtags": [
+        "vacuumtravelbackpack",
+        "NomadCarry",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-11-nomad-carry-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Luggage shelf, all four boxes.",
+        "Show layer 1: 40L Carry-On Shell.",
+        "Say the price out loud: $119.00."
+      ],
+      "cta": "https://nomadcarry.com/products/nomadcarry-airvac-40l-vacuum-backpack-pump",
+      "hashtags": [
+        "vacuumtravelbackpack",
+        "NomadCarry",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-11-nomad-carry-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Corporate Travel & Executive Gifting are overpaying for carry on backpack.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://nomadcarry.com/products/nomadcarry-airvac-40l-vacuum-backpack-pump",
+      "hashtags": [
+        "vacuumtravelbackpack",
+        "NomadCarry",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-11-nomad-carry-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $9.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the One-Bag Global Minimalist Packing Checklist & Tracker on screen.",
+        "Say: it costs us nothing to ship, so it costs you $9.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://nomadcarry.com/products/nomadcarry-airvac-40l-vacuum-backpack-pump",
+      "hashtags": [
+        "vacuumtravelbackpack",
+        "NomadCarry",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-11-nomad-carry-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $119.00.",
+        "Club: $34.00/quarter.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://nomadcarry.com/products/nomadcarry-airvac-40l-vacuum-backpack-pump",
+      "hashtags": [
+        "vacuumtravelbackpack",
+        "NomadCarry",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

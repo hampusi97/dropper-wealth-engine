@@ -1,0 +1,21 @@
+{
+  "storeId": "store-03-cryo-halo",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "CryoHalo 2-Cap Continuous Rotation System",
+  "price": 49,
+  "talkingPoints": [
+    "Two caps = zero cold gaps",
+    "Stays pliable at -18°C",
+    "Digital companion: Neurologist-Designed Migraine Trigger & Sleep Tracker Vault ($9.00)",
+    "Subscribe & Save 20%: Quarterly Cooling Gel Insert Refresh"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://cryohalo.com/pages/creators"
+}

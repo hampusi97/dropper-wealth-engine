@@ -1,0 +1,92 @@
+{
+  "storeId": "store-14-lumen-desk",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.256Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-14-lumen-desk-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying monitor light bar that falls apart in a month.",
+      "beats": [
+        "Show the LumenDesk CRI 98+ Asymmetric Monitor Light Bar doing the one thing it does.",
+        "On-screen: $64.00 — free shipping over $60.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://lumendesk.com/products/lumendesk-cri-98-asymmetric-monitor-light-bar",
+      "hashtags": [
+        "monitorlightbar",
+        "LumenDesk",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-14-lumen-desk-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Desk Lighting shelf, all four boxes.",
+        "Show layer 1: CRI 98+ LED Bar.",
+        "Say the price out loud: $64.00."
+      ],
+      "cta": "https://lumendesk.com/products/lumendesk-cri-98-asymmetric-monitor-light-bar",
+      "hashtags": [
+        "monitorlightbar",
+        "LumenDesk",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-14-lumen-desk-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Remote Engineering & Design Teams are overpaying for desk lighting.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://lumendesk.com/products/lumendesk-cri-98-asymmetric-monitor-light-bar",
+      "hashtags": [
+        "monitorlightbar",
+        "LumenDesk",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-14-lumen-desk-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $11.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the Minimalist Cable Management & Deep-Work Desk Blueprint on screen.",
+        "Say: it costs us nothing to ship, so it costs you $11.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://lumendesk.com/products/lumendesk-cri-98-asymmetric-monitor-light-bar",
+      "hashtags": [
+        "monitorlightbar",
+        "LumenDesk",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-14-lumen-desk-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $64.00.",
+        "Club: $29.00/quarter.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://lumendesk.com/products/lumendesk-cri-98-asymmetric-monitor-light-bar",
+      "hashtags": [
+        "monitorlightbar",
+        "LumenDesk",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "storeId": "store-13-kinetic-grip",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.256Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-13-kinetic-grip-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying hand gripper that falls apart in a month.",
+      "beats": [
+        "Show the KineticGrip 50-350 lb CNC Aluminum Gripper Set doing the one thing it does.",
+        "On-screen: $44.00 — free shipping over $45.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://kineticgrip.com/products/kineticgrip-50-350-lb-cnc-aluminum-gripper-set",
+      "hashtags": [
+        "handgripper",
+        "KineticGrip",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-13-kinetic-grip-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Training shelf, all four boxes.",
+        "Show layer 1: CNC Aluminium Frame.",
+        "Say the price out loud: $44.00."
+      ],
+      "cta": "https://kineticgrip.com/products/kineticgrip-50-350-lb-cnc-aluminum-gripper-set",
+      "hashtags": [
+        "handgripper",
+        "KineticGrip",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-13-kinetic-grip-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Climbing Gyms, CrossFit Boxes & Rehab Clinics are overpaying for forearm trainer.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://kineticgrip.com/products/kineticgrip-50-350-lb-cnc-aluminum-gripper-set",
+      "hashtags": [
+        "handgripper",
+        "KineticGrip",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-13-kinetic-grip-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $9.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the 8-Week Forearm Hypertrophy, Climbing & Tendon Bulletproofing Plan on screen.",
+        "Say: it costs us nothing to ship, so it costs you $9.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://kineticgrip.com/products/kineticgrip-50-350-lb-cnc-aluminum-gripper-set",
+      "hashtags": [
+        "handgripper",
+        "KineticGrip",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-13-kinetic-grip-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $44.00.",
+        "Club: $24.00/quarter.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://kineticgrip.com/products/kineticgrip-50-350-lb-cnc-aluminum-gripper-set",
+      "hashtags": [
+        "handgripper",
+        "KineticGrip",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

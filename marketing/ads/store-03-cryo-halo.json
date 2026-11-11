@@ -1,0 +1,92 @@
+{
+  "storeId": "store-03-cryo-halo",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.247Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-03-cryo-halo-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying migraine relief cap that falls apart in a month.",
+      "beats": [
+        "Show the CryoHalo 2-Cap Continuous Rotation System doing the one thing it does.",
+        "On-screen: $49.00 — free shipping over $45.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://cryohalo.com/products/cryohalo-2-cap-continuous-rotation-system",
+      "hashtags": [
+        "migrainereliefcap",
+        "CryoHaloRecovery",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-03-cryo-halo-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Cold Therapy shelf, all four boxes.",
+        "Show layer 1: Dual Gel Cap Pair.",
+        "Say the price out loud: $49.00."
+      ],
+      "cta": "https://cryohalo.com/products/cryohalo-2-cap-continuous-rotation-system",
+      "hashtags": [
+        "migrainereliefcap",
+        "CryoHaloRecovery",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-03-cryo-halo-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Chiropractic & Wellness Clinics are overpaying for cold therapy.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://cryohalo.com/products/cryohalo-2-cap-continuous-rotation-system",
+      "hashtags": [
+        "migrainereliefcap",
+        "CryoHaloRecovery",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-03-cryo-halo-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $9.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the Neurologist-Designed Migraine Trigger & Sleep Tracker Vault on screen.",
+        "Say: it costs us nothing to ship, so it costs you $9.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://cryohalo.com/products/cryohalo-2-cap-continuous-rotation-system",
+      "hashtags": [
+        "migrainereliefcap",
+        "CryoHaloRecovery",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-03-cryo-halo-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $49.00.",
+        "Club: $29.00/quarter.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://cryohalo.com/products/cryohalo-2-cap-continuous-rotation-system",
+      "hashtags": [
+        "migrainereliefcap",
+        "CryoHaloRecovery",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

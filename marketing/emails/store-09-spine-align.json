@@ -1,0 +1,94 @@
+{
+  "storeId": "store-09-spine-align",
+  "generatedAt": "2026-11-11T21:48:35.253Z",
+  "flowCount": 6,
+  "emailCount": 10,
+  "flows": [
+    {
+      "key": "welcome",
+      "trigger": "newsletter signup",
+      "emails": [
+        {
+          "delay": "immediate",
+          "subject": "Your $10.00 off is inside",
+          "body": "Welcome to SpineAlign Studio. Code WELCOME15 takes 15% off your first order, including the SpineAlign 3-in-1 Heated Cervical Traction Cradle."
+        },
+        {
+          "delay": "day 2",
+          "subject": "What is actually in the SpineAlign 3-in-1 Heated Cervical Traction Cradle",
+          "body": "Contoured Cervical Cradle, 42°C Heat Layer, Acupressure Nodes, 10-Minute Session Timer. Full breakdown: https://spinealignstudio.com/products/spinealign-3-in-1-heated-cervical-traction-cradle"
+        }
+      ]
+    },
+    {
+      "key": "abandoned-cart",
+      "trigger": "cart abandoned 1h",
+      "emails": [
+        {
+          "delay": "1 hour",
+          "subject": "Your bag is still open",
+          "body": "You left the SpineAlign 3-in-1 Heated Cervical Traction Cradle in your bag. It is still $59.00 and free shipping starts at $55."
+        },
+        {
+          "delay": "22 hours",
+          "subject": "Still thinking about it?",
+          "body": "Here is the honest comparison against the $19.00 alternative: https://spinealignstudio.com/blogs/guides/versus"
+        }
+      ]
+    },
+    {
+      "key": "post-purchase",
+      "trigger": "order paid",
+      "emails": [
+        {
+          "delay": "immediate",
+          "subject": "Order confirmed — here is your $20.00 partner credit",
+          "body": "Thanks for the order. Your $20 partner voucher works at four of our other boutiques; details are in the receipt."
+        },
+        {
+          "delay": "day 7",
+          "subject": "How is the SpineAlign 3-in-1 Heated Cervical Traction Cradle working out?",
+          "body": "Two questions, 30 seconds: does it do what the listing promised, and what should we add to the guide?"
+        }
+      ]
+    },
+    {
+      "key": "review-request",
+      "trigger": "delivered + 10 days",
+      "emails": [
+        {
+          "delay": "day 10",
+          "subject": "One line is enough",
+          "body": "A single honest line about the SpineAlign 3-in-1 Heated Cervical Traction Cradle helps the next buyer more than a five-star essay."
+        }
+      ]
+    },
+    {
+      "key": "subscription-save",
+      "trigger": "subscription renewal -3 days",
+      "emails": [
+        {
+          "delay": "-3 days",
+          "subject": "Quarterly Ergonomic Cover & Acupressure Kit renews in 3 days",
+          "body": "Skip, swap or cancel in one click. Members get fresh washable cover quarterly."
+        }
+      ]
+    },
+    {
+      "key": "winback",
+      "trigger": "no order in 90 days",
+      "emails": [
+        {
+          "delay": "day 90",
+          "subject": "$15 to come back",
+          "body": "Code VIP25 gives you 25% off anything, including the SpineAlign 3-in-1 Heated Cervical Traction Cradle. Expires in 14 days."
+        },
+        {
+          "delay": "day 104",
+          "subject": "Last call on the 25%",
+          "body": "Your VIP25 code expires tonight. After that it is back to full price."
+        }
+      ]
+    }
+  ]
+}

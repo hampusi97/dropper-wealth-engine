@@ -1,0 +1,94 @@
+{
+  "storeId": "store-12-solace-aroma",
+  "generatedAt": "2026-11-11T21:48:35.255Z",
+  "flowCount": 6,
+  "emailCount": 10,
+  "flows": [
+    {
+      "key": "welcome",
+      "trigger": "newsletter signup",
+      "emails": [
+        {
+          "delay": "immediate",
+          "subject": "Your $10.00 off is inside",
+          "body": "Welcome to Solace Aroma. Code WELCOME15 takes 15% off your first order, including the Solace Anodized Waterless Cold-Air Diffuser."
+        },
+        {
+          "delay": "day 2",
+          "subject": "What is actually in the Solace Anodized Waterless Cold-Air Diffuser",
+          "body": "Anodized Aluminium Shell, Waterless Cold-Air Nebuliser, 4-Hour Cycle Timer, 300 sq ft Throw. Full breakdown: https://solacearoma.com/products/solace-anodized-waterless-cold-air-diffuser"
+        }
+      ]
+    },
+    {
+      "key": "abandoned-cart",
+      "trigger": "cart abandoned 1h",
+      "emails": [
+        {
+          "delay": "1 hour",
+          "subject": "Your bag is still open",
+          "body": "You left the Solace Anodized Waterless Cold-Air Diffuser in your bag. It is still $69.00 and free shipping starts at $65."
+        },
+        {
+          "delay": "22 hours",
+          "subject": "Still thinking about it?",
+          "body": "Here is the honest comparison against the $19.00 alternative: https://solacearoma.com/blogs/guides/versus"
+        }
+      ]
+    },
+    {
+      "key": "post-purchase",
+      "trigger": "order paid",
+      "emails": [
+        {
+          "delay": "immediate",
+          "subject": "Order confirmed — here is your $20.00 partner credit",
+          "body": "Thanks for the order. Your $20 partner voucher works at four of our other boutiques; details are in the receipt."
+        },
+        {
+          "delay": "day 7",
+          "subject": "How is the Solace Anodized Waterless Cold-Air Diffuser working out?",
+          "body": "Two questions, 30 seconds: does it do what the listing promised, and what should we add to the guide?"
+        }
+      ]
+    },
+    {
+      "key": "review-request",
+      "trigger": "delivered + 10 days",
+      "emails": [
+        {
+          "delay": "day 10",
+          "subject": "One line is enough",
+          "body": "A single honest line about the Solace Anodized Waterless Cold-Air Diffuser helps the next buyer more than a five-star essay."
+        }
+      ]
+    },
+    {
+      "key": "subscription-save",
+      "trigger": "subscription renewal -3 days",
+      "emails": [
+        {
+          "delay": "-3 days",
+          "subject": "Monthly 5-Star Hotel Scent Oil Auto-Refill renews in 3 days",
+          "body": "Skip, swap or cancel in one click. Members get 30 ml signature oil monthly."
+        }
+      ]
+    },
+    {
+      "key": "winback",
+      "trigger": "no order in 90 days",
+      "emails": [
+        {
+          "delay": "day 90",
+          "subject": "$15 to come back",
+          "body": "Code VIP25 gives you 25% off anything, including the Solace Anodized Waterless Cold-Air Diffuser. Expires in 14 days."
+        },
+        {
+          "delay": "day 104",
+          "subject": "Last call on the 25%",
+          "body": "Your VIP25 code expires tonight. After that it is back to full price."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "storeId": "store-04-sculpt-wave",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.249Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-04-sculpt-wave-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying ultrasonic body sculpting that falls apart in a month.",
+      "beats": [
+        "Show the SculptWave 40kHz Ultrasonic Body Sculptor doing the one thing it does.",
+        "On-screen: $109.00 — free shipping over $75.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://sculptwavebody.com/products/sculptwave-40khz-ultrasonic-body-sculptor",
+      "hashtags": [
+        "ultrasonicbodysculpting",
+        "SculptWaveBody",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-04-sculpt-wave-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Body Device shelf, all four boxes.",
+        "Show layer 1: 40kHz Ultrasonic Head.",
+        "Say the price out loud: $109.00."
+      ],
+      "cta": "https://sculptwavebody.com/products/sculptwave-40khz-ultrasonic-body-sculptor",
+      "hashtags": [
+        "ultrasonicbodysculpting",
+        "SculptWaveBody",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-04-sculpt-wave-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Boutique Body Studios are overpaying for cavitation device.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://sculptwavebody.com/products/sculptwave-40khz-ultrasonic-body-sculptor",
+      "hashtags": [
+        "ultrasonicbodysculpting",
+        "SculptWaveBody",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-04-sculpt-wave-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $15.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the 30-Day Full-Body Lymphatic Contouring Blueprint on screen.",
+        "Say: it costs us nothing to ship, so it costs you $15.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://sculptwavebody.com/products/sculptwave-40khz-ultrasonic-body-sculptor",
+      "hashtags": [
+        "ultrasonicbodysculpting",
+        "SculptWaveBody",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-04-sculpt-wave-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $109.00.",
+        "Club: $28.00/month.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://sculptwavebody.com/products/sculptwave-40khz-ultrasonic-body-sculptor",
+      "hashtags": [
+        "ultrasonicbodysculpting",
+        "SculptWaveBody",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "storeId": "store-10-terra-paw",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.254Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-10-terra-paw-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying orthopedic dog bed that falls apart in a month.",
+      "beats": [
+        "Show the TerraPaw Human-Grade Orthopedic Bolster Dog Bed doing the one thing it does.",
+        "On-screen: $74.00 — free shipping over $60.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://terrapawco.com/products/terrapaw-human-grade-orthopedic-bolster-dog-bed",
+      "hashtags": [
+        "orthopedicdogbed",
+        "TerraPawCo.",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-10-terra-paw-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Dog Beds shelf, all four boxes.",
+        "Show layer 1: 4-inch Memory Foam Base.",
+        "Say the price out loud: $74.00."
+      ],
+      "cta": "https://terrapawco.com/products/terrapaw-human-grade-orthopedic-bolster-dog-bed",
+      "hashtags": [
+        "orthopedicdogbed",
+        "TerraPawCo.",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-10-terra-paw-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Vet Clinics, Kennels & Dog Hotels are overpaying for dog anxiety.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://terrapawco.com/products/terrapaw-human-grade-orthopedic-bolster-dog-bed",
+      "hashtags": [
+        "orthopedicdogbed",
+        "TerraPawCo.",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-10-terra-paw-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $9.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the Canine Separation Anxiety & Calming Enrichment Guide on screen.",
+        "Say: it costs us nothing to ship, so it costs you $9.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://terrapawco.com/products/terrapaw-human-grade-orthopedic-bolster-dog-bed",
+      "hashtags": [
+        "orthopedicdogbed",
+        "TerraPawCo.",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-10-terra-paw-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $74.00.",
+        "Club: $29.00/month.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://terrapawco.com/products/terrapaw-human-grade-orthopedic-bolster-dog-bed",
+      "hashtags": [
+        "orthopedicdogbed",
+        "TerraPawCo.",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

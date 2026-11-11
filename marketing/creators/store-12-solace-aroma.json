@@ -1,0 +1,21 @@
+{
+  "storeId": "store-12-solace-aroma",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "Solace Anodized Waterless Cold-Air Diffuser",
+  "price": 69,
+  "talkingPoints": [
+    "Waterless cold-air nebuliser",
+    "No dilution, no residue",
+    "Digital companion: Home Scent Zoning & Olfactory Architecture Guide ($9.00)",
+    "Subscribe & Save 20%: Monthly 5-Star Hotel Scent Oil Auto-Refill"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://solacearoma.com/pages/creators"
+}

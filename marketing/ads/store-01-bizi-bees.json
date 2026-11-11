@@ -1,0 +1,92 @@
+{
+  "storeId": "store-01-bizi-bees",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.246Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-01-bizi-bees-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying used books box that falls apart in a month.",
+      "beats": [
+        "Show the The Utah Reader & Game Night Box doing the one thing it does.",
+        "On-screen: $44.00 — free shipping over $35.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://shopbizibees.com/products/the-utah-reader-game-night-box",
+      "hashtags": [
+        "usedbooksbox",
+        "BiziBeesBoutique",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-01-bizi-bees-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Gift Box shelf, all four boxes.",
+        "Show layer 1: Hand-Graded Vintage Hardcover.",
+        "Say the price out loud: $44.00."
+      ],
+      "cta": "https://shopbizibees.com/products/the-utah-reader-game-night-box",
+      "hashtags": [
+        "usedbooksbox",
+        "BiziBeesBoutique",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-01-bizi-bees-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Libraries, Cafes & Family Centers are overpaying for board game bundle.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://shopbizibees.com/products/the-utah-reader-game-night-box",
+      "hashtags": [
+        "usedbooksbox",
+        "BiziBeesBoutique",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-01-bizi-bees-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $9.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the Printable Family Game Night Scorecards & Reading Journal on screen.",
+        "Say: it costs us nothing to ship, so it costs you $9.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://shopbizibees.com/products/the-utah-reader-game-night-box",
+      "hashtags": [
+        "usedbooksbox",
+        "BiziBeesBoutique",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-01-bizi-bees-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $44.00.",
+        "Club: $36.00/month.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://shopbizibees.com/products/the-utah-reader-game-night-box",
+      "hashtags": [
+        "usedbooksbox",
+        "BiziBeesBoutique",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

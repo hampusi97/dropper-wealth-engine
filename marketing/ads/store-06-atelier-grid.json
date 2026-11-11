@@ -1,0 +1,92 @@
+{
+  "storeId": "store-06-atelier-grid",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.250Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-06-atelier-grid-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying weekly planner that falls apart in a month.",
+      "beats": [
+        "Show the 2027 Checkered Lay-Flat Weekly Planner doing the one thing it does.",
+        "On-screen: $39.00 — free shipping over $50.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://ateliergrid.com/products/2027-checkered-lay-flat-weekly-planner",
+      "hashtags": [
+        "weeklyplanner",
+        "AtelierGrid",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-06-atelier-grid-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Planner shelf, all four boxes.",
+        "Show layer 1: Sewn Lay-Flat Binding.",
+        "Say the price out loud: $39.00."
+      ],
+      "cta": "https://ateliergrid.com/products/2027-checkered-lay-flat-weekly-planner",
+      "hashtags": [
+        "weeklyplanner",
+        "AtelierGrid",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-06-atelier-grid-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Architecture Firms & Executive Teams are overpaying for lay flat notebook.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://ateliergrid.com/products/2027-checkered-lay-flat-weekly-planner",
+      "hashtags": [
+        "weeklyplanner",
+        "AtelierGrid",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-06-atelier-grid-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $12.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the 2027 Notion + GoodNotes iPad Archival Planner Suite on screen.",
+        "Say: it costs us nothing to ship, so it costs you $12.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://ateliergrid.com/products/2027-checkered-lay-flat-weekly-planner",
+      "hashtags": [
+        "weeklyplanner",
+        "AtelierGrid",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-06-atelier-grid-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $39.00.",
+        "Club: $32.00/quarter.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://ateliergrid.com/products/2027-checkered-lay-flat-weekly-planner",
+      "hashtags": [
+        "weeklyplanner",
+        "AtelierGrid",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

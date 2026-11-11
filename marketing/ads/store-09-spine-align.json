@@ -1,0 +1,92 @@
+{
+  "storeId": "store-09-spine-align",
+  "platform": [
+    "tiktok",
+    "reels",
+    "meta"
+  ],
+  "generatedAt": "2026-11-11T21:48:35.253Z",
+  "count": 5,
+  "scripts": [
+    {
+      "id": "store-09-spine-align-ad-1",
+      "lengthSeconds": 21,
+      "hook": "Stop buying cervical traction that falls apart in a month.",
+      "beats": [
+        "Show the SpineAlign 3-in-1 Heated Cervical Traction Cradle doing the one thing it does.",
+        "On-screen: $59.00 — free shipping over $55.",
+        "CTA: \"Link in bio, 60-day guarantee.\""
+      ],
+      "cta": "https://spinealignstudio.com/products/spinealign-3-in-1-heated-cervical-traction-cradle",
+      "hashtags": [
+        "cervicaltraction",
+        "SpineAlignStudio",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-09-spine-align-ad-2",
+      "lengthSeconds": 21,
+      "hook": "I bought three of these before I found the one that works.",
+      "beats": [
+        "Cut to the Posture shelf, all four boxes.",
+        "Show layer 1: Contoured Cervical Cradle.",
+        "Say the price out loud: $59.00."
+      ],
+      "cta": "https://spinealignstudio.com/products/spinealign-3-in-1-heated-cervical-traction-cradle",
+      "hashtags": [
+        "cervicaltraction",
+        "SpineAlignStudio",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-09-spine-align-ad-3",
+      "lengthSeconds": 21,
+      "hook": "Physical Therapy Clinics & Remote Tech Teams are overpaying for posture corrector.",
+      "beats": [
+        "Show a bulk order: 10 units.",
+        "On-screen: 30% off at 10+ units.",
+        "CTA: \"Bulk quote in bio.\""
+      ],
+      "cta": "https://spinealignstudio.com/products/spinealign-3-in-1-heated-cervical-traction-cradle",
+      "hashtags": [
+        "cervicaltraction",
+        "SpineAlignStudio",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-09-spine-align-ad-4",
+      "lengthSeconds": 21,
+      "hook": "The $11.00 add-on is the reason people keep this.",
+      "beats": [
+        "Show the 10-Minute Daily Desk Posture & Cervical Mobility Routine on screen.",
+        "Say: it costs us nothing to ship, so it costs you $11.00.",
+        "CTA: \"Add it in the cart.\""
+      ],
+      "cta": "https://spinealignstudio.com/products/spinealign-3-in-1-heated-cervical-traction-cradle",
+      "hashtags": [
+        "cervicaltraction",
+        "SpineAlignStudio",
+        "smallbusiness"
+      ]
+    },
+    {
+      "id": "store-09-spine-align-ad-5",
+      "lengthSeconds": 21,
+      "hook": "Subscribe and save 20% or buy once — here is the math.",
+      "beats": [
+        "One-time: $59.00.",
+        "Club: $25.00/quarter.",
+        "CTA: \"Skip or cancel anytime.\""
+      ],
+      "cta": "https://spinealignstudio.com/products/spinealign-3-in-1-heated-cervical-traction-cradle",
+      "hashtags": [
+        "cervicaltraction",
+        "SpineAlignStudio",
+        "smallbusiness"
+      ]
+    }
+  ]
+}

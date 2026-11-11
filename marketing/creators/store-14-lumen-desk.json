@@ -1,0 +1,21 @@
+{
+  "storeId": "store-14-lumen-desk",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "LumenDesk CRI 98+ Asymmetric Monitor Light Bar",
+  "price": 64,
+  "talkingPoints": [
+    "CRI 98+ colour accuracy",
+    "Asymmetric optic, no glare",
+    "Digital companion: Minimalist Cable Management & Deep-Work Desk Blueprint ($11.00)",
+    "Subscribe & Save 20%: Quarterly Merino Felt & Desk Hardware Care Kit"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://lumendesk.com/pages/creators"
+}

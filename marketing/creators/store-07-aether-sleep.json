@@ -1,0 +1,21 @@
+{
+  "storeId": "store-07-aether-sleep",
+  "commissionPercent": 20,
+  "cookieDays": 90,
+  "payout": "monthly, by the 5th",
+  "offer": "20% cash on net sales; free product for the first 10 approved creators",
+  "product": "Aether 3D Contoured 22-Momme Silk Sleep System",
+  "price": 44,
+  "talkingPoints": [
+    "22-momme mulberry silk",
+    "Zero-pressure eye contour",
+    "Digital companion: Circadian Deep-REM Sleep Optimization Audio & Guide ($9.00)",
+    "Subscribe & Save 20%: Monthly Lavender Silk Pillow Mist & Mouth Tape Refill"
+  ],
+  "doNotSay": [
+    "medical claims or cures",
+    "guaranteed results",
+    "countdown-timer pressure"
+  ],
+  "assets": "https://aethersleep.com/pages/creators"
+}
