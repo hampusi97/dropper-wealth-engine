@@ -1,0 +1,16 @@
+{%- comment -%} Product card. Expects: product {%- endcomment -%}
+<a class="product-card" href="{{ product.url }}">
+  <div class="product-card__media">
+    {%- if product.featured_image -%}
+      <img src="{{ product.featured_image | image_url: width: 600 }}" alt="{{ product.featured_image.alt | escape }}" loading="lazy" width="600" height="600">
+    {%- else -%}
+      <div class="product-card__ph" aria-hidden="true"></div>
+    {%- endif -%}
+  </div>
+  <p class="product-card__title">{{ product.title }}</p>
+  <p class="product-card__price">
+    {{ product.price | money }}
+    {%- if product.compare_at_price > product.price -%}<s>{{ product.compare_at_price | money }}</s>{%- endif -%}
+  </p>
+  <p class="product-card__meta">Subscribe &amp; save 20% available</p>
+</a>

@@ -1,0 +1,54 @@
+<section class="hero" data-hero data-store="store-03-cryo-halo">
+  <div class="hero__stage" data-hero-stage>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__isometric" data-isometric>
+      <div class="layer" data-depth="34" style="--i: 0">
+        <span class="layer__index">01</span>
+        <span class="layer__name">Dual Gel Cap Pair</span>
+        <span class="layer__note">One in use, one in the freezer</span>
+      </div>
+      <div class="layer" data-depth="68" style="--i: 1">
+        <span class="layer__index">02</span>
+        <span class="layer__name">Adjustable Pressure Dial</span>
+        <span class="layer__note">Frontal or occipital fit</span>
+      </div>
+      <div class="layer" data-depth="102" style="--i: 2">
+        <span class="layer__index">03</span>
+        <span class="layer__name">Insulated Carry Sleeve</span>
+        <span class="layer__note">Holds 4 hours of cold</span>
+      </div>
+      <div class="layer" data-depth="136" style="--i: 3">
+        <span class="layer__index">04</span>
+        <span class="layer__name">CryoHalo Recovery Card</span>
+        <span class="layer__note">Timing protocols inside</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__copy">
+    <p class="hero__eyebrow">Cold-therapy recovery gear for migraine, sleep, and post-training.</p>
+    <h1 class="hero__title">{{ section.settings.heading | default: "CryoHalo 2-Cap Continuous Rotation System" }}</h1>
+    <p class="hero__lede">{{ section.settings.lede | default: "Two gel caps on a 30-minute rotation so one is always frozen, plus a fit dial for frontal or occipital pressure." }}</p>
+    <ul class="hero__callouts">
+        <li><b>01</b> Dual Gel Cap Pair &mdash; One in use, one in the freezer</li>
+        <li><b>02</b> Adjustable Pressure Dial &mdash; Frontal or occipital fit</li>
+        <li><b>03</b> Insulated Carry Sleeve &mdash; Holds 4 hours of cold</li>
+        <li><b>04</b> CryoHalo Recovery Card &mdash; Timing protocols inside</li>
+    </ul>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ section.settings.cta_link | default: '/products/cryohalo-2-cap-continuous-rotation-system' }}">Unlock the complete set &mdash; {{ section.settings.price | default: 49 }}</a>
+      <a class="btn btn--ghost" href="#bundles">Compare 3 tiers</a>
+    </div>
+    <p class="hero__meta">Ships from {{ shop.name }} &bull; 60-day guarantee &bull; Subscribe &amp; save 20%</p>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "3D exploded hero",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "CryoHalo 2-Cap Continuous Rotation System" },
+    { "type": "textarea", "id": "lede", "label": "Lede", "default": "Two gel caps on a 30-minute rotation so one is always frozen, plus a fit dial for frontal or occipital pressure." },
+    { "type": "url", "id": "cta_link", "label": "CTA link" },
+    { "type": "number", "id": "price", "label": "Hero price (USD)", "default": 49 }
+  ]
+}
+{% endschema %}

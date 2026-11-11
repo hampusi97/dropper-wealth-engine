@@ -1,0 +1,14 @@
+<section class="page">
+  <h1 class="page__title">Your bag</h1>
+  {%- if cart.item_count == 0 -%}
+    <p>Your bag is empty. <a href="{{ routes.all_products_collection_url }}">Browse the shelf</a>.</p>
+  {%- else -%}
+    <form action="{{ routes.cart_url }}" method="post">
+      {%- for item in cart.items -%}
+        <p><b>{{ item.product_title }}</b> &times; {{ item.quantity }} &mdash; {{ item.final_line_price | money }}</p>
+      {%- endfor -%}
+      <p><b>Subtotal {{ cart.total_price | money }}</b></p>
+      <button class="btn btn--primary" type="submit" name="checkout">Checkout</button>
+    </form>
+  {%- endif -%}
+</section>
