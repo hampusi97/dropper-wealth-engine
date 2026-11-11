@@ -1,10 +1,6 @@
 {
   "storeId": "store-01-bizi-bees",
-<<<<<<< Updated upstream
-  "generatedAt": "2026-11-11T22:07:53.839Z",
-=======
-  "generatedAt": "2026-11-11T22:10:58.625Z",
->>>>>>> Stashed changes
+  "generatedAt": "2026-11-11T22:11:26.658Z",
   "products": [
     {
       "sku": "UTAH-001",
