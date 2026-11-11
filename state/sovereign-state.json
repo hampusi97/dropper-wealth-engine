@@ -1,66 +1,66 @@
 {
-  "ranAt": "2026-11-11T22:29:29.648Z",
-  "durationMs": 11419,
+  "ranAt": "2026-11-11T23:10:16.469Z",
+  "durationMs": 15547,
   "mode": "full",
   "steps": [
     {
       "name": "fleet config",
       "ok": true,
-      "ms": 51,
-      "detail": "fleet config: 15 stores"
+      "ms": 32,
+      "detail": "fleet config: 17 stores"
     },
     {
       "name": "catalogs",
       "ok": true,
-      "ms": 41,
+      "ms": 34,
       "detail": "margin: min 72.1% avg 74.3% max 77.5%"
     },
     {
       "name": "feeds",
       "ok": true,
-      "ms": 41,
-      "detail": "feeds: 15 files, 180 items"
+      "ms": 28,
+      "detail": "feeds: 17 files, 204 items"
     },
     {
       "name": "content",
       "ok": true,
-      "ms": 46,
-      "detail": "content: 60 SEO guides, 75 ad scripts, 150 lifecycle emails, 15 creator briefs"
+      "ms": 41,
+      "detail": "content: 68 SEO guides, 85 ad scripts, 170 lifecycle emails, 17 creator briefs"
     },
     {
       "name": "bots",
       "ok": true,
-      "ms": 47,
+      "ms": 30,
       "detail": "bots: 0 modules written, 21 registered across 7 departments, 1400 credits allocated"
     },
     {
       "name": "storefronts",
       "ok": true,
-      "ms": 56,
-      "detail": "[storefront] done — 15 storefronts, 105 files"
+      "ms": 51,
+      "detail": "[storefront] done — 17 storefronts, 119 files"
     },
     {
       "name": "storefront index",
       "ok": true,
-      "ms": 41,
-      "detail": "store index: 15 storefronts linked"
+      "ms": 29,
+      "detail": "store index: 17 storefronts linked"
     },
     {
       "name": "themes",
       "ok": true,
-      "ms": 76,
-      "detail": "[theme] done — 15 themes, 510 files"
+      "ms": 148,
+      "detail": "[theme] done — 17 themes, 578 files"
     },
     {
       "name": "theme QA",
       "ok": true,
-      "ms": 62,
-      "detail": "=== PASS — 0 error(s) across 15 themes ==="
+      "ms": 101,
+      "detail": "=== PASS — 0 error(s) across 17 themes ==="
     },
     {
       "name": "daily report",
       "ok": true,
-      "ms": 68,
+      "ms": 61,
       "detail": "daily report: TEMPLATE (no real sales yet) — net $0.00, run rate $0.00/mo"
     }
   ],
@@ -68,7 +68,7 @@
     {
       "id": "01-omega-builder",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
@@ -80,13 +80,13 @@
     {
       "id": "03-uptime-speed",
       "ok": false,
-      "ms": 10808,
-      "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":69,\"live\":false,\"error\":\"TypeError\"},{\"st"
+      "ms": 14874,
+      "summary": "{\"ok\":false,\"live\":5,\"of\":17,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":245,\"live\":false,\"error\":\"TypeError\"},{\"s"
     },
     {
       "id": "04-trend-arbitrage",
       "ok": true,
-      "ms": 3,
+      "ms": 4,
       "summary": "pass"
     },
     {
@@ -98,7 +98,7 @@
     {
       "id": "06-digital-upsell",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
@@ -116,49 +116,49 @@
     {
       "id": "09-aesthetic-qa",
       "ok": true,
-      "ms": 62,
+      "ms": 98,
       "summary": "pass"
     },
     {
       "id": "10-bundle-sub",
       "ok": true,
-      "ms": 2,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "11-promo-loyalty",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
       "id": "12-b2b-wholesale",
       "ok": true,
-      "ms": 2,
+      "ms": 1,
       "summary": "pass"
     },
     {
       "id": "13-google-merchant",
       "ok": true,
-      "ms": 1,
+      "ms": 2,
       "summary": "pass"
     },
     {
       "id": "14-programmatic-seo",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "15-viral-affiliate",
       "ok": true,
-      "ms": 0,
+      "ms": 2,
       "summary": "pass"
     },
     {
       "id": "16-cross-store",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
@@ -182,17 +182,17 @@
     {
       "id": "20-stock-failover",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "21-treasury-audit",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     }
   ],
-  "stores": 15,
-  "products": 180,
+  "stores": 17,
+  "products": 204,
   "ok": false
 }

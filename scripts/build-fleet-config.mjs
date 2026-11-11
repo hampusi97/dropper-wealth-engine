@@ -1,4 +1,4 @@
-/** scripts/build-fleet-config.mjs — writes config/stores-15.config.json from scripts/data/stores.mjs. */
+/** scripts/build-fleet-config.mjs — writes config/stores-17.config.json from scripts/data/stores.mjs. */
 import { writeFileSync, mkdirSync } from "node:fs";
 import { STORES, FLEET, buildCatalog } from "./data/stores.mjs";
 
@@ -28,5 +28,5 @@ const out = {
     };
   }),
 };
-writeFileSync("config/stores-15.config.json", JSON.stringify(out, null, 2));
+writeFileSync("config/stores-17.config.json", JSON.stringify(out, null, 2));
 console.log(`fleet config: ${out.stores.length} stores`);

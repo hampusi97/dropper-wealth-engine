@@ -31,7 +31,7 @@ export async function run() {
       return { store: s.id, tier1: hero.bundle.tier1.price, tier2: hero.bundle.tier2.price, tier3: hero.bundle.tier3.price,
         subscription: { title: s.subscription.title, price: s.subscription.price, cadence: s.subscription.cadence, annualValue: s.subscription.price * (s.subscription.cadence === "month" ? 12 : 4) } };
     });
-    return { ok: rows.length === 15, rows, fleetAnnualSubscriptionValue: rows.reduce((a, r) => a + r.subscription.annualValue, 0) };
+    return { ok: rows.length === STORES.length, rows, fleetAnnualSubscriptionValue: rows.reduce((a, r) => a + r.subscription.annualValue, 0) };
 }
 
 if (process.argv[1] && process.argv[1].endsWith("10-bundle-sub.ts")) {

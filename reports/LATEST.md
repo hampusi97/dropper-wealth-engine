@@ -1,16 +1,16 @@
 # Dropper OS — Daily Treasury Report
 
-**Generated:** 2026-11-11T22:29:30.143Z
+**Generated:** 2026-11-11T23:10:16.988Z
 **Source:** — ⚠️ **no `reports/treasury-results.json` yet: every figure below is zero, because no real sales have been recorded.** A fillable copy is at `reports/treasury-results.template.json`.
 
 ## Fleet
 
 | Metric | Value |
 | --- | --- |
-| Stores | 15 |
-| Products in catalog | 180 |
-| Digital add-ons (100% margin) | 15 |
-| Subscription clubs | 15 |
+| Stores | 17 |
+| Products in catalog | 204 |
+| Digital add-ons (100% margin) | 17 |
+| Subscription clubs | 17 |
 | Orders recorded | 0 |
 | Gross sales | $0.00 |
 | **Net profit** | **$0.00** |
@@ -49,6 +49,8 @@ Net = gross − discounts − COGS − shipping − (2.9% + $0.3/order) − ad s
 | KineticGrip | 0 | 0 | 0 | 0 | $0.00 | $0.00 |
 | LumenDesk | 0 | 0 | 0 | 0 | $0.00 | $0.00 |
 | VerdeHydro | 0 | 0 | 0 | 0 | $0.00 | $0.00 |
+| ApexStride | 0 | 0 | 0 | 0 | $0.00 | $0.00 |
+| ChronoForge | 0 | 0 | 0 | 0 | $0.00 | $0.00 |
 
 ## What the numbers mean right now
 

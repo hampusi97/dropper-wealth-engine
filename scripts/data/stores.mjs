@@ -1,5 +1,5 @@
 /**
- * scripts/data/stores.mjs — SINGLE SOURCE OF TRUTH for the 15-store Dropper OS fleet.
+ * scripts/data/stores.mjs — SINGLE SOURCE OF TRUTH for the 17-store Dropper OS fleet.
  *
  * Every generator (themes, catalogs, feeds, SEO, ads, emails, dashboard) reads this file.
  * Nothing here is invented pricing: product names are the fleet's own hero SKUs, costs are

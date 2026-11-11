@@ -28,7 +28,7 @@ export const meta = {
 export async function run() {
   const routes = STORES.map((s) => ({ store: s.id, skuPrefix: s.skuPrefix, route: s.fulfillment }));
     const hmacCheck = "app/api/webhooks/shopify/route.ts verifies X-Shopify-Hmac-Sha256 with HMAC-SHA256 base64 against SHOPIFY_WEBHOOK_SECRET";
-    return { ok: routes.length === 15, routes, hmacCheck };
+    return { ok: routes.length === STORES.length, routes, hmacCheck };
 }
 
 if (process.argv[1] && process.argv[1].endsWith("19-supply-router.ts")) {

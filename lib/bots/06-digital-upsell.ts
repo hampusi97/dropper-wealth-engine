@@ -28,7 +28,7 @@ export const meta = {
 export async function run() {
   const items = STORES.map((s) => ({ store: s.id, sku: s.skuPrefix + "DIG-01", title: s.digital.title, price: s.digital.price, cogs: 0, marginPercent: 100 }));
     const revenueAtOnePerOrder = items.reduce((a, i) => a + i.price, 0);
-    return { ok: items.length === 15, items, blendedIfEveryStoreSellsOne: revenueAtOnePerOrder };
+    return { ok: items.length === STORES.length, items, blendedIfEveryStoreSellsOne: revenueAtOnePerOrder };
 }
 
 if (process.argv[1] && process.argv[1].endsWith("06-digital-upsell.ts")) {

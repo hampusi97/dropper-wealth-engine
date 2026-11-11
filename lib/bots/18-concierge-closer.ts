@@ -36,7 +36,7 @@ export async function run() {
       },
       trackingMacro: "Thanks for the order — tracking emails automatically once the label is created. Reply here if it has not arrived in 2 business days.",
     }));
-    return { ok: macros.length === 15, macros };
+    return { ok: macros.length === STORES.length, macros };
 }
 
 if (process.argv[1] && process.argv[1].endsWith("18-concierge-closer.ts")) {

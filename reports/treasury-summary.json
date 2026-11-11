@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T22:29:30.175Z",
+  "generatedAt": "2026-11-11T23:10:17.021Z",
   "template": true,
   "daysCounted": 1,
   "totals": {
@@ -180,6 +180,26 @@
     },
     {
       "id": "store-15-verde-hydro",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-16-apex-stride",
+      "gross": 0,
+      "net": 0,
+      "orders": 0,
+      "digital": 0,
+      "subs": 0,
+      "b2b": 0,
+      "days": 1
+    },
+    {
+      "id": "store-17-chrono-forge",
       "gross": 0,
       "net": 0,
       "orders": 0,

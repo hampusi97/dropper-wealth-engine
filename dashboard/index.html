@@ -175,7 +175,7 @@ const state = { stores: [], config: null, bots: null, cycle: null, treasury: nul
 
 async function boot() {
   const [config, bots, cycle, treasury, feeds] = await Promise.all([
-    j("config/stores-15.config.json"), j("lib/bots/registry.json"), j("state/sovereign-state.json"),
+    j("config/stores-17.config.json"), j("lib/bots/registry.json"), j("state/sovereign-state.json"),
     j("reports/treasury-summary.json"), j("public/feeds/index.json"),
   ]);
   state.config = config; state.bots = bots; state.cycle = cycle; state.treasury = treasury; state.feeds = feeds;

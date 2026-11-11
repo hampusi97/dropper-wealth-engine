@@ -7,7 +7,7 @@ It reads the real repo files — nothing on it is hard-coded.
 
 | Piece | Where | State |
 | --- | --- | --- |
-| Fleet registry — 17 stores, real SKUs, prices, margins | `config/stores-15.config.json` ← `scripts/data/stores.mjs` | ✅ built |
+| Fleet registry — 17 stores, real SKUs, prices, margins | `config/stores-17.config.json` ← `scripts/data/stores.mjs` | ✅ built |
 | 180 products (12/store), ≥72% gross margin | `catalogs/*.csv` + `*.json` | ✅ built |
 | 17 digital add-ons ($0 COGS) + 17 subscription clubs | `catalogs/_fleet-digital-addons.json`, `_fleet-subscriptions.json` | ✅ built |
 | 17 root-valid Shopify OS 2.0 themes | branches `store-01-bizi-bees` … `store-17-chrono-forge` | ✅ built + QA-passed |

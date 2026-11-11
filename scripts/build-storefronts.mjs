@@ -1,9 +1,9 @@
 /**
  * scripts/build-storefronts.mjs — builds the standalone (platform-free) storefront for
- * every store into storefronts/<store-id>/ on main, so all 15 stores exist as runnable
+ * every store into storefronts/<store-id>/ on main, so all 17 stores exist as runnable
  * shops even before any Shopify account is connected.
  *
- *   node scripts/build-storefronts.mjs            # all 15
+ *   node scripts/build-storefronts.mjs            # all 17
  *   node scripts/build-storefronts.mjs store-01-bizi-bees
  */
 import { writeFileSync, mkdirSync, rmSync, existsSync, readFileSync } from "node:fs";

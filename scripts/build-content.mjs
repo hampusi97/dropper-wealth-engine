@@ -3,7 +3,7 @@
  *   60 programmatic SEO buyer guides (4/store)      content/seo/{store}/guide-N.md
  *   75 short-form ad scripts (5/store)              marketing/ads/{store}.json
  *   90 lifecycle email flows (6/store)              marketing/emails/{store}.json
- *   15 creator briefs                               marketing/creators/{store}.json
+ *   17 creator briefs                               marketing/creators/{store}.json
  * Everything is built from each store's own hero, catalog, objections and competitors —
  * no generic filler, no invented statistics.
  */

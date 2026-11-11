@@ -14,8 +14,8 @@ mkdirSync("lib/bots", { recursive: true });
 const BOTS = [
   // ---------------- Department 1: OmegaCommand ----------------
   { n: "01", id: "omega-builder", dept: "OmegaCommand", name: "OmegaBuilderBot", credits: 67,
-    role: "Scans the repo for anything unbuilt or incomplete across all 15 stores and builds it.",
-    action: `const gaps = ["config/stores-15.config.json", "catalogs/_fleet-all-products.json", "public/feeds/index.json", "content/seo/index.json", "marketing/ads/store-01-bizi-bees.json", "lib/bots/registry.json"];
+    role: "Scans the repo for anything unbuilt or incomplete across all 17 stores and builds it.",
+    action: `const gaps = ["config/stores-17.config.json", "catalogs/_fleet-all-products.json", "public/feeds/index.json", "content/seo/index.json", "marketing/ads/store-01-bizi-bees.json", "lib/bots/registry.json"];
     const missing = gaps.filter((f) => !existsSync(join(ROOT, f)));
     const emptyThemes = STORES.filter((s) => !existsSync(join(ROOT, ".worktree", s.id, "layout", "theme.liquid"))).map((s) => s.id);
     return {
@@ -35,7 +35,7 @@ const BOTS = [
     }
     return { ok: checks.length === 0, checks, patch: checks.length ? "node scripts/build-themes.mjs && node scripts/validate-themes.mjs" : "no patch needed" };` },
   { n: "03", id: "uptime-speed", dept: "OmegaCommand", name: "UptimeSpeedBot", credits: 66,
-    role: "Pings all 15 storefronts and reports reachability plus payload weight.",
+    role: "Pings all 17 storefronts and reports reachability plus payload weight.",
     action: `const results = [];
     for (const s of STORES) {
       const url = "https://" + s.domain;
@@ -65,16 +65,16 @@ const BOTS = [
       headline: s.hero.title + " — " + s.hero.features[0].toLowerCase(),
       objections: [s.hero.features[2], s.hero.features[3], "60-day guarantee, free shipping over $" + s.milestones[0].threshold],
     }));
-    return { ok: perStore.length === 15, perStore };` },
+    return { ok: perStore.length === STORES.length, perStore };` },
   { n: "06", id: "digital-upsell", dept: "HunterPsych", name: "DigitalUpsellBot", credits: 66,
     role: "The $0-COGS digital add-ons wired into every cart drawer as a one-click bump.",
     action: `const items = STORES.map((s) => ({ store: s.id, sku: s.skuPrefix + "DIG-01", title: s.digital.title, price: s.digital.price, cogs: 0, marginPercent: 100 }));
     const revenueAtOnePerOrder = items.reduce((a, i) => a + i.price, 0);
-    return { ok: items.length === 15, items, blendedIfEveryStoreSellsOne: revenueAtOnePerOrder };` },
+    return { ok: items.length === STORES.length, items, blendedIfEveryStoreSellsOne: revenueAtOnePerOrder };` },
 
   // ---------------- Department 3: Architect3D ----------------
   { n: "07", id: "theme-compiler", dept: "Architect3D", name: "ThemeCompilerBot", credits: 84,
-    role: "Compiles the 15 root-valid Shopify OS 2.0 themes.",
+    role: "Compiles the 17 root-valid Shopify OS 2.0 themes.",
     action: `const required = ["layout","sections","templates","snippets","assets","config","locales"];
     const report = STORES.map((s) => {
       const dir = join(ROOT, ".worktree", s.id);
@@ -105,7 +105,7 @@ const BOTS = [
       return { store: s.id, tier1: hero.bundle.tier1.price, tier2: hero.bundle.tier2.price, tier3: hero.bundle.tier3.price,
         subscription: { title: s.subscription.title, price: s.subscription.price, cadence: s.subscription.cadence, annualValue: s.subscription.price * (s.subscription.cadence === "month" ? 12 : 4) } };
     });
-    return { ok: rows.length === 15, rows, fleetAnnualSubscriptionValue: rows.reduce((a, r) => a + r.subscription.annualValue, 0) };` },
+    return { ok: rows.length === STORES.length, rows, fleetAnnualSubscriptionValue: rows.reduce((a, r) => a + r.subscription.annualValue, 0) };` },
   { n: "11", id: "promo-loyalty", dept: "RevenueMax", name: "PromoLoyaltyBot", credits: 67,
     role: "Gamified 3-milestone cart, VIP vault, and the epsilon-greedy promo bandit.",
     action: `const epsilon = 0.1;
@@ -114,13 +114,13 @@ const BOTS = [
     const milestones = STORES.map((s) => ({ store: s.id, milestones: s.milestones }));
     return { ok: milestones.every((m) => m.milestones.length === 3), epsilon, arms, milestones };` },
   { n: "12", id: "b2b-wholesale", dept: "RevenueMax", name: "B2BWholesaleBot", credits: 66,
-    role: "Bulk / classroom / corporate portal on all 15 stores.",
+    role: "Bulk / classroom / corporate portal on all 17 stores.",
     action: `const portals = STORES.map((s) => ({
       store: s.id, audience: s.b2b.audience, minUnits: s.b2b.minUnits,
       tiers: s.b2b.tiers.map((t) => ({ units: t.units, off: t.off, exampleOrderValue: round2(buildCatalog(s)[0].price * t.units * (1 - t.off / 100)) })),
       section: "sections/b2b-wholesale.liquid",
     }));
-    return { ok: portals.length === 15, portals, smallestTierOrder: Math.min(...portals.flatMap((p) => p.tiers.map((t) => t.exampleOrderValue))) };` },
+    return { ok: portals.length === STORES.length, portals, smallestTierOrder: Math.min(...portals.flatMap((p) => p.tiers.map((t) => t.exampleOrderValue))) };` },
 
   // ---------------- Department 5: TrafficDomination ----------------
   { n: "13", id: "google-merchant", dept: "TrafficDomination", name: "GoogleMerchantBot", credits: 67,
@@ -176,14 +176,14 @@ const BOTS = [
       },
       trackingMacro: "Thanks for the order — tracking emails automatically once the label is created. Reply here if it has not arrived in 2 business days.",
     }));
-    return { ok: macros.length === 15, macros };` },
+    return { ok: macros.length === STORES.length, macros };` },
 
   // ---------------- Department 7: SupplyTreasury ----------------
   { n: "19", id: "supply-router", dept: "SupplyTreasury", name: "SupplyRouterBot", credits: 67,
     role: "Verifies Shopify HMAC on orders/paid, routes DROP-* to CJ/Zendrop and UTAH-* to local packing.",
     action: `const routes = STORES.map((s) => ({ store: s.id, skuPrefix: s.skuPrefix, route: s.fulfillment }));
     const hmacCheck = "app/api/webhooks/shopify/route.ts verifies X-Shopify-Hmac-Sha256 with HMAC-SHA256 base64 against SHOPIFY_WEBHOOK_SECRET";
-    return { ok: routes.length === 15, routes, hmacCheck };` },
+    return { ok: routes.length === STORES.length, routes, hmacCheck };` },
   { n: "20", id: "stock-failover", dept: "SupplyTreasury", name: "StockFailoverBot", credits: 66,
     role: "14-day burn-rate forecast, [RESTOCK CRITICAL] issues, backup supplier switch.",
     action: `const forecast = STORES.map((s) => ({ store: s.id, skuPrefix: s.skuPrefix, restockLeadDays: s.fulfillment === "utah-hub" ? 5 : 14, criticalAtDays: 7 }));
@@ -203,7 +203,7 @@ const BOTS = [
 const DEPTS = [
   ["OmegaCommand", "Self-driving execution, self-patching, uptime"],
   ["HunterPsych", "Arbitrage research, sales psychology, digital products"],
-  ["Architect3D", "15 root themes, 3D scrollytelling, visual QA"],
+  ["Architect3D", "17 root themes, 3D scrollytelling, visual QA"],
   ["RevenueMax", "Bundles, subscriptions, B2B, loyalty, promos"],
   ["TrafficDomination", "Shopping feeds, SEO, viral ads, affiliates"],
   ["RetentionNetwork", "Cross-store pollination, lifecycle email, concierge"],

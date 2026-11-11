@@ -32,7 +32,7 @@ export async function run() {
       headline: s.hero.title + " — " + s.hero.features[0].toLowerCase(),
       objections: [s.hero.features[2], s.hero.features[3], "60-day guarantee, free shipping over $" + s.milestones[0].threshold],
     }));
-    return { ok: perStore.length === 15, perStore };
+    return { ok: perStore.length === STORES.length, perStore };
 }
 
 if (process.argv[1] && process.argv[1].endsWith("05-review-psych.ts")) {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T22:29:29.869Z",
+  "generatedAt": "2026-11-11T23:10:16.632Z",
   "creditBudget": 1400,
   "departments": [
     {
@@ -10,7 +10,7 @@
           "id": "01-omega-builder",
           "name": "OmegaBuilderBot",
           "credits": 67,
-          "role": "Scans the repo for anything unbuilt or incomplete across all 15 stores and builds it."
+          "role": "Scans the repo for anything unbuilt or incomplete across all 17 stores and builds it."
         },
         {
           "id": "02-solver",
@@ -22,7 +22,7 @@
           "id": "03-uptime-speed",
           "name": "UptimeSpeedBot",
           "credits": 66,
-          "role": "Pings all 15 storefronts and reports reachability plus payload weight."
+          "role": "Pings all 17 storefronts and reports reachability plus payload weight."
         }
       ]
     },
@@ -52,13 +52,13 @@
     },
     {
       "id": "Architect3D",
-      "focus": "15 root themes, 3D scrollytelling, visual QA",
+      "focus": "17 root themes, 3D scrollytelling, visual QA",
       "bots": [
         {
           "id": "07-theme-compiler",
           "name": "ThemeCompilerBot",
           "credits": 84,
-          "role": "Compiles the 15 root-valid Shopify OS 2.0 themes."
+          "role": "Compiles the 17 root-valid Shopify OS 2.0 themes."
         },
         {
           "id": "08-scrolly-3d",
@@ -94,7 +94,7 @@
           "id": "12-b2b-wholesale",
           "name": "B2BWholesaleBot",
           "credits": 66,
-          "role": "Bulk / classroom / corporate portal on all 15 stores."
+          "role": "Bulk / classroom / corporate portal on all 17 stores."
         }
       ]
     },

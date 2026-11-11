@@ -27,7 +27,7 @@ jobs:
       - name: Fetch every store branch
         run: git fetch origin '+refs/heads/store-*:refs/remotes/origin/store-*'
 
-      - name: Attach the 15 store worktrees
+      - name: Attach the 17 store worktrees
         run: |
           for b in $(git branch -r --list 'origin/store-*' | sed 's#origin/##'); do
             git worktree add ".worktree/$b" "$b" || true

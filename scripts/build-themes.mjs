@@ -3,7 +3,7 @@
  * into its own git worktree (branch = store id), so every branch has
  * layout/ sections/ templates/ snippets/ assets/ config/ locales/ at its ROOT.
  *
- *   node scripts/build-themes.mjs            # all 15 stores
+ *   node scripts/build-themes.mjs            # all 17 stores
  *   node scripts/build-themes.mjs store-02-luma-clinical
  */
 import { writeFileSync, mkdirSync, rmSync, existsSync } from "node:fs";

@@ -1,6 +1,6 @@
 /**
  * scripts/build-catalogs.mjs — 180 products (12/store) as CSV + JSON,
- * plus 15 digital add-ons and 15 subscription plans in one fleet file.
+ * plus 17 digital add-ons and 17 subscription plans in one fleet file.
  */
 import { writeFileSync, mkdirSync } from "node:fs";
 import { STORES, buildCatalog, round2 } from "./data/stores.mjs";
