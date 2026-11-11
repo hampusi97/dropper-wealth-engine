@@ -1,0 +1,162 @@
+{
+  "storeId": "store-03-cryo-halo",
+  "generatedAt": "2026-11-11T21:55:02.882Z",
+  "products": [
+    {
+      "sku": "DROP-CRYO-001",
+      "title": "CryoHalo 2-Cap Continuous Rotation System",
+      "handle": "cryohalo-2-cap-continuous-rotation-system",
+      "category": "Cold Therapy",
+      "price": 49,
+      "compareAt": 74,
+      "summary": "Two gel caps on a 30-minute rotation so one is always frozen, plus a fit dial for frontal or occipital pressure.",
+      "tier2": 83.3,
+      "tier3": 110.25,
+      "isHero": true
+    },
+    {
+      "sku": "DROP-CRYO-002",
+      "title": "Replacement Gel Cap Pair",
+      "handle": "replacement-gel-cap-pair",
+      "category": "Cold Therapy",
+      "price": 24,
+      "compareAt": 29,
+      "summary": "Same caps, fresh pair.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-CRYO-003",
+      "title": "Cold Therapy Eye Mask",
+      "handle": "cold-therapy-eye-mask",
+      "category": "Cold Therapy",
+      "price": 29,
+      "compareAt": 39,
+      "summary": "Freezer gel eye mask with a silky liner.",
+      "tier2": 49.3,
+      "tier3": 65.25,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-CRYO-004",
+      "title": "Neck & Shoulder Ice Wrap",
+      "handle": "neck-shoulder-ice-wrap",
+      "category": "Cold Therapy",
+      "price": 34,
+      "compareAt": 49,
+      "summary": "Moldable wrap for the cervical spine.",
+      "tier2": 57.8,
+      "tier3": 76.5,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-CRYO-005",
+      "title": "Freezer Storage Rack",
+      "handle": "freezer-storage-rack",
+      "category": "Accessories",
+      "price": 19,
+      "compareAt": 24,
+      "summary": "Slim rack that keeps two caps standing.",
+      "tier2": 32.3,
+      "tier3": 42.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-CRYO-006",
+      "title": "Blue-Light Sleep Glasses",
+      "handle": "blue-light-sleep-glasses",
+      "category": "Sleep",
+      "price": 39,
+      "compareAt": 54,
+      "summary": "Blocks 99% of 400-495nm light.",
+      "tier2": 66.3,
+      "tier3": 87.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-CRYO-007",
+      "title": "Weighted Sleep Mask (1.2 lb)",
+      "handle": "weighted-sleep-mask-1-2-lb",
+      "category": "Sleep",
+      "price": 29,
+      "compareAt": 44,
+      "summary": "Beaded mask with a blackout seal.",
+      "tier2": 49.3,
+      "tier3": 65.25,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-CRYO-008",
+      "title": "Cooling Pillow Insert",
+      "handle": "cooling-pillow-insert",
+      "category": "Sleep",
+      "price": 44,
+      "compareAt": 59,
+      "summary": "Phase-change gel insert for pillowcases.",
+      "tier2": 74.8,
+      "tier3": 99,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-CRYO-009",
+      "title": "Migraine Trigger Log Journal",
+      "handle": "migraine-trigger-log-journal",
+      "category": "Education",
+      "price": 19,
+      "compareAt": 29,
+      "summary": "90-day trigger and sleep log.",
+      "tier2": 32.3,
+      "tier3": 42.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-CRYO-010",
+      "title": "Cryo Travel Pouch",
+      "handle": "cryo-travel-pouch",
+      "category": "Accessories",
+      "price": 24,
+      "compareAt": 34,
+      "summary": "Insulated pouch that fits two caps.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-CRYO-011",
+      "title": "Magnesium Recovery Balm",
+      "handle": "magnesium-recovery-balm",
+      "category": "Recovery",
+      "price": 24,
+      "compareAt": 39,
+      "summary": "Topical magnesium in a 3 oz tin.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-CRYO-012",
+      "title": "Deep-Sleep White Noise Puck",
+      "handle": "deep-sleep-white-noise-puck",
+      "category": "Sleep",
+      "price": 29,
+      "compareAt": 39,
+      "summary": "Rechargeable 30-hour white noise.",
+      "tier2": 49.3,
+      "tier3": 65.25,
+      "isHero": false
+    }
+  ],
+  "digital": {
+    "sku": "DROP-CRYO-DIG-01",
+    "title": "Neurologist-Designed Migraine Trigger & Sleep Tracker Vault",
+    "price": 9,
+    "summary": "A 90-day trigger vault: headache diary, sleep-window log, and the cold-timing chart that pairs with the CryoHalo.",
+    "format": "PDF + Notion template"
+  },
+  "subscription": {
+    "title": "Quarterly Cooling Gel Insert Refresh",
+    "price": 29,
+    "cadence": "quarter"
+  }
+}

@@ -1,54 +1,66 @@
 {
-  "ranAt": "2026-11-11T21:52:08.336Z",
-  "durationMs": 12703,
+  "ranAt": "2026-11-11T21:55:02.670Z",
+  "durationMs": 11854,
   "mode": "full",
   "steps": [
     {
       "name": "fleet config",
       "ok": true,
-      "ms": 105,
+      "ms": 42,
       "detail": "fleet config: 15 stores"
     },
     {
       "name": "catalogs",
       "ok": true,
-      "ms": 123,
+      "ms": 38,
       "detail": "margin: min 72.1% avg 74.3% max 77.5%"
     },
     {
       "name": "feeds",
       "ok": true,
-      "ms": 52,
+      "ms": 35,
       "detail": "feeds: 15 files, 180 items"
     },
     {
       "name": "content",
       "ok": true,
-      "ms": 172,
+      "ms": 38,
       "detail": "content: 60 SEO guides, 75 ad scripts, 150 lifecycle emails, 15 creator briefs"
     },
     {
       "name": "bots",
       "ok": true,
-      "ms": 68,
+      "ms": 28,
       "detail": "bots: 0 modules written, 21 registered across 7 departments, 1400 credits allocated"
+    },
+    {
+      "name": "storefronts",
+      "ok": true,
+      "ms": 44,
+      "detail": "[storefront] done — 15 storefronts, 75 files"
+    },
+    {
+      "name": "storefront index",
+      "ok": true,
+      "ms": 29,
+      "detail": "store index: 15 storefronts linked"
     },
     {
       "name": "themes",
       "ok": true,
-      "ms": 197,
+      "ms": 103,
       "detail": "[theme] done — 15 themes, 510 files"
     },
     {
       "name": "theme QA",
       "ok": true,
-      "ms": 71,
+      "ms": 64,
       "detail": "=== PASS — 0 error(s) across 15 themes ==="
     },
     {
       "name": "daily report",
       "ok": true,
-      "ms": 72,
+      "ms": 40,
       "detail": "daily report: TEMPLATE (no real sales yet) — net $0.00, run rate $0.00/mo"
     }
   ],
@@ -62,19 +74,19 @@
     {
       "id": "02-solver",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
       "id": "03-uptime-speed",
       "ok": false,
-      "ms": 11732,
-      "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":44,\"live\":false,\"error\":\"TypeError\"},{\"st"
+      "ms": 11270,
+      "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":22,\"live\":false,\"error\":\"TypeError\"},{\"st"
     },
     {
       "id": "04-trend-arbitrage",
       "ok": true,
-      "ms": 2,
+      "ms": 1,
       "summary": "pass"
     },
     {
@@ -104,7 +116,7 @@
     {
       "id": "09-aesthetic-qa",
       "ok": true,
-      "ms": 87,
+      "ms": 103,
       "summary": "pass"
     },
     {
@@ -128,7 +140,7 @@
     {
       "id": "13-google-merchant",
       "ok": true,
-      "ms": 6,
+      "ms": 3,
       "summary": "pass"
     },
     {
@@ -140,7 +152,7 @@
     {
       "id": "15-viral-affiliate",
       "ok": true,
-      "ms": 4,
+      "ms": 3,
       "summary": "pass"
     },
     {
@@ -152,13 +164,13 @@
     {
       "id": "17-lifecycle-email",
       "ok": true,
-      "ms": 2,
+      "ms": 1,
       "summary": "pass"
     },
     {
       "id": "18-concierge-closer",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {

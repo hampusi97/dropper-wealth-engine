@@ -1,0 +1,162 @@
+{
+  "storeId": "store-07-aether-sleep",
+  "generatedAt": "2026-11-11T21:55:02.885Z",
+  "products": [
+    {
+      "sku": "DROP-SLEEP-001",
+      "title": "Aether 3D Contoured 22-Momme Silk Sleep System",
+      "handle": "aether-3d-contoured-22-momme-silk-sleep-system",
+      "category": "Sleep",
+      "price": 44,
+      "compareAt": 64,
+      "summary": "A 3D contoured silk mask, a mulberry silk pillowcase, and an ear-plug pair in a travel case.",
+      "tier2": 74.8,
+      "tier3": 99,
+      "isHero": true
+    },
+    {
+      "sku": "DROP-SLEEP-002",
+      "title": "Silk Pillowcase (Queen)",
+      "handle": "silk-pillowcase-queen",
+      "category": "Sleep",
+      "price": 39,
+      "compareAt": 54,
+      "summary": "22-momme with a hidden zip.",
+      "tier2": 66.3,
+      "tier3": 87.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-SLEEP-003",
+      "title": "Lavender Silk Pillow Mist",
+      "handle": "lavender-silk-pillow-mist",
+      "category": "Consumables",
+      "price": 24,
+      "compareAt": 29,
+      "summary": "4 oz, alcohol-free.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-SLEEP-004",
+      "title": "Silk Sleep Bonnet",
+      "handle": "silk-sleep-bonnet",
+      "category": "Sleep",
+      "price": 29,
+      "compareAt": 39,
+      "summary": "Adjustable, 19-momme.",
+      "tier2": 49.3,
+      "tier3": 65.25,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-SLEEP-005",
+      "title": "Blackout Curtain Panels (Pair)",
+      "handle": "blackout-curtain-panels-pair",
+      "category": "Sleep",
+      "price": 74,
+      "compareAt": 109,
+      "summary": "99.9% blackout, 52x84.",
+      "tier2": 125.8,
+      "tier3": 166.5,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-SLEEP-006",
+      "title": "Silk Mouth Tape (60 nights)",
+      "handle": "silk-mouth-tape-60-nights",
+      "category": "Consumables",
+      "price": 19,
+      "compareAt": 24,
+      "summary": "Medical-grade, silk-backed.",
+      "tier2": 32.3,
+      "tier3": 42.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-SLEEP-007",
+      "title": "Weighted Blanket 15 lb",
+      "handle": "weighted-blanket-15-lb",
+      "category": "Sleep",
+      "price": 109,
+      "compareAt": 169,
+      "summary": "Glass-bead fill, cotton shell.",
+      "tier2": 185.3,
+      "tier3": 245.25,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-SLEEP-008",
+      "title": "Sunrise Alarm Lamp",
+      "handle": "sunrise-alarm-lamp",
+      "category": "Circadian",
+      "price": 64,
+      "compareAt": 89,
+      "summary": "30-minute sunrise simulation.",
+      "tier2": 108.8,
+      "tier3": 144,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-SLEEP-009",
+      "title": "Silk Eye Pillow",
+      "handle": "silk-eye-pillow",
+      "category": "Sleep",
+      "price": 24,
+      "compareAt": 34,
+      "summary": "Flaxseed-filled, chilled or warmed.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-SLEEP-010",
+      "title": "White Noise Machine",
+      "handle": "white-noise-machine",
+      "category": "Sleep",
+      "price": 39,
+      "compareAt": 59,
+      "summary": "24 sounds, 12-hour timer.",
+      "tier2": 66.3,
+      "tier3": 87.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-SLEEP-011",
+      "title": "Silk Scrunchies (3)",
+      "handle": "silk-scrunchies-3",
+      "category": "Accessories",
+      "price": 19,
+      "compareAt": 24,
+      "summary": "22-momme, no-crease.",
+      "tier2": 32.3,
+      "tier3": 42.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-SLEEP-012",
+      "title": "Travel Sleep Kit",
+      "handle": "travel-sleep-kit",
+      "category": "Travel",
+      "price": 34,
+      "compareAt": 44,
+      "summary": "Mask, plugs, and a neck wrap.",
+      "tier2": 57.8,
+      "tier3": 76.5,
+      "isHero": false
+    }
+  ],
+  "digital": {
+    "sku": "DROP-SLEEP-DIG-01",
+    "title": "Circadian Deep-REM Sleep Optimization Audio & Guide",
+    "price": 9,
+    "summary": "A 32-page circadian protocol plus six 20-minute audio tracks for wind-down, and a 14-night sleep-window tracker.",
+    "format": "PDF + 6 audio tracks"
+  },
+  "subscription": {
+    "title": "Monthly Lavender Silk Pillow Mist & Mouth Tape Refill",
+    "price": 22,
+    "cadence": "month"
+  }
+}

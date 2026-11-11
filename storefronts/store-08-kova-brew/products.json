@@ -1,0 +1,162 @@
+{
+  "storeId": "store-08-kova-brew",
+  "generatedAt": "2026-11-11T21:55:02.886Z",
+  "products": [
+    {
+      "sku": "DROP-BREW-001",
+      "title": "Kova 0.1g Auto-Timer Flow-Rate Espresso Scale",
+      "handle": "kova-0-1g-auto-timer-flow-rate-espresso-scale",
+      "category": "Brewing",
+      "price": 54,
+      "compareAt": 79,
+      "summary": "A 0.1g scale with auto-tare-on-flow, an espresso shot timer, and a live flow-rate readout in a heat-proof pad.",
+      "tier2": 91.8,
+      "tier3": 121.5,
+      "isHero": true
+    },
+    {
+      "sku": "DROP-BREW-002",
+      "title": "Precision Filter Papers (200)",
+      "handle": "precision-filter-papers-200",
+      "category": "Consumables",
+      "price": 19,
+      "compareAt": 24,
+      "summary": "2-cup, oxygen-bleached.",
+      "tier2": 32.3,
+      "tier3": 42.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-BREW-003",
+      "title": "Descaling Care Kit",
+      "handle": "descaling-care-kit",
+      "category": "Consumables",
+      "price": 24,
+      "compareAt": 34,
+      "summary": "Descaler, brush, and cloth.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-BREW-004",
+      "title": "Pour-Over Dripper",
+      "handle": "pour-over-dripper",
+      "category": "Brewing",
+      "price": 34,
+      "compareAt": 44,
+      "summary": "Ceramic flat-bottom dripper.",
+      "tier2": 57.8,
+      "tier3": 76.5,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-BREW-005",
+      "title": "Distribution Tool & Leveler",
+      "handle": "distribution-tool-leveler",
+      "category": "Tools",
+      "price": 39,
+      "compareAt": 54,
+      "summary": "58.5mm distribution tool.",
+      "tier2": 66.3,
+      "tier3": 87.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-BREW-006",
+      "title": "Tamper 58.5mm (Walnut)",
+      "handle": "tamper-58-5mm-walnut",
+      "category": "Tools",
+      "price": 39,
+      "compareAt": 59,
+      "summary": "Walnut handle, stainless base.",
+      "tier2": 66.3,
+      "tier3": 87.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-BREW-007",
+      "title": "Milk Pitcher (12 oz)",
+      "handle": "milk-pitcher-12-oz",
+      "category": "Tools",
+      "price": 29,
+      "compareAt": 39,
+      "summary": "Tapered spout, induction safe.",
+      "tier2": 49.3,
+      "tier3": 65.25,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-BREW-008",
+      "title": "Bean Cellar (4 Canisters)",
+      "handle": "bean-cellar-4-canisters",
+      "category": "Storage",
+      "price": 44,
+      "compareAt": 64,
+      "summary": "Four single-dose canisters.",
+      "tier2": 74.8,
+      "tier3": 99,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-BREW-009",
+      "title": "Puck Screen Set",
+      "handle": "puck-screen-set",
+      "category": "Tools",
+      "price": 24,
+      "compareAt": 34,
+      "summary": "1.7mm mesh screens, pair.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-BREW-010",
+      "title": "WDT Needle Tool",
+      "handle": "wdt-needle-tool",
+      "category": "Tools",
+      "price": 24,
+      "compareAt": 29,
+      "summary": "Nine-needle distribution tool.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-BREW-011",
+      "title": "Barista Knock Box",
+      "handle": "barista-knock-box",
+      "category": "Tools",
+      "price": 29,
+      "compareAt": 44,
+      "summary": "Walnut knock bar, rubber base.",
+      "tier2": 49.3,
+      "tier3": 65.25,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-BREW-012",
+      "title": "Reusable Filter Cup",
+      "handle": "reusable-filter-cup",
+      "category": "Brewing",
+      "price": 24,
+      "compareAt": 39,
+      "summary": "Stainless cup that fits most drippers.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    }
+  ],
+  "digital": {
+    "sku": "DROP-BREW-DIG-01",
+    "title": "Barista Pour-Over & Espresso Extraction Recipe Matrix",
+    "price": 9,
+    "summary": "A dose/yield/time recipe matrix that pairs with the Kova scale: 18 espresso recipes, 12 pour-over recipes, and a dial-in log.",
+    "format": "PDF + spreadsheet"
+  },
+  "subscription": {
+    "title": "Monthly Precision Filter & Descaling Care Kit",
+    "price": 19,
+    "cadence": "month"
+  }
+}

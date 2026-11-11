@@ -1,0 +1,123 @@
+{
+  "_note": "Paste a Stripe Payment Link per SKU, and form endpoints, then rerun node scripts/build-storefronts.mjs",
+  "store-01-bizi-bees": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-02-luma-clinical": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-03-cryo-halo": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-04-sculpt-wave": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-05-wonder-hive": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-06-atelier-grid": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-07-aether-sleep": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-08-kova-brew": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-09-spine-align": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-10-terra-paw": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-11-nomad-carry": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-12-solace-aroma": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-13-kinetic-grip": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-14-lumen-desk": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  },
+  "store-15-verde-hydro": {
+    "stripePaymentLinks": {},
+    "forms": {
+      "b2b": "",
+      "creator": "",
+      "vault": ""
+    }
+  }
+}

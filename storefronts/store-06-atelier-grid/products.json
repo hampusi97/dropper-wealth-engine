@@ -1,0 +1,162 @@
+{
+  "storeId": "store-06-atelier-grid",
+  "generatedAt": "2026-11-11T21:55:02.884Z",
+  "products": [
+    {
+      "sku": "DROP-GRID-001",
+      "title": "2027 Checkered Lay-Flat Weekly Planner",
+      "handle": "2027-checkered-lay-flat-weekly-planner",
+      "category": "Planner",
+      "price": 39,
+      "compareAt": 54,
+      "summary": "A sewn lay-flat weekly planner on 120gsm archival paper with a checkered linen cover and 12 tabbed months.",
+      "tier2": 66.3,
+      "tier3": 87.75,
+      "isHero": true
+    },
+    {
+      "sku": "DROP-GRID-002",
+      "title": "A5 Dotted Archival Notebook",
+      "handle": "a5-dotted-archival-notebook",
+      "category": "Notebooks",
+      "price": 24,
+      "compareAt": 34,
+      "summary": "160 dot-grid pages, lay-flat.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-GRID-003",
+      "title": "Weekly Desk Pad (52 sheets)",
+      "handle": "weekly-desk-pad-52-sheets",
+      "category": "Desk",
+      "price": 24,
+      "compareAt": 34,
+      "summary": "52 undated weekly sheets.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-GRID-004",
+      "title": "Grid Ruler & Stencil Set",
+      "handle": "grid-ruler-stencil-set",
+      "category": "Tools",
+      "price": 19,
+      "compareAt": 24,
+      "summary": "Brass ruler plus three stencils.",
+      "tier2": 32.3,
+      "tier3": 42.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-GRID-005",
+      "title": "Gel Ink Pen Set (5)",
+      "handle": "gel-ink-pen-set-5",
+      "category": "Tools",
+      "price": 24,
+      "compareAt": 29,
+      "summary": "0.5mm archival gel ink.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-GRID-006",
+      "title": "Wax Seal & Envelope Kit",
+      "handle": "wax-seal-envelope-kit",
+      "category": "Stationery",
+      "price": 34,
+      "compareAt": 44,
+      "summary": "Seal, 200 stickers, 20 envelopes.",
+      "tier2": 57.8,
+      "tier3": 76.5,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-GRID-007",
+      "title": "Linen Portfolio Folder",
+      "handle": "linen-portfolio-folder",
+      "category": "Desk",
+      "price": 34,
+      "compareAt": 49,
+      "summary": "A4 portfolio with a grid insert.",
+      "tier2": 57.8,
+      "tier3": 76.5,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-GRID-008",
+      "title": "Desk Cable Grid Tray",
+      "handle": "desk-cable-grid-tray",
+      "category": "Desk",
+      "price": 29,
+      "compareAt": 39,
+      "summary": "Anodised aluminium cable channel.",
+      "tier2": 49.3,
+      "tier3": 65.25,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-GRID-009",
+      "title": "Monthly Wall Grid Calendar",
+      "handle": "monthly-wall-grid-calendar",
+      "category": "Desk",
+      "price": 24,
+      "compareAt": 39,
+      "summary": "A2 undated wall grid.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-GRID-010",
+      "title": "Archive Storage Box (3)",
+      "handle": "archive-storage-box-3",
+      "category": "Storage",
+      "price": 39,
+      "compareAt": 59,
+      "summary": "Three acid-free document boxes.",
+      "tier2": 66.3,
+      "tier3": 87.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-GRID-011",
+      "title": "Ink Swatch Journal",
+      "handle": "ink-swatch-journal",
+      "category": "Notebooks",
+      "price": 19,
+      "compareAt": 29,
+      "summary": "52 sheets of 12 ink-friendly papers.",
+      "tier2": 32.3,
+      "tier3": 42.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-GRID-012",
+      "title": "Grid Sticky Note Bundle",
+      "handle": "grid-sticky-note-bundle",
+      "category": "Stationery",
+      "price": 14,
+      "compareAt": 24,
+      "summary": "Six pads in a grid pattern.",
+      "tier2": 23.8,
+      "tier3": 31.5,
+      "isHero": false
+    }
+  ],
+  "digital": {
+    "sku": "DROP-GRID-DIG-01",
+    "title": "2027 Notion + GoodNotes iPad Archival Planner Suite",
+    "price": 12,
+    "summary": "The digital twin of the Atelier Grid planner: 180 hyperlinked GoodNotes pages plus a Notion workspace with the same 12 tabbed months.",
+    "format": "Notion template + GoodNotes file"
+  },
+  "subscription": {
+    "title": "Quarterly Dotted Archival Notebook & Pen Club",
+    "price": 32,
+    "cadence": "quarter"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-11-11T21:55:02.894Z",
+  "count": 15,
+  "storefronts": [
+    {
+      "store": "store-01-bizi-bees",
+      "name": "Bizi Bees Boutique",
+      "domain": "shopbizibees.com",
+      "path": "storefronts/store-01-bizi-bees/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-02-luma-clinical",
+      "name": "Luma Clinical",
+      "domain": "lumaclinical.com",
+      "path": "storefronts/store-02-luma-clinical/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-03-cryo-halo",
+      "name": "CryoHalo Recovery",
+      "domain": "cryohalo.com",
+      "path": "storefronts/store-03-cryo-halo/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-04-sculpt-wave",
+      "name": "SculptWave Body",
+      "domain": "sculptwavebody.com",
+      "path": "storefronts/store-04-sculpt-wave/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-05-wonder-hive",
+      "name": "WonderHive Play",
+      "domain": "wonderhiveplay.com",
+      "path": "storefronts/store-05-wonder-hive/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-06-atelier-grid",
+      "name": "Atelier Grid",
+      "domain": "ateliergrid.com",
+      "path": "storefronts/store-06-atelier-grid/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-07-aether-sleep",
+      "name": "Aether Sleep",
+      "domain": "aethersleep.com",
+      "path": "storefronts/store-07-aether-sleep/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-08-kova-brew",
+      "name": "Kova Brew",
+      "domain": "kovabrew.com",
+      "path": "storefronts/store-08-kova-brew/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-09-spine-align",
+      "name": "SpineAlign Studio",
+      "domain": "spinealignstudio.com",
+      "path": "storefronts/store-09-spine-align/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-10-terra-paw",
+      "name": "TerraPaw Co.",
+      "domain": "terrapawco.com",
+      "path": "storefronts/store-10-terra-paw/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-11-nomad-carry",
+      "name": "NomadCarry",
+      "domain": "nomadcarry.com",
+      "path": "storefronts/store-11-nomad-carry/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-12-solace-aroma",
+      "name": "Solace Aroma",
+      "domain": "solacearoma.com",
+      "path": "storefronts/store-12-solace-aroma/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-13-kinetic-grip",
+      "name": "KineticGrip",
+      "domain": "kineticgrip.com",
+      "path": "storefronts/store-13-kinetic-grip/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-14-lumen-desk",
+      "name": "LumenDesk",
+      "domain": "lumendesk.com",
+      "path": "storefronts/store-14-lumen-desk/index.html",
+      "products": 12
+    },
+    {
+      "store": "store-15-verde-hydro",
+      "name": "VerdeHydro",
+      "domain": "verdehydro.com",
+      "path": "storefronts/store-15-verde-hydro/index.html",
+      "products": 12
+    }
+  ]
+}

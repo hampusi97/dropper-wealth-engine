@@ -27,6 +27,8 @@ const STEPS = CHECK_ONLY
       ["feeds", "node", ["scripts/build-feeds.mjs"]],
       ["content", "node", ["scripts/build-content.mjs"]],
       ["bots", "node", ["scripts/gen-bots.mjs"]],
+      ["storefronts", "node", ["scripts/build-storefronts.mjs"]],
+      ["storefront index", "node", ["scripts/build-store-index.mjs"]],
       ["themes", "node", ["scripts/build-themes.mjs"]],
       ["theme QA", "node", ["scripts/validate-themes.mjs"]],
       ["daily report", "node", ["scripts/generate-daily-report.mjs"]],

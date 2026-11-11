@@ -1,0 +1,162 @@
+{
+  "storeId": "store-14-lumen-desk",
+  "generatedAt": "2026-11-11T21:55:02.893Z",
+  "products": [
+    {
+      "sku": "DROP-DESK-001",
+      "title": "LumenDesk CRI 98+ Asymmetric Monitor Light Bar",
+      "handle": "lumendesk-cri-98-asymmetric-monitor-light-bar",
+      "category": "Desk Lighting",
+      "price": 64,
+      "compareAt": 89,
+      "summary": "A 45 cm asymmetric light bar at CRI 98+ with no screen glare, five colour temperatures, and a USB-C dial.",
+      "tier2": 108.8,
+      "tier3": 144,
+      "isHero": true
+    },
+    {
+      "sku": "DROP-DESK-002",
+      "title": "Merino Felt Desk Mat",
+      "handle": "merino-felt-desk-mat",
+      "category": "Desk",
+      "price": 39,
+      "compareAt": 59,
+      "summary": "Large merino felt desk mat.",
+      "tier2": 66.3,
+      "tier3": 87.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-DESK-003",
+      "title": "Cable Management Kit",
+      "handle": "cable-management-kit",
+      "category": "Desk",
+      "price": 29,
+      "compareAt": 39,
+      "summary": "Tray, clips, and sleeves.",
+      "tier2": 49.3,
+      "tier3": 65.25,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-DESK-004",
+      "title": "Monitor Arm (Single)",
+      "handle": "monitor-arm-single",
+      "category": "Desk",
+      "price": 74,
+      "compareAt": 109,
+      "summary": "Gas-spring monitor arm.",
+      "tier2": 125.8,
+      "tier3": 166.5,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-DESK-005",
+      "title": "Under-Desk Light Strip",
+      "handle": "under-desk-light-strip",
+      "category": "Desk Lighting",
+      "price": 34,
+      "compareAt": 44,
+      "summary": "Warm strip with a dimmer.",
+      "tier2": 57.8,
+      "tier3": 76.5,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-DESK-006",
+      "title": "Laptop Riser (Aluminium)",
+      "handle": "laptop-riser-aluminium",
+      "category": "Desk",
+      "price": 44,
+      "compareAt": 64,
+      "summary": "Ventilated aluminium riser.",
+      "tier2": 74.8,
+      "tier3": 99,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-DESK-007",
+      "title": "Desk Organizer Tray Set",
+      "handle": "desk-organizer-tray-set",
+      "category": "Desk",
+      "price": 29,
+      "compareAt": 44,
+      "summary": "Modular felt trays.",
+      "tier2": 49.3,
+      "tier3": 65.25,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-DESK-008",
+      "title": "Hardware Care Kit",
+      "handle": "hardware-care-kit",
+      "category": "Accessories",
+      "price": 24,
+      "compareAt": 34,
+      "summary": "Cloth, brush, and lubricant.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-DESK-009",
+      "title": "Keyboard Wrist Rest",
+      "handle": "keyboard-wrist-rest",
+      "category": "Desk",
+      "price": 34,
+      "compareAt": 49,
+      "summary": "Merino felt wrist rest.",
+      "tier2": 57.8,
+      "tier3": 76.5,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-DESK-010",
+      "title": "Focus Timer Cube",
+      "handle": "focus-timer-cube",
+      "category": "Deep Work",
+      "price": 29,
+      "compareAt": 39,
+      "summary": "Flip timer with four presets.",
+      "tier2": 49.3,
+      "tier3": 65.25,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-DESK-011",
+      "title": "Cable Sleeve Pack (3)",
+      "handle": "cable-sleeve-pack-3",
+      "category": "Desk",
+      "price": 19,
+      "compareAt": 24,
+      "summary": "Three zip cable sleeves.",
+      "tier2": 32.3,
+      "tier3": 42.75,
+      "isHero": false
+    },
+    {
+      "sku": "DROP-DESK-012",
+      "title": "Monitor Light Bar Clamp",
+      "handle": "monitor-light-bar-clamp",
+      "category": "Accessories",
+      "price": 24,
+      "compareAt": 34,
+      "summary": "Spare counterweight clamp.",
+      "tier2": 40.8,
+      "tier3": 54,
+      "isHero": false
+    }
+  ],
+  "digital": {
+    "sku": "DROP-DESK-DIG-01",
+    "title": "Minimalist Cable Management & Deep-Work Desk Blueprint",
+    "price": 11,
+    "summary": "A desk blueprint: 12 cable routes, a measured layout for dual monitors, and a deep-work session template.",
+    "format": "PDF + layout diagrams"
+  },
+  "subscription": {
+    "title": "Quarterly Merino Felt & Desk Hardware Care Kit",
+    "price": 29,
+    "cadence": "quarter"
+  }
+}
