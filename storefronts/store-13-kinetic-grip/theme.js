@@ -44,10 +44,19 @@
       items.innerHTML = cart.map(function (l, i) {
         var p = find(l.sku) || (S.digital && l.sku === S.digital.sku ? S.digital : null);
         var label = p ? p.title : l.sku;
-        return '<div class="ci"><span>' + label + (l.subscribe ? " · club" : "") + ' × ' + l.qty +
-          '</span><span>' + fmt((p ? p.price : 0) * l.qty) + '</span><button type="button" data-rm="' + i + '" aria-label="Remove">×</button></div>';
+        return '<div class="ci"><span>' + label + (l.subscribe ? " · club" : "") +
+          '</span><span class="ci__qty"><button type="button" data-dec="' + i + '" aria-label="One fewer">−</button>' + l.qty +
+          '<button type="button" data-inc="' + i + '" aria-label="One more">+</button></span>' +
+          '<span>' + fmt((p ? p.price : 0) * l.qty) + '</span><button type="button" data-rm="' + i + '" aria-label="Remove">×</button></div>';
       }).join("");
       qa("[data-rm]").forEach(function (b) { b.addEventListener("click", function () { remove(Number(b.getAttribute("data-rm"))); }); });
+      qa("[data-inc]").forEach(function (b) { b.addEventListener("click", function () { var i = Number(b.getAttribute("data-inc")); cart[i].qty += 1; save(); }); });
+      qa("[data-dec]").forEach(function (b) {
+        b.addEventListener("click", function () {
+          var i = Number(b.getAttribute("data-dec"));
+          if (cart[i].qty > 1) { cart[i].qty -= 1; save(); } else { remove(i); }
+        });
+      });
     }
     qa("[data-subtotal]").forEach(function (n) { n.textContent = fmt(sub); });
     qa("[data-points]").forEach(function (n) { n.textContent = String(Math.floor(sub) * 10); });
@@ -137,6 +146,22 @@
     if (open) vaultPanel.removeAttribute("hidden"); else vaultPanel.setAttribute("hidden", "");
     vaultBtn.setAttribute("aria-expanded", String(open));
   });
+
+  var search = q("[data-search]");
+  if (search) {
+    var cards = qa("[data-grid] .card");
+    var note = q("[data-search-note]");
+    search.addEventListener("input", function () {
+      var t = search.value.trim().toLowerCase();
+      var shown = 0;
+      cards.forEach(function (c) {
+        var hit = !t || c.textContent.toLowerCase().indexOf(t) !== -1;
+        c.style.display = hit ? "" : "none";
+        if (hit) shown++;
+      });
+      if (note) note.textContent = t ? shown + " of " + cards.length + " products match “" + search.value.trim() + "”" : "";
+    });
+  }
 
   var iso = q("[data-iso]");
   if (iso) {

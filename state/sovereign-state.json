@@ -1,66 +1,66 @@
 {
-  "ranAt": "2026-11-11T22:13:55.010Z",
-  "durationMs": 10716,
+  "ranAt": "2026-11-11T22:17:27.305Z",
+  "durationMs": 21879,
   "mode": "full",
   "steps": [
     {
       "name": "fleet config",
       "ok": true,
-      "ms": 39,
+      "ms": 37,
       "detail": "fleet config: 15 stores"
     },
     {
       "name": "catalogs",
       "ok": true,
-      "ms": 45,
+      "ms": 38,
       "detail": "margin: min 72.1% avg 74.3% max 77.5%"
     },
     {
       "name": "feeds",
       "ok": true,
-      "ms": 42,
+      "ms": 33,
       "detail": "feeds: 15 files, 180 items"
     },
     {
       "name": "content",
       "ok": true,
-      "ms": 53,
+      "ms": 41,
       "detail": "content: 60 SEO guides, 75 ad scripts, 150 lifecycle emails, 15 creator briefs"
     },
     {
       "name": "bots",
       "ok": true,
-      "ms": 37,
+      "ms": 31,
       "detail": "bots: 0 modules written, 21 registered across 7 departments, 1400 credits allocated"
     },
     {
       "name": "storefronts",
       "ok": true,
-      "ms": 57,
+      "ms": 58,
       "detail": "[storefront] done — 15 storefronts, 75 files"
     },
     {
       "name": "storefront index",
       "ok": true,
-      "ms": 38,
+      "ms": 30,
       "detail": "store index: 15 storefronts linked"
     },
     {
       "name": "themes",
       "ok": true,
-      "ms": 100,
+      "ms": 169,
       "detail": "[theme] done — 15 themes, 510 files"
     },
     {
       "name": "theme QA",
       "ok": true,
-      "ms": 71,
+      "ms": 76,
       "detail": "=== PASS — 0 error(s) across 15 themes ==="
     },
     {
       "name": "daily report",
       "ok": true,
-      "ms": 77,
+      "ms": 75,
       "detail": "daily report: TEMPLATE (no real sales yet) — net $0.00, run rate $0.00/mo"
     }
   ],
@@ -68,20 +68,20 @@
     {
       "id": "01-omega-builder",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "02-solver",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "03-uptime-speed",
       "ok": false,
-      "ms": 10068,
-      "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":69,\"live\":false,\"error\":\"TypeError\"},{\"st"
+      "ms": 21127,
+      "summary": "{\"ok\":false,\"live\":3,\"of\":15,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":49,\"live\":false,\"error\":\"TypeError\"},{\"st"
     },
     {
       "id": "04-trend-arbitrage",
@@ -92,13 +92,13 @@
     {
       "id": "05-review-psych",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
       "id": "06-digital-upsell",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
@@ -110,13 +110,13 @@
     {
       "id": "08-scrolly-3d",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "09-aesthetic-qa",
       "ok": true,
-      "ms": 68,
+      "ms": 132,
       "summary": "pass"
     },
     {
@@ -134,13 +134,13 @@
     {
       "id": "12-b2b-wholesale",
       "ok": true,
-      "ms": 2,
+      "ms": 1,
       "summary": "pass"
     },
     {
       "id": "13-google-merchant",
       "ok": true,
-      "ms": 2,
+      "ms": 4,
       "summary": "pass"
     },
     {
@@ -152,25 +152,25 @@
     {
       "id": "15-viral-affiliate",
       "ok": true,
-      "ms": 0,
+      "ms": 2,
       "summary": "pass"
     },
     {
       "id": "16-cross-store",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "17-lifecycle-email",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
       "id": "18-concierge-closer",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
@@ -188,7 +188,7 @@
     {
       "id": "21-treasury-audit",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     }
   ],

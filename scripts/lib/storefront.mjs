@@ -192,7 +192,9 @@ ${layers}
 
   <section class="shelf" id="shelf">
     <h2>The full shelf</h2>
-    <div class="card-grid">
+    <input class="search" type="search" placeholder="Search ${esc(store.name)} — try \"${esc(cat[0].category)}\" or a product name" data-search aria-label="Search products">
+    <p class="fine" data-search-note></p>
+    <div class="card-grid" data-grid>
 ${productCards}
     </div>
   </section>
@@ -331,6 +333,9 @@ h2{font-size:clamp(1.4rem,2.6vw,2rem);letter-spacing:-.02em;margin:0 0 1rem}
 .tier__price{font-size:1.9rem;font-weight:800;margin:0}.tier__sub{color:var(--muted);font-size:.82rem;margin:.2rem 0 .9rem}
 .sub-strip{margin-top:1rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;background:linear-gradient(120deg,rgba(245,158,11,.12),var(--surface));border:1px solid var(--line);border-radius:16px;padding:1.2rem}
 .sub-strip h3{margin:0 0 .3rem}.sub-strip p{margin:0;color:var(--muted);font-size:.85rem;max-width:60ch}
+.search{width:100%;max-width:420px;background:var(--surface);border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:.7rem 1rem;font:inherit;font-size:.88rem;margin:0 0 .6rem}
+.ci__qty{display:inline-flex;align-items:center;gap:.35rem;font-variant-numeric:tabular-nums}
+.ci__qty button{background:transparent;border:1px solid var(--line);color:var(--ink);border-radius:6px;width:1.4rem;height:1.4rem;cursor:pointer;line-height:1}
 .card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.9rem}
 .card{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:.8rem;transition:transform .18s ease,border-color .18s ease}
 .card:hover{transform:translateY(-2px);border-color:var(--accent)}
@@ -433,10 +438,19 @@ input:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(-
       items.innerHTML = cart.map(function (l, i) {
         var p = find(l.sku) || (S.digital && l.sku === S.digital.sku ? S.digital : null);
         var label = p ? p.title : l.sku;
-        return '<div class="ci"><span>' + label + (l.subscribe ? " · club" : "") + ' × ' + l.qty +
-          '</span><span>' + fmt((p ? p.price : 0) * l.qty) + '</span><button type="button" data-rm="' + i + '" aria-label="Remove">×</button></div>';
+        return '<div class="ci"><span>' + label + (l.subscribe ? " · club" : "") +
+          '</span><span class="ci__qty"><button type="button" data-dec="' + i + '" aria-label="One fewer">−</button>' + l.qty +
+          '<button type="button" data-inc="' + i + '" aria-label="One more">+</button></span>' +
+          '<span>' + fmt((p ? p.price : 0) * l.qty) + '</span><button type="button" data-rm="' + i + '" aria-label="Remove">×</button></div>';
       }).join("");
       qa("[data-rm]").forEach(function (b) { b.addEventListener("click", function () { remove(Number(b.getAttribute("data-rm"))); }); });
+      qa("[data-inc]").forEach(function (b) { b.addEventListener("click", function () { var i = Number(b.getAttribute("data-inc")); cart[i].qty += 1; save(); }); });
+      qa("[data-dec]").forEach(function (b) {
+        b.addEventListener("click", function () {
+          var i = Number(b.getAttribute("data-dec"));
+          if (cart[i].qty > 1) { cart[i].qty -= 1; save(); } else { remove(i); }
+        });
+      });
     }
     qa("[data-subtotal]").forEach(function (n) { n.textContent = fmt(sub); });
     qa("[data-points]").forEach(function (n) { n.textContent = String(Math.floor(sub) * 10); });
@@ -526,6 +540,22 @@ input:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(-
     if (open) vaultPanel.removeAttribute("hidden"); else vaultPanel.setAttribute("hidden", "");
     vaultBtn.setAttribute("aria-expanded", String(open));
   });
+
+  var search = q("[data-search]");
+  if (search) {
+    var cards = qa("[data-grid] .card");
+    var note = q("[data-search-note]");
+    search.addEventListener("input", function () {
+      var t = search.value.trim().toLowerCase();
+      var shown = 0;
+      cards.forEach(function (c) {
+        var hit = !t || c.textContent.toLowerCase().indexOf(t) !== -1;
+        c.style.display = hit ? "" : "none";
+        if (hit) shown++;
+      });
+      if (note) note.textContent = t ? shown + " of " + cards.length + " products match \u201c" + search.value.trim() + "\u201d" : "";
+    });
+  }
 
   var iso = q("[data-iso]");
   if (iso) {

@@ -34,6 +34,9 @@ h2{font-size:clamp(1.4rem,2.6vw,2rem);letter-spacing:-.02em;margin:0 0 1rem}
 .tier__price{font-size:1.9rem;font-weight:800;margin:0}.tier__sub{color:var(--muted);font-size:.82rem;margin:.2rem 0 .9rem}
 .sub-strip{margin-top:1rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;background:linear-gradient(120deg,rgba(245,158,11,.12),var(--surface));border:1px solid var(--line);border-radius:16px;padding:1.2rem}
 .sub-strip h3{margin:0 0 .3rem}.sub-strip p{margin:0;color:var(--muted);font-size:.85rem;max-width:60ch}
+.search{width:100%;max-width:420px;background:var(--surface);border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:.7rem 1rem;font:inherit;font-size:.88rem;margin:0 0 .6rem}
+.ci__qty{display:inline-flex;align-items:center;gap:.35rem;font-variant-numeric:tabular-nums}
+.ci__qty button{background:transparent;border:1px solid var(--line);color:var(--ink);border-radius:6px;width:1.4rem;height:1.4rem;cursor:pointer;line-height:1}
 .card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.9rem}
 .card{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:.8rem;transition:transform .18s ease,border-color .18s ease}
 .card:hover{transform:translateY(-2px);border-color:var(--accent)}
