@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "classroom math kit"
 product: "WonderHive 10-Frame Sensory Math Kit"
 price: 34
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Elementary Schools & Teachers: Bulk Pricing on Math Manipulatives (10+ Units)

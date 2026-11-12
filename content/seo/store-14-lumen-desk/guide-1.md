@@ -5,7 +5,7 @@ slug: review
 target_keyword: "monitor light bar"
 product: "LumenDesk CRI 98+ Asymmetric Monitor Light Bar"
 price: 64
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # LumenDesk CRI 98+ Asymmetric Monitor Light Bar Review: Is $64.00 Worth It?

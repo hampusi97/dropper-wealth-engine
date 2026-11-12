@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "houseplant care"
 product: "VerdeHydro 4000K Brass Halo Grow Light & Planter"
 price: 49
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Interior Plantscapers & Modern Offices: Bulk Pricing on Plant Lighting (10+ Units)

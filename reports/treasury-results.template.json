@@ -2,7 +2,7 @@
   "_note": "Replace the zeros with real Shopify payouts per store per day. This is a template, not sales.",
   "days": [
     {
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "stores": [
         {
           "storeId": "store-01-bizi-bees",

@@ -5,7 +5,7 @@ slug: best-of
 target_keyword: "barista tools"
 product: "Kova 0.1g Auto-Timer Flow-Rate Espresso Scale"
 price: 54
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Best Espresso Scales, Flow Control in 2026: 5 Options Compared

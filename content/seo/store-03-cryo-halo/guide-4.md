@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "cryotherapy at home"
 product: "CryoHalo 2-Cap Continuous Rotation System"
 price: 49
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Chiropractic & Wellness Clinics: Bulk Pricing on Cold Therapy (10+ Units)

@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "enrichment dog"
 product: "TerraPaw Human-Grade Orthopedic Bolster Dog Bed"
 price: 74
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Vet Clinics, Kennels & Dog Hotels: Bulk Pricing on Dog Beds (10+ Units)

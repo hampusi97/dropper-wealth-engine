@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "marathon training"
 product: "ApexStride Carbon-Plate Energy Insoles"
 price: 59
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Run Clubs & Specialty Running Stores: Bulk Pricing on Running Insoles (10+ Units)

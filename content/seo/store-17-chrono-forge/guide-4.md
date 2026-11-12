@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "nh35 automatic"
 product: "ChronoForge Grade-5 Titanium Field Watch"
 price: 149
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Corporate Gifting & Outdoor Retailers: Bulk Pricing on Field Watches (10+ Units)

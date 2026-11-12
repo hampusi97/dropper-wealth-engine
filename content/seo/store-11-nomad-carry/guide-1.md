@@ -5,7 +5,7 @@ slug: review
 target_keyword: "vacuum travel backpack"
 product: "NomadCarry AirVac 40L Vacuum Backpack + Pump"
 price: 119
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # NomadCarry AirVac 40L Vacuum Backpack + Pump Review: Is $119.00 Worth It?

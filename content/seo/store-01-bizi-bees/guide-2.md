@@ -5,7 +5,7 @@ slug: best-of
 target_keyword: "board game bundle"
 product: "The Utah Reader & Game Night Box"
 price: 44
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Best Pre-Loved Books, Complete Board Games in 2026: 5 Options Compared

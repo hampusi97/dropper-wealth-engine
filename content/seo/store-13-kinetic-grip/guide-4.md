@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "grip strength"
 product: "KineticGrip 50-350 lb CNC Aluminum Gripper Set"
 price: 44
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Climbing Gyms, CrossFit Boxes & Rehab Clinics: Bulk Pricing on Training (10+ Units)

@@ -5,7 +5,7 @@ slug: best-of
 target_keyword: "dog anxiety"
 product: "TerraPaw Human-Grade Orthopedic Bolster Dog Bed"
 price: 74
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Best Orthopedic Dog Beds in 2026: 5 Options Compared

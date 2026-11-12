@@ -5,7 +5,7 @@ slug: best-of
 target_keyword: "microcurrent device"
 product: "LumaGlow 4-in-1 Red Light Sculpting Wand"
 price: 84
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Best 630nm Red-Light Facial Wands in 2026: 5 Options Compared

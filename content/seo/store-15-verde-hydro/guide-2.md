@@ -5,7 +5,7 @@ slug: best-of
 target_keyword: "self watering planter"
 product: "VerdeHydro 4000K Brass Halo Grow Light & Planter"
 price: 49
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Best Brass Grow Lights in 2026: 5 Options Compared
