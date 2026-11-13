@@ -5,7 +5,7 @@ slug: versus
 target_keyword: "climbing training"
 product: "KineticGrip 50-350 lb CNC Aluminum Gripper Set"
 price: 44
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # KineticGrip 50-350 lb CNC Aluminum Gripper Set vs the $14.00 Alternative

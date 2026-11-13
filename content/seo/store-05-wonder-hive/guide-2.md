@@ -5,7 +5,7 @@ slug: best-of
 target_keyword: "sensory kit"
 product: "WonderHive 10-Frame Sensory Math Kit"
 price: 34
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Best Screen-Free Sensory Math Kits in 2026: 5 Options Compared

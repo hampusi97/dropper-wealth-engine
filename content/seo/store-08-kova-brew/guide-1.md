@@ -5,7 +5,7 @@ slug: review
 target_keyword: "espresso scale"
 product: "Kova 0.1g Auto-Timer Flow-Rate Espresso Scale"
 price: 54
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Kova 0.1g Auto-Timer Flow-Rate Espresso Scale Review: Is $54.00 Worth It?

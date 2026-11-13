@@ -5,7 +5,7 @@ slug: best-of
 target_keyword: "carry on backpack"
 product: "NomadCarry AirVac 40L Vacuum Backpack + Pump"
 price: 119
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Best Vacuum Compression Travel Gear in 2026: 5 Options Compared

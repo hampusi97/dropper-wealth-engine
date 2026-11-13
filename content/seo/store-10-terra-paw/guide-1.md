@@ -5,7 +5,7 @@ slug: review
 target_keyword: "orthopedic dog bed"
 product: "TerraPaw Human-Grade Orthopedic Bolster Dog Bed"
 price: 74
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # TerraPaw Human-Grade Orthopedic Bolster Dog Bed Review: Is $74.00 Worth It?

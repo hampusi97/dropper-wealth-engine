@@ -5,7 +5,7 @@ slug: review
 target_keyword: "weekly planner"
 product: "2027 Checkered Lay-Flat Weekly Planner"
 price: 39
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # 2027 Checkered Lay-Flat Weekly Planner Review: Is $39.00 Worth It?

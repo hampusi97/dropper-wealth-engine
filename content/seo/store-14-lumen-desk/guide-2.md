@@ -5,7 +5,7 @@ slug: best-of
 target_keyword: "desk lighting"
 product: "LumenDesk CRI 98+ Asymmetric Monitor Light Bar"
 price: 64
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Best CRI 98+ Monitor Light Bars in 2026: 5 Options Compared

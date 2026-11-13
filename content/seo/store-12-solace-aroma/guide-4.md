@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "home fragrance system"
 product: "Solace Anodized Waterless Cold-Air Diffuser"
 price: 69
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Real Estate Open Houses, Spas & Showrooms: Bulk Pricing on Diffusers (10+ Units)

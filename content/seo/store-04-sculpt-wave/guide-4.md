@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "lymphatic contouring"
 product: "SculptWave 40kHz Ultrasonic Body Sculptor"
 price: 109
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Boutique Body Studios: Bulk Pricing on Body Device (10+ Units)
