@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "coffee scale timer"
 product: "Kova 0.1g Auto-Timer Flow-Rate Espresso Scale"
 price: 54
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 
 # Independent Coffee Shops & Roasteries: Bulk Pricing on Brewing (10+ Units)

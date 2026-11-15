@@ -5,7 +5,7 @@ slug: versus
 target_keyword: "pour over kit"
 product: "Kova 0.1g Auto-Timer Flow-Rate Espresso Scale"
 price: 54
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 
 # Kova 0.1g Auto-Timer Flow-Rate Espresso Scale vs the $19.00 Alternative
