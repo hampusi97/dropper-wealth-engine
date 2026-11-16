@@ -5,7 +5,7 @@ slug: versus
 target_keyword: "digital planner goodnotes"
 product: "2027 Checkered Lay-Flat Weekly Planner"
 price: 39
-updated: 2026-11-15
+updated: 2026-11-16
 ---
 
 # 2027 Checkered Lay-Flat Weekly Planner vs the $14.00 Alternative

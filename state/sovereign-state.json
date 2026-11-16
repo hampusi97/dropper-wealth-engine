@@ -1,6 +1,6 @@
 {
-  "ranAt": "2026-11-15T19:19:11.987Z",
-  "durationMs": 19828,
+  "ranAt": "2026-11-16T22:49:34.058Z",
+  "durationMs": 11985,
   "mode": "full",
   "steps": [
     {
@@ -12,37 +12,37 @@
     {
       "name": "catalogs",
       "ok": true,
-      "ms": 33,
+      "ms": 34,
       "detail": "margin: min 72.1% avg 74.3% max 77.5%"
     },
     {
       "name": "feeds",
       "ok": true,
-      "ms": 32,
+      "ms": 35,
       "detail": "feeds: 17 files, 204 items"
     },
     {
       "name": "content",
       "ok": true,
-      "ms": 35,
+      "ms": 37,
       "detail": "content: 68 SEO guides, 85 ad scripts, 170 lifecycle emails, 17 creator briefs"
     },
     {
       "name": "bots",
       "ok": true,
-      "ms": 28,
+      "ms": 35,
       "detail": "bots: 0 modules written, 21 registered across 7 departments, 1400 credits allocated"
     },
     {
       "name": "storefronts",
       "ok": true,
-      "ms": 48,
+      "ms": 68,
       "detail": "[storefront] done — 17 storefronts, 119 files"
     },
     {
       "name": "storefront index",
       "ok": true,
-      "ms": 29,
+      "ms": 32,
       "detail": "store index: 17 storefronts linked"
     },
     {
@@ -54,13 +54,13 @@
     {
       "name": "theme QA",
       "ok": true,
-      "ms": 61,
+      "ms": 56,
       "detail": "=== PASS — 0 error(s) across 17 themes ==="
     },
     {
       "name": "daily report",
       "ok": true,
-      "ms": 58,
+      "ms": 56,
       "detail": "daily report: TEMPLATE (no real sales yet) — net $0.00, run rate $0.00/mo"
     }
   ],
@@ -80,8 +80,8 @@
     {
       "id": "03-uptime-speed",
       "ok": false,
-      "ms": 19320,
-      "summary": "{\"ok\":false,\"live\":5,\"of\":17,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":81,\"live\":false,\"error\":\"TypeError\"},{\"st"
+      "ms": 11455,
+      "summary": "{\"ok\":false,\"live\":5,\"of\":17,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":85,\"live\":false,\"error\":\"TypeError\"},{\"st"
     },
     {
       "id": "04-trend-arbitrage",
@@ -104,7 +104,7 @@
     {
       "id": "07-theme-compiler",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
@@ -116,13 +116,13 @@
     {
       "id": "09-aesthetic-qa",
       "ok": true,
-      "ms": 56,
+      "ms": 52,
       "summary": "pass"
     },
     {
       "id": "10-bundle-sub",
       "ok": true,
-      "ms": 1,
+      "ms": 2,
       "summary": "pass"
     },
     {
@@ -146,13 +146,13 @@
     {
       "id": "14-programmatic-seo",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "15-viral-affiliate",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
@@ -170,13 +170,13 @@
     {
       "id": "18-concierge-closer",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "19-supply-router",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {

@@ -5,7 +5,7 @@ slug: versus
 target_keyword: "packing cubes"
 product: "NomadCarry AirVac 40L Vacuum Backpack + Pump"
 price: 119
-updated: 2026-11-15
+updated: 2026-11-16
 ---
 
 # NomadCarry AirVac 40L Vacuum Backpack + Pump vs the $19.00 Alternative
