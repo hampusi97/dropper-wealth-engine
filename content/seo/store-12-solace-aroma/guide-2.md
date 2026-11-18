@@ -5,7 +5,7 @@ slug: best-of
 target_keyword: "hotel scent"
 product: "Solace Anodized Waterless Cold-Air Diffuser"
 price: 69
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 
 # Best Waterless Cold-Air Diffusers in 2026: 5 Options Compared

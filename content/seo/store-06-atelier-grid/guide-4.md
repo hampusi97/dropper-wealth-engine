@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "desk system"
 product: "2027 Checkered Lay-Flat Weekly Planner"
 price: 39
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 
 # Architecture Firms & Executive Teams: Bulk Pricing on Planner (10+ Units)

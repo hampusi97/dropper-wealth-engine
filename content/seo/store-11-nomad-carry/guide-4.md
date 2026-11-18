@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "one bag travel"
 product: "NomadCarry AirVac 40L Vacuum Backpack + Pump"
 price: 119
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 
 # Corporate Travel & Executive Gifting: Bulk Pricing on Luggage (10+ Units)
