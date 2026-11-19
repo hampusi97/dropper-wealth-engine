@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "facial sculpting protocol"
 product: "LumaGlow 4-in-1 Red Light Sculpting Wand"
 price: 84
-updated: 2026-11-18
+updated: 2026-11-19
 ---
 
 # Estheticians & Med-Spas: Bulk Pricing on Skincare Device (10+ Units)
