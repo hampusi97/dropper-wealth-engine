@@ -1,18 +1,18 @@
 {
-  "ranAt": "2026-11-19T21:18:00.334Z",
-  "durationMs": 11363,
+  "ranAt": "2026-11-20T20:58:58.281Z",
+  "durationMs": 11508,
   "mode": "full",
   "steps": [
     {
       "name": "fleet config",
       "ok": true,
-      "ms": 43,
+      "ms": 41,
       "detail": "fleet config: 17 stores"
     },
     {
       "name": "catalogs",
       "ok": true,
-      "ms": 47,
+      "ms": 46,
       "detail": "margin: min 72.1% avg 74.3% max 77.5%"
     },
     {
@@ -24,43 +24,43 @@
     {
       "name": "content",
       "ok": true,
-      "ms": 51,
+      "ms": 52,
       "detail": "content: 68 SEO guides, 85 ad scripts, 170 lifecycle emails, 17 creator briefs"
     },
     {
       "name": "bots",
       "ok": true,
-      "ms": 36,
+      "ms": 34,
       "detail": "bots: 0 modules written, 21 registered across 7 departments, 1400 credits allocated"
     },
     {
       "name": "storefronts",
       "ok": true,
-      "ms": 64,
+      "ms": 63,
       "detail": "[storefront] done — 17 storefronts, 119 files"
     },
     {
       "name": "storefront index",
       "ok": true,
-      "ms": 38,
+      "ms": 37,
       "detail": "store index: 17 storefronts linked"
     },
     {
       "name": "themes",
       "ok": true,
-      "ms": 108,
+      "ms": 107,
       "detail": "[theme] done — 17 themes, 578 files"
     },
     {
       "name": "theme QA",
       "ok": true,
-      "ms": 75,
+      "ms": 68,
       "detail": "=== PASS — 0 error(s) across 17 themes ==="
     },
     {
       "name": "daily report",
       "ok": true,
-      "ms": 75,
+      "ms": 66,
       "detail": "daily report: TEMPLATE (no real sales yet) — net $0.00, run rate $0.00/mo"
     }
   ],
@@ -80,8 +80,8 @@
     {
       "id": "03-uptime-speed",
       "ok": false,
-      "ms": 10695,
-      "summary": "{\"ok\":false,\"live\":5,\"of\":17,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":91,\"live\":false,\"error\":\"TypeError\"},{\"st"
+      "ms": 10864,
+      "summary": "{\"ok\":false,\"live\":5,\"of\":17,\"results\":[{\"store\":\"store-01-bizi-bees\",\"url\":\"https://shopbizibees.com\",\"status\":0,\"ms\":82,\"live\":false,\"error\":\"TypeError\"},{\"st"
     },
     {
       "id": "04-trend-arbitrage",
@@ -104,25 +104,25 @@
     {
       "id": "07-theme-compiler",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
       "id": "08-scrolly-3d",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "09-aesthetic-qa",
       "ok": true,
-      "ms": 69,
+      "ms": 66,
       "summary": "pass"
     },
     {
       "id": "10-bundle-sub",
       "ok": true,
-      "ms": 2,
+      "ms": 1,
       "summary": "pass"
     },
     {
@@ -140,7 +140,7 @@
     {
       "id": "13-google-merchant",
       "ok": true,
-      "ms": 1,
+      "ms": 2,
       "summary": "pass"
     },
     {
@@ -152,19 +152,19 @@
     {
       "id": "15-viral-affiliate",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
       "id": "16-cross-store",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "summary": "pass"
     },
     {
       "id": "17-lifecycle-email",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     },
     {
@@ -188,7 +188,7 @@
     {
       "id": "21-treasury-audit",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "summary": "pass"
     }
   ],
