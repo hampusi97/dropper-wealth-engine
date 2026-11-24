@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "reading journal printable"
 product: "The Utah Reader & Game Night Box"
 price: 44
-updated: 2026-11-22
+updated: 2026-11-24
 ---
 
 # Libraries, Cafes & Family Centers: Bulk Pricing on Gift Box (10+ Units)

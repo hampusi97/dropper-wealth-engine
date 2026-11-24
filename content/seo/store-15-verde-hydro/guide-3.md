@@ -5,7 +5,7 @@ slug: versus
 target_keyword: "aroid propagation"
 product: "VerdeHydro 4000K Brass Halo Grow Light & Planter"
 price: 49
-updated: 2026-11-22
+updated: 2026-11-24
 ---
 
 # VerdeHydro 4000K Brass Halo Grow Light & Planter vs the $14.00 Alternative

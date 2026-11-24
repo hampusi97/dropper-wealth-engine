@@ -5,7 +5,7 @@ slug: review
 target_keyword: "ultrasonic body sculpting"
 product: "SculptWave 40kHz Ultrasonic Body Sculptor"
 price: 109
-updated: 2026-11-22
+updated: 2026-11-24
 ---
 
 # SculptWave 40kHz Ultrasonic Body Sculptor Review: Is $109.00 Worth It?

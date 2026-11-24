@@ -5,7 +5,7 @@ slug: bulk-guide
 target_keyword: "deep work desk"
 product: "LumenDesk CRI 98+ Asymmetric Monitor Light Bar"
 price: 64
-updated: 2026-11-22
+updated: 2026-11-24
 ---
 
 # Remote Engineering & Design Teams: Bulk Pricing on Desk Lighting (10+ Units)
