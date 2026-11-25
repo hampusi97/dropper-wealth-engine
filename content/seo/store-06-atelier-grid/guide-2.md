@@ -5,7 +5,7 @@ slug: best-of
 target_keyword: "lay flat notebook"
 product: "2027 Checkered Lay-Flat Weekly Planner"
 price: 39
-updated: 2026-11-24
+updated: 2026-11-25
 ---
 
 # Best Archival Planners, Notebooks in 2026: 5 Options Compared
