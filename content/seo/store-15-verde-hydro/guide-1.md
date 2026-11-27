@@ -5,7 +5,7 @@ slug: review
 target_keyword: "grow light"
 product: "VerdeHydro 4000K Brass Halo Grow Light & Planter"
 price: 49
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
 # VerdeHydro 4000K Brass Halo Grow Light & Planter Review: Is $49.00 Worth It?
